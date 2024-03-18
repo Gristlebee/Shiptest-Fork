@@ -140,6 +140,7 @@
 	custom_materials = list(/datum/material/iron = 20000)
 
 /obj/item/ammo_box/magazine/co9mm/zip_ammo/update_icon_state()
+	. = ..()
 	icon_state = "[base_icon_state]"
 
 /obj/item/ammo_box/magazine/m22lr
