@@ -887,8 +887,8 @@
 /area/ruin/unpowered)
 "NG" = (
 /obj/structure/table,
-/obj/item/ammo_box/magazine/zip_ammo_9mm,
-/obj/item/ammo_box/magazine/zip_ammo_9mm,
+/obj/item/ammo_box/magazine/co9mm/zip_ammo,
+/obj/item/ammo_box/magazine/co9mm/zip_ammo,
 /obj/item/gun/ballistic/automatic/zip_pistol,
 /turf/open/floor/wood{
 	initial_gas_mix = "ICEMOON_ATMOS"
@@ -973,7 +973,7 @@
 	},
 /area/ruin/unpowered)
 "Sf" = (
-/obj/item/ammo_box/magazine/zip_ammo_9mm,
+/obj/item/ammo_box/magazine/co9mm/zip_ammo,
 /obj/item/ammo_casing/shotgun/improvised,
 /obj/item/ammo_casing/shotgun/improvised,
 /obj/item/ammo_casing/shotgun/improvised,

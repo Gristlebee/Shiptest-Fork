@@ -1156,7 +1156,7 @@
 	id = "ZipAmmo9mm"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 20000)
-	build_path = /obj/item/ammo_box/magazine/zip_ammo_9mm
+	build_path = /obj/item/ammo_box/magazine/co9mm/zip_ammo
 	category = list("hacked", "Security")
 
 /datum/design/pipedispenser

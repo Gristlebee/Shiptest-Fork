@@ -1778,7 +1778,7 @@
 	pixel_y = 6
 	},
 /obj/item/gun/ballistic/automatic/zip_pistol,
-/obj/item/ammo_box/magazine/zip_ammo_9mm,
+/obj/item/ammo_box/magazine/co9mm/zip_ammo,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/rust,
@@ -4377,8 +4377,8 @@
 "OO" = (
 /obj/structure/closet,
 /obj/item/gun/ballistic/automatic/zip_pistol,
-/obj/item/ammo_box/magazine/zip_ammo_9mm,
-/obj/item/ammo_box/magazine/zip_ammo_9mm,
+/obj/item/ammo_box/magazine/co9mm/zip_ammo,
+/obj/item/ammo_box/magazine/co9mm/zip_ammo,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "OQ" = (
