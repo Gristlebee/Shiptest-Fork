@@ -141,7 +141,7 @@
 
 /obj/item/ammo_box/magazine/co9mm/zip_ammo_9mm/update_icon_state()
 	. = ..()
-	icon_state = "[base_icon_state]"
+	icon_state = "[base_icon_state]-[ammo_count() ? "4" : "0"]"
 
 /obj/item/ammo_box/magazine/m22lr
 	name = "pistol magazine (.22 LR)"
