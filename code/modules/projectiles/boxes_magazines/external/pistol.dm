@@ -129,7 +129,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 ///obj/item/ammo_box/magazine/zip_ammo_9mm
-/obj/item/ammo_box/magazine/co9mm/zip_ammo
+/obj/item/ammo_box/magazine/co9mm/zip_ammo_9mm
 	name = "budget pistol magazine (9mm)"
 	desc = "A cheaply-made, 4-round surplus magazine that fits standard-issue 9mm pistols. These rounds do okay damage, but struggle against armor."
 	base_icon_state = "ZipAmmo9mm"
@@ -139,7 +139,7 @@
 	max_ammo = 4
 	custom_materials = list(/datum/material/iron = 20000)
 
-/obj/item/ammo_box/magazine/co9mm/zip_ammo/update_icon_state()
+/obj/item/ammo_box/magazine/co9mm/zip_ammo_9mm/update_icon_state()
 	. = ..()
 	icon_state = "[base_icon_state]"
 

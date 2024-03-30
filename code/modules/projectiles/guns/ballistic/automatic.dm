@@ -178,7 +178,7 @@
 	desc = "A makeshift zip gun cobbled together from various scrap bits and chambered in 9mm. It's a miracle it even works."
 	icon_state = "ZipPistol"
 	item_state = "ZipPistol"
-	mag_type = /obj/item/ammo_box/magazine/co9mm/zip_ammo
+	mag_type = /obj/item/ammo_box/magazine/co9mm/zip_ammo_9mm
 	can_suppress = FALSE
 	actions_types = list()
 	can_bayonet = FALSE
