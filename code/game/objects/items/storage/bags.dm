@@ -90,6 +90,19 @@
 	insertable = FALSE
 
 // -----------------------------
+//          Brass Tray
+// -----------------------------
+
+/obj/item/storage/bag/trash/brass
+	name = "brass tray"
+	desc = "A dustpan for spent bullets. Also holds lead, bronze, iron and copper."
+	w_class = WEIGHT_CLASS_MEDIUM
+
+/obj/item/storage/bag/trash/brass/ComponentInitialize()
+	. = ..()
+	STR.set_holdable(list(/obj/item/ammo_casing))
+
+// -----------------------------
 //        Mining Satchel
 // -----------------------------
 

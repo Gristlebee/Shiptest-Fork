@@ -300,6 +300,15 @@
 		categories += d_disk.name
 		return TRUE
 
+	if(istype(O, /obj/item/storage/bag/trash/brass))
+		var/obj/item/storage/bag/trash/brass/T = O
+		var/datum/component/storage/STR = T.GetComponent(/datum/component/storage)
+		to_chat(user, "<span class='warning'>You empty the tray into the autolathe.</span>")
+		for(var/obj/item/O in T.contents)
+			STR.remove_from_storage(O,src)
+		T.update_appearance()
+		update_appearance()
+
 	return ..()
 
 /obj/machinery/autolathe/proc/eject(mob/living/user)
