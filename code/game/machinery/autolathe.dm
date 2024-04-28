@@ -304,8 +304,9 @@
 		var/obj/item/storage/bag/trash/brass/T = O
 		var/datum/component/storage/STR = T.GetComponent(/datum/component/storage)
 		to_chat(user, "<span class='warning'>You empty the tray into the autolathe.</span>")
-		for(var/obj/item/O in T.contents)
-			STR.remove_from_storage(O,src)
+		for(var/obj/item/obj in T.contents)
+			STR.remove_from_storage(obj,src)
+			attacked_by(obj,user)
 		T.update_appearance()
 		update_appearance()
 

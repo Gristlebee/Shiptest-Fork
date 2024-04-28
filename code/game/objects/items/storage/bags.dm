@@ -96,10 +96,11 @@
 /obj/item/storage/bag/trash/brass
 	name = "brass tray"
 	desc = "A dustpan for spent bullets. Also holds lead, bronze, iron and copper."
-	w_class = WEIGHT_CLASS_MEDIUM
+	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/storage/bag/trash/brass/ComponentInitialize()
 	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.set_holdable(list(/obj/item/ammo_casing))
 
 // -----------------------------
