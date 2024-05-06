@@ -239,7 +239,7 @@
 	item_state = "shotgun_combat"
 	shaded_charge = 1
 	w_class = WEIGHT_CLASS_BULKY
-	ammo_type = list(/obj/item/ammo_casing/energy/disabler/scatter/ultima, /obj/item/ammo_casing/energy/laser/ultima)
+	ammo_type = list(/obj/item/ammo_casing/energy/disabler/scatter/ultima, /obj/item/ammo_casing/energy/laser/ultima, /obj/item/ammo_casing/energy/laser/ultima/alt/assault)
 	var/obj/item/modular_computer/integratedNTOS
 	var/NTOS_type = /obj/item/modular_computer/internal
 

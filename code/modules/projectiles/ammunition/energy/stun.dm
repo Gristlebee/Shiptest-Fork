@@ -35,15 +35,15 @@
 	fire_sound = 'sound/weapons/taser.ogg'
 
 /obj/item/ammo_casing/energy/disabler/scatter/ultima
-	projectile_type = /obj/projectile/beam/disabler/weak/negative_ap/low_range
-	pellets = 4
-	variance = 35
-	e_cost = 2000
+	projectile_type = /obj/projectile/beam/disabler/weak/negative_ap
+	pellets = 8
+	variance = 25
+	e_cost = 833 // 12 shots on a standard cell
 
 /obj/item/ammo_casing/energy/disabler/scatter/ultima/alt
 	select_name = "blast"
 
 /obj/item/ammo_casing/energy/disabler/smg
 	projectile_type = /obj/projectile/beam/disabler/weak/negative_ap
-	e_cost = 330
+	e_cost = 330 // 30 shots on a standard cell
 	delay = 0.1 SECONDS

@@ -29,7 +29,7 @@
 
 /obj/item/ammo_casing/energy/laser/smg
 	projectile_type = /obj/projectile/beam/laser/weak/negative_ap
-	e_cost = 799 //12 shots with a normal power cell, 25 with an upgraded
+	e_cost = 400 //25 shots with a normal power cell, 50 with an upgraded, 375 total damage
 	select_name = "kill"
 	delay = 0.1 SECONDS
 
@@ -53,14 +53,22 @@
 	select_name = "scatter"
 
 /obj/item/ammo_casing/energy/laser/ultima
-	projectile_type = /obj/projectile/beam/laser/weak/negative_ap/low_range
-	pellets = 3
-	variance = 35
-	e_cost = 2000
+	projectile_type = /obj/projectile/beam/laser/weak/negative_ap
+	pellets = 8
+	variance = 25
+	e_cost = 1666 // 6 shots on a standard cell
 	select_name = "kill"
 
 /obj/item/ammo_casing/energy/laser/ultima/alt
 	select_name = "scatter"
+
+/obj/item/ammo_casing/energy/laser/ultima/alt/assault
+	projectile_type = /obj/projectile/beam/laser/assault
+	pellets = 1
+	variance = 0
+	e_cost = 1400
+	select_name = "assault"
+
 
 /obj/item/ammo_casing/energy/laser/heavy
 	projectile_type = /obj/projectile/beam/laser/heavylaser
