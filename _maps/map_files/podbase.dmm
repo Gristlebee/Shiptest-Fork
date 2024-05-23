@@ -7,6 +7,10 @@
 	dir = 8
 	},
 /area/space)
+"aY" = (
+/obj/machinery/processor,
+/turf/open/floor/plasteel/freezer,
+/area/space)
 "bc" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
@@ -35,10 +39,8 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "gX" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/wood,
 /area/space)
 "hu" = (
 /obj/machinery/porta_turret/ship/ballistic,
@@ -66,6 +68,17 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/space)
+"iF" = (
+/obj/structure/sink{
+	pixel_x = 2;
+	pixel_y = 20
+	},
+/turf/open/floor/wood,
+/area/space)
+"jD" = (
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/plasteel/freezer,
 /area/space)
 "kj" = (
 /obj/structure/table/reinforced,
@@ -118,16 +131,19 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "qd" = (
-/obj/machinery/door/airlock/grunge{
-	dir = 4
-	},
-/turf/closed/mineral/random/whitesands,
+/turf/open/floor/wood,
 /area/space)
 "qk" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/plasteel/stairs,
+/area/space)
+"qp" = (
+/obj/machinery/door/airlock/grunge{
+	dir = 4
+	},
+/turf/closed/mineral/random/whitesands,
 /area/space)
 "qD" = (
 /obj/effect/turf_decal/syndicateemblem/middle/left,
@@ -182,6 +198,22 @@
 	},
 /turf/open/floor/concrete,
 /area/space)
+"wd" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/bag/tray/cafeteria{
+	pixel_y = 3
+	},
+/obj/item/storage/bag/tray/cafeteria{
+	pixel_y = 5
+	},
+/obj/item/storage/bag/tray/cafeteria{
+	pixel_y = 7
+	},
+/obj/item/storage/bag/tray/cafeteria{
+	pixel_y = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
 "wi" = (
 /obj/effect/turf_decal/syndicateemblem/bottom/middle,
 /turf/open/floor/mineral/plastitanium/red,
@@ -193,6 +225,12 @@
 /obj/machinery/computer/helm/viewscreen/directional/north{
 	name = "briefing monitor";
 	desc = "A viewscreen for projecting visual aids during tactical briefings.."
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"xi" = (
+/obj/structure/railing{
+	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
@@ -212,16 +250,52 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
+"Bj" = (
+/obj/structure/table/reinforced,
+/obj/machinery/microwave,
+/turf/open/floor/wood,
+/area/space)
 "BO" = (
 /obj/effect/turf_decal/syndicateemblem/top/left,
 /turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"CZ" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/servingdish,
+/obj/item/shovel/spoon{
+	name = "ladle";
+	desc = "An overused, rusted ladle."
+	},
+/turf/open/floor/plasteel/dark,
 /area/space)
 "Dd" = (
 /turf/open/floor/plasteel/stairs,
 /area/space)
 "Dg" = (
-/obj/machinery/door/airlock/grunge,
-/turf/open/floor/plasteel/freezer,
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/item/reagent_containers/glass/bowl{
+	pixel_y = 3;
+	w_class = 2
+	},
+/obj/item/reagent_containers/glass/bowl{
+	pixel_y = 5;
+	w_class = 2
+	},
+/obj/item/reagent_containers/glass/bowl{
+	pixel_y = 7;
+	w_class = 2
+	},
+/obj/item/reagent_containers/glass/bowl{
+	pixel_y = 9;
+	w_class = 2
+	},
+/turf/open/floor/plasteel/dark,
 /area/space)
 "Dv" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -234,6 +308,12 @@
 	dir = 8
 	},
 /turf/open/floor/concrete/slab_1,
+/area/space)
+"EJ" = (
+/obj/structure/table/reinforced,
+/obj/item/cutting_board,
+/obj/item/kitchen/knife/combat/survival,
+/turf/open/floor/wood,
 /area/space)
 "Fu" = (
 /turf/open/floor/mineral/plastitanium/red,
@@ -341,6 +421,17 @@
 	},
 /turf/open/floor/plating/asteroid/whitesands/lit,
 /area/space)
+"Rz" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Sv" = (
+/obj/structure/kitchenspike,
+/turf/open/floor/plasteel/freezer,
+/area/space)
 "Tv" = (
 /obj/structure/railing{
 	dir = 4
@@ -365,6 +456,11 @@
 	dir = 1
 	},
 /turf/open/floor/concrete/slab_1,
+/area/space)
+"Xy" = (
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder/constructed,
+/turf/open/floor/wood,
 /area/space)
 "Yh" = (
 /obj/structure/railing{
@@ -1043,10 +1139,10 @@ nJ
 nJ
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
+mh
+mh
+mh
+mh
 nJ
 nJ
 nJ
@@ -1120,10 +1216,10 @@ nJ
 nJ
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
+mh
+mh
+mh
+mh
 nJ
 nJ
 nJ
@@ -1197,10 +1293,10 @@ nJ
 nJ
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
+mh
+mh
+mh
+mh
 nJ
 nJ
 nJ
@@ -1274,10 +1370,10 @@ nJ
 nJ
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
+mh
+mh
+mh
+mh
 nJ
 nJ
 nJ
@@ -1340,21 +1436,21 @@ nJ
 nJ
 nJ
 nJ
+gB
+gB
+gB
+gB
 nJ
 nJ
 nJ
+qp
 nJ
 nJ
 nJ
-nJ
-qd
-nJ
-nJ
-nJ
-nJ
-qd
-qd
-nJ
+mh
+nZ
+nZ
+mh
 nJ
 nJ
 nJ
@@ -1418,8 +1514,8 @@ nJ
 nJ
 nJ
 gB
-gB
-gB
+Va
+wd
 gB
 gB
 gB
@@ -1428,10 +1524,10 @@ gB
 nJ
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
+gB
+mh
+mh
+gB
 nJ
 nJ
 nJ
@@ -1499,16 +1595,16 @@ zC
 zC
 zC
 zC
-yO
-zC
+gX
+qd
 gB
 gB
 gB
 gB
 gB
-nJ
-nJ
-nJ
+mh
+mh
+gB
 nJ
 nJ
 nJ
@@ -1575,17 +1671,17 @@ zC
 zC
 zC
 zC
-gX
+xi
 gB
-zC
-Va
+iF
+Bj
 gB
-ea
-ea
+aY
+Sv
 gB
-nJ
-nJ
-nJ
+mh
+mh
+gB
 nJ
 nJ
 nJ
@@ -1652,16 +1748,16 @@ zC
 zC
 zC
 zC
-gX
-Va
-zC
-Va
+xi
+Dg
+qd
+EJ
 gB
 ea
 ea
 gB
-nZ
-nZ
+mh
+mh
 gB
 nJ
 nJ
@@ -1729,10 +1825,10 @@ zC
 zC
 zC
 zC
-gX
-Va
-zC
-Va
+xi
+CZ
+qd
+Xy
 gB
 ea
 ea
@@ -1806,11 +1902,11 @@ zC
 zC
 zC
 zC
-gX
-Va
-zC
-zC
-Dg
+xi
+Rz
+qd
+qd
+jD
 ea
 ea
 gB
@@ -1959,10 +2055,10 @@ zC
 zC
 zC
 zC
+zC
 mh
 mh
-mh
-mh
+kF
 mh
 mh
 mh
@@ -2036,10 +2132,10 @@ zC
 zC
 zC
 zC
+zC
 mh
 mh
-mh
-mh
+kF
 mh
 mh
 mh
@@ -2113,9 +2209,9 @@ zC
 zC
 zC
 zC
+zC
 mh
 mh
-gB
 gB
 gB
 gB
@@ -2190,10 +2286,10 @@ gB
 zC
 zC
 zC
+zC
 mh
 mh
 gB
-nJ
 nJ
 nJ
 nJ
@@ -2262,15 +2358,15 @@ nJ
 nJ
 nJ
 nJ
-mh
-gB
-gB
-zC
-zC
-mh
-mh
-gB
 nJ
+gB
+gB
+zC
+zC
+zC
+mh
+mh
+gB
 nJ
 nJ
 nJ
@@ -2329,6 +2425,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 AO
 gB
 gB
@@ -2340,7 +2437,6 @@ gB
 nJ
 nJ
 nJ
-nJ
 gB
 gB
 gB
@@ -2355,7 +2451,7 @@ nJ
 gB
 mh
 mh
-mh
+kF
 mh
 mh
 gB
@@ -2406,6 +2502,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 gB
 gB
 zC
@@ -2423,9 +2520,8 @@ zC
 zC
 zC
 zC
-zC
 gB
-nJ
+gB
 nJ
 nJ
 nJ
@@ -2483,6 +2579,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 gB
 zC
 zC
@@ -2502,7 +2599,6 @@ uh
 uh
 zC
 gB
-nJ
 nJ
 nJ
 nJ
@@ -2560,6 +2656,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 gB
 zC
 LQ
@@ -2579,10 +2676,9 @@ uh
 uh
 zC
 gB
-nJ
-nJ
-nJ
-nJ
+gB
+gB
+gB
 gB
 mh
 mh
@@ -2637,6 +2733,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 gB
 zC
 LQ
@@ -2655,12 +2752,11 @@ Fu
 Fu
 Fu
 Fu
-gB
-nJ
-nJ
-nJ
-nJ
-gB
+kF
+mh
+mh
+mh
+kF
 mh
 mh
 gB
@@ -2714,6 +2810,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 gB
 zC
 LQ
@@ -2732,12 +2829,11 @@ Fu
 Fu
 Fu
 Fu
-gB
-nJ
-nJ
-nJ
-nJ
-gB
+kF
+mh
+mh
+mh
+kF
 mh
 mh
 gB
@@ -2791,6 +2887,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 gB
 zC
 LQ
@@ -2810,10 +2907,9 @@ uh
 uh
 zC
 gB
-nJ
-nJ
-nJ
-nJ
+gB
+gB
+gB
 gB
 mh
 mh
@@ -2868,6 +2964,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 gB
 zC
 zC
@@ -2887,10 +2984,9 @@ uh
 uh
 zC
 gB
-nJ
-nJ
-nJ
-nJ
+zC
+zC
+zC
 gB
 mh
 mh
@@ -2945,6 +3041,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 gB
 gB
 zC
@@ -2962,12 +3059,11 @@ zC
 zC
 zC
 zC
-zC
 gB
-nJ
-nJ
-nJ
-nJ
+gB
+zC
+zC
+zC
 gB
 mh
 mh
@@ -3022,6 +3118,7 @@ QZ
 QZ
 QZ
 QZ
+QZ
 AO
 gB
 gB
@@ -3040,11 +3137,10 @@ gB
 gB
 gB
 gB
-gB
-nJ
-nJ
-nJ
-nJ
+zC
+zC
+zC
+zC
 gB
 mh
 mh
@@ -3103,25 +3199,25 @@ QZ
 QZ
 QZ
 AO
+gB
 AO
 AO
 AO
 AO
-AO
 nJ
 nJ
 nJ
 nJ
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
+gB
+mh
+mh
+zC
+zC
+zC
+zC
+zC
 gB
 mh
 mh
@@ -3180,25 +3276,25 @@ QZ
 QZ
 QZ
 AO
+gB
 AO
 AO
 AO
 AO
-AO
 nJ
 nJ
 nJ
 nJ
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
+gB
+mh
+mh
+zC
+zC
+zC
+zC
+zC
 gB
 mh
 mh
@@ -3257,25 +3353,25 @@ QZ
 QZ
 QZ
 AO
+gB
 AO
 AO
 AO
 AO
-AO
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
+gB
+gB
+gB
+gB
+gB
+mh
+mh
+zC
+zC
+zC
+zC
+zC
 gB
 mh
 mh
@@ -3334,25 +3430,25 @@ QZ
 QZ
 QZ
 AO
+gB
 AO
 AO
 AO
 AO
-AO
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
 mh
 mh
 mh
@@ -3409,27 +3505,27 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
+nJ
+nJ
+gB
 nJ
 nJ
 nJ
 nJ
 nJ
 nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
+mh
 mh
 mh
 mh
@@ -3486,25 +3582,6 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
-nJ
 nJ
 nJ
 gB
@@ -3513,6 +3590,25 @@ gB
 gB
 gB
 gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+zC
+zC
+zC
+zC
+zC
 gB
 gB
 gB
@@ -3563,13 +3659,6 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
 nJ
 nJ
 nJ
@@ -3591,6 +3680,13 @@ nJ
 nJ
 nJ
 nJ
+gB
+zC
+zC
+zC
+zC
+zC
+gB
 nJ
 nJ
 nJ
@@ -3640,13 +3736,6 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
 nJ
 nJ
 nJ
@@ -3668,6 +3757,13 @@ nJ
 nJ
 nJ
 nJ
+gB
+zC
+zC
+zC
+zC
+gB
+gB
 nJ
 nJ
 nJ
@@ -3717,21 +3813,6 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
 nJ
 nJ
 nJ
@@ -3744,6 +3825,21 @@ nJ
 nJ
 nJ
 nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+gB
+gB
+gB
+gB
+gB
+gB
 nJ
 nJ
 nJ
@@ -3794,23 +3890,23 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
 nJ
 nJ
 nJ
@@ -3871,28 +3967,28 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
 nJ
 nJ
 nJ
@@ -3948,29 +4044,29 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
 AO
 AO
 AO
@@ -4025,29 +4121,29 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
 AO
 AO
 AO
@@ -4102,29 +4198,29 @@ QZ
 QZ
 QZ
 QZ
-QZ
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
 AO
 AO
 AO
@@ -4179,29 +4275,29 @@ QZ
 QZ
 QZ
 QZ
-QZ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
 AO
 AO
 AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
-AO
+nJ
+nJ
+nJ
+nJ
 AO
 AO
 AO
