@@ -166,6 +166,15 @@
 	var/obj/item/mecha_parts/mecha_equipment/mining_scanner/scanner = new
 	scanner.attach(src)
 
+/obj/mecha/working/ripley/clamp
+	desc = "A stolen mining Ripley."
+	name = "\improper APLU \"Miner\""
+
+/obj/mecha/working/ripley/clamp/Initialize()
+	. = ..()
+	var/obj/item/mecha_parts/mecha_equipment/hydraulic_clamp/HC = new
+	HC.attach(src)
+
 /obj/mecha/working/ripley/clip
 	desc = "An APLU utility mech, refitted with a lightweight pressurized cockpit and more powerful servos by the CLIP. While it preserves the Mk. I's speed, the overdriven motors tend to strain its power supply."
 	name = "\improper CLIP APLU Mk-IV \"Rogue\""

@@ -59,6 +59,14 @@ Featuring:
 	icon_state = "nanotrasen"
 	faction = list("nanotrasen")
 
+/mob/living/simple_animal/hostile/syndicate/mecha_pilot/frontiersmen
+	name = "\improper Frontiersmen Mecha Pilot"
+	desc = "A frontiersman! A terrorist that would probably kill everyone without mercy. This one's stolen a mech. Uh oh."
+	icon_living = "frontiersmanranged"
+	icon_state = "frontiersmanranged"
+	faction = list(FACTION_ANTAG_FRONTIERSMEN)
+	spawn_mecha_type = /obj/mecha/working/ripley/clamp
+
 
 /mob/living/simple_animal/hostile/syndicate/mecha_pilot/Initialize()
 	. = ..()
