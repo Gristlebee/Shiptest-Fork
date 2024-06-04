@@ -433,6 +433,9 @@
 
 	if(!enclosed && occupant?.incapacitated()) //no sides mean it's easy to just sorta fall out if you're incapacitated.
 		visible_message("<span class='warning'>[occupant] tumbles out of the cockpit!</span>")
+		if(istype(occupant,/mob/living/simple_animal/hostile/syndicate/mecha_pilot))
+			aimob_exit_mech(occupant)
+			return
 		go_out() //Maybe we should install seat belts?
 
 //Diagnostic HUD updates
