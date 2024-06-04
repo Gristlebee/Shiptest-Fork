@@ -135,6 +135,10 @@ Featuring:
 		return 0
 	return 1
 
+/mob/living/simple_animal/hostile/syndicate/mecha_pilot/death(gibbed)
+	..()
+	exit_mecha(mecha)
+
 
 /mob/living/simple_animal/hostile/syndicate/mecha_pilot/proc/mecha_face_target(atom/A)
 	if(mecha)
