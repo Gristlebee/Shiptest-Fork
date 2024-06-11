@@ -50,12 +50,13 @@
 	. = ..()
 
 
-// /obj/item/gun/ballistic/automatic/powered/shoot_live_shot(mob/living/user, pointblank = FALSE, mob/pbtarget, message = 1, stam_cost = 0)
+// /obj/item/gun/ballistic/automatic/powered/shoot_live_shot(mob/living/user, pointblank = FALSE, mob/pbtarget, message = 1)
 // 	var/obj/item/ammo_casing/caseless/gauss/shot = chambered
 // 	to_chat(user,"<span class='warning'>pre-drain</span>")
-// 	// if(shot.energy_cost)
-// 	// 	cell.use(shot.energy_cost)
-// 	// 	to_chat(user,"<span class='warning'>cell drained</span>")
+// 	if(shot.energy_cost)
+// 		to_chat(user,"<span class='warning'>if_success</span>")
+// 		cell.use(shot.energy_cost)
+// 		to_chat(user,"<span class='warning'>cell drained</span>")
 
 // 	to_chat(user,"<span class='warning'>after drain</span>")
 // 	return ..()
