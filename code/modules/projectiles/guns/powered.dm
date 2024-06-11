@@ -43,11 +43,22 @@
 		return FALSE
 	return ..()
 
-/obj/item/gun/ballistic/automatic/powered/shoot_live_shot(mob/living/user, pointblank = FALSE, mob/pbtarget, message = 1, stam_cost = 0)
-	var/obj/item/ammo_casing/caseless/gauss/shot = chambered
-	if(shot?.energy_cost)
-		cell.use(shot.energy_cost)
-	return ..()
+/obj/item/gun/ballistic/automatic/powered/process_chamber(empty_chamber, from_firing, chamber_next_round, atom/shooter)
+	if(chambered && !chambered.BB) //if BB is null, i.e the shot has been fired...
+		var/obj/item/ammo_casing/caseless/gauss/shot = chambered
+		cell.use(shot.energy_cost)//... drain the cell cell
+	. = ..()
+
+
+// /obj/item/gun/ballistic/automatic/powered/shoot_live_shot(mob/living/user, pointblank = FALSE, mob/pbtarget, message = 1, stam_cost = 0)
+// 	var/obj/item/ammo_casing/caseless/gauss/shot = chambered
+// 	to_chat(user,"<span class='warning'>pre-drain</span>")
+// 	// if(shot.energy_cost)
+// 	// 	cell.use(shot.energy_cost)
+// 	// 	to_chat(user,"<span class='warning'>cell drained</span>")
+
+// 	to_chat(user,"<span class='warning'>after drain</span>")
+// 	return ..()
 
 /obj/item/gun/ballistic/automatic/powered/get_cell()
 	return cell
