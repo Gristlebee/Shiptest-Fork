@@ -43,23 +43,98 @@
 		return FALSE
 	return ..()
 
-/obj/item/gun/ballistic/automatic/powered/process_chamber(empty_chamber, from_firing, chamber_next_round, atom/shooter)
-	if(chambered && !chambered.BB) //if BB is null, i.e the shot has been fired...
-		var/obj/item/ammo_casing/caseless/gauss/shot = chambered
-		cell.use(shot.energy_cost)//... drain the cell cell
-	. = ..()
+// /obj/item/gun/ballistic/automatic/powered/process_chamber(empty_chamber, from_firing, chamber_next_round, atom/shooter)
+// 	if(chambered && !chambered.BB) //if BB is null, i.e the shot has been fired...
+// 		var/obj/item/ammo_casing/caseless/gauss/shot = chambered
+// 		cell.use(shot.energy_cost)//... drain the cell cell
+// 	. = ..()
 
 
-// /obj/item/gun/ballistic/automatic/powered/shoot_live_shot(mob/living/user, pointblank = FALSE, mob/pbtarget, message = 1)
-// 	var/obj/item/ammo_casing/caseless/gauss/shot = chambered
-// 	to_chat(user,"<span class='warning'>pre-drain</span>")
-// 	if(shot.energy_cost)
-// 		to_chat(user,"<span class='warning'>if_success</span>")
-// 		cell.use(shot.energy_cost)
-// 		to_chat(user,"<span class='warning'>cell drained</span>")
+/obj/item/gun/ballistic/automatic/powered/shoot_live_shot(mob/living/user, pointblank = FALSE, mob/pbtarget, message = 1, stam_cost = 0)
+	var/obj/item/ammo_casing/caseless/gauss/shot = chambered
+	to_chat(user,"<span class='warning'>pre-drain</span>")
+	if(shot.energy_cost)
+		to_chat(user,"<span class='warning'>if_success</span>")
+		cell.use(shot.energy_cost)
+		to_chat(user,"<span class='warning'>cell drained</span>")
 
-// 	to_chat(user,"<span class='warning'>after drain</span>")
-// 	return ..()
+	to_chat(user,"<span class='warning'>after drain</span>")
+	return ..()
+// old
+/obj/item/gun/proc/shoot_live_shot(mob/living/user, pointblank = 0, atom/pbtarget = null, message = 1)
+	var/actual_angle = get_angle_with_scatter((user || get_turf(src)), pbtarget, rand(-recoil_deviation, recoil_deviation) + 180)
+	var/muzzle_angle = Get_Angle(get_turf(src), pbtarget)
+	if(muzzle_flash && !muzzle_flash.applied)
+		handle_muzzle_flash(user, muzzle_angle)
+
+	if(wielded_fully)
+		simulate_recoil(user, recoil, actual_angle)
+	else if(!wielded_fully)
+		simulate_recoil(user, recoil_unwielded, actual_angle)
+
+	if(suppressed)
+		playsound(user, suppressed_sound, suppressed_volume, vary_fire_sound, ignore_walls = FALSE, extrarange = SILENCED_SOUND_EXTRARANGE, falloff_distance = 0)
+	else
+		playsound(user, fire_sound, fire_sound_volume, vary_fire_sound)
+		if(message)
+			if(pointblank)
+				user.visible_message(
+						span_danger("[user] fires [src] point blank at [pbtarget]!"),
+						span_danger("You fire [src] point blank at [pbtarget]!"),
+						span_hear("You hear a gunshot!"), COMBAT_MESSAGE_RANGE, pbtarget
+				)
+				to_chat(pbtarget, "<span class='userdanger'>[user] fires [src] point blank at you!</span>")
+				if(pb_knockback > 0 && ismob(pbtarget))
+					var/mob/PBT = pbtarget
+					var/atom/throw_target = get_edge_target_turf(PBT, user.dir)
+					PBT.throw_at(throw_target, pb_knockback, 2)
+			else
+				user.visible_message(
+						span_danger("[user] fires [src]!"),
+						blind_message = span_hear("You hear a gunshot!"),
+						vision_distance = COMBAT_MESSAGE_RANGE,
+						ignored_mobs = user
+				)
+
+//new
+/obj/item/gun/proc/shoot_live_shot(mob/living/user, pointblank = FALSE, atom/pbtarget = null, message = TRUE)
+	var/actual_angle = get_angle_with_scatter((user || get_turf(src)), pbtarget, rand(-recoil_deviation, recoil_deviation) + 180)
+	var/muzzle_angle = Get_Angle(get_turf(src), pbtarget)
+
+	user.changeNext_move(clamp(fire_delay, 0, CLICK_CD_RANGE))
+
+	if(muzzle_flash && !muzzle_flash.applied)
+		handle_muzzle_flash(user, muzzle_angle)
+
+	if(wielded_fully)
+		simulate_recoil(user, recoil, actual_angle)
+	else if(!wielded_fully)
+		simulate_recoil(user, recoil_unwielded, actual_angle)
+
+	if(suppressed)
+		playsound(user, suppressed_sound, suppressed_volume, vary_fire_sound, ignore_walls = FALSE, extrarange = SILENCED_SOUND_EXTRARANGE, falloff_distance = 0)
+	else
+		playsound(user, fire_sound, fire_sound_volume, vary_fire_sound)
+		if(message)
+			if(pointblank)
+				user.visible_message(
+						span_danger("[user] fires [src] point blank at [pbtarget]!"),
+						span_danger("You fire [src] point blank at [pbtarget]!"),
+						span_hear("You hear a gunshot!"), COMBAT_MESSAGE_RANGE, pbtarget
+				)
+				to_chat(pbtarget, "<span class='userdanger'>[user] fires [src] point blank at you!</span>")
+				if(pb_knockback > 0 && ismob(pbtarget))
+					var/mob/PBT = pbtarget
+					var/atom/throw_target = get_edge_target_turf(PBT, user.dir)
+					PBT.throw_at(throw_target, pb_knockback, 2)
+			else
+				user.visible_message(
+						span_danger("[user] fires [src]!"),
+						blind_message = span_hear("You hear a gunshot!"),
+						vision_distance = COMBAT_MESSAGE_RANGE,
+						ignored_mobs = user
+				)
+
 
 /obj/item/gun/ballistic/automatic/powered/get_cell()
 	return cell
