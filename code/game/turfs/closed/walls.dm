@@ -28,6 +28,8 @@
 	var/break_sound = 'sound/items/welder.ogg'
 
 	var/list/dent_decals
+	var/integrity = 300
+	var/max_integrity = 300
 
 /turf/closed/wall/yesdiag
 	icon_state = "wall-255"
