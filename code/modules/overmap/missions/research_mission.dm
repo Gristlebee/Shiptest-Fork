@@ -21,6 +21,7 @@
 	. = ..()
 	scanner = spawn_bound(/obj/machinery/mission_scanner, accept_loc, VARSET_CALLBACK(src, scanner, null))
 	RegisterSignal(servant, COMSIG_OVERMAP_MOVED, PROC_REF(ship_moved))
+	scanner.name += " ([capitalize(objective_type.name)])"
 
 /datum/mission/research/Destroy()
 	scanner = null
