@@ -22,6 +22,7 @@
 	burnmod = 1.5
 	speedmod = -0.25
 	bodytemp_normal = HUMAN_BODYTEMP_NORMAL + 30
+	max_temp_comfortable = HUMAN_TEMP_COMFORTABLE + 30
 	bodytemp_heat_damage_limit = HUMAN_BODYTEMP_HEAT_DAMAGE_LIMIT + 30
 	bodytemp_cold_damage_limit = HUMAN_BODYTEMP_COLD_DAMAGE_LIMIT + 30
 	mutanttongue = /obj/item/organ/tongue/kepori

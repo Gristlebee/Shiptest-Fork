@@ -1792,10 +1792,9 @@ GLOBAL_LIST_EMPTY(roundstart_races)
  */
 /datum/species/proc/handle_environment(datum/gas_mixture/environment, mob/living/carbon/human/H)
 	var/areatemp = H.get_temperature(environment)
-	var/temp_calc
 
 	//temperature is no longer comfy, throw alert.
-	if(areatemp > max_temp_comfortable && H.bodytemperature > (H.bodytemp_normal + 1) && !HAS_TRAIT(H, TRAIT_RESISTHEAT))
+	if(areatemp > max_temp_comfortable && H.bodytemperature > (bodytemp_normal + 1) && !HAS_TRAIT(H, TRAIT_RESISTHEAT))
 		SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, "cold")
 		if(H.bodytemperature > bodytemp_heat_damage_limit)
 			var/burn_damage = calculate_burn_damage(H)

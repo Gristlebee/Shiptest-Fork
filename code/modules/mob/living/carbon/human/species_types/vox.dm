@@ -25,6 +25,9 @@
 	bodytemp_heat_divisor = VOX_BODYTEMP_HEAT_DIVISOR
 	bodytemp_cold_divisor = VOX_BODYTEMP_COLD_DIVISOR
 	bodytemp_autorecovery_min = VOX_BODYTEMP_AUTORECOVERY_MIN
+	/// vox lose heat faster so they mind hotter temps less
+	max_temp_comfortable = HUMAN_TEMP_COMFORTABLE + 10
+	min_temp_comfortable = HUMAN_TEMP_COMFORTABLE - 7
 
 	bodytype = BODYTYPE_VOX
 
