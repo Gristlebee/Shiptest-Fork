@@ -22,7 +22,7 @@
 	throw_deflection = 10
 	maxHealth = 80
 	health = 80
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 25, "energy" = 10, "bomb" = 50, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 10) //Thick carapace, weak to AP ammo.
+	armor = list("melee" = 40, "bullet" = 40, "laser" = 10, "energy" = 10, "bomb" = 50, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 10) //Thick carapace, weak to AP ammo.
 	harm_intent_damage = 0
 	obj_damage = 100
 	melee_damage_lower = 12

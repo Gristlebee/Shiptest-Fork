@@ -18,8 +18,8 @@
 	retreat_distance = 2
 	speed = 3
 	move_to_delay = 5
-	maxHealth = 150
-	health = 150
+	maxHealth = 80
+	health = 80
 	obj_damage = 15
 	melee_damage_lower = 7.5
 	melee_damage_upper = 7.5

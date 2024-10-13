@@ -16,8 +16,8 @@
 	speak_emote = list("chitters")
 	speed = 3
 	move_to_delay = 10
-	maxHealth = 150
-	health = 150
+	maxHealth = 100
+	health = 100
 	obj_damage = 15
 	melee_damage_lower = 15
 	melee_damage_upper = 19
