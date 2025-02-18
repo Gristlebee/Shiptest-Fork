@@ -46,9 +46,9 @@
 	base_icon_state = "gauntlets"
 	mob_overlay_icon = 'icons/mob/clothing/modsuit/mod_clothing.dmi'
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-	body_parts_covered = HANDS|ARMS
-	heat_protection = HANDS|ARMS
-	cold_protection = HANDS|ARMS
+	body_parts_covered = HANDS
+	heat_protection = HANDS
+	cold_protection = HANDS
 	obj_flags = IMMUTABLE_SLOW
 
 	equipping_sound = null
@@ -65,9 +65,9 @@
 	base_icon_state = "boots"
 	mob_overlay_icon = 'icons/mob/clothing/modsuit/mod_clothing.dmi'
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-	body_parts_covered = FEET|LEGS
-	heat_protection = FEET|LEGS
-	cold_protection = FEET|LEGS
+	body_parts_covered = FEET
+	heat_protection = FEET
+	cold_protection = FEET
 	obj_flags = IMMUTABLE_SLOW
 	supports_variations = DIGITIGRADE_VARIATION
 	can_be_tied = FALSE

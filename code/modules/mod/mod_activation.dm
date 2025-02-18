@@ -200,9 +200,25 @@
 		part.alternate_worn_layer = mod_parts[part]
 	if(part == boots)
 		boots.icon_state = "[skin]-boots[seal ? "-sealed" : ""]"
+		if(seal)
+			boots.body_parts_covered |= LEGS
+			boots.heat_protection |= LEGS
+			boots.cold_protection |= LEGS
+		else
+			boots.body_parts_covered &= ~ARMS
+			boots.heat_protection &= ~ARMS
+			boots.cold_protection &= ~ARMS
 		wearer.update_inv_shoes()
 	if(part == gauntlets)
 		gauntlets.icon_state = "[skin]-gauntlets[seal ? "-sealed" : ""]"
+		if(seal)
+			gauntlets.body_parts_covered |= ARMS
+			gauntlets.heat_protection |= ARMS
+			gauntlets.cold_protection |= ARMS
+		else
+			gauntlets.body_parts_covered &= ~ARMS
+			gauntlets.heat_protection &= ~ARMS
+			gauntlets.cold_protection &= ~ARMS
 		wearer.update_inv_gloves()
 	if(part == chestplate)
 		chestplate.icon_state = "[skin]-chestplate[seal ? "-sealed" : ""]"
@@ -210,6 +226,10 @@
 		wearer.update_inv_w_uniform()
 	if(part == helmet)
 		helmet.icon_state = "[skin]-helmet[seal ? "-sealed" : ""]"
+		if(seal)
+			helmet.body_parts_covered = HEAD
+		else if(mod_parts[part] == NECK_LAYER)
+			helmet.body_parts_covered = NECK
 		wearer.update_inv_head()
 		wearer.update_inv_wear_mask()
 		wearer.update_inv_glasses()

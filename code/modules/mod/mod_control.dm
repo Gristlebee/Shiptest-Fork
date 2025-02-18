@@ -131,6 +131,9 @@
 		part.max_heat_protection_temperature = theme.max_heat_protection_temperature
 		part.min_cold_protection_temperature = theme.min_cold_protection_temperature
 		part.siemens_coefficient = theme.siemens_coefficient
+		//doesnt work
+		if(part == helmet && mod_parts[part] == NECK_LAYER)
+			helmet.body_parts_covered = NECK
 	for(var/obj/item/part as anything in mod_parts)
 		RegisterSignal(part, COMSIG_OBJ_DESTRUCTION, PROC_REF(on_part_destruction))
 		RegisterSignal(part, COMSIG_PARENT_QDELETING, PROC_REF(on_part_deletion))
