@@ -405,6 +405,10 @@
 	harmful = TRUE
 	ammo_type = "missiles_br"
 
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack/breaching/concussion
+	name = "concussion missile"
+	projectile = /obj/projectile/bullet/a84mm_concussion
+
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher
 	var/missile_speed = 2

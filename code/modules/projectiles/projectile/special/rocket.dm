@@ -70,3 +70,18 @@
 			return BULLET_ACT_HIT
 	//if(istype(target, /turf/closed) || ismecha(target))
 	new /obj/item/broken_missile(get_turf(src), 1)
+
+/obj/projectile/bullet/a84mm_concussion
+	name ="\improper concusssion missile"
+	desc = "Boom."
+	icon_state = "missile"
+	damage = 50
+	ricochets_max = 0 //it's a MISSILE
+
+/obj/projectile/bullet/a84mm_concussion/on_hit(atom/target, blocked=0)
+	..()
+	var/epicenter = get_turf(target)
+	if(ismecha(target))
+		epicenter = get_turf(src)
+	explosion(epicenter, 0, 0, 5, 5, flame_range = 5)
+	return BULLET_ACT_HIT
