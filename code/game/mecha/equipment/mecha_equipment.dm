@@ -19,6 +19,9 @@
 	var/harmful = FALSE //Controls if equipment can be used to attack by a pacifist.
 	var/destroy_sound = 'sound/mecha/critdestr.ogg'
 
+	// if a ranged weapon has a melee interaction. Otherwise it just slaps whatever its hitting.
+	var/ranged_has_melee_interaction = FALSE
+
 /obj/item/mecha_parts/mecha_equipment/proc/update_chassis_page()
 	if(chassis)
 		send_byjax(chassis.occupant,"exosuit.browser","eq_list",chassis.get_equipment_list())

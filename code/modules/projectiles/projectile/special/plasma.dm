@@ -13,12 +13,12 @@
 	impact_type = /obj/effect/projectile/impact/plasma_cutter
 
 /obj/projectile/plasma/adv
-	damage = 7
+	damage = 20
 	range = 5
 	slag_chance = 20
 
 /obj/projectile/plasma/adv/mech
-	damage = 10
+	damage = 25
 	range = 9
 
 /obj/projectile/plasma/turret

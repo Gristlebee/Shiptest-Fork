@@ -530,6 +530,13 @@
 			return
 		if(selected.action(target,params))
 			selected.start_cooldown(cooldown_override)
+	else if(selected && selected.is_ranged() && selected.ranged_has_melee_interaction)
+		var/obj/item/mecha_parts/mecha_equipment/weapon/melee = selected
+		if(HAS_TRAIT(L, TRAIT_PACIFISM) && selected.harmful)
+			to_chat(user, "<span class='warning'>You don't want to harm other living beings!</span>")
+			return
+		if(melee.melee_action(target,params))
+			melee.start_cooldown(cooldown_override)
 	else
 		if(internal_damage & MECHA_INT_CONTROL_LOST)
 			var/list/possible_targets = oview(1,src)
