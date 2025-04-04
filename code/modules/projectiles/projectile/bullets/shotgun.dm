@@ -80,6 +80,27 @@
 	name = "buckshot pellet"
 	damage = 13
 
+/obj/projectile/bullet/pellet/buckshot/t25
+	name = "buckshot pellet"
+	armour_penetration = -25
+
+/obj/projectile/bullet/pellet/buckshot/t26
+	name = "buckshot pellet"
+	armour_penetration = -26
+
+/obj/projectile/bullet/pellet/buckshot/t27
+	name = "buckshot pellet"
+	armour_penetration = -27
+
+/obj/projectile/bullet/pellet/buckshot/t28
+	name = "buckshot pellet"
+	armour_penetration = -28
+
+/obj/projectile/bullet/pellet/buckshot/t29
+	name = "buckshot pellet"
+	armour_penetration = -29
+
+
 /obj/projectile/bullet/pellet/rubbershot
 	name = "rubbershot pellet"
 	damage = 2.5

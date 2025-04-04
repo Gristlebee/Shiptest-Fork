@@ -23,6 +23,27 @@
 	pellets = 8
 	variance = 25
 
+/obj/item/ammo_casing/shotgun/buckshot/t25
+	name = "buckshot shell 25s"
+	projectile_type = /obj/projectile/bullet/pellet/buckshot/t25
+
+/obj/item/ammo_casing/shotgun/buckshot/t26
+	name = "buckshot shell 26s"
+	projectile_type = /obj/projectile/bullet/pellet/buckshot/t26
+
+/obj/item/ammo_casing/shotgun/buckshot/t27
+	name = "buckshot shell 27s"
+	projectile_type = /obj/projectile/bullet/pellet/buckshot/t27
+
+/obj/item/ammo_casing/shotgun/buckshot/t28
+	name = "buckshot shell 28s"
+	projectile_type = /obj/projectile/bullet/pellet/buckshot/t28
+
+/obj/item/ammo_casing/shotgun/buckshot/t25
+	name = "buckshot shell 29s"
+	projectile_type = /obj/projectile/bullet/pellet/buckshot/t29
+
+
 /obj/item/ammo_casing/shotgun/beanbag
 	name = "beanbag slug"
 	desc = "A weak beanbag slug for riot control."
