@@ -2,7 +2,7 @@
 GLOBAL_LIST_EMPTY(dynamic_human_appearances)
 
 /// Creates a human with the given parameters and returns an appearance of it
-/proc/get_dynamic_human_appearance(outfit_path, species_path = /datum/species/human, mob_spawn_path, r_hand, l_hand, bloody_slots = NONE, animated = TRUE)
+/proc/get_dynamic_human_appearance(outfit_path, species_path = /datum/species/human, mob_spawn_path, r_hand, l_hand, bloody_slots = NONE, grab_species = FALSE, animated = TRUE)
 	if(!species_path)
 		return FALSE
 	if(!ispath(species_path))
@@ -32,6 +32,8 @@ GLOBAL_LIST_EMPTY(dynamic_human_appearances)
 			spawner.l_hand = l_hand
 		spawner.special(dummy, dummy)
 		spawner.equip(dummy)
+		if(grab_species)
+			dummy.set_species(spawner.mob_species)
 	for(var/obj/item/carried_item in dummy)
 		if(dummy.is_holding(carried_item))
 			var/datum/component/two_handed/twohanded = carried_item.GetComponent(/datum/component/two_handed)
@@ -52,12 +54,15 @@ GLOBAL_LIST_EMPTY(dynamic_human_appearances)
 	return output
 
 ///This exists to apply the icons async, as that cannot be done in Initialize because of possible sleeps.
-/proc/apply_dynamic_human_appearance(atom/target, outfit_path, species_path = /datum/species/human, mob_spawn_path, r_hand, l_hand, bloody_slots = NONE)
+/proc/apply_dynamic_human_appearance(atom/target, outfit_path, species_path = /datum/species/human, mob_spawn_path, r_hand, l_hand, bloody_slots = NONE, grab_species = FALSE)
 	INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(set_dynamic_human_appearance), args)
 
 ///This proc gets an argument of a target and runs
 /proc/set_dynamic_human_appearance(list/arguments)
 	var/atom/target = arguments[1] //1st argument is the target
+	// if(grab_species)
+	// 	var/obj/effect/mob_spawn/human/spawner = target
+	// 	arguments[3] = spawner.mob_species
 	var/dynamic_appearance = get_dynamic_human_appearance(arglist(arguments.Copy(2))) //the rest of the arguments starting from 2 matter to the proc
 	target.icon = 'icons/mob/human.dmi'
 	target.icon_state = ""

@@ -141,6 +141,7 @@
 	icon_state = "corpsehuman"
 	//Human specific stuff.
 	var/mob_species = null		//Set to make them a mutant race such as lizard or skeleton. Uses the datum typepath instead of the ID.
+	var/randomize_species = FALSE 		// if we randomize the species
 	var/datum/outfit/outfit = /datum/outfit	//If this is a path, it will be instanced in Initialize()
 	var/disable_pda = TRUE
 	var/disable_sensors = TRUE
@@ -182,6 +183,8 @@
 		outfit = new outfit()
 	if(!outfit)
 		outfit = new /datum/outfit
+	if(randomize_species)
+		mob_species = pick(GLOB.valid_dynamic_human_species)
 	return ..()
 
 /obj/effect/mob_spawn/human/equip(mob/living/carbon/human/H)

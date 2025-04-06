@@ -299,6 +299,15 @@
 //The range at which a mob should wake up if you spawn into the z level near it
 #define MAX_SIMPLEMOB_WAKEUP_RANGE 5
 
+//valid species for dynamic human simple mob gen. No kepori or vox rn due to sprites being incomplete currently.
+GLOBAL_LIST_INIT(valid_dynamic_human_species,list(
+	/datum/species/human,
+	/datum/species/lizard,
+	/datum/species/ipc,
+	/datum/species/elzuose,
+	/datum/species/moth,
+	/datum/species/spider))
+
 //determines if a mob can smash through it
 #define ENVIRONMENT_SMASH_NONE 0
 #define ENVIRONMENT_SMASH_STRUCTURES (1<<0) //crates, lockers, ect

@@ -4,9 +4,10 @@
 	icon_state = "survivor_base"
 	icon_living = "survivor_base"
 	atmos_requirements = list("min_oxy" = 1, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 999, "min_n2" = 0, "max_n2" = 0)
-	mob_spanwer = /obj/effect/mob_spawn/human/corpse/damaged/whitesands
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/damaged/whitesands
 	armor_base = /obj/item/clothing/suit/hooded/survivor
-
+	randomize_species = FALSE
+	loot = null
 	speak_emote = list("breathes heavily.", "growls.", "sharply inhales.")
 	emote_hear = list("murmers.","grumbles.","whimpers.")
 
@@ -34,6 +35,7 @@
 	retreat_distance = 5
 	minimum_distance = 5
 	r_hand = /obj/item/gun/ballistic/rifle/polymer
+	weapon_drop_chance = 20
 
 /mob/living/simple_animal/hostile/human/hermit/ranged/hunter
 	name = "Hermit Hunter"
@@ -61,10 +63,10 @@
 	projectilesound = 'sound/weapons/gun/laser/e-fire.ogg'
 	speed = 10
 	rapid_fire_delay = 1
-	casingtype = null
 	projectiletype = /obj/projectile/beam/laser/eoehoma/hermit
-	mob_spanwer = /obj/effect/mob_spawn/human/corpse/damaged/whitesands/e11
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/damaged/whitesands/e11
 	r_hand = /obj/item/gun/energy/e_gun/e11
+	weapon_drop_chance = 40
 
 //survivor corpses
 
@@ -73,20 +75,22 @@
 	belt = /obj/item/storage/belt/fannypack
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	suit = /obj/item/clothing/suit/hooded/survivor
+	head = /obj/item/clothing/head/hooded/survivor_hood
 	l_pocket = /obj/item/radio
 	r_pocket = /obj/item/tank/internals/emergency_oxygen/engi
 	var/survivor_type //room for alternatives inside the fuckoff grade init.
+	randomize_species = TRUE
 
 /obj/effect/mob_spawn/human/corpse/damaged/whitesands/Initialize() //everything here should equal out to 100 for the sake of my sanity.
-	mob_species = pick_weight(list(
-			/datum/species/human = 50,
-			/datum/species/lizard = 20,
-			/datum/species/ipc = 10,
-			/datum/species/elzuose = 10,
-			/datum/species/moth = 5,
-			/datum/species/spider = 5
-		)
-	)
+	// mob_species = pick_weight(list(
+	// 		/datum/species/human = 50,
+	// 		/datum/species/lizard = 20,
+	// 		/datum/species/ipc = 10,
+	// 		/datum/species/elzuose = 10,
+	// 		/datum/species/moth = 5,
+	// 		/datum/species/spider = 5
+	// 	)
+	// )
 	//to-do: learn how to make mobsprites for other survivors
 
 	//gloves are a tossup
@@ -245,10 +249,6 @@
 				l_pocket = /obj/item/reagent_containers/food/snacks/meat/steak/goliath
 			else if(prob(60))
 				l_pocket = /obj/item/ammo_box/a762_stripper
-			if(prob(20))
-				new /obj/item/gun/ballistic/rifle/polymer(loc)
-			else
-				visible_message(span_warning("The hermit's weapon shatters as they impact the ground!"))
 
 		if("gunslinger")
 			uniform = pick_weight(list(
@@ -273,10 +273,6 @@
 				shoes = /obj/item/clothing/shoes/combat //sometimes there are nicer shoes
 			if(prob(50))
 				l_pocket = /obj/item/ammo_box/magazine/skm_46_30/recycled
-			if(prob(20))
-				new /obj/item/gun/ballistic/automatic/smg/skm_carbine(loc)
-			else
-				visible_message(span_warning("The hermit's weapon shatters as they impact the ground!"))
 
 		if("e11")
 			uniform = pick_weight(list(
@@ -293,10 +289,6 @@
 				)
 			)
 			shoes = /obj/item/clothing/shoes/workboots
-			if(prob(40)) // Hilarious, ain't it?
-				new /obj/item/gun/energy/e_gun/e11 (loc)
-			else
-				visible_message(span_warning("The trooper's weapon shatters as they impact the ground!"))
 	. = ..()
 
 
