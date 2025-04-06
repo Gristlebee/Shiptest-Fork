@@ -4,9 +4,7 @@
 	icon_state = "survivor_base"
 	icon_living = "survivor_base"
 	atmos_requirements = list("min_oxy" = 1, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 999, "min_n2" = 0, "max_n2" = 0)
-	loot = list(
-		/obj/effect/mob_spawn/human/corpse/damaged/whitesands
-	)
+	mob_spanwer = /obj/effect/mob_spawn/human/corpse/damaged/whitesands
 	armor_base = /obj/item/clothing/suit/hooded/survivor
 
 	speak_emote = list("breathes heavily.", "growls.", "sharply inhales.")
@@ -22,9 +20,8 @@
 /mob/living/simple_animal/hostile/human/hermit/survivor
 	name = "Hermit Wanderer"
 	desc =" A wild-eyed figure, wearing tattered mining equipment and boasting a malformed body, twisted by the heavy metals and high background radiation of the sandworlds."
-	loot = list(
-		/obj/effect/mob_spawn/human/corpse/damaged/whitesands/survivor
-	)
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/damaged/whitesands/survivor
+
 
 /mob/living/simple_animal/hostile/human/hermit/ranged
 	icon_state = "survivor_hunter"
@@ -36,13 +33,12 @@
 	rapid_fire_delay = 6
 	retreat_distance = 5
 	minimum_distance = 5
+	r_hand = /obj/item/gun/ballistic/rifle/polymer
 
 /mob/living/simple_animal/hostile/human/hermit/ranged/hunter
 	name = "Hermit Hunter"
 	desc ="A wild-eyed figure. Watch out- he has a gun, and he remembers just enough of his old life to use it!"
-	loot = list(
-		/obj/effect/mob_spawn/human/corpse/damaged/whitesands/hunter,
-	)
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/damaged/whitesands/hunter
 
 /mob/living/simple_animal/hostile/human/hermit/ranged/gunslinger
 	name = "Hermit Soldier"
@@ -54,9 +50,8 @@
 	rapid = 3
 	rapid_fire_delay = 3
 	casingtype = /obj/item/ammo_casing/c46x30mm/recycled
-	loot = list(
-		/obj/effect/mob_spawn/human/corpse/damaged/whitesands/gunslinger,
-	)
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/damaged/whitesands/gunslinger
+	r_hand = /obj/item/gun/ballistic/automatic/smg/skm_carbine
 
 /mob/living/simple_animal/hostile/human/hermit/ranged/e11
 	name = "Hermit Trooper"
@@ -68,9 +63,8 @@
 	rapid_fire_delay = 1
 	casingtype = null
 	projectiletype = /obj/projectile/beam/laser/eoehoma/hermit
-	loot = list(
-		/obj/effect/mob_spawn/human/corpse/damaged/whitesands/e11,
-	)
+	mob_spanwer = /obj/effect/mob_spawn/human/corpse/damaged/whitesands/e11
+	r_hand = /obj/item/gun/energy/e_gun/e11
 
 //survivor corpses
 
