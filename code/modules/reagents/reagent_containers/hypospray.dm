@@ -371,6 +371,17 @@
 	base_icon_state = "syndipen"
 	item_state = "syndipen"
 
+/obj/item/reagent_containers/hypospray/medipen/spent
+	name = "spent injector"
+	desc = "An injector that might have once contained something. It's spent now."
+	volume = 0
+	list_reagents = null
+
+/obj/item/reagent_containers/hypospray/medipen/spent/Initialize(mapload, vol)
+	. = ..()
+	reagents.maximum_volume = 0
+	update_appearance()
+
 //A vial-loaded hypospray. Cartridge-based!
 /obj/item/hypospray/mkii
 	name = "hypospray mk.II"
