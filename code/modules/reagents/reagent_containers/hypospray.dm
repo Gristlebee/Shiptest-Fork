@@ -382,6 +382,18 @@
 	reagents.maximum_volume = 0
 	update_appearance()
 
+/obj/item/reagent_containers/hypospray/medipen/spent/survival
+	name = "spent survival stimpack"
+	icon_state = "stimpen"
+	item_state = "stimpen"
+	base_icon_state = "stimpen"
+
+/obj/item/reagent_containers/hypospray/medipen/spent/mammoth
+	name = "spent mammoth injector"
+	icon_state = "syndipen"
+	base_icon_state = "syndipen"
+	item_state = "syndipen"
+
 //A vial-loaded hypospray. Cartridge-based!
 /obj/item/hypospray/mkii
 	name = "hypospray mk.II"
