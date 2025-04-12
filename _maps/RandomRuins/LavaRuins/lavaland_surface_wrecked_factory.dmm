@@ -162,11 +162,11 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/item/reagent_containers/hypospray/medipen/spent/survival,
 /obj/item/reagent_containers/hypospray/medipen/spent/survival{
 	pixel_x = 8;
 	pixel_y = -2
 	},
+/obj/item/reagent_containers/hypospray/medipen/stimpack,
 /turf/open/floor/carpet/blue,
 /area/ruin/lavaland/factory/manager_office)
 "bE" = (
@@ -1871,6 +1871,9 @@
 /obj/item/ammo_casing/spent/pistol_steel,
 /turf/open/floor/plasteel/mono,
 /area/ruin/lavaland/factory/warehouse)
+"rK" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/lavaland/factory/manager_office)
 "rO" = (
 /obj/effect/turf_decal/trimline/opaque/lime/warning{
 	dir = 4
@@ -2517,6 +2520,9 @@
 	},
 /turf/open/floor/concrete/pavement/lava,
 /area/overmap_encounter/planetoid/lava/explored)
+"yb" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/lavaland/factory/adminstrative)
 "yi" = (
 /obj/effect/turf_decal/trimline/opaque/ntblue/warning{
 	dir = 4
@@ -4897,7 +4903,7 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "XA" = (
 /obj/machinery/computer/security/telescreen/entertainment,
-/turf/closed/wall/mineral/titanium,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ruin/lavaland/factory/adminstrative)
 "XB" = (
 /obj/structure/table_frame,
@@ -5714,7 +5720,7 @@ Zc
 Zc
 Zc
 Zc
-Zc
+yb
 lj
 ey
 bx
@@ -6089,7 +6095,7 @@ LZ
 Vn
 Vn
 yQ
-yQ
+rK
 GS
 ZH
 DB
@@ -6413,7 +6419,7 @@ LZ
 Vn
 Vn
 yQ
-yQ
+rK
 ab
 vQ
 LL
