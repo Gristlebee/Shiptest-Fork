@@ -4,7 +4,9 @@
 	weapon_drop_chance = 0
 	var/stim = FALSE
 	retreat_distance = 3
-	minimum_distance = 5
+	minimum_distance = 3
+	aggro_say_chance = 100
+	on_aggro_say = list("I'll kill all you Ramzi scum! COME AND GET SOME!", "I'll kill every last one of you Ramzi bastards!", "Finally got the nerve to finish me off you scum sucking Ramzi assholes...  YOU WON'T GET ME TOO YOU BASTARDS!!")
 
 /obj/effect/mob_spawn/human/corpse/vigilitas_elite/factory
 	name = "Factory Manager"

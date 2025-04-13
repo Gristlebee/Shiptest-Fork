@@ -1,3 +1,5 @@
+#define VALID_POI_CONTAINERS list(/obj/structure/closet,/obj/structure/safe,/obj/structure/cabinet)
+
 /obj/effect/landmark/mission_poi
 	name = "mission poi"
 	icon = 'icons/effects/mission_poi.dmi'
@@ -13,6 +15,8 @@
 	var/mission_index = 1
 	///Prefered over the passed one, used for varediting primarly.
 	var/type_to_spawn
+	///checks for containters on the turf for this to put into
+	var/spawn_in_containter
 
 /obj/effect/landmark/mission_poi/Initialize(mapload)
 	. = ..()
@@ -61,6 +65,10 @@
 	for(var/atom/movable/item_in_poi as anything in get_turf(src))
 		if(istype(item_in_poi, type_to_spawn))
 			return item_in_poi
+
+/obj/effect/landmark/mission_poi/proc/get_container()
+	for(var/atom/movable/container as anything in get_turf(src))
+		if(is_type_in_list(container,VALID_POI_CONTAINERS))
 
 /obj/effect/landmark/mission_poi/main
 	name = "mission focus"
