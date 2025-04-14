@@ -15,6 +15,7 @@
 	outfit = /datum/outfit/vigilitas/elite/factory
 
 /datum/outfit/vigilitas/elite/factory
+	name = "Factory Manager"
 	backpack_contents = list(/obj/item/reagent_containers/hypospray/medipen/survival = 3, /obj/item/reagent_containers/hypospray/medipen/mammoth)
 
 /mob/living/simple_animal/hostile/human/nanotrasen/elite/factory/Life()
@@ -23,13 +24,6 @@
 		inject_stim()
 	if(stim)
 		shake_animation()
-
-// /mob/living/simple_animal/hostile/human/nanotrasen/elite/factory/attacked_by(obj/item/I, mob/living/user)
-// 	. = ..()
-
-
-// /mob/living/simple_animal/hostile/human/nanotrasen/elite/factory/bullet_act(obj/projectile/P)
-// 	. = ..()
 
 /mob/living/simple_animal/hostile/human/nanotrasen/elite/factory/updatehealth()
 	. = ..()
