@@ -3,7 +3,6 @@
 	desc = "A twitching mess clad in both the red of Vigilitas Interstellar and a blanket of fresh blood. Their eyes dart in addled paranoia, their shaking hands grasped tight on their waiting for the next target that could come from any direction."
 	weapon_drop_chance = 0
 	var/stim = FALSE
-	maxHealth = 100
 	retreat_distance = 3
 	minimum_distance = 3
 	aggro_say_chance = 100
