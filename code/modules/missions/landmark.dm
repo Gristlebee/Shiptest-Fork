@@ -16,7 +16,7 @@
 	///Prefered over the passed one, used for varediting primarly.
 	var/type_to_spawn
 	///checks for containters on the turf for this to put into
-	var/spawn_in_containter
+	var/spawn_in_containter = FALSE
 
 /obj/effect/landmark/mission_poi/Initialize(mapload)
 	. = ..()
@@ -49,7 +49,13 @@
 		item_of_interest = search_poi()
 		if(!item_of_interest)
 			CRASH("[src] is meant to have its item prespawned but could not find it on its tile.")
-	else //Spawn the item
+	else if(spawn_in_containter)//Spawn the item
+		var/poi_container = get_container()
+		if(poi_container)
+			item_of_interest = new type_to_spawn(poi_container)
+		else
+			CRASH("[src] is meant to have a container to be spawn inside but could not find one on its tile.")
+	else
 		item_of_interest = new type_to_spawn(loc)
 	// We dont have an item to return
 	if(!istype(item_of_interest))
@@ -69,6 +75,7 @@
 /obj/effect/landmark/mission_poi/proc/get_container()
 	for(var/atom/movable/container as anything in get_turf(src))
 		if(is_type_in_list(container,VALID_POI_CONTAINERS))
+			return container
 
 /obj/effect/landmark/mission_poi/main
 	name = "mission focus"

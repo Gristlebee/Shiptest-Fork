@@ -1,6 +1,6 @@
 /mob/living/simple_animal/hostile/human/nanotrasen/elite/factory
-	name = "Manager"
-	desc = "A twitching mess clad in both the red of Vigilitas Interstellar anda blanket of fresh blood. Their eyes dart in addled paranoia, their shaking hands grasped tight on their waiting for the next target that could come from any direction."
+	name = "Manager Sam Cho"
+	desc = "A twitching mess clad in both the red of Vigilitas Interstellar and a blanket of fresh blood. Their eyes dart in addled paranoia, their shaking hands grasped tight on their waiting for the next target that could come from any direction."
 	weapon_drop_chance = 0
 	var/stim = FALSE
 	retreat_distance = 3
@@ -14,7 +14,7 @@
 	outfit = /datum/outfit/vigilitas/elite/factory
 
 /datum/outfit/vigilitas/elite/factory
-	backpack_contents = (/obj/item/reagent_containers/hypospray/medipen/survival = 3, /obj/item/reagent_containers/hypospray/medipen/mammoth)
+	backpack_contents = list(/obj/item/reagent_containers/hypospray/medipen/survival = 3, /obj/item/reagent_containers/hypospray/medipen/mammoth)
 
 /mob/living/simple_animal/hostile/human/nanotrasen/elite/factory/Life()
 	. = ..()
