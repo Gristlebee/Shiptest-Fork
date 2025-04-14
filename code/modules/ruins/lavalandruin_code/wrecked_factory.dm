@@ -3,6 +3,7 @@
 	desc = "A twitching mess clad in both the red of Vigilitas Interstellar and a blanket of fresh blood. Their eyes dart in addled paranoia, their shaking hands grasped tight on their waiting for the next target that could come from any direction."
 	weapon_drop_chance = 0
 	var/stim = FALSE
+	maxHealth = 100
 	retreat_distance = 3
 	minimum_distance = 3
 	aggro_say_chance = 100
@@ -23,7 +24,14 @@
 	if(stim)
 		shake_animation()
 
-/mob/living/simple_animal/hostile/human/nanotrasen/elite/factory/attacked_by(obj/item/I, mob/living/user)
+// /mob/living/simple_animal/hostile/human/nanotrasen/elite/factory/attacked_by(obj/item/I, mob/living/user)
+// 	. = ..()
+
+
+// /mob/living/simple_animal/hostile/human/nanotrasen/elite/factory/bullet_act(obj/projectile/P)
+// 	. = ..()
+
+/mob/living/simple_animal/hostile/human/nanotrasen/elite/factory/updatehealth()
 	. = ..()
 	if(health <= maxHealth/2 && !stim)
 		inject_stim()
