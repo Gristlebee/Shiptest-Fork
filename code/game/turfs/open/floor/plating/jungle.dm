@@ -130,6 +130,21 @@
 	light_range = 2
 	light_power = 1
 
+/turf/open/floor/plasteel/jungleplanet
+	planetary_atmos = TRUE
+	light_color = COLOR_JUNGLEPLANET_LIGHT
+	initial_gas_mix = JUNGLEPLANET_DEFAULT_ATMOS
+
+/turf/open/floor/plasteel/tech/jungleplanet
+	planetary_atmos = TRUE
+	light_color = COLOR_JUNGLEPLANET_LIGHT
+	initial_gas_mix = JUNGLEPLANET_DEFAULT_ATMOS
+
+/turf/open/floor/plasteel/tech/jungleplanet
+	planetary_atmos = TRUE
+	light_color = COLOR_JUNGLEPLANET_LIGHT
+	initial_gas_mix = JUNGLEPLANET_DEFAULT_ATMOS
+
 /turf/open/floor/plasteel/white/jungleplanet
 	planetary_atmos = TRUE
 	light_color = COLOR_JUNGLEPLANET_LIGHT
@@ -147,6 +162,21 @@
 /turf/open/floor/plasteel/mono/dark/jungleplanet/lit
 	light_range = 2
 	light_power = 1
+
+/turf/open/floor/wood/jungleplanet
+	planetary_atmos = TRUE
+	light_color = COLOR_JUNGLEPLANET_LIGHT
+	initial_gas_mix = JUNGLEPLANET_DEFAULT_ATMOS
+
+/turf/open/floor/carpet/red/jungleplanet
+	planetary_atmos = TRUE
+	light_color = COLOR_JUNGLEPLANET_LIGHT
+	initial_gas_mix = JUNGLEPLANET_DEFAULT_ATMOS
+
+/turf/open/floor/plasteel/freezer/jungleplanet
+	planetary_atmos = TRUE
+	light_color = COLOR_JUNGLEPLANET_LIGHT
+	initial_gas_mix = JUNGLEPLANET_DEFAULT_ATMOS
 
 //cementcrete
 
