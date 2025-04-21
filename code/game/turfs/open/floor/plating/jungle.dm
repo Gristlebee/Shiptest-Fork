@@ -178,6 +178,11 @@
 	light_color = COLOR_JUNGLEPLANET_LIGHT
 	initial_gas_mix = JUNGLEPLANET_DEFAULT_ATMOS
 
+/turf/open/floor/plasteel/patterned/brushed/jungleplanet
+	planetary_atmos = TRUE
+	light_color = COLOR_JUNGLEPLANET_LIGHT
+	initial_gas_mix = JUNGLEPLANET_DEFAULT_ATMOS
+
 //cementcrete
 
 /turf/open/floor/concrete/jungleplanet

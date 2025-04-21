@@ -331,7 +331,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/poison/giant_spider,
-/turf/open/floor/plasteel/patterned/brushed,
+/turf/open/floor/plasteel/patterned/brushed/jungleplanet,
 /area/ruin/jungle/airbase/dorms)
 "bF" = (
 /obj/structure/cable{
@@ -419,7 +419,7 @@
 /area/overmap_encounter/planetoid/jungle/explored)
 "ca" = (
 /obj/structure/spider/stickyweb,
-/turf/open/floor/plasteel/patterned/brushed,
+/turf/open/floor/plasteel/patterned/brushed/jungleplanet,
 /area/ruin/jungle/airbase/dorms)
 "cb" = (
 /obj/machinery/suit_storage_unit/industrial/atmos_firesuit,
@@ -4437,7 +4437,7 @@
 	pixel_y = 17;
 	pixel_x = -8
 	},
-/turf/open/floor/plasteel/patterned/brushed,
+/turf/open/floor/plasteel/patterned/brushed/jungleplanet,
 /area/ruin/jungle/airbase/dorms)
 "sK" = (
 /obj/effect/gibspawner/generic/animal,
@@ -7572,7 +7572,7 @@
 "Gv" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/spider/stickyweb,
-/turf/open/floor/plasteel/patterned/brushed,
+/turf/open/floor/plasteel/patterned/brushed/jungleplanet,
 /area/ruin/jungle/airbase/dorms)
 "Gw" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/end,
@@ -10916,7 +10916,7 @@
 	pixel_y = 17;
 	pixel_x = -9
 	},
-/turf/open/floor/plasteel/patterned/brushed,
+/turf/open/floor/plasteel/patterned/brushed/jungleplanet,
 /area/ruin/jungle/airbase/dorms)
 "UE" = (
 /obj/structure/cable{
@@ -11321,7 +11321,7 @@
 /obj/structure/spider/cocoon,
 /obj/structure/spider/stickyweb,
 /obj/item/gun/ballistic/automatic/pistol/ringneck/no_mag,
-/turf/open/floor/plasteel/patterned/brushed,
+/turf/open/floor/plasteel/patterned/brushed/jungleplanet,
 /area/ruin/jungle/airbase/dorms)
 "Wp" = (
 /obj/effect/turf_decal/techfloor,
@@ -12031,7 +12031,7 @@
 	dir = 4;
 	name = "Restroom"
 	},
-/turf/open/floor/plasteel/patterned/brushed,
+/turf/open/floor/plasteel/patterned/brushed/jungleplanet,
 /area/ruin/jungle/airbase/dorms)
 "ZA" = (
 /obj/structure/table,
