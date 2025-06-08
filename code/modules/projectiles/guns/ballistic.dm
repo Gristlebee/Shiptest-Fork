@@ -97,7 +97,7 @@
 		chamber_round()
 
 	if(manufacturer != MANUFACTURER_SCARBOROUGH)
-		gun_wear = wear_excellent_threshold
+		gun_wear = (wear_excellent_threshold + 1)
 
 	update_appearance()
 
@@ -403,9 +403,11 @@
 	if(bolt_type != BOLT_TYPE_NO_BOLT && wear_rate)
 		. += "You can [bolt_wording] [src] by pressing the <b>unique action</b> key. By default, this is <b>space</b>"
 		var/conditionstr = span_boldwarning("critical")
-		var/minorhalf = wear_minor_threshold / 2
+		var/minorhalf = wear_minor_threshold + (wear_minor_threshold-wear_excellent_threshold) / 2
 		var/majorhalf = wear_minor_threshold + (wear_major_threshold-wear_minor_threshold) / 2
-		if(gun_wear <= minorhalf)
+		if(gun_wear <= wear_excellent_threshold)
+			conditionstr = span_green("excellent")
+		else if(gun_wear <= minorhalf)
 			conditionstr = span_green("good")
 		else if(gun_wear <= wear_minor_threshold)
 			conditionstr = span_nicegreen("decent") //nicegreen is less neon than green so it looks less :)))

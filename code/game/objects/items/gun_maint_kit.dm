@@ -16,6 +16,7 @@
 	. += "It can be used [uses] more times."
 
 /obj/item/gun_maint_kit/afterattack(atom/target, mob/user, proximity)
+	var/conditionstr = "though it would benefit from another cycle"
 	if(!proximity)
 		return
 	if(!uses)
@@ -38,6 +39,16 @@
 		return
 	fixable.cut_overlay(GLOB.cleaning_bubbles)
 	fixable.wash(CLEAN_SCRUB)
-	fixable.adjust_wear(-wear_reduction)
-	user.visible_message(span_notice("[user] finishes cleaning [fixable]!"), span_notice("You finish cleaning [fixable], [fixable.gun_wear < wear_reduction ? "and it's in pretty good condition" : "though it would benefit from another cycle"]."))
+	if(fixable.gun_wear - wear_reduction <= fixable.wear_excellent_threshold)
+		var/base_reduction = min((fixable.gun_wear - fixable.wear_excellent_threshold), 0)
+		if(base_reduction > 0)
+			fixable.adjust_wear(base_reduction)
+		var/excess_reduction = (wear_reduction - base_reduction)/3 /// the gun is already in good condition, you cant improve it much more
+		fixable.adjust_wear(excess_reduction)
+		conditionstr = "though it's already in excellent condition, and it's hard to improve it much more"
+	else
+		fixable.adjust_wear(-wear_reduction)
+		if(fixable.gun_wear < fixable.wear_minor_threshold)
+			conditionstr = "and it's in pretty good condition"
+	user.visible_message(span_notice("[user] finishes cleaning [fixable]!"), span_notice("You finish cleaning [fixable], [conditionstr]."))
 	uses--
