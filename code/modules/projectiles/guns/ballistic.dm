@@ -42,6 +42,8 @@
 	var/wear_major_threshold = 240
 	/// Highest wear value so the gun doesn't end up completely irreperable
 	var/wear_maximum = 360
+
+	var/wear_state = CONDITION_GOOD
 	/// Doesn't ever keep ammo when loading a new round into the chamber. Mainly for BOLT_TYPE_NO_BOLT guns.
 	var/doesnt_keep_bullet = FALSE
 
@@ -453,6 +455,16 @@
 		gun_wear = round(clamp(gun_wear + wear_rate * amt, 0, wear_maximum), 0.01)
 	else
 		gun_wear = round(clamp(gun_wear + clean_rate * amt, 0, wear_maximum), 0.01)
+
+/obj/item/gun/ballistic/proc/apply_wear_modifier()
+	switch(wear_state)
+		if(CONDITION_EXCELLENT)
+
+		if(CONDITION_DECENT)
+
+		if(CONDITION_POOR)
+
+		if(CONDITION_TERRIBLE)
 
 /// Remember: you can always trust a loaded gun to go off at least once.
 /obj/item/gun/ballistic/proc/accidents_happen(mob/darwin)

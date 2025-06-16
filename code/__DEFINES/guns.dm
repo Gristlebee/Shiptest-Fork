@@ -33,6 +33,16 @@
 ///added recoil of sawn off guns
 #define SAWN_OFF_RECOIL 1
 
+#define CONDITION_EXCELLENT 0
+
+#define CONDITION_GOOD 1
+
+#define CONDITION_DECENT 2
+
+#define CONDITION_POOR 3
+
+#define CONDITION_TERRIBLE 4
+
 //Autofire component
 /// Compatible firemode is in the gun. Wait until it's held in the user hands.
 #define AUTOFIRE_STAT_IDLE (1<<0)
