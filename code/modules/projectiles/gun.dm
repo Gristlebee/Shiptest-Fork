@@ -554,7 +554,10 @@
 		return process_other_two(target, user, message, flag, params, zone_override, bonus_spread)
 
 	//if all of that succeded, we finally get to process firing
-	return process_fire(target, user, TRUE, params, null, bonus_spread)
+	if(process_fire(target, user, TRUE, params, null, bonus_spread))
+		return post_fire(target, user,  message)
+	else
+		return FALSE
 
 /obj/item/gun/proc/process_other(atom/target, mob/living/user, message = TRUE, flag, params = null, zone_override = "", bonus_spread = 0)
 	return //use this for 'underbarrels!!
@@ -661,6 +664,9 @@
 		user.update_inv_hands()
 
 	SSblackbox.record_feedback("tally", "gun_fired", 1, type)
+	return TRUE
+
+/obj/item/gun/proc/post_fire(atom/target, mob/living/user, message = TRUE)
 	return TRUE
 
 /obj/item/gun/proc/reset_current_cooldown()

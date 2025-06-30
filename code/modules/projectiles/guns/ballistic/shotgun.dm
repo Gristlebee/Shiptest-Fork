@@ -238,7 +238,7 @@ NO_MAG_GUN_HELPER(shotgun/automatic/bulldog/inteq)
 	allowed_ammo_types = list(
 		/obj/item/ammo_box/magazine/internal/shot/sex,
 	)
-	burst_size = 6
+	burst_size = 7
 	burst_delay = 0.04 SECONDS //?? very weird number
 	pb_knockback = 12
 	unique_reskin = null
@@ -254,20 +254,41 @@ NO_MAG_GUN_HELPER(shotgun/automatic/bulldog/inteq)
 	manufacturer = MANUFACTURER_BRAZIL
 	gun_firemodes = list(FIREMODE_BURST)
 	default_firemode = FIREMODE_BURST
+	var/shots_fired = 0
+	var/flat_dam = FALSE
 
 /obj/item/gun/ballistic/shotgun/doublebarrel/brazil/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
-	if(prob(0 + (magazine.ammo_count() * 10)))
-		if(prob(10))
-			to_chat(user, "<span class='userdanger'>Something isn't right. \the [src] doesn't fire for a brief moment. Then, the following words come to mind: \
-			Ó Pátria amada, \n\
-			Idolatrada, \n\
-			Salve! Salve!</span>")
+	. = ..()
+	shots_fired++
 
-			message_admins("A [src] misfired and exploded at [ADMIN_VERBOSEJMP(src)], which was fired by [user].") //logging
-			log_admin("A [src] misfired and exploded at [ADMIN_VERBOSEJMP(src)], which was fired by [user].")
-			user.take_bodypart_damage(0,50)
-			explosion(src, 0, 2, 4, 6, TRUE, TRUE)
-	..()
+/obj/item/gun/ballistic/shotgun/doublebarrel/brazil/post_fire(atom/target, mob/living/user, message = TRUE)
+	. = ..()
+	var/obj/item/bodypart/affected_hand = user.get_bodypart("[(user.active_hand_index % 2 == 0) ? "r" : "l" ]_arm")
+	if(affected_hand)
+		to_chat(user, span_danger("\The [src] kicks back violently into your shoulder from the recoil!"))
+		affected_hand.receive_damage(10 * shots_fired)
+	shots_fired = 0
+
+
+
+/obj/item/gun/ballistic/shotgun/doublebarrel/brazil/jam(shooter)
+	var/explode_chance = 0
+
+	if(gun_wear > wear_major_threshold)
+		explode_chance = (gun_wear / wear_maximum) * 100
+
+	if(prob(explode_chance))
+		to_chat(shooter, span_danger("Something isn't right. \the [src] doesn't fire for a brief moment. Then, the following words come to mind: \
+		Ó Pátria amada, \n\
+		Idolatrada, \n\
+		Salve! Salve!</span>"))
+
+		message_admins("A [src] misfired and exploded at [ADMIN_VERBOSEJMP(src)], which was fired by [shooter].") //logging
+		log_admin("A [src] misfired and exploded at [ADMIN_VERBOSEJMP(src)], which was fired by [shooter].")
+		explosion(src, 0, 2, 4, 6, TRUE, TRUE)
+	else
+		to_chat(shooter, span_danger("Something isn't right. \the [src] doesn't fire and makes a loud clunking noise, though  it doesn't do anything else. That could have been bad."))
+		return ..()
 /obj/item/gun/ballistic/shotgun/doublebarrel/brazil/death
 	name = "Force of Nature"
 	desc = "So you have chosen death."

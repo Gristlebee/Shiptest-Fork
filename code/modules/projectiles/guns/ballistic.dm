@@ -159,11 +159,14 @@
 	if(gun_wear < wear_minor_threshold)
 		return FALSE
 	if(gun_wear >= wear_major_threshold ?  prob(JAM_CHANCE_MAJOR) : prob(JAM_CHANCE_MINOR) && last_jam >= JAM_GRACE_MINOR)
-		bolt_locked = TRUE
-		last_jam = 0 // sighs and erases number on whiteboard
-		balloon_alert(shooter, "jammed!")
-		playsound(src, 'sound/weapons/gun/general/dry_fire_old.ogg', 50, TRUE, -15) //click. uhoh.
-		return TRUE
+		jam(shooter)
+
+/obj/item/gun/ballistic/proc/jam(shooter)
+	bolt_locked = TRUE
+	last_jam = 0 // sighs and erases number on whiteboard
+	balloon_alert(shooter, "jammed!")
+	playsound(src, 'sound/weapons/gun/general/dry_fire_old.ogg', 50, TRUE, -15) //click. uhoh.
+	return TRUE
 
 ///Used to chamber a new round and eject the old one
 /obj/item/gun/ballistic/proc/chamber_round(keep_bullet = FALSE)
@@ -312,7 +315,7 @@
 			update_appearance()
 
 ///postfire empty checks for bolt locking and sound alarms
-/obj/item/gun/ballistic/proc/postfire_empty_checks(last_shot_succeeded)
+/obj/item/gun/ballistic/proc/postfire_empty_checks(last_shot_succeeded, mob/living/user)
 	if (!chambered && !get_ammo())
 		if (empty_alarm && last_shot_succeeded)
 			playsound(src, empty_alarm_sound, empty_alarm_volume, empty_alarm_vary)
@@ -332,7 +335,7 @@
 
 /obj/item/gun/ballistic/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0, burst_firing = FALSE, spread_override = 0, iteration = 0)
 	. = ..() //The gun actually firing
-	postfire_empty_checks(.)
+	postfire_empty_checks(. , user)
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
 /obj/item/gun/ballistic/attack_hand(mob/user)
