@@ -317,10 +317,6 @@
 /mob/living/simple_animal/hostile/carp,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/astraeus/bridge)
-"iR" = (
-/obj/structure/lattice,
-/turf/open/space,
-/area/space/nearstation)
 "jd" = (
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/astraeus/disposals)
@@ -511,11 +507,6 @@
 /area/ruin/space/has_grav/astraeus/munitions)
 "oO" = (
 /obj/structure/table,
-/obj/item/circuitboard/machine/circuit_imprinter{
-	pixel_x = -5;
-	pixel_y = 7
-	},
-/obj/item/disk/design_disk/ammo_1911,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/astraeus/munitions)
 "ph" = (
@@ -570,10 +561,6 @@
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/astraeus/hallway)
-"qQ" = (
-/obj/item/circuitboard/machine/protolathe,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/astraeus/disposals)
 "qU" = (
 /obj/structure/chair/office,
 /turf/open/floor/plasteel/airless,
@@ -1445,7 +1432,6 @@
 /area/ruin/space/has_grav/astraeus/bridge)
 "Ni" = (
 /obj/structure/closet/wall/directional/north,
-/obj/item/circuitboard/computer/rdconsole,
 /obj/item/clothing/suit/toggle/labcoat,
 /obj/item/research_notes/loot/big,
 /turf/closed/wall,
@@ -1571,7 +1557,7 @@
 "Rn" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
-/turf/open/space,
+/turf/template_noop,
 /area/space/nearstation)
 "Rt" = (
 /obj/machinery/light/small/broken/directional/south,
@@ -1779,10 +1765,6 @@
 	},
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/astraeus/bridge)
-"Wy" = (
-/obj/item/stack/tile/wood,
-/turf/open/space,
-/area/space/nearstation)
 "WL" = (
 /turf/closed/wall,
 /area/ruin/space/has_grav/astraeus/dorms_med)
@@ -2239,7 +2221,7 @@ Wl
 Wl
 ac
 ac
-Wy
+sL
 ac
 ac
 ac
@@ -2370,8 +2352,8 @@ sR
 wv
 sR
 IA
-iR
-iR
+XD
+XD
 ry
 TW
 jI
@@ -2995,7 +2977,7 @@ XD
 dm
 eE
 kf
-qQ
+jd
 zZ
 FV
 Lw
