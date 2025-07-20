@@ -1,5 +1,5 @@
 /datum/supply_pack/armor
-	group = "Armor"
+	category = "Armor"
 	crate_type = /obj/structure/closet/crate/secure
 
 
@@ -90,7 +90,7 @@
 	faction_locked = TRUE
 
 //gezena
-/datum/supply_pack/armor/pgf_armor
+/datum/supply_pack/armor/pgf_marine_armor
 	name = "Raksha-plate Crate"
 	desc = "One set of standard issue Raksha-plate armor, highly protective and very mobile. The helmet is adjustable for horns."
 	cost = 1500
@@ -164,19 +164,3 @@
 	faction = /datum/faction/srm
 	faction_discount = 0
 	faction_locked = TRUE
-
-//coalition
-
-/datum/supply_pack/armor/coalition_armor
-	name = "Coalition Armor Crate"
-	desc = "An surplus plate carrier left over from the ICW. Its still painted in Coalition colors and likely to trigger IFF on turrets around the Frontier."
-	cost = 750
-	contains = list(/obj/item/clothing/suit/armor/vest/syndie,
-					/obj/item/clothing/head/helmet/syndie)
-	crate_name = "armor crate"
-	crate_type = /obj/structure/closet/crate/secure/gear
-	faction = /datum/faction/syndicate
-	faction_discount = 0
-	faction_locked = TRUE
-
-

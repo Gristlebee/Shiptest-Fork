@@ -1,6 +1,7 @@
 /obj/effect/mob_spawn/human/corpse/frontier
 	name = "Frontiersman"
 	outfit = /datum/outfit/frontier
+	brute_damage = 150
 
 /obj/effect/mob_spawn/human/corpse/frontier/internals
 	outfit = /datum/outfit/frontier/internals
@@ -33,6 +34,7 @@
 /datum/outfit/job/frontiersmen/doctor/corpse
 	name = "Frontiersmen Surgeon Corpse"
 	r_pocket = null
+	ears = null
 
 /datum/outfit/job/frontiersmen/doctor/corpse/internals
 	name = "Frontiersmen Surgeon Corpse Internals"
@@ -86,7 +88,6 @@
 	name = "Frontiersman Heavy Corpse"
 	suit = /obj/item/clothing/suit/space/hardsuit/security/independent/frontier
 	head = /obj/item/clothing/head/beret/sec/frontier/officer
-	back = /obj/item/minigunpack
 
 /obj/effect/mob_spawn/human/corpse/frontier/ranged/trooper/heavy/internals
 	outfit = /datum/outfit/frontier/trooper/heavy/internals
@@ -96,20 +97,14 @@
 	mask = /obj/item/clothing/mask/gas/frontiersmen
 	l_pocket = /obj/item/tank/internals/emergency_oxygen/engi
 
-/obj/effect/mob_spawn/human/corpse/frontier/ranged/trooper/heavy/gunless
-	outfit = /datum/outfit/frontier/trooper/heavy/gunless
-
 /obj/effect/mob_spawn/human/corpse/frontier/ranged/trooper/flame
 	outfit = /datum/outfit/job/frontiersmen/ert/flamer/corpse
 
 /datum/outfit/job/frontiersmen/ert/flamer/corpse
 	name = "Frontiersman Flametrooper Corpse"
+	ears = null
 	back = null
 	belt = /obj/item/storage/belt/security/military/frontiersmen
 	l_hand = null
-
 	backpack_contents = null
-
-/datum/outfit/frontier/trooper/heavy/gunless
-	name = "Frontiersman Heavy Corpse (Gunless)"
-	back = null
+	box = null

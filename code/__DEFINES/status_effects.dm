@@ -34,6 +34,8 @@
 
 #define STATUS_EFFECT_ANTIMAGIC /datum/status_effect/antimagic //grants antimagic (and reapplies if lost) for the duration
 
+#define STATUS_EFFECT_DETERMINED /datum/status_effect/determined //currently in a combat high from being seriously wounded
+
 /////////////
 // DEBUFFS //
 /////////////
@@ -95,6 +97,8 @@
 
 #define STATUS_EFFECT_FAKE_VIRUS /datum/status_effect/fake_virus //gives you fluff messages for cough, sneeze, headache, etc but without an actual virus
 
+#define STATUS_EFFECT_LIMP /datum/status_effect/limp //For when you have a busted leg (or two!) and want additional slowdown when walking on that leg
+
 #define STATUS_EFFECT_METAB_FROZEN /datum/status_effect/metab_frozen // Affected cannot process chems
 
 //Incapacitated status effect flags
@@ -138,6 +142,7 @@
 // Grouped effect sources, see also code/__DEFINES/traits.dm
 
 #define STASIS_MACHINE_EFFECT "stasis_machine"
+#define STASIS_DRUG_EFFECT "stasis_drug"
 
 // Stasis helpers
 

@@ -8,21 +8,19 @@
 /datum/gear/accessory/scarf
 	subtype_path = /datum/gear/accessory/scarf
 
-/datum/gear/accessory/scarf/red
-	display_name = "scarf, red"
-	path = /obj/item/clothing/neck/scarf/red
-
-/datum/gear/accessory/scarf/green
-	display_name = "scarf, green"
-	path = /obj/item/clothing/neck/scarf/green
-
-/datum/gear/accessory/scarf/blue
-	display_name = "scarf, blue"
-	path = /obj/item/clothing/neck/scarf/darkblue
+/datum/gear/accessory/scarf/recolorable
+	display_name = "scarf, recolorable"
+	path = /obj/item/clothing/neck/scarf
 
 /datum/gear/accessory/shemagh
 	display_name = "shemagh"
 	path = /obj/item/clothing/neck/shemagh
+
+//poncho
+
+/datum/gear/accessory/poncho
+	display_name = "poncho, recolorable"
+	path = /obj/item/clothing/neck/poncho
 
 //(The actually good scarves)
 
@@ -124,6 +122,10 @@
 /datum/gear/accessory/mask/balaclava
 	display_name = "balaclava"
 	path = /obj/item/clothing/mask/balaclava
+
+/datum/gear/accessory/mask/facemask
+	display_name = "face mask"
+	path = /obj/item/clothing/mask/breath/facemask
 
 //Misc
 

@@ -107,6 +107,16 @@
 	ammo_x_offset = 3
 	manufacturer = MANUFACTURER_SHARPLITE
 
+	unique_attachments = list(
+		/obj/item/attachment/scope,
+		/obj/item/attachment/long_scope,
+	)
+	slot_available = list(
+		ATTACHMENT_SLOT_MUZZLE = 1,
+		ATTACHMENT_SLOT_RAIL = 1,
+		ATTACHMENT_SLOT_SCOPE = 1
+	)
+
 /obj/item/ammo_casing/energy/laser/accelerator
 	projectile_type = /obj/projectile/beam/laser/accelerator
 	select_name = "accelerator"
@@ -216,6 +226,6 @@
 /obj/item/gun/energy/laser/hitscanpistol/examine_more(mob/user)
 	. = ..()
 	if(in_range(src, user) || isobserver(user))
-		. += "<span class='notice'>You examine [src] closer. Under the grip is a small inscription: \"NT CN SVALINN 462\".</span>"
+		. += span_notice("You examine [src] closer. Under the grip is a small inscription: \"NT CN SVALINN 462\".")
 	else
-		. += "<span class='warning'>You try to examine [src] closer, but you're too far away.</span>"
+		. += span_warning("You try to examine [src] closer, but you're too far away.")

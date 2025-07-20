@@ -126,21 +126,21 @@
 		//the illusive shrapnel plant
 		/obj/item/mine/pressure/explosive/shrapnel/live = 30,
 		/obj/effect/spawner/random/mine = 8,
-		/obj/effect/spawner/minefield = 2
+		/obj/effect/spawner/minefield/tiny = 2
 	)
 
 	feature_spawn_list = list(
 		/obj/effect/radiation/waste = 30,
 		/obj/effect/radiation/waste/intense = 10,
 		/obj/structure/geyser/random = 1,
-		/obj/effect/spawner/random/anomaly/waste = 1
+		/obj/effect/spawner/random/anomaly/waste = 1,
 	)
 
 	mob_spawn_list = list(
-		//hivebots, not too difficult
-		/mob/living/simple_animal/hostile/hivebot/strong = 20,
-		/mob/living/simple_animal/hostile/hivebot/ranged = 40,
-		/mob/living/simple_animal/hostile/hivebot/ranged/rapid = 30,
+		//hivebots, they're finally difficult.
+		/mob/living/basic/hivebot/strong = 20,
+		/mob/living/basic/hivebot/ranged = 40,
+		/mob/living/basic/hivebot/rapid = 30,
 		//bots, are hostile
 		/mob/living/simple_animal/bot/firebot/rockplanet = 15,
 		/mob/living/simple_animal/bot/secbot/ed209/rockplanet = 3,
@@ -149,8 +149,8 @@
 	)
 
 	flora_spawn_chance = 25
-	feature_spawn_chance = 0.5
-	mob_spawn_chance = 2
+	feature_spawn_chance = 0.75
+	mob_spawn_chance = 1.5
 
 /datum/biome/waste/crater
 	open_turf_types = list(
@@ -202,9 +202,9 @@
 		/obj/effect/spawner/random/maintenance/four = 20,
 		/obj/structure/flora/ash/garden/waste = 300,
 		/obj/structure/flora/ash/glowshroom = 1800,
-		/obj/item/mine/pressure/explosive/shrapnel/live = 30,
+		/obj/item/mine/pressure/explosive/rusty/live = 30,
 		/obj/effect/spawner/random/mine = 8,
-		/obj/effect/spawner/minefield = 2
+		/obj/effect/spawner/minefield/tiny = 2
 	)
 
 /datum/biome/waste/tar_bed //tar colorings
@@ -218,6 +218,13 @@
 		/turf/open/water/tar/waste/lit = 1
 	)
 	flora_spawn_chance = 0
+
+	feature_spawn_list = list(
+		/obj/effect/radiation/waste = 30,
+		/obj/effect/radiation/waste/intense = 10,
+		/obj/structure/geyser/random = 1,
+		/obj/effect/spawner/random/anomaly/waste = 1,
+	)
 
 /datum/biome/waste/metal
 	open_turf_types = list(
@@ -248,20 +255,22 @@
 		/obj/effect/spawner/random/waste/atmos_can = 180,
 		/obj/effect/spawner/random/waste/atmos_can/rare = 1,
 		/obj/effect/spawner/random/waste/salvageable = 300,
-		/obj/item/mine/pressure/explosive/rad/live = 30,
+		/obj/item/mine/pressure/explosive/rusty/live = 30,
 		/obj/effect/spawner/random/mine = 8,
-		/obj/effect/spawner/minefield = 2
+		/obj/effect/spawner/minefield/tiny = 2
 	)
 	mob_spawn_list = list( //nor organics, more biased towards hivebots though
-		/mob/living/simple_animal/hostile/hivebot/strong = 20,
-		/mob/living/simple_animal/hostile/hivebot/ranged = 50,
-		/mob/living/simple_animal/hostile/hivebot/ranged/rapid = 50,
+		/mob/living/basic/hivebot = 40,
+		/mob/living/basic/hivebot/strong = 10,
+		/mob/living/basic/hivebot/ranged = 20,
+		/mob/living/basic/hivebot/rapid = 20,
 		/mob/living/simple_animal/bot/firebot/rockplanet = 15,
 		/mob/living/simple_animal/bot/secbot/ed209/rockplanet = 3,
 		/mob/living/simple_animal/hostile/abandoned_minebot = 15,
 		/mob/living/simple_animal/bot/floorbot/rockplanet = 15,
-		/obj/structure/spawner/hivebot = 35
+		/obj/structure/spawner/hivebot = 10
 	)
+	mob_spawn_chance = 2
 
 /datum/biome/waste/metal/rust
 	open_turf_types = list(
@@ -308,21 +317,23 @@
 		/obj/effect/spawner/random/waste/salvageable = 400,
 		/obj/structure/flora/ash/garden/waste = 70,
 		/obj/structure/flora/ash/glowshroom = 400, //more common in caves
-		/obj/item/mine/pressure/explosive/rad/live = 10,
+		/obj/item/mine/pressure/explosive/rusty/live = 10,
 		/obj/effect/spawner/random/mine = 8,
-		/obj/effect/spawner/minefield = 2
+		/obj/effect/spawner/minefield/tiny = 2
 	)
 
 	feature_spawn_list = list(
 		/obj/effect/radiation/waste = 30,
 		/obj/effect/radiation/waste/intense = 10,
 		/obj/structure/geyser/random = 1,
-		/obj/effect/spawner/random/anomaly/waste/cave = 1
+		/obj/effect/spawner/minefield = 5,
+		/obj/effect/spawner/random/anomaly/waste/cave = 1,
 	)
 	mob_spawn_list = list(
-		/mob/living/simple_animal/hostile/hivebot/strong = 20,
-		/mob/living/simple_animal/hostile/hivebot/ranged = 40,
-		/mob/living/simple_animal/hostile/hivebot/ranged/rapid = 30,
+		/mob/living/basic/hivebot = 50,
+		/mob/living/basic/hivebot/strong = 20,
+		/mob/living/basic/hivebot/ranged = 40,
+		/mob/living/basic/hivebot/rapid = 30,
 		/mob/living/simple_animal/bot/firebot/rockplanet = 15,
 		/mob/living/simple_animal/bot/secbot/ed209/rockplanet = 3,
 		/mob/living/simple_animal/hostile/abandoned_minebot = 15,
@@ -345,6 +356,12 @@
 		/turf/open/water/tar/waste = 1
 	)
 	flora_spawn_chance = 0
+	feature_spawn_list = list(
+		/obj/effect/radiation/waste = 30,
+		/obj/effect/radiation/waste/intense = 10,
+		/obj/structure/geyser/random = 1,
+		/obj/effect/spawner/random/anomaly/waste/cave = 1
+	)
 
 /datum/biome/cave/waste/rad
 	flora_spawn_list = list(
@@ -364,9 +381,9 @@
 		/obj/effect/spawner/random/maintenance/three = 100,
 		/obj/effect/spawner/random/maintenance/four = 200,
 		/obj/structure/flora/ash/glowshroom = 1800,
-		/obj/item/mine/pressure/explosive/rad/live = 30,
+		/obj/item/mine/pressure/explosive/rusty/live = 30,
 		/obj/effect/spawner/random/mine = 8,
-		/obj/effect/spawner/minefield = 2
+		/obj/effect/spawner/minefield/tiny = 2
 	)
 	feature_spawn_chance = 12
 
@@ -402,10 +419,10 @@
 		/obj/effect/spawner/random/waste/salvageable = 80,
 		/obj/effect/spawner/random/mine = 8,
 	)
-	mob_spawn_list = list( //nor organics, more biased towards hivebots though
-		/mob/living/simple_animal/hostile/hivebot/strong = 20,
-		/mob/living/simple_animal/hostile/hivebot/ranged = 50,
-		/mob/living/simple_animal/hostile/hivebot/ranged/rapid = 50,
+	mob_spawn_list = list(
+		/mob/living/basic/hivebot/strong = 20,
+		/mob/living/basic/hivebot/ranged = 50,
+		/mob/living/basic/hivebot/rapid = 50,
 		/mob/living/simple_animal/bot/firebot/rockplanet = 15,
 		/mob/living/simple_animal/bot/secbot/ed209/rockplanet = 3,
 		/mob/living/simple_animal/hostile/abandoned_minebot = 15,
@@ -430,16 +447,17 @@
 		/obj/structure/foamedmetal = 100,
 	)
 	mob_spawn_list = list( //Whoops! All hivebots!
-		/mob/living/simple_animal/hostile/hivebot/strong = 20,
-		/mob/living/simple_animal/hostile/hivebot/ranged = 40,
-		/mob/living/simple_animal/hostile/hivebot/ranged/rapid = 20,
-		/mob/living/simple_animal/hostile/hivebot = 20,
-		/mob/living/simple_animal/hostile/hivebot/defender = 10
+		/mob/living/basic/hivebot/strong = 20,
+		/mob/living/basic/hivebot/ranged = 40,
+		/mob/living/basic/hivebot/rapid = 20,
+		/mob/living/basic/hivebot = 40,
+		/mob/living/basic/hivebot/core = 10
 	)
-	mob_spawn_chance = 30
+	mob_spawn_chance = 15
 	feature_spawn_list = list(
-		/obj/structure/spawner/hivebot = 1,
+		/obj/structure/spawner/hivebot = 10,
 		)
+
 	feature_spawn_chance = 2 //hivebot biomes should have their dongles
 
 /datum/biome/cave/waste/conc //da concrete jungle baybee
@@ -469,14 +487,15 @@
 		/obj/effect/spawner/random/waste/salvageable = 40,
 	)
 	mob_spawn_list = list(
-		/mob/living/simple_animal/hostile/hivebot/strong = 80,
-		/mob/living/simple_animal/hostile/hivebot/ranged = 50,
-		/mob/living/simple_animal/hostile/hivebot/ranged/rapid = 50,
+		/mob/living/basic/hivebot = 80,
+		/mob/living/basic/hivebot/strong = 80,
+		/mob/living/basic/hivebot/ranged = 50,
+		/mob/living/basic/hivebot/rapid = 50,
 		/mob/living/simple_animal/bot/firebot/rockplanet = 15,
 		/mob/living/simple_animal/bot/secbot/ed209/rockplanet = 3,
 		/mob/living/simple_animal/hostile/abandoned_minebot = 15,
 		/mob/living/simple_animal/bot/floorbot/rockplanet = 15,
-		/obj/structure/spawner/hivebot = 35
+		/obj/structure/spawner/hivebot = 25
 	)
 
 	flora_spawn_chance = 30

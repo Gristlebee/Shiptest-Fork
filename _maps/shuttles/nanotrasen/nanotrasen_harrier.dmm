@@ -299,8 +299,7 @@
 	},
 /obj/machinery/light_switch{
 	dir = 8;
-	pixel_x = 20;
-	pixel_y = 0
+	pixel_x = 20
 	},
 /obj/structure/chair/handrail{
 	dir = 8
@@ -357,11 +356,14 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/port)
 "cg" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "harrier_thrusters_starboard";
+	name = "Thruster Blast Door"
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
@@ -770,7 +772,7 @@
 /obj/effect/turf_decal/trimline/opaque/vired/corner{
 	dir = 4
 	},
-/obj/machinery/camera,
+/obj/machinery/camera/autoname,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -1007,8 +1009,7 @@
 "fn" = (
 /obj/structure/sink{
 	dir = 8;
-	pixel_x = 12;
-	pixel_y = 0
+	pixel_x = 12
 	},
 /obj/structure/sign/poster/official/cleanliness{
 	pixel_x = 32
@@ -1103,8 +1104,7 @@
 "fZ" = (
 /obj/machinery/light_switch{
 	dir = 8;
-	pixel_x = 20;
-	pixel_y = 0
+	pixel_x = 20
 	},
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/carpet/blue,
@@ -1511,7 +1511,8 @@
 /area/ship/engineering)
 "hV" = (
 /obj/machinery/door/airlock/command{
-	name = "Restroom"
+	name = "Restroom";
+	id_tag = "harrier_bathroom"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -1956,9 +1957,7 @@
 	dir = 8
 	},
 /obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
@@ -2035,8 +2034,7 @@
 	},
 /obj/machinery/light_switch{
 	dir = 8;
-	pixel_x = 20;
-	pixel_y = 0
+	pixel_x = 20
 	},
 /turf/open/floor/plasteel/patterned,
 /area/ship/engineering/atmospherics)
@@ -2097,6 +2095,14 @@
 	dir = 6
 	},
 /obj/machinery/light/small/directional/west,
+/obj/machinery/button/door{
+	id = "harrier_bathroom";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	name = "Bathroom Lock";
+	pixel_y = 20;
+	pixel_x = -12
+	},
 /turf/open/floor/plasteel/freezer,
 /area/ship/bridge)
 "lj" = (
@@ -2296,7 +2302,6 @@
 "mG" = (
 /obj/structure/table/glass,
 /obj/item/storage/case/surgery{
-	pixel_x = 0;
 	pixel_y = 2
 	},
 /obj/machinery/defibrillator_mount/loaded{
@@ -2808,9 +2813,7 @@
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "qB" = (
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /obj/machinery/power/smes/engineering,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
@@ -2930,8 +2933,7 @@
 "rk" = (
 /obj/machinery/light_switch{
 	dir = 8;
-	pixel_x = 20;
-	pixel_y = 0
+	pixel_x = 20
 	},
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 1
@@ -3753,7 +3755,7 @@
 /obj/effect/turf_decal/trimline/opaque/nsorange/filled/arrow_ccw{
 	dir = 4
 	},
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 8
 	},
 /obj/structure/chair/handrail{
@@ -4001,9 +4003,7 @@
 	id = "harrier_cargofield";
 	locked = 1
 	},
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ship/storage/eva)
 "wp" = (
@@ -4585,7 +4585,7 @@
 /obj/machinery/atmospherics/pipe/simple/brown/visible/layer1{
 	dir = 8
 	},
-/obj/machinery/camera,
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/patterned,
 /area/ship/engineering/atmospherics)
 "zr" = (
@@ -4617,7 +4617,7 @@
 "zv" = (
 /obj/effect/turf_decal/trimline/opaque/blue/line,
 /obj/structure/closet/emcloset/wall/directional/south,
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 10
 	},
 /turf/open/floor/plasteel/white,
@@ -4796,7 +4796,7 @@
 /turf/open/floor/plasteel,
 /area/ship/cargo)
 "Ao" = (
-/obj/machinery/computer/card{
+/obj/machinery/modular_computer/console/preset/command{
 	dir = 8;
 	icon_state = "computer-left"
 	},
@@ -4829,8 +4829,7 @@
 	},
 /obj/machinery/light_switch{
 	dir = 8;
-	pixel_x = 20;
-	pixel_y = 0
+	pixel_x = 20
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -4844,7 +4843,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 8
 	},
-/obj/machinery/camera,
+/obj/machinery/camera/autoname,
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/carpet/cyan,
 /area/ship/medical)
@@ -5086,8 +5085,7 @@
 /obj/structure/table/wood,
 /obj/machinery/light_switch{
 	dir = 8;
-	pixel_x = 20;
-	pixel_y = 0
+	pixel_x = 20
 	},
 /obj/machinery/airalarm/directional/north,
 /obj/item/reagent_containers/food/drinks/bottle/champagne{
@@ -5172,7 +5170,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 6
 	},
 /turf/open/floor/plasteel,
@@ -5238,14 +5236,7 @@
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "CV" = (
-/obj/machinery/power/shuttle/engine/fueled/plasma{
-	dir = 4
-	},
-/obj/machinery/door/poddoor{
-	dir = 4;
-	id = "harrier_thrusters_port";
-	name = "Thruster Blast Door"
-	},
+/obj/machinery/power/shuttle/engine/fueled/plasma,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "CW" = (
@@ -5730,10 +5721,8 @@
 /area/ship/science/ai_chamber)
 "FN" = (
 /obj/machinery/power/apc/auto_name/directional/east,
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
-/obj/machinery/camera{
+/obj/structure/cable,
+/obj/machinery/camera/autoname{
 	dir = 8
 	},
 /turf/open/floor/plasteel/mono,
@@ -5898,14 +5887,7 @@
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
 "GG" = (
-/obj/machinery/power/shuttle/engine/fueled/plasma{
-	dir = 4
-	},
-/obj/machinery/door/poddoor{
-	dir = 4;
-	id = "harrier_thrusters_starboard";
-	name = "Thruster Blast Door"
-	},
+/obj/machinery/power/shuttle/engine/fueled/plasma,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "GH" = (
@@ -6109,8 +6091,11 @@
 /turf/open/floor/plasteel/freezer,
 /area/ship/crew/toilet)
 "HW" = (
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4
+/obj/machinery/atmospherics/components/unary/shuttle/heater,
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "harrier_thrusters_port";
+	name = "Thruster Blast Door"
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
@@ -6594,16 +6579,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
 "Kz" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/electric,
 /obj/structure/cable{
 	icon_state = "0-4"
-	},
-/obj/machinery/door/poddoor{
-	dir = 4;
-	id = "harrier_thrusters_port";
-	name = "Thruster Blast Door"
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
@@ -6861,7 +6839,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 8
 	},
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 10
 	},
 /turf/open/floor/plasteel/mono,
@@ -6988,7 +6966,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 8
 	},
-/obj/machinery/camera,
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel,
 /area/ship/engineering)
 "Mu" = (
@@ -7045,14 +7023,7 @@
 /turf/open/floor/plasteel,
 /area/ship/hallway/port)
 "MM" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/machinery/door/poddoor{
-	dir = 4;
-	id = "harrier_thrusters_starboard";
-	name = "Thruster Blast Door"
-	},
+/obj/machinery/power/shuttle/engine/electric,
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
@@ -7149,7 +7120,7 @@
 "Nk" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/light/directional/north,
-/obj/machinery/camera,
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel,
 /area/ship/hallway/port)
 "Nl" = (
@@ -7222,7 +7193,7 @@
 	dir = 8
 	},
 /obj/machinery/light/small/directional/north,
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 6
 	},
 /turf/open/floor/plasteel/patterned,
@@ -7305,9 +7276,7 @@
 	id = "harrier_cargofield";
 	locked = 1
 	},
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ship/storage/eva)
 "NE" = (
@@ -7369,11 +7338,14 @@
 /turf/open/floor/plasteel/patterned,
 /area/ship/engineering/atmospherics)
 "NT" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "harrier_thrusters_port";
+	name = "Thruster Blast Door"
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
@@ -7629,7 +7601,7 @@
 	dir = 1;
 	id = "harrier_packagesort"
 	},
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 8
 	},
 /turf/open/floor/plating,
@@ -8414,9 +8386,9 @@
 /area/ship/bridge)
 "TG" = (
 /obj/machinery/suit_storage_unit/inherit/industrial,
-/obj/item/clothing/suit/space/hardsuit/mining,
 /obj/item/tank/internals/oxygen/yellow,
 /obj/item/clothing/mask/gas/explorer,
+/obj/item/clothing/suit/space/hardsuit/mining/heavy/ns,
 /turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "TI" = (
@@ -8480,7 +8452,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/camera,
+/obj/machinery/camera/autoname,
 /turf/open/floor/carpet/blue,
 /area/ship/bridge)
 "TZ" = (
@@ -8914,7 +8886,7 @@
 	pixel_x = -5;
 	pixel_y = -20
 	},
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 10
 	},
 /obj/item/stamp/nanotrasen{
@@ -8951,6 +8923,7 @@
 /area/template_noop)
 "Wd" = (
 /obj/machinery/computer/operating,
+/obj/item/disk/surgery/t2,
 /turf/open/floor/plasteel/showroomfloor,
 /area/ship/medical)
 "We" = (
@@ -8958,7 +8931,7 @@
 /obj/effect/turf_decal/trimline/opaque/ntblue/filled/line{
 	dir = 1
 	},
-/obj/machinery/camera,
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "Wj" = (
@@ -9019,8 +8992,11 @@
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "Wx" = (
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4
+/obj/machinery/atmospherics/components/unary/shuttle/heater,
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "harrier_thrusters_starboard";
+	name = "Thruster Blast Door"
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
@@ -9177,9 +9153,7 @@
 	id = "harrierbridge";
 	name = "Window Blast Door"
 	},
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "XH" = (
@@ -9327,7 +9301,7 @@
 /obj/effect/turf_decal/trimline/opaque/ntblue/filled/line{
 	dir = 4
 	},
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -9492,7 +9466,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 1
 	},
 /turf/open/floor/carpet/royalblue,
@@ -9556,7 +9530,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/catwalk/over/plated_catwalk,
-/obj/machinery/camera{
+/obj/machinery/camera/autoname{
 	dir = 8
 	},
 /obj/structure/chair/handrail{
@@ -9611,9 +9585,7 @@
 /area/ship/engineering/atmospherics)
 "ZX" = (
 /obj/machinery/power/apc/auto_name/directional/west,
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /obj/effect/turf_decal/trimline/opaque/ntblue/filled/corner{
 	dir = 1
 	},

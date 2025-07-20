@@ -95,10 +95,7 @@
 			/obj/item/clothing/neck/scarf/red = 1,
 			/obj/item/clothing/neck/scarf/green = 1,
 			/obj/item/clothing/neck/scarf/darkblue = 1,
-			/obj/item/clothing/neck/shemagh = 1,
-			/obj/item/clothing/neck/stripedredscarf = 1,
-			/obj/item/clothing/neck/stripedgreenscarf = 1,
-			/obj/item/clothing/neck/stripedbluescarf = 1
+			/obj/item/clothing/neck/shemagh = 1
 			)
 		)
 	ears = pick(/obj/item/radio/headset, /obj/item/radio/headset/alt)
@@ -377,7 +374,6 @@
 			/obj/item/stock_parts/matter_bin/adv = 2,
 			/obj/item/survey_handheld = 1,
 			/obj/item/weldingtool/electric = 1,
-			/obj/item/mmi/posibrain = 1,
 			/obj/item/reagent_containers/glass/beaker/plastic = 1,
 			/obj/item/organ/eyes/robotic/shield = 1,
 			/obj/item/organ/eyes/robotic/glow = 1,
