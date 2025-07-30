@@ -36,11 +36,34 @@
 	unit_name = "solar panel control board"
 	export_types = list(/obj/item/circuitboard/computer/solar_control)
 
-/datum/export/thruster_ion
-	cost = 500
-	desc = "One set of circuits and controllers for an electrical ion engine."
-	unit_name = "ion thruster board"
-	export_types = list(/obj/item/circuitboard/machine/shuttle/engine/electric)
+/datum/export/thruster_parts
+	cost = 250
+	desc = "Electric, plasma, combustion, whatever. If it makes a shuttle fly, we'll take it."
+	unit_name = "engine thruster and heater boards"
+	export_types = list(/obj/item/circuitboard/machine/shuttle/engine,
+						/obj/item/circuitboard/machine/shuttle/heater,
+						/obj/item/circuitboard/machine/shuttle/fire_heater,
+						/obj/item/circuitboard/machine/shuttle/smes
+						)
+
+/datum/export/water_tank
+	cost = 300
+	desc = "Potable water is a valuable commodity, especially for fledgling colonies starting out on the Frontier."
+	unit_name = "water tanks"
+	export_types = list(/obj/structure/reagent_dispensers/watertank)
+
+/datum/export/welding_tank
+	cost = 400
+	desc = "Welding fuel has been in high demand these past few years with the legions of salvagers and prospectors descending on the remains left behind from the ICW."
+	unit_name = "water tanks"
+	export_types = list(/obj/structure/reagent_dispensers/fueltank)
+
+/datum/export/vendor_refill
+	cost = 200
+	desc = "If you find any sealed vending machine refills, we'll take them and make sure they go to a vending machine in need."
+	unit_name = "vendor refills"
+	export_types = list(/obj/item/vending_refill)
+	exclude_types = list(/obj/item/vending_refill/custom) // no money printing for you
 
 //Computer Tablets and Parts
 /datum/export/modular_part

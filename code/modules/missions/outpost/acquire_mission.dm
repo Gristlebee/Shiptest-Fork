@@ -103,7 +103,7 @@
 	creature_name = "legion"
 
 /datum/mission/outpost/acquire/creature/ice_whelp
-	value = 1700
+	value = 2000
 	weight = 2
 	objective_type = /mob/living/simple_animal/hostile/asteroid/ice_whelp
 	creature_name = "ice whelp"
