@@ -258,15 +258,20 @@
 	owner_ship?.docking_points -= src
 	return ..()
 
-/obj/docking_port/stationary/proc/load_roundstart()
+/obj/docking_port/stationary/proc/load_roundstart(link_to_owner = FALSE)
 	if(roundstart_template) // passed a PATH
 		var/template = SSmapping.shuttle_templates[initial(roundstart_template.file_name)]
 		if(!roundstart_template)
 			CRASH("Invalid path ([template]) passed to docking port.")
 
+		// var/datum/overmap/ship/controlled/parent_ship
+		// if(link_parent_account && istype(owner_ship, /datum/overmap/ship/controlled))
+		// 	parent_ship = owner_ship
 		var/datum/overmap/ship/controlled/parent_ship
-		if(link_parent_account && istype(owner_ship, /datum/overmap/ship/controlled))
-			parent_ship = owner_ship
+		if(owner_ship?.current_ship && link_to_owner)
+			//pull the account, or whatever from this
+			parent_ship = owner_ship.current_ship
+
 
 		var/datum/overmap/ship/controlled/new_ship = new(SSovermap.get_overmap_object_by_location(src), , template, FALSE, parent_ship) //Don't instantiate, we handle that ourselves
 		new_ship.connect_new_shuttle_port(SSshuttle.action_load(template, new_ship, src))

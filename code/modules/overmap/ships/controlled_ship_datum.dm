@@ -33,6 +33,7 @@
 	///Shipwide bank account used for cargo consoles and bounty payouts.
 	var/datum/bank_account/ship/ship_account
 	var/datum/overmap/ship/controlled/parent_vessel
+	var/list/sub_vessels = list()
 	var/has_parent_account = FALSE
 	///Crew Owned Bank Accounts.
 	var/list/crew_bank_accounts = list()
@@ -98,7 +99,8 @@
 
 	real_name = new_name
 	shuttle_port?.name = full_name
-	ship_account.account_holder = full_name
+	if(!parent_vessel)
+		ship_account.account_holder = full_name
 
 	if(shipkey)
 		shipkey.name = "ship key ([full_name])"
@@ -142,9 +144,13 @@
 		if(parent_ship)
 			parent_vessel = parent_ship
 			has_parent_account = TRUE
-		// 	ship_account = parent_ship.ship_account
-		// else
-		ship_account = new(name, source_template.starting_funds)
+			//ship_account = parent_vessel.ship_account //might need to call this on late load or something
+			parent_vessel.sub_vessels += src
+		else
+			ship_account = new(name, source_template.starting_funds)
+			for(var/I in sub_vessels)
+				var/datum/overmap/ship/controlled/subs = I
+				subs.ship_account = ship_account
 
 	else
 		stack_trace("Attempted to create a controlled ship without a template!")
@@ -174,7 +180,7 @@
 		shuttle_port.current_ship = null
 		qdel(shuttle_port, TRUE)
 		shuttle_port = null
-	if(!QDELETED(ship_account))
+	if(!QDELETED(ship_account) && !parent_vessel)
 		QDEL_NULL(ship_account)
 	if(!QDELETED(shipkey))
 		QDEL_NULL(shipkey)

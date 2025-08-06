@@ -351,7 +351,7 @@ SUBSYSTEM_DEF(shuttle)
 
 	for(var/obj/docking_port/stationary/S in stationary_ports)
 		S.owner_ship = new_shuttle
-		S.load_roundstart()
+		S.load_roundstart(TRUE)
 
 	var/obj/docking_port/mobile/transit_dock = generate_transit_dock(new_shuttle, template.tranist_x_offset, template.tranist_y_offset)
 
