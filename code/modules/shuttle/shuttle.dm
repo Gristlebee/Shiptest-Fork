@@ -216,6 +216,7 @@
 	var/obj/docking_port/mobile/owner_ship
 
 	var/datum/map_template/shuttle/roundstart_template
+	var/link_parent_account = FALSE
 	var/json_key
 	//Setting this to false will prevent the roundstart_template from being loaded on Initiallize(). You should set this to false if this loads a subship on a ship map template
 	var/load_template_on_initialize = TRUE
@@ -263,7 +264,11 @@
 		if(!roundstart_template)
 			CRASH("Invalid path ([template]) passed to docking port.")
 
-		var/datum/overmap/ship/controlled/new_ship = new(SSovermap.get_overmap_object_by_location(src), , template, FALSE) //Don't instantiate, we handle that ourselves
+		var/datum/overmap/ship/controlled/parent_ship
+		if(link_parent_account && istype(owner_ship, /datum/overmap/ship/controlled))
+			parent_ship = owner_ship
+
+		var/datum/overmap/ship/controlled/new_ship = new(SSovermap.get_overmap_object_by_location(src), , template, FALSE, parent_ship) //Don't instantiate, we handle that ourselves
 		new_ship.connect_new_shuttle_port(SSshuttle.action_load(template, new_ship, src))
 
 /**

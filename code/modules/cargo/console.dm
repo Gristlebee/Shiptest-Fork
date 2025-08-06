@@ -14,6 +14,8 @@
 
 	/// The ship we reside on for ease of access
 	var/datum/overmap/ship/controlled/current_ship
+	/// if we have any other ships we should be tracking, eg, subshuttles tied to this ship.
+	var/list/linked_ships = list()
 	var/datum/faction/current_faction
 	/// The outpost we're docked to, FALSE if we aren't docked to an outpost
 	var/datum/overmap/outpost/outpost_docked

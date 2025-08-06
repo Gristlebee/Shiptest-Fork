@@ -439,6 +439,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	var/datum/map_template/shuttle/subship_template
 	var/offset_x = 0
 	var/offset_y = 0
+	var/link_parent_account = TRUE /// links the subshuttle's account to the mothership (if any)
 
 /obj/effect/landmark/subship/New(loc)
 	..(loc)
@@ -459,6 +460,8 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 			dock_x = template.height - template.port_y_offset
 			dock_y = template.port_x_offset - 1
 	var/obj/docking_port/stationary/dock = new(locate(x + offset_x + dock_x, y + offset_y + dock_y, z))
+	if(link_parent_account)
+		dock.link_parent_account = TRUE
 	dock.roundstart_template = subship_template
 	dock.load_template_on_initialize = FALSE
 	dock.dir = angle2dir_cardinal(dir2angle(template.port_dir)+dir2angle(dir))

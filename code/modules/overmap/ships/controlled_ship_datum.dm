@@ -32,6 +32,8 @@
 	var/helm_locked = FALSE
 	///Shipwide bank account used for cargo consoles and bounty payouts.
 	var/datum/bank_account/ship/ship_account
+	var/datum/overmap/ship/controlled/parent_vessel
+	var/has_parent_account = FALSE
 	///Crew Owned Bank Accounts.
 	var/list/crew_bank_accounts = list()
 	///magic number for telling us how much of a mission goes into each crew member's bank account
@@ -119,7 +121,7 @@
  * * creation_template - The template used to create the ship.
  * * target_port - The port to dock the new ship to.
  */
-/datum/overmap/ship/controlled/Initialize(position, system_spawned_in, datum/map_template/shuttle/creation_template, create_shuttle = TRUE)
+/datum/overmap/ship/controlled/Initialize(position, system_spawned_in, datum/map_template/shuttle/creation_template, create_shuttle = TRUE, datum/overmap/ship/controlled/parent_ship)
 	. = ..()
 	if(creation_template)
 		source_template = creation_template
@@ -137,6 +139,11 @@
 				Dock(position, force = TRUE)
 
 			refresh_engines()
+		if(parent_ship)
+			parent_vessel = parent_ship
+			has_parent_account = TRUE
+		// 	ship_account = parent_ship.ship_account
+		// else
 		ship_account = new(name, source_template.starting_funds)
 
 	else
@@ -186,6 +193,8 @@
 	GLOB.crew_manifest_tgui?.update_static_data_for_all_viewers()
 	// set ourselves to ownerless to unregister signals
 	set_owner_mob(null)
+
+/datum/overmap/ship/controlled/proc/link_to_parent_account(datum/overmap/ship/controlled/parent_ship)
 
 /datum/overmap/ship/controlled/get_jump_to_turf()
 	return get_turf(shuttle_port)
