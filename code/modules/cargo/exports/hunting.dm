@@ -20,7 +20,7 @@
 	unit_name = "animal hide"
 	desc = "Animal hide export. Paid per hide."
 	cost = 50
-	export_types = list(/obj/item/stack/sheet/animalhide/goliath_hide) // Also includes polar bear hide.
+	export_types = list(/obj/item/stack/sheet/animalhide/goliath_hide, /obj/item/clothing/head/bearpelt) // Also includes polar bear hide.
 
 /datum/export/hunting/stack/rarehide
 	unit_name = "rare animal hide"
@@ -53,7 +53,8 @@
 		/obj/item/mob_trophy/goliath_tentacle,
 		/obj/item/mob_trophy/watcher_wing,
 		/obj/item/mob_trophy/brimdemon_fang,
-		/obj/item/mob_trophy/lobster_claw
+		/obj/item/mob_trophy/lobster_claw,
+		/obj/item/mob_trophy/shiny
 	)
 
 /datum/export/hunting/trophy/rare
@@ -67,7 +68,7 @@
 		/obj/item/mob_trophy/ice_crystal,
 		/obj/item/mob_trophy/magma_wing,
 		/obj/item/mob_trophy/tail_spike,
-		/obj/item/mob_trophy/ice_wing
+		/obj/item/mob_trophy/ice_wing,
 	)
 
 /datum/export/hunting/trophy/mega

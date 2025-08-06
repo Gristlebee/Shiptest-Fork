@@ -11,27 +11,27 @@
 
 /datum/export/gems/diamond
 	unit_name = "Frost Diamond"
-	cost = 3500
+	cost = 3000
 	export_types = list(/obj/item/gem/fdiamond)
 
 /datum/export/gems/amber
 	unit_name = "Draconic Amber"
-	cost = 5500
+	cost = 3000
 	export_types = list(/obj/item/gem/amber)
 
 /datum/export/gems/plasma
 	unit_name = "Metastable Phoron"
-	cost = 11000
+	cost = 3500
 	export_types = list(/obj/item/gem/phoron)
 
 /datum/export/gems/void
 	unit_name = "Null Crystal"
-	cost = 19000
+	cost = 4000
 	export_types = list(/obj/item/gem/void)
 
 /datum/export/gems/blood
 	unit_name = "Ichorium Crystal"
-	cost = 9000
+	cost = 4000
 	export_types = list(/obj/item/gem/bloodstone)
 
 /datum/export/gems/strange_crystal

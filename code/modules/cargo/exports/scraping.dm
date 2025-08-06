@@ -65,6 +65,40 @@
 	export_types = list(/obj/item/vending_refill)
 	exclude_types = list(/obj/item/vending_refill/custom) // no money printing for you
 
+/datum/export/tcomms_boards
+	cost = 150
+	unit_name = "telecomms boards"
+	export_types = list(/obj/item/circuitboard/machine/telecomms, /obj/item/stock_parts/subspace)
+
+/datum/export/tcomms_parts
+	cost = 30
+	unit_name = "telecomms subspace parts"
+	export_types = list(/obj/item/stock_parts/subspace)
+
+/datum/export/stock_parts
+	cost = 20
+	unit_name = "tier 2 stock Parts"
+	desc = "If you have any spare advanced stock parts, we'll take em."
+	var/required_rating = 2 // we arent buying basics since you can print those
+	export_types = list(/obj/item/stock_parts)
+	exclude_types = list(/obj/item/stock_parts/subspace)
+
+/datum/export/stock_parts/get_amount(obj/O)
+	. = ..()
+	var/obj/item/stock_parts/parts = O
+	if(parts.rating != required_rating)
+		return 0
+
+/datum/export/stock_parts/t3
+	cost = 40
+	unit_name = "tier 3 stock Parts"
+	required_rating = 3
+
+/datum/export/stock_parts/t4
+	cost = 100
+	unit_name = "bluespace stock Parts"
+	required_rating = 4
+
 //Computer Tablets and Parts
 /datum/export/modular_part
 	cost = 15
