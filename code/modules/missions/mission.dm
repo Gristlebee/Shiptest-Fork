@@ -43,8 +43,8 @@
 	/// The outpost that issued this mission. Passed in New().
 	var/datum/overmap/outpost/source_outpost
 	/// The ship that accepted this mission. Passed in accept().
-	//var/datum/overmap/ship/controlled/servant //going to need to convert this to a list and make servants function off that
-	var/list/servants = list()
+	var/datum/overmap/ship/controlled/servant //going to need to convert this to a list and make servants function off that
+	//var/list/servants = list()
 	/// Assoc list of atoms "bound" to this mission; each atom is associated with a 2-element list. The first
 	/// entry in that list is a bool that determines if the mission should fail when the atom qdeletes; the second
 	/// is a callback to be invoked upon the atom's qdeletion.
@@ -157,13 +157,13 @@
 	SSblackbox.record_feedback("nested tally", "[blackbox_prefix]mission", 1, list(name, "accepted"))
 	accepted = TRUE
 	//servant = acceptor
-	LAZYADD(servants,acceptor)
+	//LAZYADD(servants,acceptor)
 	LAZYREMOVE(source_outpost.missions, src)
 	LAZYADD(acceptor.missions, src)
-	for(var/ships in acceptor.sub_vessels)
-		var/datum/overmap/ship/controlled/subs = ships
-		LAZYADD(servants, ships)
-		LAZYADD(subs.missions, src)
+	// for(var/ships in acceptor.sub_vessels)
+	// 	var/datum/overmap/ship/controlled/subs = ships
+	// 	LAZYADD(servants, ships)
+	// 	LAZYADD(subs.missions, src)
 	//going to need some kind of function here that adds it to the subships list of missions
 	dur_timer = addtimer(VARSET_CALLBACK(src, failed, TRUE), duration, TIMER_STOPPABLE)
 
