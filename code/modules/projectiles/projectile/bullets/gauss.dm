@@ -28,7 +28,7 @@
 /obj/projectile/bullet/gauss/lance
 	name = "ferromagnetic lance"
 	icon_state = "redtrac"
-	damage = 25
+	damage = 30
 	armour_penetration = 40
 
 /obj/projectile/bullet/gauss/lance/hc

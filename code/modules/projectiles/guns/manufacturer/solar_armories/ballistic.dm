@@ -34,8 +34,6 @@
 	show_magazine_on_sprite = FALSE
 	empty_indicator = FALSE
 	manufacturer = MANUFACTURER_SOLARARMORIES
-	recoil = 2
-	recoil_unwielded = 4
 	spread = 6
 	spread_unwielded = 12
 	fire_select_icon_state_prefix = "slug_"
