@@ -114,6 +114,16 @@
 	objective_type = /mob/living/simple_animal/hostile/netherworld/migo/asteroid
 	creature_name = "mi-go"
 
+/datum/mission/outpost/acquire/creature/lobster
+	value = 1400
+	objective_type = /mob/living/simple_animal/hostile/asteroid/lobstrosity
+	creature_name = "lobstrosity"
+
+/datum/mission/outpost/acquire/creature/bear
+	value = 1400
+	objective_type = /mob/living/basic/bear
+	creature_name = "bear"
+
 /*
 		Acquiry mission containers
 */

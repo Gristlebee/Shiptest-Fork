@@ -77,7 +77,7 @@
 
 /datum/export/stock_parts
 	cost = 20
-	unit_name = "tier 2 stock Parts"
+	unit_name = "tier 2 stock parts"
 	desc = "If you have any spare advanced stock parts, we'll take em."
 	var/required_rating = 2 // we arent buying basics since you can print those
 	export_types = list(/obj/item/stock_parts)
@@ -91,12 +91,12 @@
 
 /datum/export/stock_parts/t3
 	cost = 40
-	unit_name = "tier 3 stock Parts"
+	unit_name = "tier 3 stock parts"
 	required_rating = 3
 
 /datum/export/stock_parts/t4
 	cost = 100
-	unit_name = "bluespace stock Parts"
+	unit_name = "bluespace stock parts"
 	required_rating = 4
 
 //Computer Tablets and Parts
