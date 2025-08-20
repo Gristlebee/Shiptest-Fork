@@ -26,7 +26,7 @@
 
 /datum/export/solar/tracker_board
 	cost = 150
-	desc = "One solar tracking circuit. Allows a solar array to work far more efficiently"
+	desc = "One solar tracking circuit. Allows a solar array to work far more efficiently."
 	unit_name = "solar tracker board"
 	export_types = list(/obj/item/electronics/tracker)
 
@@ -68,7 +68,7 @@
 /datum/export/tcomms_boards
 	cost = 150
 	unit_name = "telecomms boards"
-	export_types = list(/obj/item/circuitboard/machine/telecomms, /obj/item/stock_parts/subspace)
+	export_types = list(/obj/item/circuitboard/machine/telecomms)
 
 /datum/export/tcomms_parts
 	cost = 30

@@ -394,6 +394,14 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 		var/datum/material/M = i
 		value += M.value_per_unit * custom_materials[M]
 
+/obj/item/coin/examine(mob/user)
+	. = ..()
+	if(value)
+		. += span_notice("\The [src] has a value of [get_item_credit_value()]")
+
+/obj/item/coin/get_item_credit_value()
+	return value
+
 /obj/item/coin/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/stack/cable_coil))
 		var/obj/item/stack/cable_coil/CC = W

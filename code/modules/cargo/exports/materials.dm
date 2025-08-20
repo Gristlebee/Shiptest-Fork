@@ -9,7 +9,6 @@
 		/obj/item/stack/sheet,
 		/obj/item/stack/tile,
 		/obj/item/stack/ore,
-		/obj/item/coin
 	)
 
 // Yes, it's a base type containing export_types.
