@@ -1,0 +1,191 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/concrete/pavement,
+/area/space)
+"n" = (
+/obj/machinery/door/poddoor/preopen,
+/turf/open/floor/concrete/reinforced,
+/area/space)
+"s" = (
+/turf/closed/wall/concrete,
+/area/space)
+"x" = (
+/obj/machinery/door/poddoor/shutters,
+/turf/open/floor/concrete/reinforced,
+/area/space)
+"C" = (
+/turf/open/floor/plating,
+/area/space)
+"Z" = (
+/turf/open/floor/concrete,
+/area/space)
+
+(1,1,1) = {"
+s
+s
+s
+s
+s
+s
+s
+a
+C
+a
+s
+"}
+(2,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+n
+a
+C
+a
+x
+"}
+(3,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+n
+a
+C
+a
+x
+"}
+(4,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+n
+a
+C
+a
+x
+"}
+(5,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+n
+a
+C
+a
+x
+"}
+(6,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+n
+a
+C
+a
+x
+"}
+(7,1,1) = {"
+s
+s
+s
+s
+s
+s
+s
+a
+C
+a
+s
+"}
+(8,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+x
+a
+a
+a
+x
+"}
+(9,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+x
+a
+a
+a
+x
+"}
+(10,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+x
+a
+a
+a
+x
+"}
+(11,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+x
+a
+a
+a
+x
+"}
+(12,1,1) = {"
+s
+Z
+Z
+Z
+Z
+Z
+x
+a
+a
+a
+x
+"}
+(13,1,1) = {"
+s
+s
+s
+s
+s
+s
+s
+a
+a
+a
+s
+"}

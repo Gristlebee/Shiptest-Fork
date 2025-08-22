@@ -1,0 +1,584 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ac" = (
+/obj/machinery/door/airlock/centcom,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"aC" = (
+/obj/structure/crate_shelf,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"aL" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "trails_2"
+	},
+/turf/open/floor/plating,
+/area/space)
+"bc" = (
+/obj/structure/fluff/broken_flooring{
+	icon_state = "plating";
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space)
+"bU" = (
+/obj/item/food/ration/entree/sososi{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/turf/open/space/basic,
+/area/space)
+"cz" = (
+/turf/open/space/basic,
+/area/space)
+"dz" = (
+/obj/item/rack_parts,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"dW" = (
+/obj/machinery/door/firedoor/heavy/closed,
+/turf/open/floor/plating,
+/area/space)
+"eK" = (
+/obj/effect/turf_decal/trimline/opaque/beige/corner{
+	dir = 4
+	},
+/obj/item/stack/ore/salvage/scrapmetal,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "trails_2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"fQ" = (
+/obj/effect/decal/cleanable/generic,
+/obj/item/clothing/mask/gas/explorer/folded{
+	pixel_x = 3;
+	pixel_y = 4
+	},
+/turf/open/floor/plasteel/mono,
+/area/space)
+"hm" = (
+/obj/item/food/ration/pack/freeze_dried_coffee_chocolate{
+	pixel_x = -6
+	},
+/turf/open/space/basic,
+/area/space)
+"hq" = (
+/obj/effect/turf_decal/trimline/opaque/beige/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"hB" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 8
+	},
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"hY" = (
+/obj/item/stack/ore/salvage/scraptitanium,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg3"
+	},
+/area/space)
+"iO" = (
+/obj/item/stack/ore/salvage/scrapmetal,
+/turf/open/space/basic,
+/area/space)
+"jM" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"kb" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"kl" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"ks" = (
+/obj/effect/turf_decal/trimline/opaque/beige/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"lo" = (
+/obj/effect/meteor/irradiated,
+/turf/open/space/basic,
+/area/space)
+"lv" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/melee/knife/combat{
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/turf/open/floor/plasteel/mono,
+/area/space)
+"pf" = (
+/obj/effect/meteor/dust,
+/turf/open/space/basic,
+/area/space)
+"pn" = (
+/obj/item/stack/ore/salvage/scrapmetal{
+	pixel_x = -15;
+	pixel_y = -10
+	},
+/turf/open/space/basic,
+/area/space)
+"rl" = (
+/obj/structure/rack,
+/obj/item/pickaxe,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"tB" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 4
+	},
+/obj/machinery/light/broken/directional/north,
+/obj/structure/closet/emcloset/wall/directional/west,
+/obj/item/storage/toolbox/emergency,
+/obj/item/tank/internals/emergency_oxygen/empty,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"uN" = (
+/obj/structure/closet/crate/internals,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"vl" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"wS" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"AA" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"AM" = (
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular";
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/space)
+"Bv" = (
+/obj/effect/turf_decal/trimline/opaque/beige/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"BX" = (
+/obj/effect/turf_decal/trimline/opaque/beige/corner,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Cc" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Ck" = (
+/obj/structure/closet/crate/science,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"Dj" = (
+/obj/effect/meteor/big,
+/turf/open/space/basic,
+/area/space)
+"DM" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"DO" = (
+/turf/closed/indestructible/titanium,
+/area/space)
+"Ew" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"Ib" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"IQ" = (
+/obj/effect/turf_decal/trimline/opaque/beige/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"KT" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mob_spawn/human/doctor,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "floor4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Ms" = (
+/obj/effect/turf_decal/trimline/opaque/beige/corner,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "trails_2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Oh" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 4
+	},
+/obj/structure/closet/firecloset/wall/directional/west,
+/obj/item/clothing/suit/fire/firefighter,
+/obj/item/extinguisher,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Om" = (
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular";
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space)
+"Oz" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Pr" = (
+/obj/structure/closet/crate/engineering/electrical,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"PR" = (
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg3"
+	},
+/area/space)
+"QM" = (
+/mob/living/basic/cockroach,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"Tv" = (
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular"
+	},
+/turf/open/space/basic,
+/area/space)
+"TX" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/space)
+"UU" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 8
+	},
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular";
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"WJ" = (
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg1"
+	},
+/area/space)
+"WM" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/space)
+"WZ" = (
+/obj/effect/meteor/flaming,
+/turf/open/space/basic,
+/area/space)
+"Xc" = (
+/obj/structure/fluff/broken_flooring{
+	icon_state = "plating";
+	dir = 1
+	},
+/obj/item/rack_parts/shelf{
+	pixel_y = -8;
+	pixel_x = -9
+	},
+/turf/open/space/basic,
+/area/space)
+"Xr" = (
+/obj/item/food/ration/pack{
+	pixel_x = -7;
+	pixel_y = 6
+	},
+/turf/open/space/basic,
+/area/space)
+"Xz" = (
+/turf/open/floor/plasteel/mono,
+/area/space)
+"XS" = (
+/obj/item/stack/ore/salvage/scrapmetal,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"XW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"Yr" = (
+/obj/effect/turf_decal/trimline/opaque/beige/warning{
+	dir = 4
+	},
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular"
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Zw" = (
+/obj/item/stack/ore/salvage/scraptitanium,
+/turf/open/space/basic,
+/area/space)
+"ZR" = (
+/obj/structure/closet/cardboard,
+/obj/item/mmi/posibrain,
+/turf/open/floor/plasteel/mono,
+/area/space)
+
+(1,1,1) = {"
+cz
+cz
+cz
+cz
+DO
+DO
+DO
+dW
+dW
+dW
+DO
+DO
+DO
+"}
+(2,1,1) = {"
+cz
+cz
+cz
+cz
+DO
+tB
+jM
+ks
+TX
+BX
+jM
+Oh
+DO
+"}
+(3,1,1) = {"
+cz
+WZ
+cz
+cz
+DO
+aC
+XW
+kb
+TX
+DM
+Xz
+XW
+DO
+"}
+(4,1,1) = {"
+cz
+cz
+Om
+cz
+DO
+Xz
+Xz
+Cc
+TX
+DM
+XW
+Pr
+DO
+"}
+(5,1,1) = {"
+cz
+Tv
+cz
+Om
+DO
+Xz
+PR
+wS
+TX
+DM
+Xz
+Ck
+DO
+"}
+(6,1,1) = {"
+cz
+hm
+iO
+bU
+Zw
+Xc
+XS
+Cc
+TX
+DM
+QM
+ZR
+DO
+"}
+(7,1,1) = {"
+cz
+cz
+Om
+cz
+WJ
+hY
+UU
+hq
+TX
+IQ
+kl
+Ib
+ac
+"}
+(8,1,1) = {"
+pf
+cz
+Xr
+pn
+bc
+Yr
+AA
+eK
+aL
+Ms
+KT
+AA
+ac
+"}
+(9,1,1) = {"
+cz
+cz
+lo
+AM
+DO
+Xz
+fQ
+Cc
+TX
+DM
+Xz
+Xz
+DO
+"}
+(10,1,1) = {"
+Zw
+cz
+cz
+cz
+DO
+dz
+lv
+kb
+WM
+Oz
+XW
+uN
+DO
+"}
+(11,1,1) = {"
+cz
+cz
+cz
+cz
+DO
+rl
+XW
+kb
+WM
+Oz
+XW
+vl
+DO
+"}
+(12,1,1) = {"
+cz
+cz
+cz
+cz
+DO
+aC
+Xz
+Cc
+WM
+Oz
+Xz
+Ew
+DO
+"}
+(13,1,1) = {"
+cz
+cz
+cz
+Dj
+DO
+hB
+Ib
+hq
+WM
+Bv
+kl
+kl
+DO
+"}
+(14,1,1) = {"
+cz
+cz
+cz
+cz
+DO
+DO
+DO
+dW
+dW
+dW
+DO
+DO
+DO
+"}
