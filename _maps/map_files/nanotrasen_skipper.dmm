@@ -770,7 +770,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/central)
 "fz" = (
 /obj/machinery/shower{
@@ -1304,7 +1304,7 @@
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/cargo/office)
 "ji" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/crewthree)
 "jq" = (
 /obj/structure/grille,
@@ -1439,7 +1439,7 @@
 /turf/open/floor/plating,
 /area/ship/hallway/central)
 "kz" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/atmospherics)
 "kB" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
@@ -1486,7 +1486,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
 "kU" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/toilet)
 "kW" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -1558,10 +1558,10 @@
 /turf/open/floor/wood,
 /area/ship/crew/crewtwo)
 "ls" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/medical)
 "lw" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/canteen/kitchen)
 "lA" = (
 /obj/structure/closet/crate/bin,
@@ -1625,7 +1625,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/central)
 "mg" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -1806,7 +1806,7 @@
 /turf/open/floor/engine/airless,
 /area/ship/external)
 "nq" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/office)
 "nu" = (
 /obj/machinery/computer/atmos_control/incinerator{
@@ -2071,7 +2071,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "qa" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/crewtwo)
 "qb" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -2420,7 +2420,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
 	},
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/atmospherics)
 "tk" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer{
@@ -2459,7 +2459,7 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ship/hallway/central)
 "tx" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/cargo)
 "tz" = (
 /obj/structure/cable{
@@ -2542,7 +2542,7 @@
 /turf/open/floor/wood,
 /area/ship/crew/dorm)
 "ul" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/engine)
 "um" = (
 /obj/effect/turf_decal/corner/opaque/ntblue/diagonal,
@@ -4947,7 +4947,7 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ship/hallway/central)
 "Qp" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/bridge)
 "Qs" = (
 /obj/structure/cable{
@@ -5498,7 +5498,7 @@
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ship/bridge)
 "Vj" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/central)
 "Vp" = (
 /obj/structure/table/reinforced,
@@ -5668,7 +5668,7 @@
 /turf/open/floor/wood,
 /area/ship/crew/dorm)
 "WZ" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/cryo)
 "Xe" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -5688,7 +5688,7 @@
 /turf/open/floor/carpet/blue,
 /area/ship/crew/dorm)
 "Xp" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/cargo/office)
 "Xt" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -5735,7 +5735,7 @@
 /turf/open/floor/plasteel,
 /area/ship/crew/crewtwo)
 "XU" = (
-/turf/closed/indestructible/titanium/nodiagnonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/dorm)
 "XY" = (
 /obj/machinery/door/poddoor/preopen{
