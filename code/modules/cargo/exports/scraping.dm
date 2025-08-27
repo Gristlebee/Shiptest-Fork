@@ -37,7 +37,7 @@
 	export_types = list(/obj/item/circuitboard/computer/solar_control)
 
 /datum/export/thruster_parts
-	cost = 250
+	cost = 200
 	desc = "Electric, plasma, combustion, whatever. If it makes a shuttle fly, we'll take it."
 	unit_name = "engine thruster and heater boards"
 	export_types = list(/obj/item/circuitboard/machine/shuttle/engine,

@@ -6,7 +6,7 @@
 /datum/export/trash
 	unit_name = "trash"
 	desc = "CLIP-LAND is running a recycling initiative to help clean up the Frontier. They'll take trash like old food packaging, empty cans, bottles, and used cigarette packs and butts for a small rebate."
-	cost = 2
+	cost = 1
 	export_types = list(/obj/item/trash, /obj/item/cigbutt, /obj/item/reagent_containers/food/drinks, /obj/item/storage/fancy/cigarettes)
 
 /datum/export/trash/get_amount(obj/O)
