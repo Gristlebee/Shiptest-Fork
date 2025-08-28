@@ -3287,9 +3287,6 @@
 	dir = 1
 	},
 /area/ruin/jungle/cavecrew/ship)
-"Pz" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ruin/jungle/cavecrew/engineering)
 "PB" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -4459,10 +4456,10 @@ wt
 wt
 wt
 wt
-Pz
-Pz
-Pz
-Pz
+jm
+jm
+jm
+jm
 wt
 wt
 wt
@@ -4524,10 +4521,10 @@ wt
 wt
 wt
 wt
-Pz
+jm
 dm
 pn
-Pz
+jm
 wt
 wt
 wt
@@ -4589,12 +4586,12 @@ wt
 wt
 wt
 wt
-Pz
+jm
 VU
 QH
-Pz
-Pz
-Pz
+jm
+jm
+jm
 wt
 wt
 wt
@@ -4654,12 +4651,12 @@ wt
 wt
 wt
 wt
-Pz
+jm
 Bp
 gM
 xi
 SI
-Pz
+jm
 wN
 wN
 wN
@@ -4719,12 +4716,12 @@ Nr
 Nr
 Nr
 Nr
-Pz
+jm
 mb
 CN
 CZ
 Vy
-Pz
+jm
 wN
 VO
 OU
@@ -4784,12 +4781,12 @@ Nr
 lV
 zJ
 gm
-Pz
+jm
 Rd
 Us
 kR
 ag
-Pz
+jm
 mt
 np
 dH
@@ -4849,12 +4846,12 @@ tx
 dQ
 Qy
 Ge
-Pz
+jm
 Zx
 wr
 ja
 kH
-Pz
+jm
 MY
 am
 Bt
@@ -4914,10 +4911,10 @@ wk
 Tf
 Gk
 Cg
-Pz
+jm
 UC
 Iv
-Pz
+jm
 lu
 jm
 wN

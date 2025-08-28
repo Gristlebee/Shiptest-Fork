@@ -653,7 +653,7 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/centcom/control)
 "alN" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -1217,7 +1217,7 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/centcom/control)
 "aqw" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -1320,7 +1320,7 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/centcom/evac)
 "aqV" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -1736,7 +1736,7 @@
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
 /obj/machinery/light/directional/south,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/centcom/evac)
 "auC" = (
 /obj/machinery/computer/camera_advanced,
@@ -2409,7 +2409,7 @@
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
 /obj/machinery/light/directional/north,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/centcom/evac)
 "azN" = (
 /obj/structure/bookcase/random/reference,
@@ -2962,7 +2962,7 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/tdome/tdomeobserve)
 "aEU" = (
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -2970,7 +2970,7 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/tdome/tdomeobserve)
 "aEW" = (
 /obj/structure/table/wood,
@@ -3300,7 +3300,7 @@
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
 /obj/machinery/light/directional/west,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/tdome/tdomeadmin)
 "aIF" = (
 /obj/structure/table/reinforced,
@@ -3378,7 +3378,7 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/tdome/tdomeadmin)
 "aJn" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -3402,7 +3402,7 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plating/asteroid/smoothed,
 /area/tdome/tdomeadmin)
 "aJA" = (
 /obj/machinery/abductor/experiment{
