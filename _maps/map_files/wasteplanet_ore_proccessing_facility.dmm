@@ -4,7 +4,8 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "aD" = (
-/obj/item/borg/upgrade/modkit/cooldown,
+/obj/structure/table,
+/obj/item/food/meat/slab/human/mutant/fly,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "aL" = (
@@ -56,16 +57,20 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "cJ" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/mob/living/simple_animal/bot/medbot,
+/obj/structure/hazard/spray/steam,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "cO" = (
-/obj/item/borg/upgrade/modkit/damage,
+/obj/machinery/conveyor/auto{
+	dir = 4;
+	id = "rockplanet_ore_process"
+	},
+/obj/structure/hazard/electrical/wire_mess,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
+"db" = (
+/turf/closed/indestructible/rock,
+/area/overmap_encounter/planetoid/cave/explored)
 "ed" = (
 /obj/machinery/door/poddoor/crusher/automatic,
 /obj/machinery/conveyor/auto{
@@ -74,7 +79,9 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "eo" = (
-/obj/machinery/vending/mining_equipment,
+/obj/structure/cable/yellow{
+	icon_state = "2-6"
+	},
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "ey" = (
@@ -104,9 +111,9 @@
 /obj/structure/lattice/lava{
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
 	},
 /area/ruin/powered)
 "iG" = (
@@ -116,6 +123,18 @@
 	},
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/rust,
+/area/ruin/powered)
+"jA" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/structure/lattice/lava{
+	icon = 'icons/obj/smooth_structures/catwalk.dmi'
+	},
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
+	},
 /area/ruin/powered)
 "jE" = (
 /obj/machinery/conveyor/auto,
@@ -132,32 +151,37 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "kI" = (
-/obj/item/borg/upgrade/modkit/range,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/item/powersink,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "kL" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/closet/syndicate/resources{
-	name = "Resource storage"
-	},
-/turf/open/floor/plating/rust,
-/area/ruin/powered)
-"kW" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
+/obj/structure/railing,
 /obj/structure/lattice/lava{
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
 	},
+/area/ruin/powered)
+"kW" = (
+/obj/machinery/conveyor_switch{
+	id = "rockplanet_ore_process"
+	},
+/turf/open/floor/plating,
+/area/ruin/powered)
+"lx" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating/rust,
 /area/ruin/powered)
 "lC" = (
 /obj/machinery/door/airlock/mining{
@@ -166,9 +190,23 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
+"lW" = (
+/obj/machinery/mineral/processing_unit{
+	dir = 1
+	},
+/obj/structure/catwalk,
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
+	},
+/area/ruin/powered)
 "mg" = (
-/obj/effect/mob_spawn/human/corpse/cargo_tech,
-/obj/machinery/light/small/directional/north,
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "mE" = (
@@ -182,7 +220,9 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "ns" = (
-/obj/structure/ore_box,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "nU" = (
@@ -200,15 +240,20 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "pb" = (
-/obj/item/borg/upgrade/modkit/aoe,
+/obj/structure/bonfire/prelit,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "pk" = (
-/obj/machinery/conveyor_switch{
-	id = "rockplanet_ore_process"
+/obj/structure/railing{
+	dir = 6
 	},
-/mob/living/simple_animal/bot/medbot,
-/turf/open/floor/plating,
+/obj/structure/lattice/lava{
+	icon = 'icons/obj/smooth_structures/catwalk.dmi'
+	},
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
+	},
 /area/ruin/powered)
 "pm" = (
 /obj/machinery/conveyor/auto{
@@ -282,16 +327,8 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "te" = (
-/obj/structure/railing{
-	dir = 6
-	},
-/obj/structure/lattice/lava{
-	icon = 'icons/obj/smooth_structures/catwalk.dmi'
-	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
-	},
+/obj/item/stack/cable_coil/red,
+/turf/open/floor/plating/rust,
 /area/ruin/powered)
 "tq" = (
 /obj/structure/catwalk,
@@ -365,18 +402,20 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "xf" = (
-/obj/item/borg/upgrade/modkit/tracer,
-/turf/open/floor/plating/rust,
-/area/ruin/powered)
-"xz" = (
-/obj/structure/railing,
+/obj/structure/railing{
+	dir = 4
+	},
 /obj/structure/lattice/lava{
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
 	},
+/area/ruin/powered)
+"xz" = (
+/obj/item/fishing_rod,
+/turf/open/floor/plating/rust,
 /area/ruin/powered)
 "xD" = (
 /obj/structure/closet/crate/secure/gear{
@@ -386,11 +425,7 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "xO" = (
-/obj/machinery/conveyor/auto{
-	dir = 4;
-	id = "rockplanet_ore_process"
-	},
-/obj/structure/hazard/electrical/wire_mess,
+/obj/machinery/computer/monitor,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "yy" = (
@@ -400,18 +435,25 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "zd" = (
-/obj/machinery/mineral/processing_unit{
-	dir = 1
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
-/obj/structure/catwalk,
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
 	},
+/turf/open/floor/plating/rust,
 /area/ruin/powered)
 "zK" = (
-/mob/living/simple_animal/bot/secbot/ed209/rockplanet,
-/turf/open/floor/plating/rust,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/lattice/lava{
+	icon = 'icons/obj/smooth_structures/catwalk.dmi'
+	},
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
+	},
 /area/ruin/powered)
 "Af" = (
 /obj/structure/railing{
@@ -423,10 +465,10 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "AP" = (
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
+/obj/structure/cable/yellow{
+	icon_state = "1-6"
 	},
+/turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Bi" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -436,15 +478,15 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
+"DL" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/machinery/power/rtg/geothermal,
+/turf/open/floor/plating/rust,
+/area/ruin/powered)
 "Ff" = (
-/obj/item/pickaxe/drill/diamonddrill{
-	pixel_y = 3
-	},
-/obj/item/pickaxe/drill/diamonddrill,
-/obj/item/pickaxe/drill/diamonddrill{
-	pixel_y = -3
-	},
-/obj/structure/rack,
+/obj/structure/bed/double/maint,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Fs" = (
@@ -461,7 +503,9 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Gd" = (
-/obj/structure/hazard/spray/steam,
+/obj/machinery/door/airlock/hatch{
+	dir = 4
+	},
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Gv" = (
@@ -477,17 +521,15 @@
 /area/ruin/powered)
 "HI" = (
 /obj/structure/railing{
-	dir = 4
+	dir = 9
 	},
-/obj/structure/railing{
-	dir = 8
-	},
+/obj/structure/railing/corner,
 /obj/structure/lattice/lava{
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
 	},
 /area/ruin/powered)
 "HP" = (
@@ -497,29 +539,19 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "HR" = (
-/obj/structure/railing{
-	dir = 9
+/obj/machinery/disposal/deliveryChute{
+	dir = 4
 	},
-/obj/structure/railing/corner,
-/obj/structure/lattice/lava{
-	icon = 'icons/obj/smooth_structures/catwalk.dmi'
+/obj/structure/disposalpipe/trunk{
+	dir = 8
 	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
-	},
+/turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Is" = (
-/obj/structure/railing{
-	dir = 9
+/obj/structure/chair/plastic{
+	dir = 1
 	},
-/obj/structure/lattice/lava{
-	icon = 'icons/obj/smooth_structures/catwalk.dmi'
-	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
-	},
+/turf/open/floor/plating/rust,
 /area/ruin/powered)
 "JS" = (
 /obj/structure/closet/firecloset,
@@ -535,16 +567,10 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Ka" = (
-/obj/structure/railing{
-	dir = 4
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
 	},
-/obj/structure/lattice/lava{
-	icon = 'icons/obj/smooth_structures/catwalk.dmi'
-	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
-	},
+/turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Kq" = (
 /obj/structure/railing{
@@ -562,6 +588,26 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Lc" = (
+/obj/machinery/computer/security/wooden_tv,
+/obj/structure/table,
+/turf/open/floor/plating/rust,
+/area/ruin/powered)
+"Ln" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/lattice/lava{
+	icon = 'icons/obj/smooth_structures/catwalk.dmi'
+	},
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
+	},
+/area/ruin/powered)
+"Lp" = (
 /obj/machinery/door/poddoor/crusher/automatic/preopen,
 /obj/structure/railing,
 /obj/structure/railing{
@@ -570,9 +616,9 @@
 /obj/structure/lattice/lava{
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
 	},
 /area/ruin/powered)
 "LN" = (
@@ -628,6 +674,16 @@
 /obj/item/pickaxe/mini,
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
+"PX" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-9"
+	},
+/obj/item/clothing/gloves/combat/insul,
+/turf/open/floor/plating/rust,
+/area/ruin/powered)
 "Ql" = (
 /obj/machinery/conveyor/auto{
 	dir = 4;
@@ -637,15 +693,9 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Sg" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/structure/lattice/lava{
-	icon = 'icons/obj/smooth_structures/catwalk.dmi'
-	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
 	},
 /area/ruin/powered)
 "Ta" = (
@@ -653,6 +703,15 @@
 /obj/machinery/conveyor/auto{
 	dir = 4;
 	id = "rockplanet_ore_process"
+	},
+/turf/open/floor/plating/rust,
+/area/ruin/powered)
+"Vf" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-9"
 	},
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
@@ -693,8 +752,20 @@
 /turf/open/floor/plating/rust,
 /area/ruin/powered)
 "Yq" = (
-/turf/template_noop,
-/area/template_noop)
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/lattice/lava{
+	icon = 'icons/obj/smooth_structures/catwalk.dmi'
+	},
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
+	},
+/area/ruin/powered)
 "Zp" = (
 /obj/structure/catwalk,
 /obj/machinery/conveyor/auto{
@@ -705,14 +776,14 @@
 /area/ruin/powered)
 "Zt" = (
 /obj/structure/railing{
-	dir = 8
+	dir = 1
 	},
 /obj/structure/lattice/lava{
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	},
-/turf/open/lava/smooth{
-	smoothing_flags = 0;
-	smoothing_groups = null
+/turf/open/water/acid{
+	name = "caustic waste";
+	desc = "A pool of various toxic chemicals and run offs. You probably don't to step in this."
 	},
 /area/ruin/powered)
 "ZL" = (
@@ -721,93 +792,352 @@
 /area/ruin/powered)
 
 (1,1,1) = {"
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
 (2,1,1) = {"
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
 (3,1,1) = {"
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-rx
-ns
-wB
-wB
-ns
-rx
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
 (4,1,1) = {"
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(5,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(6,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+rx
+rx
+rx
+rx
+rx
+rx
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(7,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+rx
+wB
+HR
+wB
+uB
+rx
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(8,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+rx
+wB
+wB
+wB
+wB
+rx
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(9,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 rx
 rx
 rx
@@ -828,14 +1158,28 @@ rx
 rx
 rx
 rx
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(5,1,1) = {"
-Yq
-Yq
-Yq
+(10,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 rx
 qk
 wW
@@ -858,12 +1202,26 @@ qk
 rx
 rx
 rx
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(6,1,1) = {"
-Yq
-Yq
-Yq
+(11,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 rx
 qk
 rx
@@ -886,9 +1244,23 @@ Hr
 qk
 Pd
 rx
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(7,1,1) = {"
+(12,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 rx
 rx
@@ -914,11 +1286,25 @@ rx
 Ta
 rx
 rx
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(8,1,1) = {"
+(13,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
-xO
+cO
 wZ
 wW
 qk
@@ -942,9 +1328,23 @@ Hr
 Hr
 qk
 rx
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(9,1,1) = {"
+(14,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 pm
 bO
@@ -953,7 +1353,7 @@ ka
 rx
 rx
 rx
-zK
+wB
 am
 wB
 wB
@@ -970,9 +1370,23 @@ rx
 rx
 cA
 rx
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(10,1,1) = {"
+(15,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 ch
 Hr
@@ -992,15 +1406,29 @@ rx
 rx
 oq
 rx
-mg
+ZL
 uy
 wW
 wW
 wW
 rx
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(11,1,1) = {"
+(16,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 qk
 wW
@@ -1026,9 +1454,23 @@ aL
 rx
 rx
 rx
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(12,1,1) = {"
+(17,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 qk
 qk
@@ -1052,11 +1494,25 @@ WV
 rx
 qk
 rx
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(13,1,1) = {"
+(18,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 qk
 qk
@@ -1070,7 +1526,7 @@ lC
 rx
 rx
 qk
-AP
+Sg
 rx
 rx
 rx
@@ -1080,13 +1536,27 @@ LN
 rx
 qk
 rx
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(14,1,1) = {"
+(19,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
-Gd
+cJ
 ka
 qk
 qk
@@ -1098,7 +1568,7 @@ Zp
 Fs
 Zp
 Zp
-AP
+Sg
 Nf
 wy
 wy
@@ -1108,11 +1578,25 @@ VL
 rx
 vV
 rx
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(15,1,1) = {"
+(20,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 ch
 Hr
@@ -1120,16 +1604,16 @@ qk
 wW
 rx
 pJ
-AP
-AP
-AP
-AP
-AP
-AP
-AP
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
 pO
-AP
-AP
+Sg
+Sg
 pJ
 rx
 LN
@@ -1139,8 +1623,22 @@ rx
 rx
 rx
 rx
+db
+db
+db
+db
+db
+db
+db
 "}
-(16,1,1) = {"
+(21,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 qk
 qk
@@ -1156,7 +1654,7 @@ wy
 wy
 wy
 pO
-AP
+Sg
 Yk
 pJ
 rx
@@ -1167,25 +1665,39 @@ Hr
 Hr
 qk
 rx
+db
+db
+db
+db
+db
+db
+db
 "}
-(17,1,1) = {"
+(22,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 Hr
 Hr
 qk
 iG
 rx
-AP
-AP
-AP
+Sg
+Sg
+Sg
 pO
-AP
-AP
-AP
-AP
-AP
-AP
-AP
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
 pJ
 rx
 LN
@@ -1195,23 +1707,37 @@ rx
 rx
 ce
 rx
+db
+db
+db
+db
+db
+db
+db
 "}
-(18,1,1) = {"
+(23,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
 rx
 rx
 rx
 Ta
 rx
 rx
-zd
+lW
 Nf
 wy
 pO
-AP
-Is
-Zt
+Sg
+jA
+zK
 hy
-AP
+Sg
 pJ
 Zp
 JY
@@ -1223,26 +1749,40 @@ Bi
 rx
 qk
 rx
+db
+db
+db
+db
+db
+db
+db
 "}
-(19,1,1) = {"
-Yq
-Yq
+(24,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
 rx
 Ql
 Hr
 nU
 Hr
 pO
-AP
-AP
-AP
 Sg
-pk
-xz
-AP
+Sg
+Sg
+Zt
+kW
+kL
+Sg
 pJ
-AP
-AP
+Sg
+Sg
 rx
 VL
 rx
@@ -1251,26 +1791,40 @@ rx
 rx
 qk
 rx
+db
+db
+db
+db
+db
+db
+db
 "}
-(20,1,1) = {"
-Yq
-Yq
+(25,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
 rx
 Ql
 oq
 rx
-AP
+Sg
 pO
-AP
-HR
+Sg
 HI
-kW
-Ka
-te
-AP
+Yq
+Ln
+xf
+pk
+Sg
 pJ
-AP
-AP
+Sg
+Sg
 rx
 oq
 wW
@@ -1279,26 +1833,40 @@ wW
 WV
 qk
 rx
+db
+db
+db
+db
+db
+db
+db
 "}
-(21,1,1) = {"
-Yq
-Yq
+(26,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
 rx
 Ql
 oq
 rx
 wy
 pO
-AP
-Lc
-AP
-AP
-AP
-AP
-AP
+Sg
+Lp
+Sg
+Sg
+Sg
+Sg
+Sg
 pJ
-AP
-AP
+Sg
+Sg
 rx
 rx
 rx
@@ -1307,18 +1875,32 @@ rx
 VL
 wW
 rx
+db
+db
+db
+db
+db
+db
+db
 "}
-(22,1,1) = {"
-Yq
-Yq
+(27,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
 rx
 Ql
 oq
 rx
 pO
-AP
-AP
 Sg
+Sg
+Zt
 Zp
 Zp
 Zp
@@ -1329,44 +1911,72 @@ Zp
 Zp
 KZ
 rx
-Yq
-Yq
+db
+db
 rx
 rx
 rx
 rx
+db
+db
+db
+db
+db
+db
+db
 "}
-(23,1,1) = {"
-Yq
-Yq
+(28,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
 rx
 NV
 VR
 rx
 pO
-AP
-AP
+Sg
+Sg
 wi
-AP
-AP
-AP
-AP
-AP
-AP
-AP
-AP
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
 pO
 rx
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(24,1,1) = {"
-Yq
-Yq
+(29,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
 rx
 rx
 bE
@@ -1377,7 +1987,7 @@ Zp
 tq
 qb
 qj
-AP
+Sg
 oq
 wy
 wy
@@ -1385,18 +1995,32 @@ wy
 wy
 pO
 rx
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(25,1,1) = {"
-Yq
-Yq
-Yq
-Yq
+(30,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 bE
 bE
 bE
@@ -1404,7 +2028,7 @@ bE
 bE
 bE
 bE
-bE
+Gd
 bE
 MX
 bE
@@ -1413,105 +2037,161 @@ bE
 rx
 rx
 rx
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(26,1,1) = {"
-Yq
-Yq
-Yq
-Yq
+(31,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 bE
-Ff
+xO
 wB
-kI
-wB
+lx
+DL
 Cj
 JS
 wB
 bE
 MX
 bE
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(27,1,1) = {"
-Yq
-Yq
-Yq
-Yq
+(32,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 bE
+mg
+te
+zd
+AP
 eo
-pb
+ns
+Ka
+bE
+MX
+bE
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(33,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+bE
+bE
+wB
+wB
+Kq
+Vf
+PX
 kI
-aD
-wB
-wB
-wB
 bE
 MX
 bE
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(28,1,1) = {"
-Yq
-Yq
-Yq
-Yq
+(34,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 bE
-bE
-aD
-cO
-cJ
-Kq
-Kq
-kL
-bE
-MX
-bE
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-"}
-(29,1,1) = {"
-Yq
-Yq
-Yq
-Yq
-Yq
-bE
-xf
+wB
 wB
 Hr
 Hr
@@ -1520,24 +2200,164 @@ Hr
 Hr
 Hr
 bE
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
-(30,1,1) = {"
-Yq
-Yq
-Yq
-Yq
-Yq
+(35,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+bE
+wB
+wB
+yy
+yy
+yy
+yy
+yy
+yy
+bE
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(36,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+bE
+xz
+wB
+wB
+wB
+wB
+wB
+wB
+aD
+bE
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(37,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+bE
+Lc
+Is
+wB
+wB
+Ff
+wB
+wB
+pb
+bE
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(38,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 bE
 bE
 bE
@@ -1548,15 +2368,106 @@ bE
 bE
 bE
 bE
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
-Yq
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(39,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+"}
+(40,1,1) = {"
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
+db
 "}
