@@ -63,9 +63,10 @@
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/space)
 "iv" = (
-/obj/structure/rack,
-/obj/item/ammo_box/magazine/m556_42_hydra/small,
-/obj/item/ammo_box/magazine/m556_42_hydra/small,
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/space)
 "jj" = (
@@ -91,12 +92,6 @@
 /area/space)
 "lE" = (
 /turf/closed/mineral/random/snow,
-/area/space)
-"lZ" = (
-/obj/machinery/door/poddoor/shutters{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/snow/safe,
 /area/space)
 "ms" = (
 /obj/structure/railing{
@@ -270,15 +265,6 @@
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/space)
-"Ff" = (
-/obj/structure/rack,
-/obj/item/ammo_box/magazine/m57_39_asp,
-/obj/item/ammo_box/magazine/m57_39_asp,
-/obj/item/ammo_box/magazine/m57_39_asp,
-/obj/item/ammo_box/magazine/m57_39_asp,
-/obj/item/ammo_box/magazine/m57_39_asp,
-/turf/open/floor/plating/asteroid/snow/safe,
-/area/space)
 "Fm" = (
 /obj/structure/closet/crate/large,
 /obj/machinery/space_heater,
@@ -362,10 +348,6 @@
 /obj/structure/rack,
 /turf/open/floor/plating/snowed,
 /area/space)
-"Jr" = (
-/obj/machinery/gateway,
-/turf/open/floor/plating/snowed,
-/area/space)
 "Kn" = (
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/space)
@@ -380,20 +362,11 @@
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/space)
-"Lw" = (
-/obj/structure/rack,
-/obj/item/gun/ballistic/automatic/pistol/asp{
-	pixel_x = -1;
-	pixel_y = 6
-	},
-/obj/item/gun/ballistic/automatic/pistol/asp{
-	pixel_x = 7;
-	pixel_y = -1
-	},
-/turf/open/floor/plating/asteroid/snow/safe,
-/area/space)
 "LK" = (
-/obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/floodlight,
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/space)
 "Mx" = (
@@ -455,11 +428,6 @@
 /obj/item/book/manual/hydroponics_pod_people,
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/space)
-"Rt" = (
-/obj/structure/rack,
-/obj/item/gun/ballistic/automatic/assault/hydra/dmr,
-/turf/open/floor/plating/asteroid/snow/safe,
-/area/space)
 "Sh" = (
 /obj/structure/railing{
 	dir = 1
@@ -474,11 +442,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating/snowed,
-/area/space)
-"Tn" = (
-/obj/machinery/suit_storage_unit/inherit/industrial,
-/obj/item/clothing/suit/space/hardsuit/syndi/cybersun,
-/turf/open/floor/plating/asteroid/snow/safe,
 /area/space)
 "Tr" = (
 /obj/structure/railing{
@@ -8132,7 +8095,7 @@ xb
 Kn
 wv
 ap
-Jr
+ap
 ap
 wv
 Kn
@@ -12280,7 +12243,7 @@ lE
 Kn
 Kn
 Kn
-Kn
+iv
 Kn
 tL
 lE
@@ -12422,7 +12385,7 @@ lE
 Kn
 Kn
 Kn
-Kn
+LK
 Kn
 Kn
 lE
@@ -12846,7 +12809,7 @@ lE
 tL
 Kn
 Kn
-Kn
+lE
 Kn
 Kn
 Kn
@@ -12987,13 +12950,13 @@ lE
 lE
 lE
 lE
-tL
-tL
-lZ
-lZ
-lZ
-tL
-tL
+lE
+lE
+lE
+Kn
+Kn
+Kn
+Kn
 lE
 lE
 lE
@@ -13128,6 +13091,9 @@ lE
 lE
 lE
 lE
+lE
+lE
+lE
 Kn
 Kn
 Kn
@@ -13135,9 +13101,6 @@ Kn
 Kn
 Kn
 Kn
-Kn
-Kn
-Rt
 lE
 lE
 lE
@@ -13279,7 +13242,7 @@ Kn
 Kn
 Kn
 Kn
-iv
+Kn
 lE
 lE
 lE
@@ -13294,7 +13257,7 @@ lE
 lE
 lE
 Zr
-Jr
+ap
 ap
 ap
 wv
@@ -13421,7 +13384,7 @@ Kn
 Kn
 Kn
 Kn
-Lw
+Kn
 lE
 lE
 lE
@@ -13553,8 +13516,7 @@ lE
 lE
 lE
 lE
-tL
-LK
+lE
 Kn
 Kn
 Kn
@@ -13563,8 +13525,9 @@ Kn
 Kn
 Kn
 Kn
-Ff
-tL
+Kn
+lE
+lE
 lE
 lE
 lE
@@ -13696,7 +13659,7 @@ lE
 lE
 lE
 lE
-LK
+Kn
 Kn
 Kn
 Kn
@@ -13838,7 +13801,7 @@ lE
 lE
 lE
 lE
-Tn
+Kn
 Kn
 Kn
 Kn
