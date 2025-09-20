@@ -9,106 +9,172 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "al" = (
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line{
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ap" = (
 /obj/effect/gibspawner/generic,
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"aw" = (
+/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
+	dir = 8
+	},
+/obj/machinery/light/broken/directional/west,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "aB" = (
 /obj/machinery/door/window/northleft{
 	dir = 8
 	},
 /obj/machinery/smartfridge/chemistry/virology/preloaded,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "aQ" = (
 /obj/structure/ladder,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"bi" = (
+/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
+	dir = 4
+	},
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "bo" = (
 /obj/structure/table,
 /obj/item/modular_computer/laptop/preset/civilian,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "bU" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "bX" = (
 /obj/structure/chair/office,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ch" = (
 /obj/machinery/door/airlock/vault,
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "cH" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/warning,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "cJ" = (
 /obj/structure/ladder,
 /turf/open/floor/plating/rust,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "dP" = (
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line{
 	dir = 9
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ex" = (
 /obj/item/flashlight/lamp/green,
 /obj/structure/table,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "eM" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 9
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "eQ" = (
 /obj/structure/salvageable/computer{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"fa" = (
+/obj/machinery/light/small/broken/directional/west,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "fh" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "fj" = (
 /obj/effect/gibspawner/generic,
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "fq" = (
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line{
 	dir = 10
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ft" = (
 /obj/machinery/suit_storage_unit/industrial,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "fy" = (
 /obj/effect/gibspawner/human,
 /turf/open/floor/engine,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "fB" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/warning{
 	dir = 6
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "fK" = (
 /obj/structure/sign/warning{
 	pixel_x = 29
@@ -118,7 +184,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "fS" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -127,87 +195,134 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "gt" = (
 /obj/machinery/computer/cloning,
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "hg" = (
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "hC" = (
 /obj/machinery/chem_heater,
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "hP" = (
 /obj/machinery/computer/operating,
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "hZ" = (
 /obj/machinery/door/airlock/virology,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"ia" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/rust,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "io" = (
 /obj/structure/showcase/horrific_experiment,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "iv" = (
 /obj/machinery/shower{
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "iG" = (
 /obj/machinery/door/window/northleft,
 /obj/structure/closet/wall/white/directional/east,
 /obj/item/towel,
 /obj/item/towel,
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"iZ" = (
+/obj/structure/rack,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "jE" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "jG" = (
 /obj/structure/bed,
 /turf/open/floor/engine,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "jL" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/security/wooden_tv,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "jN" = (
 /obj/structure/salvageable/server,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "jS" = (
 /turf/open/floor/plating/rust,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "kd" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ke" = (
 /obj/effect/turf_decal/arrows{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "kz" = (
 /obj/machinery/modular_computer/console/preset/engineering{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "kQ" = (
 /obj/structure/bodycontainer/crematorium{
 	dir = 1;
@@ -215,20 +330,28 @@
 	desc = "A large incinerator. Works well on barbecue nights."
 	},
 /turf/open/floor/engine/hull/reinforced/interior,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "kS" = (
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "le" = (
 /obj/structure/filingcabinet/double/grey{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "li" = (
 /obj/structure/showcase/horrific_experiment,
 /turf/open/floor/plating/rust,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "lp" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/power/terminal{
@@ -241,7 +364,15 @@
 	icon_state = "0-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"lJ" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "lO" = (
 /obj/structure/sink/greyscale{
 	dir = 4;
@@ -249,17 +380,23 @@
 	pixel_x = -14
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "lZ" = (
 /obj/machinery/shower{
 	dir = 1
 	},
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "mA" = (
 /obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "nf" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/power/terminal{
@@ -269,25 +406,33 @@
 	icon_state = "0-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "np" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/warning{
 	dir = 5
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "nz" = (
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "nA" = (
 /obj/machinery/door/airlock/medical{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "nE" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/glass/beaker/cryoxadone{
@@ -300,99 +445,142 @@
 	},
 /obj/item/reagent_containers/glass/beaker/cryoxadone,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "nG" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "nH" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 9
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ol" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 5
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "oy" = (
 /obj/structure/sign/departments/custodian{
 	pixel_y = 32
 	},
 /turf/open/floor/plating/rust,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "oD" = (
 /obj/machinery/scanner_gate,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "oZ" = (
 /obj/structure/janitorialcart,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ph" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "pQ" = (
 /obj/structure/table/reinforced,
 /obj/item/radio/intercom/table{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "qf" = (
 /obj/machinery/door/window/northleft,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "qP" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/engine,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "qZ" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "rk" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "rx" = (
 /obj/structure/table/reinforced,
 /obj/item/bodycamera/broadcast_camera,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "rG" = (
 /obj/structure/rack,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "sm" = (
 /obj/machinery/dna_vault,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "su" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "sY" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"ta" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "tb" = (
 /obj/structure/table/reinforced,
 /obj/item/taperecorder,
@@ -400,46 +588,74 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "to" = (
 /obj/structure/table/reinforced,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "tp" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "tM" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "tP" = (
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line{
 	dir = 6
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "um" = (
 /obj/machinery/door/poddoor/shutters,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"uv" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/rust,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "uV" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"wl" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "wO" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "wT" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
@@ -447,16 +663,22 @@
 /obj/structure/table,
 /obj/item/modular_computer/laptop/preset/civilian,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "wU" = (
 /obj/effect/turf_decal/arrows{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "xo" = (
 /turf/closed/mineral/random/rockplanet,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "xs" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/case/surgery,
@@ -464,27 +686,44 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"xt" = (
+/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line,
+/obj/machinery/light/broken/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "xM" = (
 /obj/structure/rack,
 /obj/machinery/door/window/northleft{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "xT" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/corner,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "xW" = (
 /obj/machinery/atmospherics/components/unary/portables_connector,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "yc" = (
 /obj/machinery/computer/cloning,
 /turf/open/floor/plating/rust,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "yl" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -493,65 +732,103 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ys" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "yK" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "yX" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"zn" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/engine,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "zr" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/syringe/rapidsyringe,
+/obj/machinery/light/dim/directional/south,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "zI" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Ac" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 6
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Ae" = (
 /obj/machinery/atmospherics/pipe/manifold/cyan/visible,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "AF" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"AK" = (
+/obj/structure/rack,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "AT" = (
 /obj/machinery/elevator_call_button{
 	pixel_y = 22
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "AV" = (
-/obj/structure/table/reinforced,
 /obj/machinery/door/window/northleft{
 	dir = 8
 	},
+/obj/structure/showcase/horrific_experiment,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Bj" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Bk" = (
 /obj/item/flashlight/lamp/green,
 /obj/structure/window/reinforced/tinted{
@@ -559,28 +836,44 @@
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Br" = (
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
 /turf/open/floor/engine,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"Bu" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "BQ" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/warning{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Cd" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Ck" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 9
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Cz" = (
 /obj/structure/sign/departments/restroom{
 	pixel_y = -1;
@@ -590,23 +883,31 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Dd" = (
 /obj/structure/chair/office{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Dp" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Dq" = (
 /obj/machinery/door/airlock/grunge{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "DS" = (
 /obj/machinery/button/crematorium{
 	pixel_x = 5;
@@ -617,67 +918,103 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "DX" = (
 /obj/machinery/telecomms/allinone,
 /turf/open/floor/circuit/telecomms,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "EB" = (
 /obj/machinery/chem_heater,
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line,
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "EK" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/warning{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ER" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 5
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Fq" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/warning{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "FA" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "FT" = (
 /obj/machinery/telecomms/relay,
 /turf/open/floor/circuit/telecomms,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Gg" = (
 /obj/structure/chair/office{
 	dir = 8
 	},
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "GT" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/warning{
 	dir = 9
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Hz" = (
 /obj/effect/decal/remains/xeno,
 /turf/open/floor/engine,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"HG" = (
+/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "HQ" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/syringe,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Iq" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "IE" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -686,29 +1023,54 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Jd" = (
 /obj/machinery/computer/telecomms/server{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"Ju" = (
+/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
+	dir = 5
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Jw" = (
 /obj/machinery/door/airlock{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"JC" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Kj" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Kn" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 10
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Ko" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 8
@@ -717,27 +1079,47 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Kq" = (
 /obj/machinery/door/airlock/grunge,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Ks" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"Kw" = (
+/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
+	dir = 1
+	},
+/obj/machinery/light/small/broken/directional/north,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Kz" = (
 /obj/machinery/blackbox_recorder,
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/circuit/telecomms,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "KO" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Ld" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
@@ -747,87 +1129,135 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Lo" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 5
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Lw" = (
 /obj/machinery/door/window/northleft,
 /obj/structure/closet/wall/white/directional/west,
 /obj/item/towel,
 /obj/item/towel,
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "MJ" = (
 /obj/item/kirbyplants/dead,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "MT" = (
 /obj/structure/bodycontainer/morgue{
 	dir = 2
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Nk" = (
 /obj/structure/table/optable,
 /obj/item/clothing/suit/straight_jacket,
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ND" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Om" = (
 /obj/machinery/atmospherics/components/unary/cryo_cell,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "On" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Ou" = (
 /obj/machinery/chem_master,
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "OA" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/medical/chem_jug,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "OC" = (
 /obj/machinery/chem_master,
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line,
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"OD" = (
+/obj/structure/rack,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"OL" = (
+/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
+	dir = 5
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "OS" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
 /obj/item/gun/energy/meteorgun/pen,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "OT" = (
 /obj/structure/chair/greyscale{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "OX" = (
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/engine/hull/reinforced/interior,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "PD" = (
 /obj/machinery/door/airlock/medical,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "PK" = (
 /obj/machinery/power/rtg/geothermal,
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -835,15 +1265,36 @@
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "PP" = (
 /obj/effect/turf_decal/trimline/opaque/cybersunteal/filled/line,
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Ql" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"Qn" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"Qx" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Rl" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -852,62 +1303,115 @@
 /obj/item/clothing/gloves/color/latex/nitrile/evil,
 /obj/item/clothing/glasses/welding,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "RE" = (
 /obj/machinery/door/poddoor/shutters{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "RF" = (
 /obj/item/melee/baseball_bat,
 /obj/effect/decal/remains/human,
 /turf/open/floor/engine,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"RH" = (
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "RQ" = (
 /obj/machinery/door/airlock/engineering{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "RW" = (
 /turf/open/floor/plasteel/elevatorshaft,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "So" = (
 /obj/effect/turf_decal/arrows{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"Ss" = (
+/obj/machinery/light/small/broken/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Tt" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Tv" = (
 /obj/structure/table/reinforced,
 /obj/item/camera,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Uo" = (
 /obj/structure/toilet{
 	dir = 4;
 	pixel_x = -6
 	},
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Uv" = (
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"Ux" = (
+/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line,
+/obj/machinery/light/broken/directional/west,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "UJ" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "UK" = (
 /obj/structure/closet/l3closet/janitor,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
+"Vb" = (
+/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Vc" = (
 /obj/structure/mirror{
 	pixel_y = 32
@@ -916,17 +1420,23 @@
 	pixel_y = 23
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Vg" = (
 /obj/machinery/door/airlock/maintenance{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "VO" = (
-/obj/machinery/computer/pandemic,
+/obj/structure/salvageable/destructive_analyzer,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "VT" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
@@ -934,28 +1444,38 @@
 /obj/item/flashlight/lamp/green,
 /obj/structure/table,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Xc" = (
 /obj/machinery/door/airlock/vault,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Xr" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Xt" = (
 /turf/closed/indestructible/edge,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "XW" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "YA" = (
 /obj/machinery/door/window/northleft{
 	dir = 8
@@ -966,40 +1486,57 @@
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/glass/beaker/large,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "YE" = (
 /obj/structure/chair/bench/blue,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "YX" = (
 /obj/machinery/clonepod,
 /turf/open/floor/plating/rust,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Za" = (
 /obj/structure/crate_shelf,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Zn" = (
 /turf/open/floor/engine,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "Zp" = (
 /obj/structure/falsewall/plastitanium,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ZB" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/warning{
 	dir = 10
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 "ZC" = (
 /obj/structure/toilet{
 	dir = 4;
 	pixel_y = 0;
 	pixel_x = -6
 	},
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/overmap_encounter/planetoid/cave/explored{
+	requires_power = 0
+	})
 
 (1,1,1) = {"
 xo
@@ -1639,23 +2176,23 @@ xo
 xo
 bU
 jG
-Zn
+zn
 qP
 bU
 jG
-Zn
-Zn
-bU
-jG
-Zn
+zn
 Zn
 bU
 jG
-Zn
+zn
 Zn
 bU
 jG
+zn
 Zn
+bU
+jG
+zn
 Zn
 bU
 xo
@@ -2644,11 +3181,11 @@ Ac
 bU
 bU
 bU
-ol
+OL
 UJ
 EK
 UJ
-jS
+uv
 bU
 bU
 bU
@@ -3085,7 +3622,7 @@ xo
 xo
 xo
 bU
-kS
+Bu
 BQ
 ND
 bU
@@ -3116,7 +3653,7 @@ Dp
 bU
 xo
 bU
-qZ
+HG
 ND
 PD
 kS
@@ -3533,7 +4070,7 @@ xo
 xo
 xo
 bU
-kS
+Bu
 BQ
 ND
 bU
@@ -4012,7 +4549,7 @@ ZC
 bU
 xo
 bU
-qZ
+HG
 ND
 PD
 kS
@@ -4108,7 +4645,7 @@ xo
 xo
 bU
 YE
-Ks
+aw
 Ks
 Ks
 Ks
@@ -4311,10 +4848,10 @@ xo
 xo
 bU
 bU
-rG
-rG
+OD
+AK
 kS
-rG
+AK
 bU
 xo
 bU
@@ -4339,7 +4876,7 @@ kS
 kS
 kS
 kS
-ND
+Ux
 bU
 Vc
 kS
@@ -4422,7 +4959,7 @@ xo
 xo
 bU
 bU
-rG
+OD
 Ck
 yX
 yX
@@ -4454,7 +4991,7 @@ kS
 ND
 bU
 Vc
-kS
+Ss
 kS
 kS
 iG
@@ -4489,7 +5026,7 @@ kS
 jS
 kS
 kS
-rG
+OD
 kS
 bU
 Uv
@@ -4533,7 +5070,7 @@ Xt
 xo
 xo
 bU
-rG
+OD
 Ck
 ys
 ap
@@ -4545,7 +5082,7 @@ bU
 qZ
 cH
 kS
-jS
+ia
 bU
 xo
 xo
@@ -4579,7 +5116,7 @@ bU
 Gg
 kS
 kS
-Gg
+Qx
 kS
 Dp
 bU
@@ -4654,7 +5191,7 @@ hg
 bU
 bU
 bU
-qZ
+HG
 cH
 kS
 kS
@@ -4878,7 +5415,7 @@ hg
 bU
 bU
 bU
-qZ
+HG
 jS
 kS
 kS
@@ -4902,7 +5439,7 @@ kS
 cH
 Kq
 UJ
-UJ
+bi
 UJ
 UJ
 fK
@@ -4937,7 +5474,7 @@ kS
 kS
 kS
 kS
-rG
+OD
 kS
 bU
 Uv
@@ -4981,7 +5518,7 @@ Xt
 xo
 xo
 bU
-rG
+OD
 Lo
 tM
 hg
@@ -4993,7 +5530,7 @@ bU
 qZ
 cH
 kS
-kS
+ta
 bU
 xo
 xo
@@ -5024,7 +5561,7 @@ RE
 RE
 bU
 bU
-kS
+RH
 kS
 kS
 kS
@@ -5094,7 +5631,7 @@ xo
 xo
 bU
 bU
-rG
+OD
 Lo
 wO
 wO
@@ -5126,7 +5663,7 @@ kS
 ND
 bU
 ft
-kS
+fa
 kS
 kS
 qf
@@ -5176,7 +5713,7 @@ bU
 bU
 bU
 bU
-Uv
+Vg
 bU
 bU
 bU
@@ -5207,10 +5744,10 @@ xo
 xo
 bU
 bU
-rG
-kS
-rG
-rG
+OD
+lJ
+OD
+iZ
 bU
 xo
 bU
@@ -5235,7 +5772,7 @@ kS
 kS
 kS
 kS
-ND
+xt
 bU
 ft
 kS
@@ -5452,7 +5989,7 @@ xo
 xo
 bU
 YE
-UJ
+bi
 UJ
 UJ
 UJ
@@ -5580,7 +6117,7 @@ Rl
 bU
 xo
 bU
-qZ
+Kw
 cH
 Kq
 kS
@@ -5837,7 +6374,7 @@ xo
 xo
 bU
 bU
-Uv
+wl
 bU
 bU
 bU
@@ -5997,7 +6534,7 @@ xo
 xo
 xo
 bU
-kS
+Bu
 BQ
 ND
 bU
@@ -6360,7 +6897,7 @@ xo
 xo
 bU
 kS
-kS
+lJ
 kS
 Kq
 jS
@@ -6445,7 +6982,7 @@ xo
 xo
 xo
 bU
-kS
+Bu
 BQ
 ND
 bU
@@ -6460,7 +6997,7 @@ kS
 kS
 yK
 kS
-kS
+JC
 bU
 kS
 kS
@@ -6475,7 +7012,7 @@ Zp
 bU
 bU
 bU
-ol
+OL
 jS
 ND
 bU
@@ -6789,9 +7326,9 @@ bU
 bU
 bU
 Kj
+lJ
 kS
-kS
-kS
+lJ
 kS
 kz
 bU
@@ -6894,7 +7431,7 @@ xo
 xo
 xo
 bU
-ol
+Ju
 jS
 jS
 bU
@@ -7133,7 +7670,7 @@ UJ
 UJ
 UJ
 UJ
-UJ
+Vb
 UJ
 UJ
 UJ
@@ -7238,7 +7775,7 @@ bU
 bU
 bU
 ol
-UJ
+Vb
 UJ
 jS
 bU
@@ -7255,7 +7792,7 @@ bU
 bU
 bU
 bU
-ol
+OL
 jS
 jS
 Ac
@@ -7364,7 +7901,7 @@ kS
 kS
 kS
 kS
-Dp
+Qn
 Dp
 bU
 bU
@@ -7699,11 +8236,11 @@ bU
 dP
 yl
 fq
-kS
+lJ
 dP
 yl
 fq
-kS
+lJ
 dP
 yl
 fq
