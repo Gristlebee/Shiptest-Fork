@@ -1,8 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/floor/plating/asteroid/moon/lit,
+/turf/open/floor/plating/asteroid/moon/lit/surface_craters,
 /area/space)
-"O" = (
+"x" = (
 /turf/closed/mineral/random/moon,
 /area/space)
 
@@ -2184,7 +2184,7 @@ a
 a
 a
 a
-O
+x
 a
 a
 a
@@ -2237,7 +2237,7 @@ a
 a
 a
 a
-O
+x
 a
 a
 a
@@ -2288,9 +2288,9 @@ a
 a
 a
 a
-O
-O
-O
+x
+x
+x
 a
 a
 "}
@@ -2338,11 +2338,11 @@ a
 a
 a
 a
-O
-O
-O
-O
-O
+x
+x
+x
+x
+x
 a
 a
 "}
@@ -2388,12 +2388,12 @@ a
 a
 a
 a
-O
-O
-O
-O
-O
-O
+x
+x
+x
+x
+x
+x
 a
 a
 a
@@ -2440,13 +2440,13 @@ a
 a
 a
 a
-O
-O
-O
-O
-O
-O
-O
+x
+x
+x
+x
+x
+x
+x
 a
 a
 "}
