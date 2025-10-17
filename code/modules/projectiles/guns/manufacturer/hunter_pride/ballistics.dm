@@ -121,6 +121,25 @@ EMPTY_GUN_HELPER(revolver/firebrand)
 
 EMPTY_GUN_HELPER(revolver/shadow)
 
+/obj/item/gun/ballistic/revolver/cinder
+	name = "\improper HP Cinder"
+	desc = "A mid-size revolver chambered in .45. Despite the antiquated design, it is cheap, reliable, and stylish, making it a favorite among fast-drawing spacers and the officers of various militaries, as well as small-time police units. Chambered in .44."
+	fire_sound = 'sound/weapons/gun/revolver/cattleman.ogg'
+	icon = 'icons/obj/guns/manufacturer/hunterspride/48x32.dmi'
+	lefthand_file = 'icons/obj/guns/manufacturer/hunterspride/lefthand.dmi'
+	righthand_file = 'icons/obj/guns/manufacturer/hunterspride/righthand.dmi'
+	mob_overlay_icon = 'icons/obj/guns/manufacturer/hunterspride/onmob.dmi'
+	icon_state = "Cinder"
+	item_state = "shadow"
+
+	default_ammo_type = /obj/item/ammo_box/magazine/internal/cylinder/rev45
+	allowed_ammo_types = list(
+		/obj/item/ammo_box/magazine/internal/cylinder/rev45,
+	)
+	manufacturer = MANUFACTURER_HUNTERSPRIDE
+	obj_flags = UNIQUE_RENAME
+	gate_loaded = TRUE
+
 /obj/item/gun/ballistic/revolver/detective
 	name = "\improper HP Detective Special"
 	desc = "A small law enforcement firearm. Originally commissioned by Nanotrasen for their Private Investigation division, it has become extremely popular among independent civilians as a cheap, compact sidearm. Uses .38 Special rounds."
