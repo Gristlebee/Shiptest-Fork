@@ -129,8 +129,8 @@ EMPTY_GUN_HELPER(revolver/shadow)
 	lefthand_file = 'icons/obj/guns/manufacturer/hunterspride/lefthand.dmi'
 	righthand_file = 'icons/obj/guns/manufacturer/hunterspride/righthand.dmi'
 	mob_overlay_icon = 'icons/obj/guns/manufacturer/hunterspride/onmob.dmi'
-	icon_state = "Cinder"
-	item_state = "shadow"
+	icon_state = "cinder"
+	item_state = "cinder"
 
 	default_ammo_type = /obj/item/ammo_box/magazine/internal/cylinder/rev45
 	allowed_ammo_types = list(
