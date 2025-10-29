@@ -90,10 +90,10 @@
 		if(I.use_tool(src, user, 0, volume = 40))
 			name = src::name
 			broken = FALSE
-			obj_integrity = max_integrity
+			atom_integrity = max_integrity
 		return TRUE
 
-/obj/item/melee/sword/mass/obj_break(damage_flag)
+/obj/item/melee/sword/mass/atom_break(damage_flag)
 	. = ..()
 	if(!broken)
 		if(isliving(loc))
@@ -103,7 +103,7 @@
 
 /obj/item/melee/sword/mass/examine(mob/user)
 	. = ..()
-	var/healthpercent = round((obj_integrity/max_integrity) * 100, 1)
+	var/healthpercent = round((atom_integrity/max_integrity) * 100, 1)
 	switch(healthpercent)
 		if(50 to 99)
 			. += span_info("It looks slightly damaged.")
@@ -143,9 +143,9 @@
 	desc = "An elegant weapon, its monomolecular edge is capable of cutting through flesh and bone with ease."
 	icon_state = "sabre"
 	item_state = "sabre"
-	force = 15
+	force = 25
 	throwforce = 10
-	block_chance = 60
+	block_chance = 30
 	armour_penetration = 75
 	wound_bonus = 10
 	bare_wound_bonus = 25
@@ -186,8 +186,10 @@
 	name = "\improper boarding cutlass"
 	desc = "When beam and bullet puncture the hull, a trustworthy blade will carry you through the fight"
 	icon_state = "pgf-sabre"
-	block_chance = 30
-	force = 22
+	block_chance = 15
+	force = 28
+	demolition_mod = 1.25
+	attack_cooldown = 6
 
 /obj/item/melee/sword/sabre/suns/telescopic
 	name = "telescopic sabre"
@@ -337,9 +339,8 @@
 		/datum/reagent/drug/mammoth = 5,
 		/datum/reagent/drug/aranesp = 5,
 		/datum/reagent/drug/pumpup = 10,
-		/datum/reagent/medicine/omnizine = 10,
+		/datum/reagent/medicine/panacea = 10,
 		/datum/reagent/medicine/earthsblood = 15,
-		/datum/reagent/medicine/omnizine/protozine = 15
 	)
 
 /obj/item/melee/sword/greyking/afterattack(atom/target, mob/user, proximity_flag, click_parameters)

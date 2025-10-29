@@ -291,7 +291,7 @@
 			if(prob(10))
 				victim.blur_eyes(1)
 			if(prob(10))
-				victim.Dizzy(1)
+				victim.set_timed_status_effect(2 SECONDS, /datum/status_effect/dizziness, only_if_higher = TRUE)
 			if(prob(5))
 				victim.vomit()
 
@@ -342,15 +342,15 @@
 		M.slurring = 1
 	switch(current_cycle)
 		if(1 to 5)
-			M.Dizzy(5)
+			M.set_timed_status_effect(10 SECONDS * REM, /datum/status_effect/dizziness, only_if_higher = TRUE)
 			M.set_drugginess(30)
 		if(5 to 10)
-			M.adjust_jitter(10)
-			M.Dizzy(10)
+			M.set_timed_status_effect(20 SECONDS * REM, /datum/status_effect/jitter, only_if_higher = TRUE)
+			M.set_timed_status_effect(20 SECONDS * REM, /datum/status_effect/dizziness, only_if_higher = TRUE)
 			M.set_drugginess(35)
 		if (10 to INFINITY)
-			M.adjust_jitter(20)
-			M.Dizzy(20)
+			M.set_timed_status_effect(40 SECONDS * REM, /datum/status_effect/jitter, only_if_higher = TRUE)
+			M.set_timed_status_effect(40 SECONDS * REM, /datum/status_effect/dizziness, only_if_higher = TRUE)
 			M.set_drugginess(40)
 	..()
 
@@ -366,7 +366,7 @@
 		if(prob(min(25,current_cycle)))
 			to_chat(M, span_danger("You can't get the scent of garlic out of your nose! You can barely think..."))
 			M.Paralyze(10)
-			M.adjust_jitter(10)
+			M.set_timed_status_effect(20 SECONDS * REM, /datum/status_effect/jitter, only_if_higher = TRUE)
 	else if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		if(H.job == "Cook")
@@ -487,9 +487,16 @@
 /datum/reagent/consumable/eggyolk
 	name = "Egg Yolk"
 	description = "It's full of protein."
-	nutriment_factor = 3 * REAGENTS_METABOLISM
+	nutriment_factor = 4 * REAGENTS_METABOLISM
 	color = "#FFB500"
 	taste_description = "egg"
+
+/datum/reagent/consumable/eggwhite
+	name = "Egg White"
+	description = "It's full of even more protein."
+	nutriment_factor = 1.5 * REAGENTS_METABOLISM
+	color = "#fffdf7"
+	taste_description = "bland egg"
 
 /datum/reagent/consumable/corn_starch
 	name = "Corn Starch"
@@ -596,7 +603,6 @@
 
 ////Lavaland Flora Reagents////
 
-
 /datum/reagent/consumable/entpoly
 	name = "Entropic Polypnium"
 	description = "An ichor, derived from a certain mushroom, makes for a bad time."
@@ -615,7 +621,6 @@
 		M.blur_eyes(5)
 		. = TRUE
 	..()
-
 
 /datum/reagent/consumable/tinlux
 	name = "Tinea Luxor"
@@ -646,7 +651,6 @@
 	LAZYREMOVE(mobs_affected, living_holder)
 	if(mob_light_obj)
 		qdel(mob_light_obj)
-
 
 /datum/reagent/consumable/vitfro
 	name = "Vitrium Froth"
@@ -820,3 +824,16 @@
 	name = "Tiris-Sale"
 	nutriment_factor = 1 * REAGENTS_METABOLISM
 	taste_description = "bloody piercing umami"
+
+/datum/reagent/consumable/pancakebatter
+	name = "pancake batter"
+	description = "A very milky batter. 5 units of this on the griddle makes a mean pancake."
+	taste_description = "milky batter"
+	color = "#fccc98"
+
+/datum/reagent/consumable/whipped_cream
+	name = "Whipped Cream"
+	description = "A white fluffy cream made from whipping cream at intense speed."
+	color = "#efeff0"
+	nutriment_factor = 4
+	taste_description = "fluffy sweet cream"

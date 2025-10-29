@@ -1,4 +1,4 @@
-#define SCARBOROUGH_ATTACHMENTS list(/obj/item/attachment/silencer, /obj/item/attachment/laser_sight, /obj/item/attachment/rail_light, /obj/item/attachment/bayonet, /obj/item/attachment/energy_bayonet, /obj/item/attachment/scope, /obj/item/attachment/gun, /obj/item/attachment/sling, /obj/item/attachment/ammo_counter)
+#define SCARBOROUGH_ATTACHMENTS list(/obj/item/attachment/silencer, /obj/item/attachment/laser_sight, /obj/item/attachment/rail_light, /obj/item/attachment/bayonet, /obj/item/attachment/energy_bayonet, /obj/item/attachment/gun, /obj/item/attachment/ammo_counter)
 #define SCARBOROUGH_ATTACH_SLOTS list(ATTACHMENT_SLOT_MUZZLE = 1, ATTACHMENT_SLOT_SCOPE = 1, ATTACHMENT_SLOT_RAIL = 1)
 
 //########### PISTOLS ###########//
@@ -118,6 +118,7 @@ NO_MAG_GUN_HELPER(automatic/pistol/ringneck/indie)
 	show_magazine_on_sprite = TRUE
 
 	valid_attachments = SCARBOROUGH_ATTACHMENTS
+	unique_attachments = list(/obj/item/attachment/scope)
 	slot_available = SCARBOROUGH_ATTACH_SLOTS
 	slot_offsets = list(
 		ATTACHMENT_SLOT_MUZZLE = list(
@@ -242,6 +243,7 @@ NO_MAG_GUN_HELPER(automatic/pistol/asp)
 	show_magazine_on_sprite = TRUE
 
 	valid_attachments = SCARBOROUGH_ATTACHMENTS
+	unique_attachments = list(/obj/item/attachment/scope)
 	slot_available = SCARBOROUGH_ATTACH_SLOTS
 	slot_offsets = list(
 		ATTACHMENT_SLOT_MUZZLE = list(
@@ -276,6 +278,30 @@ NO_MAG_GUN_HELPER(automatic/pistol/rattlesnake)
 	icon_state = "rattlesnake_inteq"
 	item_state = "rattlesnake_inteq"
 
+NO_MAG_GUN_HELPER(automatic/pistol/rattlesnake/inteq)
+
+/obj/item/gun/ballistic/automatic/pistol/rattlesnake/cottonmouth
+	name = "MP-84m Cottonmouth"
+	desc = "A machine pistol obtained from Marauder stockpiles and heavily modified by elements of the Ramzi Clique to accept a larger calibre, with a few largely-ignored drawbacks of 2-round burst and magazine capacity. Chambered in 10x22mm."
+
+	icon_state = "cottonmouth"
+	item_state = "cottonmouth"
+
+	fire_sound = 'sound/weapons/gun/pistol/asp.ogg'
+
+	default_ammo_type = /obj/item/ammo_box/magazine/m10mm_cottonmouth
+	allowed_ammo_types = list(
+		/obj/item/ammo_box/magazine/m10mm_cottonmouth,
+	)
+
+	wear_rate = 1.5
+
+	recoil = 0.5
+	recoil_unwielded = 3
+	burst_size = 2
+	burst_delay = 0.1 SECONDS
+	fire_delay = 0.4 SECONDS
+
 /obj/item/ammo_box/magazine/m9mm_rattlesnake
 	name = "Rattlesnake magazine (9x18mm)"
 	desc = "A long, 18-round double-stack magazine designed for the Rattlesnake machine pistol. These rounds do okay damage, but struggle against armor."
@@ -291,6 +317,23 @@ NO_MAG_GUN_HELPER(automatic/pistol/rattlesnake)
 	icon_state = "[base_icon_state]_[ammo_count() == 1 ? 1 : round(ammo_count(),3)]"
 
 /obj/item/ammo_box/magazine/m9mm_rattlesnake/empty
+	start_empty = TRUE
+
+/obj/item/ammo_box/magazine/m10mm_cottonmouth
+	name = "Cottonmouth magazine (10x22mm)"
+	desc = "A long, 14-round double-stack magazine designed for the Cottonmouth modified machine pistol. These rounds do moderate damage, but struggle against armor."
+	icon_state = "rattlesnake_mag_18"
+	base_icon_state = "rattlesnake_mag"
+	ammo_type = /obj/item/ammo_casing/c10mm
+	caliber = "10x22mm"
+	max_ammo = 14
+	multiple_sprites = AMMO_BOX_FULL_EMPTY
+
+/obj/item/ammo_box/magazine/m10mm_cottonmouth/update_icon_state()
+	. = ..()
+	icon_state = "[base_icon_state]_[ammo_count() == 1 ? 1 : round(ammo_count(),3)]"
+
+/obj/item/ammo_box/magazine/m10mm_cottonmouth/empty
 	start_empty = TRUE
 
 /obj/item/gun/ballistic/automatic/pistol/himehabu
@@ -524,7 +567,7 @@ NO_MAG_GUN_HELPER(automatic/smg/sidewinder)
 
 /obj/item/ammo_box/magazine/m57_39_sidewinder
 	name = "Sidewinder magazine (5.7x39mm)"
-	desc = "A 30-round magazine for the Sidewinder submachine gun. These rounds do okay damage with average performance against armor."
+	desc = "A 30-round magazine for the Sidewinder personal defense weapon. These rounds do okay damage with average performance against armor."
 	icon_state = "sidewinder_mag-1"
 	base_icon_state = "sidewinder_mag"
 	ammo_type = /obj/item/ammo_casing/c57x39mm
@@ -558,8 +601,6 @@ NO_MAG_GUN_HELPER(automatic/smg/sidewinder)
 
 	fire_delay = 1 SECONDS
 
-	slot_flags = ITEM_SLOT_BACK
-
 	show_magazine_on_sprite = TRUE
 	unique_mag_sprites_for_variants = TRUE
 	show_ammo_capacity_on_magazine_sprite = TRUE
@@ -568,7 +609,7 @@ NO_MAG_GUN_HELPER(automatic/smg/sidewinder)
 	spread_unwielded = 35
 	recoil = 2
 	recoil_unwielded = 10
-	wield_slowdown = SNIPER_SLOWDOWN
+	wield_slowdown = LIGHT_SNIPER_SLOWDOWN
 	wield_delay = 1.3 SECONDS
 
 	zoom_amt = 10 //Long range, enough to see in front of you, but no tiles behind you.
@@ -655,10 +696,10 @@ NO_MAG_GUN_HELPER(automatic/marksman/boomslang/indie)
 	w_class = WEIGHT_CLASS_BULKY
 	zoom_amt = 10 //Long range, enough to see in front of you, but no tiles behind you.
 	zoom_out_amt = 5
-	slot_flags = ITEM_SLOT_BACK
 	actions_types = list()
 	show_magazine_on_sprite = TRUE
 	manufacturer = MANUFACTURER_SCARBOROUGH
+	wield_slowdown = AMR_SLOWDOWN
 
 	show_ammo_capacity_on_magazine_sprite = TRUE
 
@@ -707,7 +748,7 @@ NO_MAG_GUN_HELPER(automatic/marksman/taipan)
 
 	weapon_weight = WEAPON_MEDIUM
 	w_class = WEIGHT_CLASS_BULKY
-	slot_flags = ITEM_SLOT_BACK
+	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
 
 	burst_size = 2
 	burst_delay = 0.1 SECONDS
@@ -801,7 +842,7 @@ NO_MAG_GUN_HELPER(automatic/assault/hydra)
 
 /obj/item/gun/ballistic/automatic/assault/hydra/dmr
 	name = "SBR-80 \"Hydra\""
-	desc = "Scarborough Arms' premier modular assault rifle platform. This example is configured as a marksman rifle, with an extended barrel and medium-zoom scope. Its lightweight cartridge is compensated for with a 2-round burst action. Chambered in 5.56mm CLIP."
+	desc = "Scarborough Arms' premier modular assault rifle platform. This example is configured as a marksman rifle, with an extended barrel and medium-zoom scope. Its lightweight cartridge is compensated for with a 2-round burst action, though it is unable to fit large extended magazines. Chambered in 5.56mm CLIP."
 
 	icon_state = "hydra_dmr"
 	item_state = "hydra_dmr"
@@ -817,6 +858,10 @@ NO_MAG_GUN_HELPER(automatic/assault/hydra)
 	zoom_amt = 6
 	zoom_out_amt = 2
 	default_ammo_type = /obj/item/ammo_box/magazine/m556_42_hydra/small
+	blacklisted_ammo_types = list(
+		/obj/item/ammo_box/magazine/m556_42_hydra/extended,
+		/obj/item/ammo_box/magazine/m556_42_hydra/casket,
+	)
 
 NO_MAG_GUN_HELPER(automatic/assault/hydra/dmr)
 
@@ -920,6 +965,7 @@ NO_MAG_GUN_HELPER(automatic/assault/hydra/dmr)
 	wield_delay = 0.65 SECONDS
 
 	valid_attachments = SCARBOROUGH_ATTACHMENTS
+	unique_attachments = list(/obj/item/attachment/scope)
 	slot_available = SCARBOROUGH_ATTACH_SLOTS
 	slot_offsets = list(
 		ATTACHMENT_SLOT_MUZZLE = list(

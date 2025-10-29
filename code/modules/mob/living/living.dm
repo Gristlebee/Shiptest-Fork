@@ -19,6 +19,10 @@
 	AddElement(/datum/element/connect_loc, loc_connections)
 	update_fov()
 
+/mob/living/ComponentInitialize()
+	. = ..()
+	AddElement(/datum/element/movetype_handler)
+
 /mob/living/prepare_huds()
 	..()
 	prepare_data_huds()
@@ -709,7 +713,6 @@
 	bodytemperature = get_body_temp_normal(apply_change=FALSE)
 	set_blindness(0)
 	set_blurriness(0)
-	set_dizziness(0)
 	cure_nearsighted()
 	cure_blind()
 	cure_husk()
@@ -718,12 +721,11 @@
 	ExtinguishMob()
 	fire_stacks = 0
 	confused = 0
-	dizziness = 0
 	drowsyness = 0
 	stuttering = 0
 	slurring = 0
-	jitteriness = 0
 	stop_sound_channel(CHANNEL_HEARTBEAT)
+	SEND_SIGNAL(src, COMSIG_LIVING_POST_FULLY_HEAL, admin_revive)
 
 //proc used to heal a mob, but only damage types specified.
 /mob/living/proc/specific_heal(blood_amt = 0, brute_amt = 0, fire_amt = 0, tox_amt = 0, oxy_amt = 0, clone_amt = 0, organ_amt = 0, stam_amt = 0, specific_revive = FALSE, specific_bones = FALSE)
@@ -968,10 +970,11 @@
 /mob/living/proc/get_visible_name()
 	return name
 
-/mob/living/update_gravity(has_gravity, override)
+/mob/living/update_gravity(has_gravity)
 	. = ..()
 	if(!SSticker.HasRoundStarted())
 		return
+	var/was_weightless = alerts["gravity"] && istype(alerts["gravity"], /atom/movable/screen/alert/weightless)
 	if(has_gravity)
 		if(has_gravity == 1)
 			clear_alert("gravity")
@@ -980,24 +983,12 @@
 				throw_alert("gravity", /atom/movable/screen/alert/veryhighgravity)
 			else
 				throw_alert("gravity", /atom/movable/screen/alert/highgravity)
+		if(was_weightless)
+			REMOVE_TRAIT(src, TRAIT_MOVE_FLOATING, NO_GRAVITY_TRAIT)
 	else
 		throw_alert("gravity", /atom/movable/screen/alert/weightless)
-	if(!override && !is_flying())
-		float(!has_gravity)
-
-/mob/living/float(on)
-	if(throwing)
-		return
-	var/fixed = 0
-	if(anchored || (buckled && buckled.anchored))
-		fixed = 1
-	if(on && !(movement_type & FLOATING) && !fixed)
-		animate(src, pixel_y = base_pixel_y + 2, time = 10, loop = -1, flags = ANIMATION_RELATIVE)
-		animate(pixel_y = base_pixel_y - 2, time = 10, loop = -1, flags = ANIMATION_RELATIVE)
-		setMovetype(movement_type | FLOATING)
-	else if(((!on || fixed) && (movement_type & FLOATING)))
-		animate(src, pixel_y = base_pixel_y + get_standard_pixel_y_offset(lying_angle), time = 1 SECONDS)
-		setMovetype(movement_type & ~FLOATING)
+		if(!was_weightless)
+			ADD_TRAIT(src, TRAIT_MOVE_FLOATING, NO_GRAVITY_TRAIT)
 
 // The src mob is trying to strip an item from someone
 // Override if a certain type of mob should be behave differently when stripping items (can't, for example)
@@ -1076,16 +1067,6 @@
 		throw_at(S, 14, 3, src, TRUE)
 	else if(!src.mob_negates_gravity())
 		step_towards(src,S)
-
-/mob/living/proc/do_jitter_animation(jitteriness)
-	var/amplitude = min(4, (jitteriness/100) + 1)
-	var/pixel_x_diff = rand(-amplitude, amplitude)
-	var/pixel_y_diff = rand(-amplitude/3, amplitude/3)
-	var/final_pixel_x = base_pixel_y + get_standard_pixel_x_offset(body_position == LYING_DOWN)
-	var/final_pixel_y = base_pixel_y + get_standard_pixel_y_offset(body_position == LYING_DOWN)
-	animate(src, pixel_x = pixel_x + pixel_x_diff, pixel_y = pixel_y + pixel_y_diff , time = 2, loop = 6)
-	animate(pixel_x = final_pixel_x , pixel_y = final_pixel_y , time = 2)
-	setMovetype(movement_type & ~FLOATING) // If we were without gravity, the bouncing animation got stopped, so we make sure to restart it in next life().
 
 /mob/living/proc/get_temperature(datum/gas_mixture/environment)
 	var/loc_temp = environment ? environment.return_temperature() : T0C
@@ -1423,6 +1404,7 @@ GLOBAL_VAR_INIT(ssd_indicator_overlay, mutable_appearance('icons/mob/ssd_indicat
 
 /mob/living
 	var/ssd_indicator = FALSE
+	var/ignore_SSD = FALSE
 	var/lastclienttime = 0
 
 /mob/living/proc/set_ssd_indicator(state)
@@ -1441,7 +1423,8 @@ GLOBAL_VAR_INIT(ssd_indicator_overlay, mutable_appearance('icons/mob/ssd_indicat
 /mob/living/Logout()
 	. = ..()
 	lastclienttime = world.time
-	set_ssd_indicator(TRUE)
+	if(!ignore_SSD)
+		set_ssd_indicator(TRUE)
 
 /mob/living/vv_get_header()
 	. = ..()
@@ -1877,7 +1860,8 @@ GLOBAL_VAR_INIT(ssd_indicator_overlay, mutable_appearance('icons/mob/ssd_indicat
 /// Used for setting typing indicator on/off. Checking the state should be done not on the proc to avoid overhead.
 /mob/living/set_typing_indicator(state)
 	typing_indicator = state
-	var/state_of_bubble = bubble_icon? "[bubble_icon]0" : "default0"
+	var/datum/language/used_language = get_selected_language()
+	var/state_of_bubble = "[initial(used_language?.bubble_override) || bubble_icon || "default"]0"
 	var/mutable_appearance/bubble_overlay = mutable_appearance('icons/mob/talk.dmi', state_of_bubble, plane = RUNECHAT_PLANE)
 	bubble_overlay.appearance_flags = RESET_COLOR | RESET_TRANSFORM | TILE_BOUND | PIXEL_SCALE
 	if(typing_indicator)
@@ -1899,7 +1883,7 @@ GLOBAL_VAR_INIT(ssd_indicator_overlay, mutable_appearance('icons/mob/ssd_indicat
 		var/howfuck = rand(8,16)
 		AdjustParalyzed(howfuck)
 		AdjustKnockdown(howfuck)
-		set_jitter(rand(150,200))
+		set_timed_status_effect(300 SECONDS, /datum/status_effect/jitter)
 
 /**
  * Sets the mob's speed variable and then calls update_living_varspeed().
@@ -1924,6 +1908,31 @@ GLOBAL_VAR_INIT(ssd_indicator_overlay, mutable_appearance('icons/mob/ssd_indicat
 		return
 	add_or_update_variable_movespeed_modifier(/datum/movespeed_modifier/living_varspeed, multiplicative_slowdown = speed)
 
+/// Proc for giving a mob a new 'friend', generally used for AI control and targeting. Returns false if already friends or null if qdeleted.
+/mob/living/proc/befriend(mob/living/new_friend)
+	SHOULD_CALL_PARENT(TRUE)
+	if(QDELETED(new_friend))
+		return
+	var/friend_ref = REF(new_friend)
+	if (faction.Find(friend_ref))
+		return FALSE
+	faction |= friend_ref
+	ai_controller?.insert_blackboard_key_lazylist(BB_FRIENDS_LIST, new_friend)
+
+	SEND_SIGNAL(src, COMSIG_LIVING_BEFRIENDED, new_friend)
+	return TRUE
+
+/// Proc for removing a friend you added with the proc 'befriend'. Returns true if you removed a friend.
+/mob/living/proc/unfriend(mob/living/old_friend)
+	SHOULD_CALL_PARENT(TRUE)
+	var/friend_ref = REF(old_friend)
+	if (!faction.Find(friend_ref))
+		return FALSE
+	faction -= friend_ref
+	ai_controller?.remove_thing_from_blackboard_key(BB_FRIENDS_LIST, old_friend)
+
+	SEND_SIGNAL(src, COMSIG_LIVING_UNFRIENDED, old_friend)
+	return TRUE
 
 /**
  * Applies the mob's speed variable to a movespeed modifier.

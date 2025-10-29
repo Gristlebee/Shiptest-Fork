@@ -52,9 +52,14 @@
 	//suit/armor
 	if(wear_suit)
 		. += "[t_He] [t_is] wearing [wear_suit.get_examine_string(user)]."
-		//suit/armor storage
-		if(s_store && !(ITEM_SLOT_SUITSTORE in obscured))
+	//suit/armor storage
+	if(s_store && !(ITEM_SLOT_SUITSTORE in obscured))
+		if(wear_suit)
 			. += "[t_He] [t_is] carrying [s_store.get_examine_string(user)] on [t_his] [wear_suit.name]."
+		else if(w_uniform && !(ITEM_SLOT_ICLOTHING in obscured))
+			. += "[t_He] [t_is] carrying [s_store.get_examine_string(user)] on [t_his] [w_uniform.name]."
+		else
+			. += "[t_He] [t_is] carrying [s_store.get_examine_string(user)]."
 	//back
 	if(back)
 		. += "[t_He] [t_has] [back.get_examine_string(user)] on [t_his] back."
@@ -114,20 +119,9 @@
 		. += "[t_He] [t_is] wearing [wear_id.get_examine_string(user)]."
 
 	//Status effects
-	var/list/status_examines = status_effect_examines()
+	var/list/status_examines = get_status_effect_examinations()
 	if (length(status_examines))
 		. += status_examines
-
-	//jitters
-	switch(jitteriness)
-		if(300 to INFINITY)
-			. += span_boldwarning("[t_He] [t_is] convulsing violently!")
-		if(200 to 300)
-			. += span_warning("[t_He] [t_is] extremely jittery.")
-		if(100 to 200)
-			. += span_warning("[t_He] [t_is] twitching ever so slightly.")
-		if(50 to 100)
-			. += span_warning("[t_He] [t_is] flinching lightly")
 
 	var/appears_dead = FALSE
 	var/just_sleeping = FALSE
@@ -142,8 +136,6 @@
 			just_sleeping = TRUE
 
 		if(!just_sleeping)
-			if(hellbound)
-				. += span_warning("[t_His] soul seems to have been ripped out of [t_his] body. Revival is impossible.")
 			. += ""
 			if(getorgan(/obj/item/organ/brain) && !key && !get_ghost(FALSE, TRUE))
 				. += span_deadsay("[t_He] [t_is] limp and unresponsive; there are no signs of life and [t_he] won't be coming back...")
@@ -158,13 +150,17 @@
 
 	var/list/msg = list()
 
-	var/list/missing = list(BODY_ZONE_HEAD, BODY_ZONE_CHEST, BODY_ZONE_L_ARM, BODY_ZONE_R_ARM, BODY_ZONE_L_LEG, BODY_ZONE_R_LEG)
+	var/list/missing = list()
 	var/list/disabled = list()
 
-	for(var/obj/item/bodypart/body_part as anything in bodyparts)
+	var/obj/item/bodypart/body_part
+	for(var/zone in bodyparts)
+		body_part = bodyparts[zone]
+		if(!body_part)
+			missing += zone
+			continue
 		if(body_part.bodypart_disabled)
 			disabled += body_part
-		missing -= body_part.body_zone
 
 		for(var/obj/item/I in body_part.embedded_objects)
 			if(I.isEmbedHarmless())
@@ -177,7 +173,7 @@
 			msg += "[iter_wound.get_examine_description(user)]\n"
 
 	for(var/X in disabled)
-		var/obj/item/bodypart/body_part = X
+		body_part = X
 		var/damage_text
 		if(HAS_TRAIT(body_part, TRAIT_DISABLED_BY_WOUND))
 			continue // skip if it's disabled by a wound (cuz we'll be able to see the bone sticking out!)
@@ -208,9 +204,12 @@
 	else if(l_limbs_missing >= 2 && r_limbs_missing >= 2)
 		msg += "[t_He] [p_do()]n't seem all there.\n"
 
-	for(var/obj/item/bodypart/BP as anything in bodyparts)
-		if(BP.limb_id != (dna.species.examine_limb_id ? dna.species.examine_limb_id : dna.species.id))
-			msg += "[span_info("[t_He] [t_has] \an [BP.name].")]\n"
+	for(var/zone in bodyparts)
+		body_part = bodyparts[zone]
+		if(!body_part)
+			continue
+		if(body_part.limb_id != (dna.species.examine_limb_id ? dna.species.examine_limb_id : dna.species.id))
+			msg += "[span_info("[t_He] [t_has] \an [body_part.name].")]\n"
 
 	if(!(user == src && src.hal_screwyhud == SCREWYHUD_HEALTHY)) //fake healthy
 		if(temp)
@@ -280,8 +279,10 @@
 		var/list/obj/item/bodypart/bleeding_limbs = list()
 		var/list/obj/item/bodypart/grasped_limbs = list()
 
-		for(var/i in bodyparts)
-			var/obj/item/bodypart/body_part = i
+		for(var/zone in bodyparts)
+			body_part = bodyparts[zone]
+			if(!body_part)
+				continue
 			if(body_part.get_part_bleed_rate())
 				bleeding_limbs += body_part
 			if(body_part.grasped_by)
@@ -300,7 +301,7 @@
 				bleed_text += " [bleeding_limbs[1].name][num_bleeds == 2 ? " and [bleeding_limbs[2].name]" : ""]"
 			if(3 to INFINITY)
 				for(var/i in 1 to (num_bleeds - 1))
-					var/obj/item/bodypart/body_part = bleeding_limbs[i]
+					body_part = bleeding_limbs[i]
 					bleed_text += " [body_part.name],"
 				bleed_text += " and [bleeding_limbs[num_bleeds].name]"
 
@@ -327,20 +328,6 @@
 		msg += "[t_He] [t_is]n't responding to anything around [t_him] and seem[p_s()] to be asleep.\n"
 
 	if(!appears_dead)
-		if(drunkenness && !skipface) //Drunkenness
-			switch(drunkenness)
-				if(11 to 21)
-					msg += "[t_He] [t_is] slightly flushed.\n"
-				if(21.01 to 41) //.01s are used in case drunkenness ends up to be a small decimal
-					msg += "[t_He] [t_is] flushed.\n"
-				if(41.01 to 51)
-					msg += "[t_He] [t_is] quite flushed and [t_his] breath smells of alcohol.\n"
-				if(51.01 to 61)
-					msg += "[t_He] [t_is] very flushed and [t_his] movements jerky, with breath reeking of alcohol.\n"
-				if(61.01 to 91)
-					msg += "[t_He] look[p_s()] like a drunken mess.\n"
-				if(91.01 to INFINITY)
-					msg += "[t_He] [t_is] a shitfaced, slobbering wreck.\n"
 
 		if(src != user)
 			if(HAS_TRAIT(user, TRAIT_EMPATH))
@@ -449,18 +436,23 @@
 
 	SEND_SIGNAL(src, COMSIG_PARENT_EXAMINE, user, .)
 
-/mob/living/proc/status_effect_examines(pronoun_replacement) //You can include this in any mob's examine() to show the examine texts of status effects!
-	var/list/dat = list()
-	if(!pronoun_replacement)
-		pronoun_replacement = p_they(TRUE)
-	for(var/V in status_effects)
-		var/datum/status_effect/E = V
-		if(E.examine_text)
-			var/new_text = replacetext(E.examine_text, "SUBJECTPRONOUN", pronoun_replacement)
-			new_text = replacetext(new_text, "[pronoun_replacement] is", "[pronoun_replacement] [p_are()]") //To make sure something become "They are" or "She is", not "They are" and "She are"
-			dat += "[new_text]\n" //dat.Join("\n") doesn't work here, for some reason
-	if(dat.len)
-		return dat.Join()
+/**
+ * Shows any and all examine text related to any status effects the user has.
+ */
+/mob/living/proc/get_status_effect_examinations()
+	var/list/examine_list = list()
+
+	for(var/datum/status_effect/effect as anything in status_effects)
+		var/effect_text = effect.get_examine_text()
+		if(!effect_text)
+			continue
+
+		examine_list += effect_text
+
+	if(!length(examine_list))
+		return
+
+	return examine_list.Join("\n")
 
 /mob/living/carbon/human/examine_more(mob/user)
 	. = ..()
