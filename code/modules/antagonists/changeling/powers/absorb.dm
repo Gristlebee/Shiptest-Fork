@@ -30,15 +30,23 @@
 /datum/action/changeling/absorbDNA/sting_action(mob/user)
 	var/datum/antagonist/changeling/changeling = user.mind.has_antag_datum(/datum/antagonist/changeling)
 	var/mob/living/carbon/human/target = user.pulling
+	var/is_ling = FALSE
 
 	if(target.mind.has_antag_datum(/datum/antagonist/changeling))
-		to_chat(user, span_warning("They are one of us!"))
+		is_ling = TRUE
+		if(target.stat = DEAD)
+			target.notify_ghost_cloning("Your body is being regenerated!")
+			target.grab_ghost() // Shove them back in their body.
 		return
+
 	changeling.isabsorbing = 1
 	for(var/i in 1 to 3)
 		switch(i)
 			if(1)
-				to_chat(user, "<span class='notice'>This creature is compatible. We must hold still...</span>")
+				if(is_ling)
+					to_chat(user, span_warning("This form is an extension of our collective. We begin repairing it's form. We must hold still..."))
+				else
+					to_chat(user, "<span class='notice'>This creature is compatible. We must hold still...</span>")
 			if(2)
 				user.visible_message("<span class='warning'>[user] extends a proboscis!</span>", "<span class='notice'>We extend a proboscis.</span>")
 			if(3)
@@ -48,13 +56,12 @@
 
 		SSblackbox.record_feedback("nested tally", "changeling_powers", 1, list("assimilate DNA", "[i]"))
 		if(!do_after(user, 15 SECONDS, target))
-			to_chat(user, "<span class='warning'>Our absorption of [target] has been interrupted!</span>")
+			to_chat(user, "<span class='warning'>Our assimilation of [target] has been interrupted!</span>")
 			changeling.isabsorbing = 0
 			return
 
 	SSblackbox.record_feedback("nested tally", "changeling_powers", 1, list("assimilate DNA", "4"))
-	user.visible_message("<span class='danger'>[user] sucks the fluids from [target]!</span>", "<span class='notice'>We have absorbed [target].</span>")
-	to_chat(target, "<span class='userdanger'>You are absorbed by the changeling!</span>")
+	user.visible_message("<span class='danger'>[user] injects something into [target]!</span>", "<span class='notice'>We have assimilated [target].</span>")
 
 	if(!changeling.has_dna(target.dna))
 		changeling.add_new_profile(target)
@@ -67,9 +74,13 @@
 	owner.copy_languages(target, LANGUAGE_ABSORB)
 
 	if(target.mind && user.mind)
+		to_chat(target, "<span class='userdanger'>You are assimilated by the Collective!</span>")
 		target.mind.add_antag_datum(/datum/antagonist/changeling)
 		target.fully_heal(TRUE)
 		playsound(user, 'sound/magic/demon_consume.ogg', 50, TRUE)
+	if(is_ling)
+		to_chat(target, "<span class='userdanger'>We are fully restored by one of us.</span>")
+		target.fully_heal(TRUE)
 
 	changeling.chem_charges=min(changeling.chem_charges+10, changeling.chem_storage)
 
