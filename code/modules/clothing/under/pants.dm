@@ -27,6 +27,7 @@
 						)
 	unique_reskin_changes_base_icon_state = TRUE
 	unique_reskin_changes_name = TRUE
+	supports_variations = DIGITIGRADE_VARIATION
 
 /obj/item/clothing/under/pants/cargo/grey
 	name = "grey cargo pants"
@@ -109,7 +110,7 @@
 	icon_state = "camopants"
 
 /obj/item/clothing/under/pants/pajamared
-	name = "camo pants"
+	name = "red pajama pants"
 	desc = "A comfy pair of pajamas. Probably not the best for work attire."
 	icon_state = "pajamared"
 
