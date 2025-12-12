@@ -229,7 +229,7 @@
 /datum/supply_pack/gun/mini_energy
 	name = "X26 'Ohm' Variable Energy Pistol Crate"
 	desc = "Contains a small, versatile energy gun, capable of firing both nonlethal and lethal blasts."
-	cost = 800
+	cost = 700
 	contains = list(/obj/item/storage/guncase/pistol/miniegun)
 	crate_name = "laser crate"
 	faction_discount = 20
@@ -526,12 +526,11 @@
 /datum/supply_pack/gun/l305
 	name = "L305 'Rush' Tactical Plasma Gun Crate"
 	desc = "Contains a compact energy-based SMG. For NT employee use only."
-	cost = 2000
+	cost = 2500
 	contains = list(/obj/item/storage/guncase/energy/etar)
 	crate_name = "SMG crate"
 	faction = /datum/faction/nt
-	faction_discount = 0
-	faction_locked = TRUE
+	faction_discount = 20
 
 /datum/supply_pack/gun/firestorm
 	name = "Firestorm SMG Crate"

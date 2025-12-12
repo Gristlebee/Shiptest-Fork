@@ -199,6 +199,7 @@
 	aimed_wield_slowdown = LONG_RIFLE_AIM_SLOWDOWN
 	wield_delay = 0.4 SECONDS
 
+
 	spread = 2
 	spread_unwielded = 10
 
@@ -238,6 +239,7 @@
 	wield_delay = 0.4 SECONDS
 
 	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
+
 
 	spread = 2
 	spread_unwielded = 10
