@@ -429,7 +429,6 @@
 /obj/item/clothing/under/rank/cargo/miner,
 /obj/item/clothing/gloves/color/black,
 /obj/item/clothing/glasses/meson,
-/obj/item/gun/energy/plasmacutter,
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/cargo/port)
 "dC" = (
@@ -4204,7 +4203,6 @@
 /obj/item/clothing/under/rank/cargo/miner,
 /obj/item/clothing/gloves/color/black,
 /obj/item/clothing/glasses/meson,
-/obj/item/gun/energy/plasmacutter,
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/cargo/starboard)
 "Qc" = (
