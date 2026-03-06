@@ -50,6 +50,8 @@
 	var/obj/l_hand
 	// Prob of us dropping l/r hand loot.
 	var/weapon_drop_chance = 10
+	/// If the mob should have increased spread
+	var/added_weapon_spread = 0
 
 	///Steals the armor datum from this type of armor
 	var/obj/item/clothing/armor_base
@@ -70,10 +72,10 @@
 		apply_dynamic_human_appearance(src, species_path = mob_species, mob_spawn_path = mob_spawner, r_hand = r_hand, l_hand = l_hand, seed = rand(1,3))
 		if(ispath(r_hand,/obj/item/gun))
 			var/obj/item/gun/our_gun = r_hand
-			spread = our_gun.spread
+			spread = our_gun.spread + added_weapon_spread
 		else if(ispath(l_hand, /obj/item/gun))
 			var/obj/item/gun/our_gun = l_hand
-			spread = our_gun.spread
+			spread = our_gun.spread + added_weapon_spread
 
 	if(ispath(armor_base, /obj/item/clothing))
 		//sigh. if only we could get the initial() value of list vars

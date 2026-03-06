@@ -289,6 +289,9 @@
 	muzzle_type = /obj/effect/projectile/muzzle/pulse
 	impact_type = /obj/effect/projectile/impact/pulse
 
+	var/flame_power_upper = 22
+	var/flame_power_lower = 8
+
 /obj/projectile/beam/pulse/on_hit(atom/target, blocked = FALSE)
 	. = ..()
 	var/turf/targets_turf = target.loc

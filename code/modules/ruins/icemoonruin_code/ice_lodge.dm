@@ -9,7 +9,7 @@
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/internals/ice_lodge
 	name = "Commander Tiyak"
 	desc = "A towering Vox holding a gun almost big as they are. The shotgun slugs on their bandolier hum with a menacing energy."
-	rapid = 8
+	rapid = 6
 	casingtype = /obj/item/ammo_casing/shotgun/pulseslug
 	r_hand = /obj/item/gun/ballistic/automatic/hmg/shredder
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/ranged/officer/internals/ice_lodge
@@ -27,4 +27,6 @@
 	suit = /obj/item/clothing/suit/armor/vest/marine/frontier
 	back = /obj/item/storage/backpack
 	backpack_contents = list(/obj/item/ammo_box/magazine/ammo_stack/prefilled/shotgun/pulseslug = 2)
+
+/obj/item/ammo_casing/shotgun/pulseslug/tiyak
 
