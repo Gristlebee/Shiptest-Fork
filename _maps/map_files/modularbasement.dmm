@@ -9,17 +9,17 @@
 	},
 /obj/item/clothing/glasses/welding,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "aV" = (
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "aZ" = (
 /obj/structure/girder/displaced,
 /turf/open/water/tar{
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "bi" = (
 /obj/structure/alien/resin/wall{
 	color = "#967969";
@@ -27,24 +27,24 @@
 	desc = "An indeterimate slurry of runoff condesed into massive blockage.."
 	},
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "bn" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "bp" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "by" = (
 /obj/item/plasmacutter,
 /turf/open/water/tar{
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "bA" = (
 /obj/machinery/button/crematorium{
 	pixel_x = 5;
@@ -57,18 +57,22 @@
 /obj/item/shovel,
 /obj/effect/decal/cleanable/garbage,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "bJ" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "bK" = (
 /obj/effect/spawner/random/trash,
 /obj/effect/spawner/random/trash,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
+"bV" = (
+/obj/machinery/blackbox_recorder,
+/turf/open/floor/plasteel/tech,
+/area/outpost/maintenance/aft)
 "cK" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/light/small/directional/west,
@@ -76,104 +80,104 @@
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "dm" = (
 /obj/machinery/door/airlock/hatch{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/outpost/maintenance/aft)
 "do" = (
 /obj/machinery/atmospherics/components/unary/tank/oxygen{
 	piping_layer = 2;
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "dp" = (
 /obj/machinery/duct,
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "ek" = (
 /obj/structure/sign/warning{
 	pixel_y = -23
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "ev" = (
 /obj/effect/spawner/random/trash,
 /obj/effect/spawner/random/trash,
 /obj/effect/spawner/random/trash,
 /obj/effect/spawner/random/trash,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "ex" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/concrete/reinforced,
-/area/space)
+/area/outpost/maintenance/aft)
 "eB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/trash/graffiti,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "fP" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/concrete/reinforced,
-/area/space)
+/area/outpost/maintenance/aft)
 "gx" = (
 /obj/structure/bonfire/prelit,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "hd" = (
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plating,
-/area/space)
+/area/outpost/maintenance/aft)
 "hl" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "hm" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/space)
+/area/outpost/maintenance/aft)
 "hz" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/duct,
 /turf/open/floor/plating,
-/area/space)
+/area/outpost/maintenance/aft)
 "hA" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/water/tar{
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "hC" = (
 /obj/structure/closet/l3closet/janitor,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "hH" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "ik" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "ip" = (
 /obj/structure/lattice/catwalk,
 /turf/open/water/tar{
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "iF" = (
-/turf/open/floor/plating/asteroid/rockplanet/cracked/safe,
-/area/space)
+/turf/closed/indestructible/edge,
+/area/outpost/external)
 "jo" = (
 /obj/structure/table,
 /obj/item/flashlight/lantern{
@@ -193,42 +197,63 @@
 	pixel_y = 6
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
+"ki" = (
+/obj/structure/flora/ash/garden/waste,
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/plating/asteroid/rockplanet/cracked/safe,
+/area/outpost/external)
 "kw" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/water/tar{
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "kF" = (
 /obj/effect/spawner/random/trash/graffiti,
 /obj/effect/spawner/random/trash/graffiti,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "mb" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/engine/hull/reinforced/interior,
-/area/space)
+/area/outpost/maintenance/aft)
 "mm" = (
 /turf/closed/indestructible/rock/rockplanet,
-/area/space)
+/area/outpost/maintenance/aft)
 "ne" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
+"nw" = (
+/obj/machinery/telecomms/server,
+/turf/open/floor/plasteel/tech,
+/area/outpost/maintenance/aft)
 "ny" = (
 /obj/item/towel,
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "nN" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "oc" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/r_wall/rust,
-/area/space)
+/area/outpost/maintenance/aft)
+"oJ" = (
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/plating/asteroid/rockplanet/cracked/safe,
+/area/outpost/external)
+"oX" = (
+/obj/machinery/telecomms/bus,
+/turf/open/floor/plasteel/tech,
+/area/outpost/maintenance/aft)
+"pj" = (
+/obj/item/chair/greyscale,
+/turf/open/floor/concrete/slab_1,
+/area/outpost/maintenance/aft)
 "pF" = (
 /obj/structure/alien/resin/wall{
 	color = "#967969";
@@ -236,47 +261,57 @@
 	desc = "An indeterimate slurry of runoff condesed into massive blockage.."
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "pU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "qq" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/duct,
 /obj/machinery/duct,
 /turf/open/floor/plating,
-/area/space)
+/area/outpost/maintenance/aft)
+"qR" = (
+/obj/structure/filingcabinet/double,
+/turf/open/floor/plasteel/tech,
+/area/outpost/maintenance/aft)
 "rh" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
-/area/space)
+/turf/open/floor/concrete/slab_1,
+/area/outpost/maintenance/aft)
 "rj" = (
 /obj/effect/spawner/random/salvage/machine,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "rN" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/asteroid/rockplanet/cracked/safe,
-/area/space)
+/area/outpost/external)
 "rX" = (
 /obj/structure/railing,
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "tD" = (
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "tJ" = (
 /obj/effect/spawner/random/salvage/machine,
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "um" = (
 /obj/effect/spawner/random/trash,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
+"ur" = (
+/turf/open/water/tar{
+	name = "sewer water";
+	desc = "Ruddy sewer water. Will slow you down significantly."
+	},
+/area/outpost/external)
 "uM" = (
 /obj/structure/fluff/steam_vent,
 /obj/structure/sign/warning{
@@ -284,27 +319,27 @@
 	pixel_x = 25
 	},
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "uY" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/water/tar{
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "va" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/salvage/machine,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "vi" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "vO" = (
 /obj/structure/fluff/steam_vent,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "ww" = (
 /obj/structure/sign/warning{
 	pixel_x = -26
@@ -312,46 +347,46 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/salvage/machine,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "wG" = (
 /obj/structure/reagent_dispensers/plumbed/storage,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "xu" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/open/floor/concrete/reinforced,
-/area/space)
+/area/outpost/maintenance/aft)
 "xv" = (
 /obj/machinery/shower{
 	pixel_y = 18
 	},
 /turf/open/floor/noslip,
-/area/space)
+/area/outpost/maintenance/aft)
 "xL" = (
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "yK" = (
 /obj/structure/sign/warning{
 	pixel_y = 24
 	},
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "yQ" = (
 /obj/structure/fluff/steam_vent,
 /obj/structure/sign/warning{
 	pixel_x = -26
 	},
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "zt" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/concrete/reinforced,
-/area/space)
+/area/outpost/maintenance/aft)
 "zy" = (
 /obj/machinery/light/small/directional/east,
 /obj/structure/closet/secure_closet/freezer/fridge{
@@ -365,26 +400,29 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "At" = (
 /obj/structure/sign/warning{
 	pixel_y = -23
 	},
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
+"AF" = (
+/turf/closed/indestructible/rock/rockplanet,
+/area/outpost/external)
 "AI" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "Bj" = (
 /obj/effect/spawner/random/trash/graffiti,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "Bt" = (
 /obj/machinery/light/small/directional/south,
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "Bv" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/spawner/random/trash,
@@ -394,43 +432,46 @@
 /obj/effect/spawner/random/trash,
 /obj/effect/spawner/random/trash/deluxe_garbage,
 /turf/open/floor/concrete/reinforced,
-/area/space)
+/area/outpost/maintenance/aft)
+"BL" = (
+/turf/open/floor/plating/asteroid/rockplanet/cracked/safe,
+/area/outpost/external)
 "DC" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 9
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "DO" = (
 /obj/machinery/door/airlock/external,
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/duct,
 /turf/open/floor/plating,
-/area/space)
+/area/outpost/maintenance/aft)
 "Eg" = (
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "Fr" = (
 /obj/machinery/door/window/brigdoor/security/holding/westright,
 /obj/structure/closet/wall/red/directional/east,
 /turf/open/floor/concrete/reinforced,
-/area/space)
+/area/outpost/maintenance/aft)
 "Gh" = (
 /obj/effect/decal/remains/xeno,
 /turf/open/floor/plating/asteroid/rockplanet/cracked/safe,
-/area/space)
+/area/outpost/external)
 "Hj" = (
 /obj/machinery/shower{
 	dir = 1
 	},
 /turf/open/floor/noslip,
-/area/space)
+/area/outpost/maintenance/aft)
 "IB" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/duct,
 /turf/open/floor/plating,
-/area/space)
+/area/outpost/maintenance/aft)
 "IS" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -439,16 +480,25 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "Kb" = (
 /obj/structure/flora/ash/garden/waste,
 /turf/open/floor/plating/asteroid/rockplanet/cracked/safe,
-/area/space)
+/area/outpost/external)
+"Kq" = (
+/obj/machinery/computer/telecomms/monitor,
+/turf/open/floor/plasteel/tech,
+/area/outpost/maintenance/aft)
 "Lz" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/falsewall/reinforced,
+/obj/machinery/duct,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
+"LQ" = (
+/obj/structure/salvageable/computer,
+/turf/open/floor/plasteel/tech,
+/area/outpost/maintenance/aft)
 "Me" = (
 /obj/structure/bodycontainer/crematorium{
 	dir = 1;
@@ -456,7 +506,7 @@
 	desc = "A large incinerator. Works well on barbecue nights."
 	},
 /turf/open/floor/engine/hull/reinforced/interior,
-/area/space)
+/area/outpost/maintenance/aft)
 "My" = (
 /obj/machinery/door/keycard/gates{
 	name = "sewer grate";
@@ -466,7 +516,7 @@
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "MP" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/spawner/random/trash,
@@ -478,22 +528,22 @@
 	dir = 8
 	},
 /turf/open/floor/concrete/reinforced,
-/area/space)
+/area/outpost/maintenance/aft)
 "MW" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "Nz" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/space)
+/area/outpost/maintenance/aft)
 "NK" = (
 /obj/item/stack/ore/salvage/scrapmetal,
 /turf/open/water/tar{
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "NQ" = (
 /obj/structure/alien/resin/wall{
 	color = "#967969";
@@ -509,11 +559,11 @@
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "NR" = (
 /obj/structure/fluff/steam_vent,
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "Oj" = (
 /obj/structure/sign/warning{
 	pixel_y = -1;
@@ -521,7 +571,7 @@
 	},
 /obj/effect/spawner/random/trash,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "Py" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/light/small/directional/north,
@@ -529,35 +579,35 @@
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "PM" = (
 /obj/effect/decal/cleanable/vomit,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "Qd" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "QK" = (
 /turf/open/floor/plasteel/stairs{
 	dir = 8
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "Rr" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/trash,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "Rx" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/water/tar{
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "RR" = (
 /turf/open/floor/plasteel/stairs,
-/area/space)
+/area/outpost/maintenance/aft)
 "RZ" = (
 /obj/structure/sign/warning{
 	pixel_y = 24
@@ -565,42 +615,45 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/trash/graffiti,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "SF" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "SH" = (
 /obj/effect/spawner/random/trash,
 /obj/effect/spawner/random/trash,
 /obj/effect/spawner/random/trash,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "ST" = (
 /obj/structure/reagent_dispensers/plumbed,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "Tq" = (
 /obj/structure/closet,
 /obj/item/storage/toolbox/fishing,
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "TS" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/outpost/maintenance/aft)
 "Ut" = (
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 "VI" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/concrete/slab_1,
-/area/space)
+/obj/structure/fans/tiny/invisible,
+/turf/open/water/tar{
+	name = "sewer water";
+	desc = "Ruddy sewer water. Will slow you down significantly."
+	},
+/area/outpost/external)
 "Wj" = (
 /turf/open/floor/plating,
-/area/space)
+/area/outpost/maintenance/aft)
 "Wv" = (
 /obj/machinery/door/window/brigdoor/security/holding/westright,
 /obj/structure/closet/wall/red/directional/east{
@@ -615,7 +668,7 @@
 /obj/item/mine/pressure/explosive/rusty,
 /obj/item/mine/pressure/explosive/rusty,
 /turf/open/floor/concrete/reinforced,
-/area/space)
+/area/outpost/maintenance/aft)
 "Xb" = (
 /obj/structure/alien/resin/wall{
 	color = "#967969";
@@ -626,37 +679,41 @@
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
 "XM" = (
 /turf/open/water/tar{
 	name = "sewer water";
 	desc = "Ruddy sewer water. Will slow you down significantly."
 	},
-/area/space)
+/area/outpost/maintenance/aft)
+"XN" = (
+/obj/machinery/telecomms/relay,
+/turf/open/floor/plasteel/tech,
+/area/outpost/maintenance/aft)
 "YT" = (
 /turf/closed/indestructible/reinforced/rust,
-/area/space)
+/area/outpost/maintenance/aft)
 "Zf" = (
 /obj/structure/sign/departments/custodian{
 	pixel_x = 32
 	},
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "Zh" = (
 /obj/structure/bed{
 	icon_state = "dirty_mattress"
 	},
 /turf/open/floor/plating/catwalk_floor,
-/area/space)
+/area/outpost/maintenance/aft)
 "Zj" = (
 /turf/closed/wall/r_wall/rust,
-/area/space)
+/area/outpost/maintenance/aft)
 "ZY" = (
 /obj/structure/sign/warning/gasmask{
 	pixel_y = 32
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/outpost/maintenance/aft)
 
 (1,1,1) = {"
 mm
@@ -1092,13 +1149,13 @@ mm
 "}
 (7,1,1) = {"
 iF
-iF
-iF
-mm
-mm
-mm
-mm
-mm
+oJ
+BL
+AF
+AF
+AF
+AF
+AF
 YT
 YT
 YT
@@ -1164,13 +1221,13 @@ mm
 "}
 (8,1,1) = {"
 iF
+ki
+BL
+BL
 Kb
-iF
-iF
-Kb
-mm
-mm
-mm
+AF
+AF
+AF
 YT
 pF
 Ut
@@ -1184,9 +1241,9 @@ Wj
 Zj
 Ut
 Ut
-VI
-VI
-VI
+rh
+rh
+rh
 Ut
 Ut
 Zj
@@ -1194,17 +1251,17 @@ Wj
 Zj
 Ut
 SH
-VI
-VI
-VI
+rh
+rh
+rh
 Ut
 Ut
 Zj
 Wj
 Zj
 Ut
-VI
-VI
+rh
+rh
 um
 ev
 Ut
@@ -1213,9 +1270,9 @@ Zj
 Wj
 Zj
 Ut
-VI
-VI
-VI
+rh
+rh
+rh
 Ut
 Ut
 Ut
@@ -1225,7 +1282,7 @@ Zj
 Ut
 Ut
 Ut
-VI
+rh
 Ut
 Ut
 Ut
@@ -1236,13 +1293,13 @@ mm
 "}
 (9,1,1) = {"
 iF
-iF
-iF
+oJ
+BL
 Gh
 Kb
-iF
-iF
-iF
+BL
+BL
+BL
 YT
 bi
 xL
@@ -1307,14 +1364,14 @@ mm
 mm
 "}
 (10,1,1) = {"
-XM
-XM
-XM
-XM
-XM
-XM
-XM
-XM
+iF
+VI
+ur
+ur
+ur
+ur
+ur
+ur
 My
 Xb
 Xb
@@ -1379,14 +1436,14 @@ mm
 mm
 "}
 (11,1,1) = {"
-XM
-XM
-XM
-XM
-XM
-XM
-XM
-XM
+iF
+VI
+ur
+ur
+ur
+ur
+ur
+ur
 My
 Xb
 Xb
@@ -1414,7 +1471,7 @@ XM
 XM
 XM
 xL
-VI
+rh
 Zj
 Wj
 Zj
@@ -1451,14 +1508,14 @@ mm
 mm
 "}
 (12,1,1) = {"
-XM
-XM
-XM
-XM
-XM
-XM
-XM
-XM
+iF
+VI
+ur
+ur
+ur
+ur
+ur
+ur
 My
 Xb
 Xb
@@ -1486,7 +1543,7 @@ XM
 XM
 XM
 xL
-VI
+rh
 Zj
 Wj
 Zj
@@ -1524,13 +1581,13 @@ mm
 "}
 (13,1,1) = {"
 iF
-iF
+oJ
 rN
-iF
-iF
-iF
+BL
+BL
+BL
 Kb
-iF
+BL
 Zj
 bi
 bi
@@ -1596,13 +1653,13 @@ mm
 "}
 (14,1,1) = {"
 iF
+ki
+BL
 Kb
-iF
-Kb
-iF
+BL
 rN
-iF
-mm
+BL
+AF
 YT
 Ut
 Ut
@@ -1667,14 +1724,14 @@ mm
 mm
 "}
 (15,1,1) = {"
-mm
-mm
-mm
-iF
-iF
-iF
-mm
-mm
+AF
+AF
+AF
+BL
+BL
+BL
+AF
+AF
 YT
 Zj
 Zj
@@ -1899,7 +1956,7 @@ Ut
 Ut
 Ut
 Ut
-VI
+rh
 Rr
 Ut
 Ut
@@ -1930,10 +1987,10 @@ XM
 xL
 Ut
 Zj
-Wj
-Wj
-Wj
-Wj
+qR
+oX
+XN
+aV
 Zj
 do
 do
@@ -2002,10 +2059,10 @@ XM
 xL
 Ut
 Zj
-Wj
-Wj
-Wj
-Wj
+LQ
+Ut
+Ut
+Ut
 Zj
 Nz
 hm
@@ -2072,16 +2129,16 @@ XM
 XM
 XM
 xL
-VI
+rh
 Zj
-Wj
-Wj
-Wj
-Wj
+LQ
+Ut
+Ut
+Ut
 Zj
 Ut
 hm
-VI
+rh
 Ut
 Zj
 Zj
@@ -2146,9 +2203,9 @@ XM
 xL
 Rr
 Zj
-Wj
-Wj
-Wj
+Kq
+pj
+Ut
 rh
 Lz
 hz
@@ -2216,11 +2273,11 @@ XM
 XM
 XM
 xL
-VI
+rh
 Zj
-Wj
-Wj
-Wj
+LQ
+Ut
+Ut
 rh
 oc
 Ut
@@ -2290,10 +2347,10 @@ xL
 xL
 Ut
 Zj
-Wj
-Wj
-Wj
-Wj
+LQ
+Ut
+Ut
+Ut
 Zj
 hz
 hz
@@ -2335,20 +2392,20 @@ Ut
 Ut
 Ut
 um
-VI
-VI
-VI
-VI
+rh
+rh
+rh
+rh
 Ut
 Ut
 Zj
 Wj
 Zj
 Ut
-VI
-VI
-VI
-VI
+rh
+rh
+rh
+rh
 Ut
 Ut
 Zj
@@ -2362,10 +2419,10 @@ Ut
 Ut
 Ut
 Zj
-Wj
-Wj
-Wj
-Wj
+qR
+nw
+bV
+aV
 Zj
 ST
 ST
@@ -2636,9 +2693,9 @@ Ut
 Ut
 Ut
 Bj
-VI
-VI
-VI
+rh
+rh
+rh
 Zj
 Wj
 Zj
@@ -2812,7 +2869,7 @@ XM
 XM
 XM
 xL
-VI
+rh
 YT
 mm
 mm
@@ -2884,7 +2941,7 @@ XM
 XM
 XM
 xL
-VI
+rh
 YT
 mm
 mm
@@ -3086,9 +3143,9 @@ Wj
 Zj
 Ut
 Ut
-VI
+rh
 pU
-VI
+rh
 Ut
 Ut
 Zj
@@ -3097,9 +3154,9 @@ Zj
 Ut
 Ut
 Ut
-VI
-VI
-VI
+rh
+rh
+rh
 Ut
 YT
 mm
@@ -3374,8 +3431,8 @@ Wj
 Zj
 Ut
 Ut
-VI
-VI
+rh
+rh
 Ut
 Ut
 Ut
@@ -3384,10 +3441,10 @@ Wj
 Zj
 Ut
 Ut
-VI
-VI
-VI
-VI
+rh
+rh
+rh
+rh
 Ut
 YT
 mm
@@ -3410,7 +3467,7 @@ XM
 XM
 XM
 xL
-VI
+rh
 Zj
 Wj
 Zj
@@ -3476,13 +3533,13 @@ mm
 mm
 mm
 YT
-VI
+rh
 xL
 XM
 XM
 XM
 xL
-VI
+rh
 Zj
 Wj
 Zj
@@ -3548,7 +3605,7 @@ mm
 mm
 mm
 YT
-VI
+rh
 xL
 XM
 XM
@@ -3775,7 +3832,7 @@ Zj
 Wj
 Zj
 Ut
-VI
+rh
 ik
 Ut
 Ut
@@ -4196,7 +4253,7 @@ mm
 mm
 mm
 YT
-VI
+rh
 xL
 XM
 XM
@@ -4268,7 +4325,7 @@ mm
 mm
 mm
 YT
-VI
+rh
 xL
 XM
 XM
@@ -4324,7 +4381,7 @@ XM
 XM
 XM
 xL
-VI
+rh
 YT
 mm
 mm
@@ -4396,7 +4453,7 @@ XM
 XM
 XM
 xL
-VI
+rh
 YT
 mm
 mm
@@ -4468,7 +4525,7 @@ XM
 XM
 XM
 xL
-VI
+rh
 YT
 mm
 mm
@@ -4772,17 +4829,17 @@ mm
 mm
 mm
 YT
-VI
+rh
 xL
 XM
 XM
 XM
 xL
-VI
+rh
 Zj
 Wj
 Zj
-VI
+rh
 Ut
 Ut
 Ut
@@ -4795,9 +4852,9 @@ Ut
 Ut
 Ut
 Ut
-VI
-VI
-VI
+rh
+rh
+rh
 Ut
 Zj
 Wj
@@ -4856,20 +4913,20 @@ Wj
 Zj
 Ut
 Ut
-VI
+rh
 Ut
-VI
+rh
 Ut
-VI
-VI
-VI
+rh
+rh
+rh
 Ut
 Ut
 Ut
 PM
-VI
-VI
-VI
+rh
+rh
+rh
 Ut
 Zj
 Wj
@@ -4928,7 +4985,7 @@ Wj
 Zj
 Ut
 Ut
-VI
+rh
 Ut
 Ut
 Ut
@@ -5064,8 +5121,8 @@ Ut
 Ut
 Ut
 Ut
-VI
-VI
+rh
+rh
 Ut
 Zj
 Wj
