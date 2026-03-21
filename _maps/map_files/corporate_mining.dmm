@@ -1,17 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-<<<<<<< Updated upstream
-"ap" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/corporatemine)
-"aw" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/corporatemine)
-=======
 "am" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/curtain/cloth,
@@ -27,7 +14,6 @@
 /obj/effect/spawner/random/salvage/machine,
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "bc" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/corporatemine/hall)
@@ -42,12 +28,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 8
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "bf" = (
@@ -55,12 +38,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/drip,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 4
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "bl" = (
@@ -68,17 +48,8 @@
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space)
 "bA" = (
-<<<<<<< Updated upstream
-/obj/machinery/vending/cigarette,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 1
-	},
-/obj/effect/turf_decal/spline/fancy/opaque/lightgrey,
-/turf/open/floor/plasteel,
-=======
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "bG" = (
 /obj/structure/cable{
@@ -93,8 +64,15 @@
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/asteroid/airless,
+/turf/open/floor/plating,
 /area/ruin/space)
+"bT" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/corporatemine/hall)
 "ce" = (
 /obj/structure/cable{
 	icon_state = "6-8"
@@ -103,12 +81,9 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 1
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "cj" = (
@@ -123,12 +98,9 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
-<<<<<<< Updated upstream
-=======
 "cx" = (
 /turf/closed/mineral,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "cI" = (
 /obj/structure/chair/stool/bar{
 	dir = 4
@@ -149,8 +121,6 @@
 /obj/effect/turf_decal/industrial/outline,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
-<<<<<<< Updated upstream
-=======
 "da" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -161,36 +131,23 @@
 	},
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "dL" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
 /turf/open/floor/plating,
 /area/ruin/space)
-"dU" = (
-<<<<<<< Updated upstream
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
-	dir = 1
+"dQ" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	id = "bridge"
 	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/spline/fancy/opaque/lightgrey/corner{
-	dir = 8
-	},
-/obj/effect/turf_decal/spline/fancy/opaque/lightgrey/corner,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine/hall)
-=======
+/area/ruin/space/has_grav/corporatemine/bridge)
+"dU" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plating/airless,
 /area/ruin/space/deepstorage)
->>>>>>> Stashed changes
 "ea" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey{
@@ -203,6 +160,10 @@
 	icon_state = "4-8"
 	},
 /turf/closed/wall,
+/area/ruin/space/has_grav/corporatemine/hall)
+"eB" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "eV" = (
 /obj/machinery/door/airlock/alarmlock{
@@ -325,20 +286,18 @@
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "gI" = (
-<<<<<<< Updated upstream
-/obj/structure/sink/puddle,
-/turf/closed/mineral,
-/area/ruin/space)
-=======
 /obj/machinery/door/airlock{
 	name = "Room 3"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "gJ" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -346,6 +305,10 @@
 /obj/machinery/power/floodlight{
 	anchored = 1
 	},
+/turf/open/floor/plating,
+/area/ruin/space)
+"gN" = (
+/obj/effect/decal/cleanable/ash,
 /turf/open/floor/plating,
 /area/ruin/space)
 "gY" = (
@@ -370,15 +333,6 @@
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space)
 "hn" = (
-<<<<<<< Updated upstream
-/obj/effect/turf_decal/spline/fancy/opaque/lightgrey{
-	dir = 6
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-=======
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
@@ -395,7 +349,6 @@
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 1
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "hw" = (
@@ -417,6 +370,10 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
+"ij" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/corporatemine/hall)
 "iu" = (
 /obj/effect/turf_decal/solarpanel,
 /obj/machinery/power/solar,
@@ -425,17 +382,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space)
-<<<<<<< Updated upstream
-"iG" = (
-/obj/effect/spawner/structure/window/hollow/reinforced/directional{
-	dir = 5
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/corporatemine/bridge)
-=======
 "iy" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering"
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
@@ -443,7 +396,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "iN" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -454,15 +406,6 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/corporatemine/hall)
 "iT" = (
-<<<<<<< Updated upstream
-/obj/effect/decal/cleanable/oil/slippery,
-/obj/machinery/vending/coffee,
-/obj/effect/turf_decal/spline/fancy/opaque/lightgrey{
-	dir = 6
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine/hall)
-=======
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/item/stack/cable_coil/cut/red,
 /turf/open/floor/plating,
@@ -471,7 +414,6 @@
 /obj/effect/spawner/random/salvage/machine,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/bridge)
->>>>>>> Stashed changes
 "iW" = (
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
@@ -492,10 +434,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey/corner,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack,
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "jl" = (
@@ -511,25 +450,16 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 1
 	},
->>>>>>> Stashed changes
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "jz" = (
 /obj/item/stack/ore/plasma,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space)
-<<<<<<< Updated upstream
-"jB" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plating/airless,
-/area/ruin/space/deepstorage)
-=======
->>>>>>> Stashed changes
 "jH" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/machinery/atmospherics/pipe/simple/scrubbers{
@@ -561,10 +491,7 @@
 	icon_state = "0-9"
 	},
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack,
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "jR" = (
@@ -581,13 +508,6 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space)
 "jU" = (
-<<<<<<< Updated upstream
-/obj/effect/spawner/structure/window/hollow/reinforced/directional{
-	dir = 6
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/corporatemine/bridge)
-=======
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -596,7 +516,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "kp" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plating/asteroid/airless,
@@ -637,10 +556,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-<<<<<<< Updated upstream
-=======
 /obj/machinery/power/rtg/advanced,
->>>>>>> Stashed changes
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
 "lx" = (
@@ -648,10 +564,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-<<<<<<< Updated upstream
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine/hall)
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 4
 	},
@@ -667,7 +579,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "lC" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/structure/closet/crate{
@@ -677,8 +588,6 @@
 /obj/effect/turf_decal/industrial/outline,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
-<<<<<<< Updated upstream
-=======
 "lK" = (
 /obj/machinery/vending/cigarette,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -688,7 +597,6 @@
 /obj/effect/turf_decal/borderfloorblack,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "lL" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/structure/closet/crate{
@@ -701,6 +609,7 @@
 /obj/item/trash/syndi_cakes,
 /obj/item/storage/bag/ore,
 /obj/effect/turf_decal/industrial/outline,
+/obj/machinery/airalarm/directional/east,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
 "lN" = (
@@ -713,19 +622,10 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space)
 "lV" = (
-<<<<<<< Updated upstream
-/obj/structure/closet/crate,
-/obj/item/stack/ore/gold,
-/obj/item/stack/ore/gold,
-/obj/machinery/airalarm/directional/east,
-/obj/effect/turf_decal/industrial/outline,
-/turf/open/floor/plasteel/tech/grid,
-=======
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "ma" = (
 /obj/structure/cable{
@@ -737,8 +637,6 @@
 /obj/structure/grille/broken,
 /turf/open/floor/plating,
 /area/ruin/space)
-<<<<<<< Updated upstream
-=======
 "mi" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
@@ -753,11 +651,9 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey/corner,
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/borderfloorblack,
-/turf/open/floor/plasteel,
+/turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "my" = (
 /obj/machinery/door/airlock/wood{
 	locked = 1;
@@ -768,6 +664,18 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
+"mR" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/corporatemine/hall)
 "mZ" = (
 /obj/structure/cable{
 	icon_state = "1-10"
@@ -775,19 +683,12 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space)
 "nf" = (
-<<<<<<< Updated upstream
-/obj/machinery/suit_storage_unit/mining/eva,
-/obj/effect/turf_decal/industrial/outline/yellow,
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "nl" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -819,12 +720,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/stairs,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
-<<<<<<< Updated upstream
-"nN" = (
-/obj/structure/closet/cabinet,
-/obj/item/gun/ballistic/automatic/pistol/ringneck,
-/obj/item/ammo_box/magazine/m10mm_ringneck,
-=======
 "nJ" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -840,7 +735,6 @@
 /area/ruin/space/has_grav/corporatemine/hall)
 "nN" = (
 /obj/structure/closet/cabinet,
->>>>>>> Stashed changes
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "nW" = (
@@ -853,20 +747,9 @@
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "nY" = (
-<<<<<<< Updated upstream
-/obj/effect/decal/cleanable/blood/gibs/old,
-/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
-	dir = 4
-	},
-/obj/machinery/light/broken/directional/north,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/structure/lattice,
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "oj" = (
 /obj/structure/table,
 /turf/open/floor/plasteel,
@@ -901,15 +784,12 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
-<<<<<<< Updated upstream
-=======
 "pC" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "pK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -920,16 +800,11 @@
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "pP" = (
-<<<<<<< Updated upstream
-/turf/closed/wall,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "pQ" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -944,13 +819,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
-<<<<<<< Updated upstream
-=======
 "qs" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plating/airless,
 /area/ruin/space/deepstorage)
->>>>>>> Stashed changes
 "qu" = (
 /obj/machinery/door/airlock/wood/glass{
 	name = "Corporate's Office";
@@ -983,26 +855,18 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 8
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "qF" = (
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
 "qK" = (
-<<<<<<< Updated upstream
-/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
-=======
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /obj/effect/turf_decal/borderfloorblack,
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "qS" = (
@@ -1011,8 +875,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
-<<<<<<< Updated upstream
-=======
 "qY" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1025,7 +887,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "qZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -1069,20 +930,6 @@
 /turf/template_noop,
 /area/template_noop)
 "rG" = (
-<<<<<<< Updated upstream
-/turf/closed/wall/r_wall/rust,
-/area/ruin/space/deepstorage)
-"rI" = (
-/obj/effect/decal/cleanable/blood/gibs,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /turf/open/floor/plating/airless,
 /area/ruin/space/deepstorage)
 "rI" = (
@@ -1092,7 +939,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "rV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -1106,12 +952,9 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
 	},
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 4
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "sa" = (
@@ -1136,12 +979,6 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
-<<<<<<< Updated upstream
-"ts" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/closed/wall/r_wall/rust,
-/area/ruin/space/has_grav/corporatemine)
-=======
 "si" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/frame/machine,
@@ -1182,7 +1019,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "tA" = (
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/plating/asteroid/airless,
@@ -1201,20 +1037,19 @@
 /obj/effect/turf_decal/industrial/outline,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
-<<<<<<< Updated upstream
-=======
 "uY" = (
-/obj/machinery/door/poddoor,
+/obj/machinery/door/poddoor{
+	id = "north"
+	},
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	dir = 8;
-	id = "hangar1"
+	id = "north"
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "va" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 10
@@ -1229,12 +1064,9 @@
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
 	},
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 4
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "vc" = (
@@ -1244,12 +1076,9 @@
 	},
 /obj/effect/turf_decal/industrial/warning/corner,
 /obj/effect/decal/cleanable/dirt,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 4
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "vN" = (
@@ -1278,24 +1107,15 @@
 /obj/structure/lattice,
 /turf/open/space,
 /area/ruin/space/has_grav/corporatemine)
-<<<<<<< Updated upstream
-"wf" = (
-/obj/machinery/suit_storage_unit/mining/eva,
-/obj/effect/turf_decal/industrial/outline/yellow,
-/obj/structure/sign/poster/contraband/punch_shit{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/corporatemine)
-=======
 "we" = (
-/obj/machinery/door/poddoor,
-/turf/open/floor/plasteel,
+/obj/machinery/door/poddoor{
+	id = "north"
+	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
 "wf" = (
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "wg" = (
 /obj/item/stack/ore/uranium,
 /turf/open/floor/plating/asteroid/airless,
@@ -1326,16 +1146,8 @@
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "wJ" = (
-<<<<<<< Updated upstream
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/frame/machine,
-/obj/item/circuitboard/machine/ore_redemption,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/deepstorage)
->>>>>>> Stashed changes
 "wW" = (
 /obj/effect/decal/cleanable/ash,
 /obj/structure/cable{
@@ -1369,6 +1181,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
+"ya" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/corporatemine/hall)
 "yf" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -1380,12 +1196,9 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/blood/drip,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 8
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "yl" = (
@@ -1437,11 +1250,7 @@
 	},
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey/corner,
 /obj/effect/decal/cleanable/dirt,
-<<<<<<< Updated upstream
-/turf/open/floor/plasteel,
-=======
 /turf/open/floor/plating/rust,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "zg" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/layer2,
@@ -1484,22 +1293,11 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/corporatemine/hall)
 "zB" = (
-<<<<<<< Updated upstream
-/obj/effect/decal/cleanable/oil/slippery,
-/obj/item/trash/sosjerky,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 6
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "Ac" = (
 /obj/structure/railing,
 /obj/structure/cable{
@@ -1534,14 +1332,6 @@
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "Aw" = (
-<<<<<<< Updated upstream
-/turf/closed/wall/rust,
-/area/ruin/space/has_grav/corporatemine)
-"AC" = (
-/obj/effect/spawner/random/salvage/machine,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/structure/closet/crate/bin,
 /obj/item/trash/can/food/beans,
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey{
@@ -1564,7 +1354,6 @@
 /obj/effect/turf_decal/borderfloorblack,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "AD" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/machinery/atmospherics/pipe/layer_manifold{
@@ -1583,12 +1372,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 1
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "AK" = (
@@ -1632,12 +1418,9 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 9
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "Bw" = (
@@ -1655,8 +1438,6 @@
 "BA" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
-<<<<<<< Updated upstream
-=======
 "BR" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -1670,9 +1451,12 @@
 /obj/machinery/door/airlock{
 	name = "Room 3"
 	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "BV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -1695,8 +1479,6 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space)
-<<<<<<< Updated upstream
-=======
 "Ck" = (
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey{
 	dir = 6
@@ -1708,7 +1490,6 @@
 /obj/effect/turf_decal/borderfloorblack,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "Cl" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1743,12 +1524,9 @@
 	icon_state = "2-8"
 	},
 /obj/effect/decal/cleanable/plastic,
-<<<<<<< Updated upstream
-=======
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "CH" = (
@@ -1772,12 +1550,13 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/opaque/bar/filled/warning,
-<<<<<<< Updated upstream
-=======
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 1
 	},
->>>>>>> Stashed changes
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/corporatemine/hall)
 "CR" = (
@@ -1836,25 +1615,6 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "DW" = (
-<<<<<<< Updated upstream
-/obj/machinery/light/broken/directional/west,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/corporatemine)
-"Ek" = (
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine)
-"Eu" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 10
-	},
-/obj/structure/sign/warning/enginesafety{
-	pixel_y = 32
-	},
-/turf/open/floor/plating,
-=======
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
@@ -1873,7 +1633,6 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "Ez" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1906,12 +1665,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 1
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "EN" = (
@@ -1921,21 +1677,6 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
 "EP" = (
-<<<<<<< Updated upstream
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/item/stack/cable_coil/cut/red,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/corporatemine)
-"Fe" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/corporatemine/hall)
-=======
 /obj/effect/turf_decal/trimline/opaque/nsorange/warning,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
@@ -1955,7 +1696,6 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/plating/airless,
 /area/ruin/space/deepstorage)
->>>>>>> Stashed changes
 "Fn" = (
 /obj/machinery/shower{
 	pixel_y = 16
@@ -2004,8 +1744,6 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
-<<<<<<< Updated upstream
-=======
 "Gn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers{
 	dir = 10
@@ -2024,7 +1762,6 @@
 /obj/item/circuitboard/machine/autolathe,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "Gx" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
@@ -2064,18 +1801,12 @@
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/corporatemine/hall)
 "Hg" = (
-<<<<<<< Updated upstream
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "Hk" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
@@ -2083,10 +1814,7 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
 /obj/machinery/light/directional/south,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/industrial/warning/corner,
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "Ht" = (
@@ -2101,39 +1829,26 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-<<<<<<< Updated upstream
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine/hall)
-"Hu" = (
-/obj/item/pickaxe/drill,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating/asteroid/airless,
-/area/ruin/space)
-"HG" = (
-/obj/effect/decal/cleanable/oil/slippery,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "Hu" = (
-/obj/machinery/door/poddoor,
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	dir = 4;
-	id = "hangar1"
+	id = "north"
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel,
+/obj/machinery/door/poddoor{
+	id = "north"
+	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
 "HG" = (
 /obj/effect/decal/cleanable/oil/slippery,
->>>>>>> Stashed changes
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
@@ -2141,14 +1856,6 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-<<<<<<< Updated upstream
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine/hall)
-"HM" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 1
-	},
-=======
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
@@ -2157,7 +1864,6 @@
 /area/ruin/space/has_grav/corporatemine/hall)
 "HM" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "HP" = (
@@ -2173,8 +1879,15 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/space/has_grav/corporatemine/bridge)
-<<<<<<< Updated upstream
-=======
+"Ih" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/corporatemine/hall)
 "Il" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -2187,29 +1900,25 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "Ip" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space)
 "Iv" = (
-<<<<<<< Updated upstream
-/turf/open/floor/plating/airless,
-/area/ruin/space/deepstorage)
-=======
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	dir = 8;
-	id = "hangar1"
+	id = "south"
 	},
 /obj/structure/cable,
-/obj/machinery/door/poddoor,
+/obj/machinery/door/poddoor{
+	id = "south"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/corporatemine/hall)
 "Ix" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "IE" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -2232,10 +1941,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack,
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "IW" = (
@@ -2249,12 +1955,9 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 8
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "Jf" = (
@@ -2267,18 +1970,6 @@
 /turf/open/floor/plating,
 /area/ruin/space)
 "JS" = (
-<<<<<<< Updated upstream
-/obj/effect/decal/cleanable/oil/slippery,
-/obj/machinery/atmospherics/pipe/simple/scrubbers{
-	dir = 9
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer4,
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer2,
-/turf/open/floor/plating,
-=======
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 10
 	},
@@ -2289,13 +1980,10 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "Ke" = (
 /turf/open/floor/plating/airless,
 /area/ruin/space)
-<<<<<<< Updated upstream
-=======
 "Kx" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/item/assembly/igniter,
@@ -2312,21 +2000,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "KJ" = (
 /obj/structure/sign/poster/retro/smile,
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
 "KM" = (
-<<<<<<< Updated upstream
-/obj/effect/spawner/structure/window/hollow/reinforced/middle{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-=======
 /obj/machinery/holopad/emergency/security,
 /turf/open/floor/plasteel/dark,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/bridge)
 "KS" = (
 /obj/structure/sink{
@@ -2346,19 +2026,6 @@
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space)
-<<<<<<< Updated upstream
-"Lf" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
-	dir = 4
-	},
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/corporatemine)
-"Ll" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/obj/structure/marker_beacon,
-/turf/open/floor/plating/airless,
-/area/ruin/space/deepstorage)
-=======
 "KW" = (
 /obj/machinery/door/airlock/engineering{
 	dir = 4
@@ -2381,7 +2048,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "Lm" = (
 /obj/machinery/jukebox,
 /turf/open/floor/plasteel/grimy,
@@ -2400,13 +2066,10 @@
 /obj/structure/table,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/bridge)
-<<<<<<< Updated upstream
-=======
 "LB" = (
 /obj/structure/closet/secure_closet/miner,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "LF" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating/asteroid/airless,
@@ -2434,19 +2097,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
-<<<<<<< Updated upstream
-=======
 "Mc" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
 	dir = 5
 	},
 /obj/machinery/door/poddoor{
 	dir = 4;
-	id = "pgf_door"
+	id = "bridge"
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/corporatemine/bridge)
->>>>>>> Stashed changes
 "Mn" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
@@ -2466,16 +2126,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/corporatemine/bridge)
-<<<<<<< Updated upstream
-"Mw" = (
-/obj/machinery/power/apc/auto_name/directional/north,
-/turf/open/floor/plating/airless,
-/area/ruin/space/deepstorage)
-"MF" = (
-/obj/structure/lattice,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/corporatemine)
-=======
 "MF" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -2483,7 +2133,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "MW" = (
 /obj/effect/turf_decal/solarpanel,
 /obj/machinery/power/solar,
@@ -2493,18 +2142,6 @@
 /turf/open/floor/plating,
 /area/ruin/space)
 "MX" = (
-<<<<<<< Updated upstream
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/corporatemine)
-"MZ" = (
-/obj/structure/closet/secure_closet/miner,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/corporatemine)
-"Nb" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/obj/machinery/light/broken/directional/north,
-/turf/open/floor/plasteel,
-=======
 /obj/machinery/suit_storage_unit/mining/eva,
 /obj/effect/turf_decal/industrial/outline/yellow,
 /turf/open/floor/plasteel/tech/grid,
@@ -2523,7 +2160,6 @@
 /obj/effect/turf_decal/industrial/outline,
 /obj/structure/closet/crate,
 /turf/open/floor/plasteel/tech/grid,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "Nx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers{
@@ -2532,8 +2168,6 @@
 /obj/machinery/light/small/broken/directional/west,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
-<<<<<<< Updated upstream
-=======
 "Ny" = (
 /obj/machinery/door/airlock{
 	name = "Preparations"
@@ -2549,20 +2183,16 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "NH" = (
 /obj/structure/closet/crate,
 /obj/effect/turf_decal/industrial/outline,
 /obj/effect/spawner/random/materials,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
-<<<<<<< Updated upstream
-=======
 "NI" = (
 /obj/structure/marker_beacon,
 /turf/open/floor/plating/airless,
 /area/ruin/space/deepstorage)
->>>>>>> Stashed changes
 "NO" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -2580,16 +2210,13 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "NP" = (
-<<<<<<< Updated upstream
-/obj/structure/closet/crate/bin,
-/obj/item/trash/can/food/beans,
-/obj/effect/turf_decal/spline/fancy/opaque/lightgrey{
-	dir = 10
-=======
 /obj/machinery/door/airlock{
 	name = "Preparations"
->>>>>>> Stashed changes
 	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "NQ" = (
@@ -2597,14 +2224,11 @@
 /obj/structure/lattice,
 /turf/open/floor/plating,
 /area/ruin/space)
-<<<<<<< Updated upstream
-=======
 "NY" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/structure/marker_beacon,
 /turf/open/floor/plating/airless,
 /area/ruin/space/deepstorage)
->>>>>>> Stashed changes
 "Og" = (
 /obj/structure/bed,
 /obj/item/bedsheet/syndie,
@@ -2617,11 +2241,6 @@
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space)
 "Ox" = (
-<<<<<<< Updated upstream
-/obj/structure/marker_beacon,
-/turf/open/floor/plating/airless,
-/area/ruin/space/deepstorage)
-=======
 /obj/effect/decal/cleanable/blood/gibs/old,
 /obj/machinery/atmospherics/components/unary/vent_pump/layer2{
 	dir = 4
@@ -2630,24 +2249,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "OD" = (
 /turf/closed/mineral/gold,
 /area/ruin/space)
 "OZ" = (
-<<<<<<< Updated upstream
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 9
-	},
-/obj/effect/turf_decal/spline/fancy/opaque/lightgrey,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-=======
 /turf/open/floor/plating/rust,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "Pn" = (
 /obj/effect/decal/cleanable/blood,
@@ -2668,19 +2274,9 @@
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space/has_grav/corporatemine/hall)
 "PK" = (
-<<<<<<< Updated upstream
-/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
-	dir = 8
-	},
-/obj/machinery/light/broken/directional/north,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/item/pickaxe/drill,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space)
->>>>>>> Stashed changes
 "PM" = (
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/corporatemine/bridge)
@@ -2702,22 +2298,6 @@
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "Qu" = (
-<<<<<<< Updated upstream
-/obj/machinery/door/airlock{
-	name = "Preparations"
-	},
-/obj/structure/barricade/wooden/crude,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/effect/turf_decal/trimline/opaque/bar/filled/warning,
-/obj/effect/turf_decal/trimline/opaque/bar/filled/warning{
-	dir = 1
-	},
-/turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/machinery/vending/coffee,
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey{
@@ -2728,7 +2308,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "Qw" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2739,12 +2318,6 @@
 /obj/effect/decal/cleanable/oil/slippery,
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/corporatemine/bridge)
-<<<<<<< Updated upstream
-"QE" = (
-/turf/closed/wall/r_wall/rust,
-/area/template_noop)
-=======
->>>>>>> Stashed changes
 "QO" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -2778,10 +2351,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack,
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "Rd" = (
@@ -2800,15 +2370,6 @@
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/corporatemine/hall)
 "Rq" = (
-<<<<<<< Updated upstream
-/obj/structure/closet/secure_closet/engineering_personal,
-/obj/item/circuitboard/machine/autolathe,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/manipulator,
-/turf/open/floor/plating,
-=======
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -2817,7 +2378,6 @@
 	},
 /obj/effect/turf_decal/trimline/opaque/nsorange/warning,
 /turf/open/floor/plasteel/tech/grid,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "Rs" = (
 /obj/machinery/door/airlock/external,
@@ -2856,15 +2416,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space)
-<<<<<<< Updated upstream
-=======
 "Sf" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
 	dir = 6
 	},
 /obj/machinery/door/poddoor{
 	dir = 4;
-	id = "pgf_door"
+	id = "bridge"
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/corporatemine/bridge)
@@ -2872,16 +2430,12 @@
 /obj/structure/lattice,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "SA" = (
 /obj/item/rollingpaper,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/effect/turf_decal/spline/fancy/opaque/lightgrey,
-<<<<<<< Updated upstream
-=======
 /obj/effect/turf_decal/borderfloorblack,
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "SM" = (
@@ -2892,11 +2446,37 @@
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
+"Te" = (
+/obj/machinery/door/airlock{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/corporatemine/hall)
 "Tp" = (
 /obj/item/stack/sheet/mineral/plasma/five,
 /obj/effect/decal/cleanable/blood/gibs/bubblegum,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space)
+"Tq" = (
+/obj/effect/spawner/structure/window/hollow/reinforced/middle{
+	dir = 4
+	},
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "bridge"
+	},
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "bridge"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/corporatemine/bridge)
 "Tz" = (
 /obj/structure/lattice,
 /turf/open/space,
@@ -2927,16 +2507,6 @@
 /turf/open/floor/plasteel/stairs,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "Ud" = (
-<<<<<<< Updated upstream
-/obj/structure/closet/crate{
-	icon_state = "crateopen"
-	},
-/obj/item/flashlight,
-/obj/item/reagent_containers/food/drinks/soda_cans/plasma,
-/obj/item/stack/ore/bluespace_crystal,
-/obj/effect/turf_decal/industrial/outline,
-/turf/open/floor/plasteel/tech/grid,
-=======
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
@@ -2944,7 +2514,6 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "Uk" = (
 /obj/structure/closet/secure_closet/personal,
@@ -2968,17 +2537,6 @@
 /obj/structure/sign/warning/vacuum/external{
 	pixel_x = -32
 	},
-<<<<<<< Updated upstream
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine/hall)
-"Up" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 8
 	},
@@ -2993,7 +2551,6 @@
 	},
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "Uz" = (
 /obj/item/stack/ore/uranium,
 /obj/item/stack/ore/uranium,
@@ -3003,23 +2560,6 @@
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/corporatemine/crewquarters)
 "Vr" = (
-<<<<<<< Updated upstream
-/obj/structure/grille/broken,
-/obj/item/shard,
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/corporatemine)
-"Vt" = (
-/turf/closed/wall/r_wall/rust,
-/area/ruin/space/has_grav/corporatemine)
-"Vu" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall/rust,
-/area/ruin/space/has_grav/corporatemine)
-"VJ" = (
-/obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plating/airless,
-/area/ruin/space/deepstorage)
-=======
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
@@ -3032,26 +2572,20 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "VM" = (
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space)
 "VO" = (
-<<<<<<< Updated upstream
-/obj/effect/decal/cleanable/oil/slippery,
-/obj/item/assembly/igniter,
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	dir = 4;
-	id = "hangar1"
+	id = "south"
 	},
 /obj/structure/cable,
-/obj/machinery/door/poddoor,
+/obj/machinery/door/poddoor{
+	id = "south"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "VW" = (
 /obj/effect/decal/cleanable/ash/large,
 /turf/open/floor/plating/asteroid/airless,
@@ -3063,16 +2597,12 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space)
 "Wt" = (
-<<<<<<< Updated upstream
-/obj/structure/lattice,
-/turf/closed/wall/r_wall/rust,
-=======
 /obj/effect/turf_decal/industrial/warning{
-	dir = 1
+	dir = 8
 	},
-/turf/open/floor/plating/asteroid/airless,
->>>>>>> Stashed changes
-/area/ruin/space)
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/corporatemine/hall)
 "Wv" = (
 /obj/effect/turf_decal/solarpanel,
 /obj/machinery/power/solar,
@@ -3090,18 +2620,6 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
 "WJ" = (
-<<<<<<< Updated upstream
-/obj/item/shard,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/corporatemine)
-=======
 /obj/machinery/door/airlock{
 	dir = 4
 	},
@@ -3113,23 +2631,39 @@
 	},
 /obj/machinery/door/poddoor{
 	dir = 4;
-	id = "pgf_door"
+	id = "bridge"
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/corporatemine/bridge)
->>>>>>> Stashed changes
 "WR" = (
 /obj/structure/sign/poster/ripped,
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/corporatemine/hall)
 "WS" = (
-<<<<<<< Updated upstream
-=======
-/obj/structure/marker_beacon,
-/turf/open/floor/plating/airless,
-/area/ruin/space)
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/button/door{
+	dir = 8;
+	id = "north";
+	pixel_y = 7;
+	pixel_x = 20
+	},
+/obj/machinery/button/shieldwallgen{
+	dir = 8;
+	pixel_y = 0;
+	pixel_x = 18;
+	id = "north"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/corporatemine/hall)
 "WU" = (
-/obj/machinery/door/poddoor,
+/obj/machinery/door/poddoor{
+	id = "south"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/corporatemine/hall)
 "WW" = (
@@ -3165,12 +2699,22 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/airalarm/directional/east,
 /obj/effect/turf_decal/industrial/warning,
+/obj/machinery/button/door{
+	dir = 8;
+	id = "south";
+	pixel_y = 7;
+	pixel_x = 20
+	},
+/obj/machinery/button/shieldwallgen{
+	dir = 8;
+	pixel_y = 0;
+	pixel_x = 18;
+	id = "south"
+	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "Yj" = (
->>>>>>> Stashed changes
 /obj/item/trash/waffles,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
@@ -3183,47 +2727,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-<<<<<<< Updated upstream
-/area/ruin/space/has_grav/corporatemine)
-"WW" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine/hall)
-"WZ" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/corporatemine/hall)
-"XH" = (
-/turf/closed/wall/r_wall/rust,
-/area/ruin/space/has_grav/corporatemine/crewquarters)
-"Yg" = (
-/turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/corporatemine)
-"Yj" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 6
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-=======
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "Yr" = (
 /obj/structure/cable{
@@ -3235,22 +2738,9 @@
 /turf/open/floor/plasteel/stairs,
 /area/ruin/space)
 "YG" = (
-<<<<<<< Updated upstream
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/turf/open/floor/plasteel,
-=======
 /obj/structure/grille/broken,
 /obj/item/shard,
 /turf/open/floor/plasteel/airless,
->>>>>>> Stashed changes
 /area/ruin/space/has_grav/corporatemine/hall)
 "YY" = (
 /obj/structure/cable{
@@ -3263,10 +2753,9 @@
 /obj/effect/spawner/structure/window/hollow/reinforced/end{
 	dir = 8
 	},
-<<<<<<< Updated upstream
-=======
-/obj/machinery/door/poddoor,
->>>>>>> Stashed changes
+/obj/machinery/door/poddoor{
+	id = "bridge"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/corporatemine/bridge)
 "Zl" = (
@@ -3281,8 +2770,6 @@
 /obj/structure/table,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/bridge)
-<<<<<<< Updated upstream
-=======
 "Zr" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3306,7 +2793,6 @@
 /obj/effect/turf_decal/trimline/opaque/nsorange/warning,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/corporatemine/hall)
->>>>>>> Stashed changes
 "Zz" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -3317,15 +2803,12 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-<<<<<<< Updated upstream
-=======
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /obj/effect/turf_decal/borderfloorblack{
 	dir = 1
 	},
->>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/corporatemine/hall)
 "ZA" = (
@@ -3679,7 +3162,7 @@ rr
 rr
 rr
 Al
-Al
+VM
 rr
 Al
 Al
@@ -3731,8 +3214,8 @@ rr
 Al
 Al
 Al
-Al
-Al
+VM
+VM
 Al
 Al
 Al
@@ -3790,26 +3273,15 @@ Al
 Al
 Al
 Al
-<<<<<<< Updated upstream
+VM
+Al
+Al
 Al
 VM
 VM
 VM
+VM
 Al
-Al
-VM
-VM
-=======
-WS
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-WS
->>>>>>> Stashed changes
-VM
 Al
 Al
 Al
@@ -3853,26 +3325,15 @@ VM
 VM
 Al
 VM
-<<<<<<< Updated upstream
-VM
-VM
-VM
 Al
 Al
 Al
 Al
 VM
-=======
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
->>>>>>> Stashed changes
 VM
+VM
+VM
+Al
 Al
 Al
 Al
@@ -3916,25 +3377,14 @@ VM
 VM
 VM
 VM
-<<<<<<< Updated upstream
+Al
+Al
 VM
-bl
+VM
+VM
+VM
+VM
 Al
-Al
-Al
-Al
-Al
-Al
-=======
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
->>>>>>> Stashed changes
 Al
 Al
 Al
@@ -3979,25 +3429,14 @@ bl
 VM
 VM
 VM
-<<<<<<< Updated upstream
+VM
+VM
+VM
+VM
+VM
 VM
 Al
 Al
-Al
-Al
-Al
-Al
-Al
-=======
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
->>>>>>> Stashed changes
 Al
 Al
 Al
@@ -4042,25 +3481,14 @@ VM
 VM
 VM
 VM
-<<<<<<< Updated upstream
+VM
 Al
 Al
+VM
+VM
+VM
+VM
 Al
-Al
-Al
-Al
-Al
-Al
-=======
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
->>>>>>> Stashed changes
 Al
 Al
 Al
@@ -4105,25 +3533,14 @@ VM
 VM
 VM
 VM
-<<<<<<< Updated upstream
+VM
 Al
 Al
 Al
 Al
-Al
-Al
-Al
-Al
-=======
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
->>>>>>> Stashed changes
+VM
+VM
+VM
 Al
 Al
 Al
@@ -4168,25 +3585,14 @@ Al
 VM
 VM
 VM
-<<<<<<< Updated upstream
 Al
 Al
 Al
 Al
 Al
-Al
-Al
-Al
-=======
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
->>>>>>> Stashed changes
+VM
+VM
+VM
 Al
 Al
 VM
@@ -4231,25 +3637,14 @@ Al
 Al
 VM
 VM
-<<<<<<< Updated upstream
-bl
+Al
+VM
 Al
 Al
-Al
-Al
-Al
-Al
-Al
-=======
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
-Ke
->>>>>>> Stashed changes
+VM
+VM
+VM
+VM
 Al
 VM
 bl
@@ -4294,25 +3689,14 @@ Al
 Al
 Al
 VM
-<<<<<<< Updated upstream
+Al
 VM
 VM
-Al
-Al
-Al
-Al
-Al
-Al
-=======
-WS
-WS
-Ke
-Ke
-Ke
-Ke
-Ke
-WS
->>>>>>> Stashed changes
+VM
+VM
+VM
+VM
+VM
 VM
 VM
 VM
@@ -4361,13 +3745,8 @@ VM
 VM
 VM
 VM
-<<<<<<< Updated upstream
-Al
-Al
-=======
 VM
 VM
->>>>>>> Stashed changes
 VM
 VM
 sb
@@ -4470,15 +3849,9 @@ VM
 VM
 GT
 sb
-<<<<<<< Updated upstream
-bl
-VM
-VM
-=======
 Al
 Al
 lm
->>>>>>> Stashed changes
 VM
 Al
 Al
@@ -4528,17 +3901,10 @@ VM
 sb
 VM
 VM
-<<<<<<< Updated upstream
-Al
-Al
-Al
-VM
-=======
 bc
 bc
 rn
 iW
->>>>>>> Stashed changes
 Al
 Al
 OD
@@ -4587,17 +3953,10 @@ VM
 VM
 VM
 Al
-<<<<<<< Updated upstream
-Al
-Al
-Al
-VM
-=======
 iW
 lB
 EN
 Nx
->>>>>>> Stashed changes
 BA
 BA
 BA
@@ -4646,17 +4005,10 @@ VM
 VM
 Al
 OD
-<<<<<<< Updated upstream
-Al
-Al
-lm
-VM
-=======
 vN
 jK
 RH
 jH
->>>>>>> Stashed changes
 BA
 Cw
 cs
@@ -4705,17 +4057,10 @@ Ow
 OD
 Al
 Al
-<<<<<<< Updated upstream
-bc
-bc
-rn
-iW
-=======
 iW
 Gn
 AD
 sj
->>>>>>> Stashed changes
 BA
 xK
 DF
@@ -4764,17 +4109,10 @@ VM
 OD
 Al
 Al
-<<<<<<< Updated upstream
-iW
-Fe
-EN
-Nx
-=======
 bc
 yT
 WB
 sK
->>>>>>> Stashed changes
 XH
 nN
 IE
@@ -4811,24 +4149,6 @@ Al
 Al
 VM
 VM
-<<<<<<< Updated upstream
-Ox
-Iv
-Iv
-Iv
-Iv
-Ll
-VM
-Tp
-VM
-VM
-Al
-Al
-vN
-jK
-RH
-jH
-=======
 NI
 rG
 rG
@@ -4845,7 +4165,6 @@ iW
 iW
 iW
 KW
->>>>>>> Stashed changes
 XH
 XH
 BA
@@ -4882,23 +4201,6 @@ Al
 Al
 VM
 VM
-<<<<<<< Updated upstream
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-VM
-VM
-VM
-VM
-Al
-Al
-iW
-Eu
-AD
-=======
 rG
 rG
 rG
@@ -4913,8 +4215,7 @@ EP
 OZ
 iy
 Eu
-Eu
->>>>>>> Stashed changes
+Wt
 JS
 CH
 Br
@@ -4952,26 +4253,6 @@ Al
 Al
 VM
 VM
-<<<<<<< Updated upstream
-Iv
-Iv
-jB
-Iv
-Iv
-Pn
-VM
-VM
-VM
-kp
-Al
-Al
-bc
-yT
-WB
-Rq
-Pu
-WZ
-=======
 rG
 rG
 dU
@@ -4990,7 +4271,6 @@ OZ
 OZ
 Pu
 nf
->>>>>>> Stashed changes
 za
 lx
 vc
@@ -5024,21 +4304,6 @@ Al
 Al
 Al
 VM
-<<<<<<< Updated upstream
-rG
-Iv
-Iv
-Iv
-Iv
-Iv
-TR
-VM
-VM
-Hu
-VM
-Al
-Al
-=======
 wJ
 rG
 rG
@@ -5052,7 +4317,6 @@ Hu
 MZ
 nJ
 wf
->>>>>>> Stashed changes
 bc
 zz
 zz
@@ -5070,7 +4334,7 @@ zz
 bc
 Al
 bS
-tA
+gN
 VM
 Al
 Al
@@ -5092,21 +4356,6 @@ Al
 Al
 VM
 VM
-<<<<<<< Updated upstream
-rG
-Mw
-Iv
-Bp
-VJ
-VJ
-Ru
-rh
-VM
-bl
-Al
-Al
-Al
-=======
 wJ
 Fe
 rG
@@ -5120,17 +4369,12 @@ we
 ap
 Zr
 wf
->>>>>>> Stashed changes
 BA
 Uk
 vW
 ZU
 UA
-<<<<<<< Updated upstream
-ZA
-=======
 jU
->>>>>>> Stashed changes
 IS
 qF
 cX
@@ -5141,15 +4385,9 @@ tR
 lC
 iW
 Al
-<<<<<<< Updated upstream
-Al
-Al
-Al
-=======
+yl
+yl
 VM
-VM
-VM
->>>>>>> Stashed changes
 Al
 Al
 Al
@@ -5170,22 +4408,6 @@ Al
 Al
 VM
 VM
-<<<<<<< Updated upstream
-rG
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-VM
-VM
-VM
-Al
-Al
-Al
-QR
-=======
 wJ
 rG
 rG
@@ -5196,11 +4418,10 @@ rG
 VM
 VM
 uY
-MZ
+WS
 Rq
 OZ
 am
->>>>>>> Stashed changes
 qS
 QO
 BV
@@ -5216,15 +4437,9 @@ Ak
 Hk
 bc
 Al
-<<<<<<< Updated upstream
-OD
-Al
-Al
-=======
+yl
+yl
 VM
-VM
-VM
->>>>>>> Stashed changes
 Al
 Al
 rr
@@ -5246,20 +4461,6 @@ Al
 Al
 VM
 VM
-<<<<<<< Updated upstream
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-VM
-kp
-VM
-Al
-Al
-Al
-=======
 rG
 rG
 rG
@@ -5272,28 +4473,12 @@ iW
 iW
 Zr
 OZ
->>>>>>> Stashed changes
 BA
 SM
 xU
 kZ
 tF
 ce
-<<<<<<< Updated upstream
-fw
-zz
-AK
-sa
-Ud
-lV
-lL
-IF
-iW
-Al
-Al
-Al
-Al
-=======
 Fa
 zz
 IF
@@ -5303,11 +4488,10 @@ lV
 lV
 nM
 VO
-Wt
+dL
+yl
+yl
 VM
-VM
-VM
->>>>>>> Stashed changes
 Al
 rr
 rr
@@ -5329,39 +4513,6 @@ Al
 Al
 Al
 Al
-<<<<<<< Updated upstream
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-bl
-Al
-Al
-Al
-OD
-Al
-BA
-tF
-UA
-UA
-tF
-WZ
-jN
-zz
-zz
-qF
-qF
-qF
-zz
-bc
-bc
-OD
-Al
-Al
-Al
-=======
 rG
 rG
 rG
@@ -5389,11 +4540,10 @@ wf
 wf
 Ix
 WU
-Wt
+dL
+yl
+yl
 VM
-VM
-VM
->>>>>>> Stashed changes
 Al
 Al
 Al
@@ -5415,25 +4565,6 @@ Al
 Al
 Al
 Al
-<<<<<<< Updated upstream
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Al
-Al
-Al
-Al
-Al
-Al
-BA
-ea
-vW
-ZU
-tF
-=======
 rG
 rG
 rG
@@ -5448,35 +4579,23 @@ Zr
 wf
 bc
 wf
-wf
+eB
 wf
 bc
->>>>>>> Stashed changes
 WZ
 HG
 NP
 pP
 wf
 DW
-<<<<<<< Updated upstream
-Lf
-AC
-Yg
-OD
-OD
-Al
-Al
-Al
-=======
 lV
 lV
 Yg
 Iv
-Wt
-VM
-VM
-VM
->>>>>>> Stashed changes
+dL
+yl
+Al
+Al
 Al
 Al
 rr
@@ -5498,35 +4617,6 @@ Al
 Al
 Al
 VM
-<<<<<<< Updated upstream
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-VM
-Al
-Al
-Al
-Al
-Al
-QR
-qS
-Mn
-yD
-Dn
-Zz
-qK
-bA
-pP
-nf
-zB
-rI
-MZ
-Vt
-OD
-=======
 rG
 rG
 rG
@@ -5554,7 +4644,6 @@ rI
 lL
 bc
 bc
->>>>>>> Stashed changes
 Al
 Al
 Al
@@ -5580,34 +4669,6 @@ rr
 Al
 Al
 VM
-<<<<<<< Updated upstream
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-VM
-VM
-Al
-Al
-Al
-Al
-XH
-SM
-LQ
-kZ
-tF
-EL
-je
-iT
-Aw
-nf
-ap
-WJ
-wJ
-Vt
-=======
 rG
 rG
 rG
@@ -5619,7 +4680,7 @@ VM
 Al
 iW
 iW
-WJ
+Te
 BA
 tF
 UA
@@ -5634,7 +4695,6 @@ WJ
 WJ
 bc
 bc
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -5661,29 +4721,6 @@ Al
 Al
 Al
 Al
-<<<<<<< Updated upstream
-Ox
-Iv
-Iv
-Iv
-Iv
-Ox
-Al
-OD
-Al
-XH
-BA
-BA
-XH
-tF
-tF
-tF
-ok
-ZA
-fw
-Aw
-Aw
-=======
 NI
 rG
 rG
@@ -5694,7 +4731,7 @@ Al
 OD
 Al
 iW
-wf
+eB
 wf
 BA
 ea
@@ -5705,16 +4742,11 @@ jU
 fw
 Aw
 bc
->>>>>>> Stashed changes
 Ek
 Vr
 Up
 aw
-<<<<<<< Updated upstream
-ts
-=======
 iW
->>>>>>> Stashed changes
 wa
 rr
 rr
@@ -5750,25 +4782,6 @@ VM
 Al
 Al
 Al
-<<<<<<< Updated upstream
-BA
-gj
-cI
-nW
-fF
-pK
-pK
-TT
-Ht
-pm
-pP
-nY
-MX
-Hg
-Hg
-MF
-Vu
-=======
 iW
 OZ
 OZ
@@ -5786,7 +4799,6 @@ ts
 da
 LB
 iW
->>>>>>> Stashed changes
 wa
 rr
 rr
@@ -5822,25 +4834,6 @@ VM
 VM
 Al
 Al
-<<<<<<< Updated upstream
-QR
-Lm
-ov
-qZ
-tF
-Qc
-Bg
-ny
-YG
-dU
-Qu
-WS
-EP
-Hg
-MF
-MF
-QE
-=======
 iW
 wf
 OZ
@@ -5849,8 +4842,8 @@ SM
 LQ
 kZ
 tF
-RH
-OZ
+Ih
+ya
 Qu
 qF
 MX
@@ -5858,7 +4851,6 @@ Hg
 KC
 si
 iG
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -5894,26 +4886,6 @@ VM
 VM
 Al
 Al
-<<<<<<< Updated upstream
-BA
-hF
-Au
-Rd
-tF
-tF
-Gc
-UA
-Yj
-OZ
-pP
-PK
-VO
-Hg
-Hg
-MF
-QE
-wa
-=======
 XH
 BA
 BA
@@ -5922,7 +4894,7 @@ tF
 tF
 tF
 ok
-OZ
+bT
 OZ
 qF
 qF
@@ -5932,7 +4904,6 @@ MF
 bA
 nY
 rr
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -5968,27 +4939,6 @@ Al
 Al
 Al
 BA
-<<<<<<< Updated upstream
-XH
-XH
-BA
-BA
-Fn
-KS
-tF
-gY
-hn
-pP
-Vt
-Vt
-ts
-ts
-Vu
-Wt
-Al
-Al
-Al
-=======
 gj
 cI
 nW
@@ -5996,8 +4946,8 @@ fF
 pK
 pK
 TT
-OZ
-RH
+mR
+ij
 zz
 Ox
 Vt
@@ -6008,7 +4958,6 @@ iW
 rr
 rr
 rr
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -6041,29 +4990,6 @@ Al
 Al
 Al
 Al
-<<<<<<< Updated upstream
-Al
-Al
-Al
-Al
-Al
-tJ
-zr
-zr
-fa
-bK
-zr
-tJ
-rr
-rr
-rr
-Tz
-Al
-Al
-Al
-Al
-rr
-=======
 QR
 Lm
 ov
@@ -6085,7 +5011,6 @@ wa
 rr
 rr
 rr
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -6117,30 +5042,6 @@ Al
 Al
 Al
 Al
-<<<<<<< Updated upstream
-Al
-gI
-Al
-Al
-Al
-tJ
-BW
-vR
-Bw
-Mo
-Zp
-PM
-rr
-rr
-Tz
-rr
-Tz
-Tz
-Tz
-Al
-Al
-rr
-=======
 BA
 hF
 Au
@@ -6163,7 +5064,6 @@ Al
 Al
 rr
 rr
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -6194,31 +5094,6 @@ Al
 Al
 Al
 Al
-<<<<<<< Updated upstream
-Al
-Al
-Al
-Al
-Al
-tJ
-zn
-HV
-Rx
-kK
-oj
-PM
-rr
-Tz
-Tz
-rr
-Tz
-Al
-Al
-Al
-Al
-Al
-mc
-=======
 BA
 XH
 XH
@@ -6242,7 +5117,6 @@ Al
 rr
 rr
 rr
->>>>>>> Stashed changes
 rr
 NQ
 wi
@@ -6276,16 +5150,6 @@ Al
 Al
 Al
 Al
-<<<<<<< Updated upstream
-Al
-PM
-nu
-Rx
-kC
-Qy
-LA
-PM
-=======
 BA
 tJ
 zr
@@ -6294,20 +5158,10 @@ fa
 bK
 zr
 tJ
->>>>>>> Stashed changes
 rr
 rr
 Tz
 rr
-<<<<<<< Updated upstream
-rr
-rr
-Al
-Al
-Al
-mc
-mc
-=======
 Tz
 Tz
 Tz
@@ -6315,7 +5169,6 @@ Al
 Al
 rr
 rr
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -6350,22 +5203,6 @@ Al
 Al
 Al
 Al
-<<<<<<< Updated upstream
-Ze
-oj
-rd
-QQ
-QQ
-oj
-Ze
-rr
-rr
-Tz
-rr
-rr
-rr
-rr
-=======
 tJ
 BW
 vR
@@ -6382,7 +5219,6 @@ Al
 Al
 Al
 Al
->>>>>>> Stashed changes
 Al
 mc
 rr
@@ -6397,11 +5233,6 @@ rr
 rr
 rr
 rr
-<<<<<<< Updated upstream
-rr
-rr
-=======
->>>>>>> Stashed changes
 "}
 (47,1,1) = {"
 rr
@@ -6424,33 +5255,12 @@ Al
 Al
 Al
 rr
-<<<<<<< Updated upstream
-iG
-KM
-KM
-KM
-KM
-KM
-jU
-Tz
-wi
-wi
-wi
-mc
-mc
-mc
-mc
-mc
-rr
-rr
-rr
-=======
 tJ
 zn
 HV
 KM
 kK
-oj
+nu
 PM
 rr
 rr
@@ -6464,7 +5274,6 @@ Al
 mc
 mc
 rr
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -6498,10 +5307,8 @@ Al
 rr
 rr
 rr
-<<<<<<< Updated upstream
-=======
 PM
-nu
+dQ
 Rx
 kC
 Qy
@@ -6510,28 +5317,12 @@ PM
 rr
 rr
 Tz
->>>>>>> Stashed changes
 rr
 rr
 rr
 rr
-<<<<<<< Updated upstream
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-=======
 Al
 mc
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -6568,24 +5359,6 @@ rr
 rr
 rr
 rr
-<<<<<<< Updated upstream
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-=======
 Ze
 iU
 rd
@@ -6602,7 +5375,6 @@ mc
 mc
 mc
 mc
->>>>>>> Stashed changes
 rr
 rr
 rr
@@ -6639,14 +5411,12 @@ rr
 rr
 rr
 rr
-<<<<<<< Updated upstream
-=======
 Mc
 WL
 WL
 WL
 WL
-WL
+Tq
 Sf
 rr
 rr
@@ -7161,527 +5931,6 @@ rr
 rr
 rr
 rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(61,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(62,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(63,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(64,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(65,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(66,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(67,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(68,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(69,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-"}
-(70,1,1) = {"
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
->>>>>>> Stashed changes
 rr
 rr
 rr
