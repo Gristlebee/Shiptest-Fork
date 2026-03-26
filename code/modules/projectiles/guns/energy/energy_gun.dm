@@ -33,7 +33,7 @@
 	trigger_guard = TRIGGER_GUARD_NONE
 	ammo_x_offset = 2
 
-/obj/item/gun/energy/e_gun/turret/pre_fire(atom/target, mob/living/user, message, flag, params, zone_override, bonus_spread, dual_wielded_gun)
+/obj/item/gun/energy/e_gun/turret/pre_fire(atom/target, mob/living/user, message, flag, params, zone_override, bonus_spread, dual_wielded_gun, ignore_cooldown = FALSE)
 	to_chat(user, span_notice("[src] is not designed to be fired by hand."))
 	return FALSE
 

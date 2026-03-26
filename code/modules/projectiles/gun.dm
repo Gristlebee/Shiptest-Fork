@@ -513,11 +513,11 @@
 	// Good job, but we have exta checks to do...
 	return pre_fire(target, user, TRUE, flag, params, null)
 
-/obj/item/gun/proc/pre_fire(atom/target, mob/living/user,  message = TRUE, flag, params = null, zone_override = "", bonus_spread = 0, dual_wielded_gun = FALSE)
+/obj/item/gun/proc/pre_fire(atom/target, mob/living/user,  message = TRUE, flag, params = null, zone_override = "", bonus_spread = 0, dual_wielded_gun = FALSE, ignore_cooldown = FALSE)
 	add_fingerprint(user)
 
 	// If we have a cooldown, don't do anything, obviously
-	if(current_cooldown)
+	if(current_cooldown && !ignore_cooldown)
 		return
 
 	//We check if the user can even use the gun, if not, we assume the user isn't alive(turrets) so we go ahead.
@@ -573,7 +573,7 @@
 		return process_other_two(target, user, message, flag, params, zone_override, bonus_spread)
 
 	//if all of that succeded, we finally get to process firing
-	return process_fire(target, user, TRUE, params, null, bonus_spread)
+	return process_fire(target, user, TRUE, params, null, bonus_spread, ignore_cooldown = ignore_cooldown)
 
 /obj/item/gun/proc/process_other(atom/target, mob/living/user, message = TRUE, flag, params = null, zone_override = "", bonus_spread = 0)
 	return //use this for 'underbarrels!!
@@ -597,10 +597,10 @@
  * * spread_override - Bullet spread is forcibly set to this. This is usually because of bursts attempting to share the same burst trajectory.
  * * iteration - Which shot in a burst are we in.
  */
-/obj/item/gun/proc/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0, burst_firing = FALSE, spread_override = 0, iteration = 0)
+/obj/item/gun/proc/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0, burst_firing = FALSE, spread_override = 0, iteration = 0, ignore_cooldown = FALSE)
 	//OKAY, this prevents us from firing until our cooldown is done
 	if(!burst_firing) //if we're firing a burst, dont interfere to avoid issues
-		if(current_cooldown)
+		if(current_cooldown && ignore_cooldown)
 			return FALSE
 
 	//Check one last time for safeties...
@@ -667,13 +667,14 @@
 			addtimer(CALLBACK(src, PROC_REF(process_fire), target, user, message, params, zone_override, 0, TRUE, sprd, i), burst_delay * (i - 1))
 
 	//if we have a fire delay, set up a cooldown
-	if(fire_delay && (!burst_firing && !currently_firing_burst))
-		current_cooldown = TRUE
-		addtimer(CALLBACK(src, PROC_REF(reset_current_cooldown)), fire_delay)
-	if(burst_firing && iteration >= burst_size)
-		current_cooldown = TRUE
-		addtimer(CALLBACK(src, PROC_REF(reset_current_cooldown)), fire_delay+burst_delay)
-		currently_firing_burst = FALSE
+	if(!ignore_cooldown)
+		if(fire_delay && (!burst_firing && !currently_firing_burst))
+			current_cooldown = TRUE
+			addtimer(CALLBACK(src, PROC_REF(reset_current_cooldown)), fire_delay)
+		if(burst_firing && iteration >= burst_size)
+			current_cooldown = TRUE
+			addtimer(CALLBACK(src, PROC_REF(reset_current_cooldown)), fire_delay+burst_delay)
+			currently_firing_burst = FALSE
 
 	// update our inhands...
 	if(user)

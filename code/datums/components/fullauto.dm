@@ -229,6 +229,7 @@
 	if(autofire_stat != AUTOFIRE_STAT_FIRING)
 		return FALSE
 	if(!COOLDOWN_FINISHED(src, next_shot_cd))
+		to_chat(shooter,"cooldown :[next_shot_cd]")
 		return TRUE
 	if(QDELETED(target) || get_turf(target) != target_loc) //Target moved or got destroyed since we last aimed.
 		target = target_loc //So we keep firing on the emptied tile until we move our mouse and find a new target.
@@ -267,8 +268,8 @@
 
 /obj/item/gun/proc/do_autofire(datum/source, atom/target, mob/living/shooter, params)
 	SIGNAL_HANDLER
-	if(current_cooldown || shooter.incapacitated())
-		return NONE
+	// if(current_cooldown || shooter.incapacitated())
+	// 	return NONE
 	if(weapon_weight == WEAPON_HEAVY && (!wielded))
 		to_chat(shooter, span_warning("You need a more secure grip to fire [src]!"))
 		return NONE
@@ -280,7 +281,7 @@
 
 
 /obj/item/gun/proc/do_autofire_shot(datum/source, atom/target, mob/living/shooter, params)
-	pre_fire(target, shooter, TRUE, FALSE, params) //dual wielding is handled here
+	pre_fire(target, shooter, TRUE, FALSE, params, ignore_cooldown = TRUE) //dual wielding is handled here
 
 /datum/component/automatic_fire/proc/disable_autofire(datum/source)
 	enabled = FALSE
