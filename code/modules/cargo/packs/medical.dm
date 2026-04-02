@@ -48,6 +48,20 @@
 	cost = 500
 	contains = list(/obj/item/storage/firstaid/radiation)
 
+/datum/supply_pack/medical/firstaidroumain_single
+	name = "Roumain Medical Kit Single-Pack"
+	desc = "Contains one first aid kit filled with natural medicine commonly used by the Saint-Roumain Militia."
+	cost = 400
+	contains = list(/obj/item/storage/firstaid/roumain)
+	faction = /datum/faction/srm
+	faction_discount = 10
+
+/datum/supply_pack/medical/salbutamol_canister
+	name = "Salbutamol Inhaler Canister Single-Pack"
+	desc = "Contains one inhaler canister filled with aerosolized salbutamol, a potent bronchodilator."
+	cost = 200
+	contains = list(/obj/item/reagent_containers/inhaler_canister/salbutamol)
+
 /*
 		Tools
 */
@@ -63,7 +77,7 @@
 		/obj/item/reagent_containers/glass/bottle/tramal,
 		/obj/item/reagent_containers/glass/bottle/tramal,
 	)
-	faction = /datum/faction/syndicate/suns
+	faction = /datum/faction/suns
 	faction_discount = 25
 
 /datum/supply_pack/medical/painkillers/fill(obj/structure/closet/crate/cargo_crate)
@@ -93,8 +107,15 @@
 					/obj/item/reagent_containers/medigel/sterilizine,
 					/obj/item/roller)
 	crate_name = "surgical supplies crate"
-	faction = /datum/faction/syndicate/suns
+	faction = /datum/faction/suns
 	faction_discount = 50 //this shouldnt be 3k but if it is...
+
+/datum/supply_pack/medical/filter
+	name = "Blood Filter Crate"
+	desc = "A tool for use in a surgery to filter toxins out of a patient."
+	cost = 500
+	contains = list(/obj/item/blood_filter)
+	crate_name ="surgical supplies crate"
 
 /datum/supply_pack/medical/disk
 	name = "Advanced Surgical Procedure Disk"
@@ -117,7 +138,7 @@
 	contains = list(/obj/item/clothing/mask/breath/medical,
 					/obj/item/tank/internals/anesthetic)
 	crate_name = "anesthetics crate"
-	faction = /datum/faction/syndicate/suns
+	faction = /datum/faction/suns
 	faction_discount = 25
 
 /*
@@ -141,41 +162,8 @@
 					/obj/item/reagent_containers/blood/synthetic)
 	crate_name = "blood freezer"
 	crate_type = /obj/structure/closet/crate/freezer
-	faction = /datum/faction/syndicate/suns
+	faction = /datum/faction/suns
 	faction_discount = 25
-
-/datum/supply_pack/medical/surplus
-	name = "Medical Surplus Crate"
-	desc = "Contains an assortment of medical supplies haphazardly pulled from storage. German doctor not included."
-	cost = 3000
-	contains = list(/obj/item/reagent_containers/glass/bottle/charcoal,
-					/obj/item/reagent_containers/glass/bottle/epinephrine,
-					/obj/item/reagent_containers/glass/bottle/morphine,
-					/obj/item/reagent_containers/glass/bottle/toxin,
-					/obj/item/reagent_containers/glass/beaker/large,
-					/obj/item/reagent_containers/pill/insulin,
-					/obj/item/stack/medical/gauze,
-					/obj/item/storage/box/beakers,
-					/obj/item/storage/box/medigels,
-					/obj/item/storage/box/syringes,
-					/obj/item/storage/box/bodybags,
-					/obj/item/storage/firstaid/regular,
-					/obj/item/storage/firstaid/o2,
-					/obj/item/storage/firstaid/toxin,
-					/obj/item/storage/firstaid/brute,
-					/obj/item/storage/firstaid/fire,
-					/obj/item/defibrillator/loaded,
-					/obj/item/reagent_containers/blood/OMinus,
-					/obj/item/reagent_containers/pill/neurine,
-					/obj/item/vending_refill/medical)
-	crate_name = "medical surplus crate"
-	faction = /datum/faction/syndicate/suns
-	faction_discount = 25
-
-/datum/supply_pack/medical/surplus/fill(obj/structure/closet/crate/C)
-	for(var/i in 1 to 7)
-		var/item = pick(contains)
-		new item(C)
 
 /datum/supply_pack/medical/salglucanister
 	name = "Heavy-Duty Saline Canister"
@@ -193,28 +181,35 @@
 	contains = list(/obj/item/storage/box/medipens)
 	crate_name = "epinephrine medipen crate"
 
+/datum/supply_pack/medical/medigel_crate
+	name = "Empty Medical Gel Crate"
+	desc = "Contains a box of seven empty medical gels, for applying your own chemical mixes."
+	cost = 700
+	contains = list(/obj/item/storage/box/medigels)
+	crate_name = "empty medical gel crate"
+
 /* Hypospray supplies */
 
 /datum/supply_pack/medical/mkii_hypo
 	name = "mk.II Hypospray kit"
-	desc = "Contains an Nanotrasen Hypospray, for on the field medical care. Comes with an assortment of Ready-To-Go Vials"
+	desc = "Contains a Matahari Pharmaceutical Hypospray, for on the field medical care. Comes with an assortment of Ready-To-Go Vials"
 	cost = 1200
 	contains = list(/obj/item/storage/box/hypospray)
 	crate_name = "mk.II hypospray crate"
-	faction = /datum/faction/nt
+	faction = /datum/faction/warra
 
 /datum/supply_pack/medical/mkiii_hypo
 	name = "mk.III Hypospray kit"
-	desc = "Contains a mk.III Nanotrasen Hypospray, for on the field medical care. Comes with an assortment of Ready-To-Go Vials"
+	desc = "Contains a Matahari Pharmaceutical mk.III Hypospray, for on the field medical care. Comes with an assortment of Ready-To-Go Vials"
 	cost = 2000
 	contains = list(/obj/item/storage/box/hypospray/mkiii)
 	crate_name = "mk.III hypospray crate"
-	faction = /datum/faction/nt
+	faction = /datum/faction/warra
 	faction_locked = TRUE
 	faction_discount = 0
 
 /datum/supply_pack/medical/vials
-	faction = /datum/faction/nt
+	faction = /datum/faction/warra
 	faction_discount = 50
 
 /datum/supply_pack/medical/vials/empty_vial

@@ -42,6 +42,7 @@
 	gloves = /obj/item/clothing/gloves/combat
 	ears = /obj/item/radio/headset/inteq/alt/captain
 	shoes = /obj/item/clothing/shoes/combat
+	box = /obj/item/storage/box/survival/inteq/command
 
 	r_pocket = /obj/item/assembly/flash/handheld
 	l_pocket = /obj/item/restraints/handcuffs
@@ -138,7 +139,7 @@
 	job_icon = "securityofficer"
 
 	ears = /obj/item/radio/headset/alt
-	head = /obj/item/clothing/head/helmet/inteq
+	head = /obj/item/clothing/head/helmet/m10/inteq
 	suit = /obj/item/clothing/suit/armor/vest/alt
 	belt = /obj/item/storage/belt/security/webbing/inteq
 	mask = /obj/item/clothing/mask/balaclava/inteq

@@ -259,7 +259,7 @@ LOCKED_SSU_HELPER(independent/mining/eva)
 
 /obj/machinery/suit_storage_unit/independent/pilot
 	suit_type = /obj/item/clothing/suit/space/pilot
-	helmet_type = /obj/item/clothing/head/helmet/space/pilot/random
+	helmet_type = /obj/item/clothing/head/helmet/space/pilot
 	mask_type = /obj/item/clothing/mask/breath
 
 /obj/machinery/suit_storage_unit/minutemen
@@ -277,7 +277,7 @@ LOCKED_SSU_HELPER(minutemen/spotter)
 
 /obj/machinery/suit_storage_unit/minutemen/pilot
 	suit_type = /obj/item/clothing/suit/space/pilot
-	helmet_type = /obj/item/clothing/head/helmet/bulletproof/m10/clip_vc
+	helmet_type = /obj/item/clothing/head/helmet/m10/clip_vc
 	mask_type = /obj/item/clothing/mask/breath
 
 LOCKED_SSU_HELPER(minutemen/pilot)

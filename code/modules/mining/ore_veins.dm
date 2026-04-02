@@ -34,7 +34,9 @@ GLOBAL_LIST_EMPTY(ore_veins)
 	var/drop_rate_amount_min = 15
 	var/drop_rate_amount_max = 20
 	///variables for the mob spawners we generate
+	///how many mobs can each spawner have active at once?
 	var/max_mobs = 3
+	///time between mob spawner mob spawns.
 	var/spawn_time = 10 SECONDS
 	var/mob_types = list(
 		/mob/living/simple_animal/hostile/asteroid/goliath/beast/nest = 60,
@@ -42,7 +44,7 @@ GLOBAL_LIST_EMPTY(ore_veins)
 		/mob/living/simple_animal/hostile/asteroid/brimdemon = 20,
 		)
 	var/spawn_text = "emerges from"
-	var/faction = list("hostile","mining")
+	var/faction = list(FACTION_HOSTILE, FACTION_MINING)
 	var/spawn_sound = list('sound/effects/break_stone.ogg')
 	var/spawner_type = /datum/component/spawner
 
@@ -424,6 +426,22 @@ GLOBAL_LIST_EMPTY(ore_veins)
 		/obj/item/stack/ore/diamond = 10,
 		)
 
+/obj/structure/vein/jungle/classfour
+	vein_class = 4
+	mining_charges = 10
+	ore_list = list(
+		/obj/item/stack/ore/bluespace_crystal = 10,
+	)
+	mob_types = list(
+		/mob/living/simple_animal/hostile/asteroid/wolf/random = 20,
+		/mob/living/simple_animal/hostile/poison/giant_spider/tarantula = 1,
+		/mob/living/simple_animal/hostile/jungle/seedling = 5,
+		/mob/living/simple_animal/hostile/jungle/mega_arachnid = 20,
+		/mob/living/simple_animal/hostile/jungle/mook = 30,
+	)
+	max_mobs = 4
+	spawn_time = 10 SECONDS
+
 //Sand planets - more or less the same as lavaland but with the sand planet variants
 
 /obj/structure/vein/sand
@@ -627,6 +645,28 @@ GLOBAL_LIST_EMPTY(ore_veins)
 	max_mobs = 3
 	spawn_time = 8 SECONDS
 
+/obj/structure/vein/moon/classfour
+	mining_charges = 15
+	vein_class = 4
+	drop_rate_amount_min = 30
+	drop_rate_amount_max = 40
+
+	mob_types = list(
+		/mob/living/simple_animal/hostile/asteroid/goliath = 10,
+		/mob/living/simple_animal/hostile/asteroid/basilisk = 30,
+		/mob/living/simple_animal/hostile/asteroid/hivelord = 30,
+		/mob/living/simple_animal/hostile/asteroid/brimdemon = 20,
+		/mob/living/simple_animal/hostile/carp/megacarp = 20,
+		/mob/living/simple_animal/hostile/asteroid/goliath/beast/ancient/crystal = 5,
+		/mob/living/simple_animal/hostile/asteroid/hivelord/legion/crystal = 5,
+		/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/forgotten = 5,
+		)
+	ore_list = list(
+		/obj/item/stack/ore/ice = 10
+		)
+
+	max_mobs = 6
+	spawn_time = 8 SECONDS
 
 //Desert planets, since they actually have their own mobs we use those
 

@@ -196,7 +196,7 @@
 	charge = 0
 
 /obj/item/stock_parts/cell/crap
-	name = "\improper Nanotrasen brand rechargeable AA battery"
+	name = "\improper Makosso-Warra Electronics rechargeable AA battery"
 	desc = "You can't top the plasma top." //TOTALLY TRADEMARK INFRINGEMENT
 	maxcharge = 500
 	custom_materials = list(/datum/material/glass=40)
@@ -404,6 +404,7 @@
 	chargerate = 1500
 	rating = 0 //Makes it incompatible with RPED
 	blinky_light = FALSE
+	auto_scatter = FALSE
 	var/start_empty = FALSE //this really wasn't a var before?
 
 /obj/item/stock_parts/cell/gun/Initialize()
@@ -455,6 +456,7 @@
 /obj/item/stock_parts/cell/gun/solgov
 	name = "SolGov power cell"
 	icon_state = "g-sg-cell"
+	maxcharge = 15000
 
 /obj/item/stock_parts/cell/gun/large
 	name = "extra-large weapon power cell"
@@ -474,6 +476,9 @@
 	maxcharge = 12750 // 15 shots at 850 energy per
 	chargerate = 1750
 
+/obj/item/stock_parts/cell/gun/kalix/empty
+	start_empty = TRUE
+
 /obj/item/stock_parts/cell/gun/pgf
 	name = "Etherbor EWC-6m"
 	desc = "Exclusive only to the PGF military, the EWC-6m is an Etherbor energy weapon cell designed for military-grade use, including expanded capacity and output."
@@ -481,13 +486,14 @@
 	maxcharge = 20000 // 20 shots at 1000 energy per
 	chargerate = 2000
 
-
+/obj/item/stock_parts/cell/gun/pgf/empty
+	start_empty = TRUE
 
 /obj/item/stock_parts/cell/gun/sharplite
 	name = "Sharplite power cell"
-	desc = "A proprietary power cell primarily used by Sharplite weaponry. Nanotrasen's large market share has forced some weapon developers to include adapters for these cells"
+	desc = "A proprietary power cell primarily used by Sharplite weaponry. Makosso-Warra's large market share has forced some weapon developers to include adapters for these cells"
 	icon = 'icons/obj/power.dmi'
-	icon_state = "nt-cell"
+	icon_state = "warra-cell"
 
 /obj/item/stock_parts/cell/gun/sharplite/empty
 	start_empty = TRUE
@@ -495,7 +501,7 @@
 /obj/item/stock_parts/cell/gun/sharplite/plus
 	name = "Sharplite Plus power cell"
 	desc = "An high-capacity weapon cell used exclusively by Sharplite weaponry. They are a great improvement over the stock cell, and are frequently sought after by collectors, soldiers, and operators of heavy lasers alike."
-	icon_state = "nt_plus-cell"
+	icon_state = "warra_plus-cell"
 
 	maxcharge = 20000
 	custom_materials = list(/datum/material/glass=300)
@@ -507,7 +513,7 @@
 /obj/item/stock_parts/cell/gun/sharplite/mini
 	name = "Sharplite Compact power cell"
 	desc = "A compact weapon cell used exclusively by Sharplite weaponry. It holds less charge and is intended for usage in energy handguns."
-	icon_state = "nt_mini-cell"
+	icon_state = "warra_mini-cell"
 	maxcharge = 7000
 	custom_materials = list(/datum/material/glass=300)
 	chargerate = 1000

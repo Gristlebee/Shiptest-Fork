@@ -8,7 +8,7 @@
 	e_cost = 555
 
 /obj/item/ammo_casing/energy/laser/sharplite/efficent
-	e_cost = 700  //9 per NT mini cell
+	e_cost = 700  //9 per MW mini cell
 
 /obj/item/ammo_casing/energy/laser/underbarrel
 	projectile_type = /obj/projectile/beam/laser
@@ -96,7 +96,7 @@
 	e_cost = 500 //20 shots with a normal power cell, 40 with an upgraded
 	select_name = "kill"
 	delay = 0.13 SECONDS
-	fire_sound = 'sound/weapons/gun/laser/nt-fire_light.ogg'
+	fire_sound = 'sound/weapons/gun/laser/sharplite-fire_light.ogg'
 
 /obj/item/ammo_casing/energy/lasergun/old
 	projectile_type = /obj/projectile/beam/laser
@@ -104,7 +104,7 @@
 	select_name = "kill"
 
 /obj/item/ammo_casing/energy/laser/sharplite/hos
-	e_cost = 500
+	e_cost = 1000
 
 /obj/item/ammo_casing/energy/laser/practice
 	projectile_type = /obj/projectile/beam/practice
@@ -211,12 +211,13 @@
 
 /obj/item/ammo_casing/energy/disabler/hitscan
 	projectile_type = /obj/projectile/beam/hitscan/disabler
-	e_cost = 833
+	e_cost = 500
 
 /obj/projectile/beam/hitscan/disabler
 	name = "disabler beam"
 	icon_state = "omnilaser"
 	hitscan = TRUE
+	range = 12
 	damage = 20
 	armour_penetration = -20
 	damage_type = STAMINA
@@ -241,7 +242,12 @@
 	impact_light_range = 2.5
 	impact_light_color_override = COLOR_CYAN
 
+/obj/item/ammo_casing/energy/disabler/hitscan/heavy
+	projectile_type = /obj/projectile/beam/hitscan/disabler/heavy
+	e_cost = 666
+
 /obj/projectile/beam/hitscan/disabler/heavy
+	range = 15
 	damage = 30
 	armour_penetration = -10
 

@@ -95,7 +95,7 @@
 	new /obj/item/storage/lockbox/loyalty(src)
 	new /obj/item/clothing/mask/gas/sechailer/swat(src)
 	new /obj/item/storage/box/flashbangs(src)
-	new /obj/item/shield/riot/tele(src)
+	new /obj/item/shield/tele(src)
 	new /obj/item/storage/belt/security/full(src)
 	new /obj/item/gun/energy/sharplite/x01(src)
 	new /obj/item/gun/ballistic/automatic/pistol/commissar(src) //WS edit - free lethals
@@ -145,7 +145,7 @@
 /obj/structure/closet/secure_closet/security/PopulateContents()
 	..()
 	new /obj/item/clothing/suit/armor/vest(src)
-	new /obj/item/clothing/head/helmet/sec(src)
+	new /obj/item/clothing/head/helmet/m10(src)
 	new /obj/item/radio/headset/headset_sec(src)
 	new /obj/item/radio/headset/headset_sec/alt(src)
 	//WS begin - Prescription HUDs
@@ -284,7 +284,7 @@
 	for(var/i in 1 to 3)
 		new /obj/item/clothing/head/helmet/riot(src)
 	for(var/i in 1 to 3)
-		new /obj/item/shield/riot(src)
+		new /obj/item/shield/tele(src)
 
 /obj/structure/closet/secure_closet/armory2
 	name = "armory ballistics locker"
@@ -345,7 +345,7 @@
 /obj/structure/closet/secure_closet/labor_camp_security/PopulateContents()
 	..()
 	new /obj/item/clothing/suit/armor/vest(src)
-	new /obj/item/clothing/head/helmet/sec(src)
+	new /obj/item/clothing/head/helmet/m10(src)
 	new /obj/item/clothing/under/rank/security/officer(src)
 	new /obj/item/clothing/under/rank/security/officer/skirt(src)
 	new /obj/item/clothing/glasses/hud/security/sunglasses(src)

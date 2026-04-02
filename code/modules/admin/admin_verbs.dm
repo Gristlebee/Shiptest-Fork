@@ -43,6 +43,7 @@ GLOBAL_PROTECT(admin_verbs_admin)
 	/client/proc/check_ai_laws,			/*shows AI and borg laws*/
 	/datum/admins/proc/toggleooc,		/*toggles ooc on/off for everyone*/
 	/datum/admins/proc/toggleooclocal,	/*toggles looc on/off for everyone*/
+	/datum/admins/proc/toggledeadchat,	/*toggles deadchat on/off for everyone*/
 	/datum/admins/proc/toggleoocdead,	/*toggles ooc on/off for everyone who is dead*/
 	/datum/admins/proc/toggleenter,		/*toggles whether people can join the current game*/
 	/client/proc/toggle_ship_spawn, /* toggles players spawning ships via the join menu / shuttle creators */
@@ -137,6 +138,7 @@ GLOBAL_LIST_INIT(admin_verbs_spawn, list(
 	/client/proc/spawn_ruin,
 	/client/proc/spawn_outpost, /* Allows admins to spawn a new outpost. */
 	/client/proc/spawn_overmap,
+	/client/proc/spawn_overmap_json,
 	/client/proc/spawn_jump_point,
 	))
 GLOBAL_PROTECT(admin_verbs_spawn)
@@ -216,7 +218,6 @@ GLOBAL_PROTECT(admin_verbs_debug)
 	/datum/admins/proc/overmap_view, /* Opens HTML overmap viewer UI */
 	/client/proc/toggle_AI_interact, /*toggle admin ability to interact with machines as an AI*/
 	/client/proc/toggle_cdn,
-	/datum/admins/proc/delete_all_missions,
 	/client/proc/cmd_admin_toggle_fov,
 	)
 GLOBAL_LIST_INIT(admin_verbs_possess, list(/proc/possess, /proc/release))
@@ -399,7 +400,8 @@ GLOBAL_PROTECT(admin_verbs_hideable)
 		//ghostize
 		log_admin("[key_name(usr)] admin ghosted.")
 		message_admins("[key_name_admin(usr)] admin ghosted.")
-		var/mob/body = mob
+		var/mob/living/body = mob
+		body.ignore_SSD = TRUE
 		body.ghostize(1)
 		init_verbs()
 		if(body && !body.key)
