@@ -282,6 +282,14 @@
 			continue
 		. |= object.contents
 
+/datum/overmap/proc/get_overmap_objects_in_block(radius_x = 1, radius_y = 1,include_docked = FALSE, empty_if_src_docked = TRUE)
+	if(docked_to && empty_if_src_docked)
+		return list()
+	if(radius_x <= 0 || radius_y <= 0)
+		return list()
+
+
+
 /**
  * Returns a turf that can be jumped to by observers, admins, and such.
  */
