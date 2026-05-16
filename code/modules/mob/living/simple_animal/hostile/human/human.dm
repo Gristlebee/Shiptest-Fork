@@ -44,6 +44,8 @@
 	var/obj/effect/mob_spawn/human/mob_spawner
 	/// Path of the species we base the mob's visuals off of.
 	var/datum/species/mob_species
+	/// the seed we used for dynamic appearances
+	var/appearance_seed = 1
 	/// Path of the right hand held item we give to the mob's visuals.
 	var/obj/r_hand
 	/// THE DEFAULT HAND (Required if you want them to wield it). Path of the left hand held item we give to the mob's visuals.
@@ -67,7 +69,8 @@
 					/datum/species/spider = 3
 				)
 			)
-		apply_dynamic_human_appearance(src, species_path = mob_species, mob_spawn_path = mob_spawner, r_hand = r_hand, l_hand = l_hand, seed = rand(1,3))
+		appearance_seed = rand(1,3)
+		apply_dynamic_human_appearance(src, species_path = mob_species, mob_spawn_path = mob_spawner, r_hand = r_hand, l_hand = l_hand, seed = appearance_seed)
 		if(ispath(r_hand,/obj/item/gun))
 			var/obj/item/gun/our_gun = r_hand
 			spread = our_gun.spread
