@@ -52,6 +52,29 @@ SUBSYSTEM_DEF(overlays)
 			build_overlays[index] = icon2appearance(overlay)
 	return build_overlays
 
+/proc/blend_atom(atom/target, thing, new_layer, mode = BLEND_DEFAULT)
+	var/atom/overlayed = new thing
+	overlayed.blend_mode = mode
+	if(new_layer)
+		overlayed.layer = new_layer
+	target.add_overlay(overlayed)
+	qdel(overlayed)
+
+/proc/blend_icon(atom/target, icon_file, state, new_layer, mode = BLEND_DEFAULT)
+	if(!icon_file)
+		return
+	if(!state)
+		return
+	var/obj/dummy = new
+	dummy.icon = icon_file
+	dummy.icon_state = state
+	dummy.blend_mode = mode
+	if(new_layer)
+		dummy.layer = new_layer
+	target.add_overlay(dummy)
+	qdel(dummy)
+
+
 /atom/proc/cut_overlays()
 	STAT_START_STOPWATCH
 	overlays = null
