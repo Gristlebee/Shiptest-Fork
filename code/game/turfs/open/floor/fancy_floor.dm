@@ -26,6 +26,8 @@
 	update_appearance()
 
 /turf/open/floor/wood/burn_tile()
+	if(burnt)
+		make_plating()
 	burnt = TRUE
 	update_appearance()
 
