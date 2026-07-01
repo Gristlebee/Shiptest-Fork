@@ -266,6 +266,8 @@
 	ap_threshold = 30
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 0, "bomb" = 50, "bio" = 0, "rad" = 0, "fire" = 80, "acid" = 80)
 	var/wielded = FALSE
+	var/datum/component/cover/cover_component
+	var/mutable_appearance/shield_appearance
 
 /obj/item/shield/heavy/Initialize()
 	. = ..()
@@ -287,6 +289,9 @@
 		if(do_after(user, 3 SECONDS, user, IGNORE_USER_LOC_CHANGE | IGNORE_TARGET_LOC_CHANGE, TRUE,
 		CALLBACK(src, PROC_REF(is_wielded))))
 			block_chance = 85
+			cover_component = user.AddComponent(/datum/component/cover,0)
+			shield_appearance = icon('icons/effects/effects.dmi', "shield_flash")
+			user.add_overlay(shield_appearance)
 
 /// triggered on unwield of two handed item
 /obj/item/shield/heavy/proc/on_unwield(obj/item/source, mob/user)
@@ -295,6 +300,8 @@
 	if(!broken)
 		block_chance = initial(block_chance)
 		slowdown = initial(slowdown)
+		qdel(cover_component)
+		user.cut_overlay(shield_appearance)
 
 /obj/item/shield/heavy/proc/is_wielded()
 	return wielded
