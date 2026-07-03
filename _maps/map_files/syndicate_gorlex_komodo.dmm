@@ -453,9 +453,7 @@
 	},
 /obj/item/clothing/suit/space/hardsuit/syndi/hl,
 /obj/item/clothing/mask/gas/syndicate,
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security/armory)
 "fd" = (
@@ -1438,9 +1436,7 @@
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/maintenance/two,
 /obj/effect/turf_decal/box,
-/obj/machinery/camera/autoname{
-	dir = 10
-	},
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/pod,
 /area/ship/cargo)
 "nv" = (
@@ -2122,9 +2118,7 @@
 	},
 /obj/item/kirbyplants/random,
 /obj/effect/decal/cleanable/wrapping,
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
+/obj/machinery/camera/autoname/directional/west,
 /obj/structure/railing{
 	dir = 6
 	},
@@ -4060,9 +4054,7 @@
 /obj/effect/turf_decal/techfloor{
 	dir = 9
 	},
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/cargo)
 "ND" = (

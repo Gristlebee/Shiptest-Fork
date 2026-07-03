@@ -63,10 +63,7 @@
 /turf/open/floor/plating/snowed/smoothed,
 /area/overmap_encounter/planetoid/cave/explored)
 "hb" = (
-/obj/machinery/mineral/processing_unit_console{
-	dir = 8;
-	pixel_x = 19
-	},
+/obj/machinery/computer/processing_unit_console/directional/east,
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/overmap_encounter/planetoid/cave/explored)
 "hC" = (
@@ -266,15 +263,11 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/overmap_encounter/planetoid/cave/explored)
 "xb" = (
-/obj/machinery/camera/autoname{
-	dir = 6
-	},
+/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/overmap_encounter/planetoid/cave/explored)
 "xC" = (
@@ -329,22 +322,15 @@
 /turf/open/floor/engine,
 /area/overmap_encounter/planetoid/cave/explored)
 "Cy" = (
-/obj/machinery/mineral/processing_unit_console{
-	dir = 8;
-	pixel_x = 19
-	},
+/obj/machinery/computer/processing_unit_console/directional/east,
 /turf/open/floor/engine,
 /area/overmap_encounter/planetoid/cave/explored)
 "Dc" = (
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/overmap_encounter/planetoid/cave/explored)
 "Dy" = (
-/obj/machinery/camera/autoname{
-	dir = 6
-	},
+/obj/machinery/camera/autoname/directional/north,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating/snowed/smoothed,
 /area/overmap_encounter/planetoid/cave/explored)
@@ -561,9 +547,7 @@
 /turf/open/floor/plating/snowed/smoothed,
 /area/overmap_encounter/planetoid/cave/explored)
 "NZ" = (
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plating/ice/iceberg,
 /area/overmap_encounter/planetoid/cave/explored)
 "Oy" = (
@@ -596,9 +580,7 @@
 /turf/open/floor/plating/snowed/smoothed,
 /area/overmap_encounter/planetoid/cave/explored)
 "Rt" = (
-/obj/machinery/camera/autoname{
-	dir = 9
-	},
+/obj/machinery/camera/autoname/directional/east,
 /turf/open/floor/plating/asteroid/snow/safe,
 /area/overmap_encounter/planetoid/cave/explored)
 "Sh" = (

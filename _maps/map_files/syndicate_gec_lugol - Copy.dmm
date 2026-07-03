@@ -1171,8 +1171,7 @@
 /obj/structure/sign/warning/vacuum{
 	pixel_x = 30
 	},
-/obj/machinery/camera/autoname{
-	dir = 9;
+/obj/machinery/camera/autoname/directional/east{
 	network = list("GEC")
 	},
 /turf/open/floor/plasteel/tech/grid,
@@ -1618,10 +1617,8 @@
 /obj/item/kirbyplants/random{
 	pixel_y = 3
 	},
-/obj/machinery/camera/autoname{
-	dir = 9;
-	network = list("GEC");
-	pixel_y = 5
+/obj/machinery/camera/autoname/directional/east{
+	network = list("GEC")
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/tech/grid,
@@ -1710,8 +1707,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/camera/autoname{
-	dir = 5;
+/obj/machinery/camera/autoname/directional/west{
 	network = list("GEC")
 	},
 /turf/open/floor/engine/hull/reinforced,
@@ -1877,8 +1873,7 @@
 "qD" = (
 /obj/effect/turf_decal/industrial/hatch/yellow,
 /obj/machinery/suit_storage_unit/standard_unit,
-/obj/machinery/camera/autoname{
-	dir = 2;
+/obj/machinery/camera/autoname/directional/north{
 	network = list("GEC")
 	},
 /turf/open/floor/plasteel/mono/dark,
@@ -1918,8 +1913,7 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/construction)
 "rh" = (
-/obj/machinery/camera/autoname{
-	dir = 1;
+/obj/machinery/camera/autoname/directional/south{
 	network = list("GEC")
 	},
 /obj/machinery/suit_storage_unit/atmos{
@@ -2145,10 +2139,8 @@
 /obj/structure/railing{
 	pixel_y = -7
 	},
-/obj/machinery/camera/autoname{
-	dir = 9;
-	network = list("GEC");
-	pixel_y = 5
+/obj/machinery/camera/autoname/directional/east{
+	network = list("GEC")
 	},
 /obj/effect/turf_decal/steeldecal/steel_decals10{
 	dir = 5
@@ -2451,8 +2443,7 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/hallway/central)
 "uH" = (
-/obj/machinery/camera/autoname{
-	dir = 5;
+/obj/machinery/camera/autoname/directional/west{
 	network = list("GEC")
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
@@ -2959,10 +2950,8 @@
 /turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
 "xZ" = (
-/obj/machinery/camera/autoname{
-	dir = 5;
-	network = list("GEC");
-	pixel_y = 8
+/obj/machinery/camera/autoname/directional/west{
+	network = list("GEC")
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/atmospherics)
@@ -3466,8 +3455,7 @@
 /obj/structure/catwalk/over/plated_catwalk/white{
 	color = "#4c535b"
 	},
-/obj/machinery/camera/autoname{
-	dir = 5;
+/obj/machinery/camera/autoname/directional/west{
 	network = list("GEC")
 	},
 /turf/open/floor/plating/airless,
@@ -3619,8 +3607,7 @@
 /obj/structure/chair{
 	dir = 4
 	},
-/obj/machinery/camera/autoname{
-	dir = 2;
+/obj/machinery/camera/autoname/directional/north{
 	network = list("GEC")
 	},
 /obj/effect/decal/cleanable/dirt/dust,
@@ -4519,8 +4506,7 @@
 /obj/item/tank/internals/emergency_oxygen/engi,
 /obj/item/clothing/suit/fire/atmos,
 /obj/item/clothing/head/hardhat/atmos,
-/obj/machinery/camera/autoname{
-	dir = 2;
+/obj/machinery/camera/autoname/directional/north{
 	network = list("GEC")
 	},
 /obj/structure/closet/secure_closet/atmospherics{
@@ -4890,8 +4876,7 @@
 /obj/structure/catwalk/over/plated_catwalk/white{
 	color = "#4c535b"
 	},
-/obj/machinery/camera/autoname{
-	dir = 1;
+/obj/machinery/camera/autoname/directional/south{
 	network = list("GEC")
 	},
 /turf/open/floor/plating,
@@ -4932,8 +4917,7 @@
 /obj/effect/turf_decal/corner/transparent/solgovgold{
 	dir = 6
 	},
-/obj/machinery/camera/autoname{
-	dir = 5;
+/obj/machinery/camera/autoname/directional/west{
 	network = list("GEC")
 	},
 /obj/effect/decal/cleanable/dirt/dust,
@@ -5013,10 +4997,8 @@
 /turf/open/floor/plating/airless,
 /area/ship/construction)
 "Mm" = (
-/obj/machinery/camera/autoname{
-	dir = 8;
-	network = list("GEC");
-	pixel_y = -5
+/obj/machinery/camera/autoname/directional/east{
+	network = list("GEC")
 	},
 /obj/machinery/computer/camera_advanced{
 	dir = 8;
@@ -5421,8 +5403,7 @@
 /obj/effect/decal/cleanable/greenglow{
 	color = "#808080"
 	},
-/obj/machinery/camera/autoname{
-	dir = 2;
+/obj/machinery/camera/autoname/directional/north{
 	network = list("GEC")
 	},
 /turf/open/floor/plating{
@@ -5864,8 +5845,7 @@
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister,
-/obj/machinery/camera/autoname{
-	dir = 1;
+/obj/machinery/camera/autoname/directional/south{
 	network = list("GEC")
 	},
 /turf/open/floor/plasteel/tech/grid,
@@ -5890,8 +5870,7 @@
 /obj/effect/turf_decal/corner/transparent/solgovgold{
 	dir = 10
 	},
-/obj/machinery/camera/autoname{
-	dir = 6;
+/obj/machinery/camera/autoname/directional/north{
 	network = list("GEC")
 	},
 /obj/effect/decal/cleanable/dirt/dust,
@@ -5940,10 +5919,8 @@
 	dir = 10
 	},
 /obj/structure/railing,
-/obj/machinery/camera/autoname{
-	dir = 5;
-	network = list("GEC");
-	pixel_y = 21
+/obj/machinery/camera/autoname/directional/west{
+	network = list("GEC")
 	},
 /turf/open/floor/carpet/red,
 /area/ship/bridge)

@@ -933,9 +933,7 @@
 /obj/effect/turf_decal/techfloor{
 	dir = 6
 	},
-/obj/machinery/camera/autoname{
-	dir = 10
-	},
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/crew/dorm)
 "lF" = (
@@ -976,9 +974,7 @@
 	pixel_x = -8;
 	pixel_y = 22
 	},
-/obj/machinery/camera/autoname{
-	dir = 9
-	},
+/obj/machinery/camera/autoname/directional/east,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/science/robotics)
 "lX" = (
@@ -1479,9 +1475,7 @@
 /obj/item/clothing/mask/bandana/skull,
 /obj/item/clothing/accessory/holster,
 /obj/item/clothing/suit/armor/vest/alt,
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/science/robotics)
 "rc" = (
@@ -2570,7 +2564,7 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/machinery/light/directional/north,
 /obj/machinery/firealarm/directional/north,
-/obj/machinery/camera/autoname,
+/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "Dg" = (
@@ -2681,9 +2675,7 @@
 	pixel_x = 8;
 	pixel_y = -22
 	},
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
+/obj/machinery/camera/autoname/directional/west,
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/plasteel/tech,
 /area/ship/security)
@@ -2786,9 +2778,7 @@
 "EN" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/machinery/light/directional/east,
-/obj/machinery/camera/autoname{
-	dir = 10
-	},
+/obj/machinery/camera/autoname/directional/south,
 /obj/structure/ore_box,
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/plasteel/tech/grid,
@@ -2866,9 +2856,7 @@
 	},
 /obj/machinery/light/directional/south,
 /obj/machinery/newscaster/directional/west,
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "Ft" = (
@@ -3057,7 +3045,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/camera/autoname,
+/obj/machinery/camera/autoname/directional/north,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
@@ -3135,9 +3123,7 @@
 	pixel_x = 12;
 	pixel_y = 1
 	},
-/obj/machinery/camera/autoname{
-	dir = 10
-	},
+/obj/machinery/camera/autoname/directional/south,
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
@@ -3351,7 +3337,7 @@
 	pixel_x = 32
 	},
 /obj/item/toy/plush/beeplushie,
-/obj/machinery/camera/autoname,
+/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/plasteel/tech,
 /area/ship/security)
 "Lc" = (
@@ -3633,9 +3619,7 @@
 /obj/effect/turf_decal/techfloor/hole{
 	dir = 8
 	},
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/atmospherics)
 "Oi" = (
@@ -3866,9 +3850,7 @@
 	pixel_y = -32
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Rd" = (

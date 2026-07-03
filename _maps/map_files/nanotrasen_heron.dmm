@@ -1000,9 +1000,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/camera{
-	dir = 5
-	},
+/obj/machinery/camera/directional/west,
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/engineering)
 "ef" = (
@@ -2373,9 +2371,7 @@
 	pixel_y = 7
 	},
 /obj/machinery/airalarm/directional/south,
-/obj/machinery/camera{
-	dir = 10
-	},
+/obj/machinery/camera/directional/south,
 /obj/machinery/light_switch{
 	pixel_x = -22;
 	dir = 4;
@@ -2600,9 +2596,7 @@
 /area/ship/science/robotics)
 "kj" = (
 /obj/effect/turf_decal/industrial/warning,
-/obj/machinery/camera{
-	dir = 9
-	},
+/obj/machinery/camera/directional/east,
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/atmospherics)
 "kp" = (
@@ -5126,9 +5120,7 @@
 	pixel_y = 24;
 	pixel_x = -10
 	},
-/obj/machinery/camera{
-	dir = 9
-	},
+/obj/machinery/camera/directional/east,
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
 "sS" = (
@@ -5490,9 +5482,7 @@
 	},
 /obj/structure/closet/secure_closet/security/sec,
 /obj/item/ammo_box/magazine/co9mm,
-/obj/machinery/camera{
-	dir = 10
-	},
+/obj/machinery/camera/directional/south,
 /obj/item/gun/energy/disabler{
 	pixel_y = -2;
 	pixel_x = 3
@@ -5634,9 +5624,7 @@
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 8
 	},
-/obj/machinery/camera{
-	dir = 5
-	},
+/obj/machinery/camera/directional/west,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/atmospherics)
 "up" = (
@@ -6066,9 +6054,7 @@
 /obj/structure/sign/departments/restroom{
 	pixel_x = -32
 	},
-/obj/machinery/camera{
-	dir = 5
-	},
+/obj/machinery/camera/directional/west,
 /turf/open/floor/plasteel,
 /area/ship/hallway/fore)
 "wa" = (
@@ -7014,9 +7000,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 8
 	},
-/obj/machinery/camera{
-	dir = 5
-	},
+/obj/machinery/camera/directional/west,
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
@@ -7200,7 +7184,7 @@
 /obj/machinery/photocopier{
 	pixel_y = 3
 	},
-/obj/machinery/camera,
+/obj/machinery/camera/directional/north,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/plasteel/tech,
 /area/ship/security)
@@ -8271,9 +8255,7 @@
 	},
 /obj/item/kirbyplants/random,
 /obj/effect/decal/cleanable/wrapping,
-/obj/machinery/camera{
-	dir = 10
-	},
+/obj/machinery/camera/directional/south,
 /obj/structure/railing/wood{
 	layer = 3.1;
 	dir = 8
@@ -8364,9 +8346,7 @@
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 4
 	},
-/obj/machinery/camera{
-	dir = 10
-	},
+/obj/machinery/camera/directional/south,
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
@@ -8772,9 +8752,7 @@
 	icon_state = "0-2"
 	},
 /obj/item/radio/intercom/directional/north,
-/obj/machinery/camera{
-	dir = 6
-	},
+/obj/machinery/camera/directional/north,
 /turf/open/floor/plasteel/tech,
 /area/ship/maintenance/central)
 "Gg" = (
@@ -9457,9 +9435,7 @@
 /area/ship/science/robotics)
 "Jh" = (
 /obj/machinery/light/small/directional/east,
-/obj/machinery/camera{
-	dir = 9
-	},
+/obj/machinery/camera/directional/east,
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "Jm" = (
@@ -9598,9 +9574,7 @@
 /obj/effect/turf_decal/steeldecal/steel_decals6{
 	dir = 9
 	},
-/obj/machinery/camera{
-	dir = 6
-	},
+/obj/machinery/camera/directional/north,
 /obj/machinery/light/directional/north,
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
@@ -9827,9 +9801,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
-/obj/machinery/camera{
-	dir = 9
-	},
+/obj/machinery/camera/directional/east,
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/maintenance/central)
 "KG" = (
@@ -10159,9 +10131,7 @@
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 4
 	},
-/obj/machinery/camera{
-	dir = 10
-	},
+/obj/machinery/camera/directional/south,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/electrical)
 "Mb" = (
@@ -10884,9 +10854,7 @@
 "On" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/effect/turf_decal/trimline/opaque/blue/line,
-/obj/machinery/camera{
-	dir = 1
-	},
+/obj/machinery/camera/directional/south,
 /turf/open/floor/plasteel,
 /area/ship/hallway/fore)
 "Oy" = (
@@ -12351,9 +12319,7 @@
 /obj/effect/turf_decal/trimline/opaque/blue/line{
 	dir = 1
 	},
-/obj/machinery/camera{
-	dir = 6
-	},
+/obj/machinery/camera/directional/north,
 /obj/machinery/light_switch{
 	pixel_y = 22;
 	pixel_x = -9
@@ -12494,9 +12460,7 @@
 /obj/effect/turf_decal/trimline/opaque/blue/line{
 	dir = 10
 	},
-/obj/machinery/camera{
-	dir = 10
-	},
+/obj/machinery/camera/directional/south,
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hangar)
 "UN" = (
@@ -12615,9 +12579,7 @@
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 4
 	},
-/obj/machinery/camera{
-	dir = 9
-	},
+/obj/machinery/camera/directional/east,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/atmospherics)
 "Vc" = (
@@ -12974,9 +12936,7 @@
 	pixel_x = 9;
 	pixel_y = 18
 	},
-/obj/machinery/camera{
-	dir = 10
-	},
+/obj/machinery/camera/directional/south,
 /turf/open/floor/carpet/green,
 /area/ship/crew/dorm)
 "WV" = (
@@ -13303,9 +13263,7 @@
 /obj/effect/turf_decal/techfloor{
 	dir = 1
 	},
-/obj/machinery/camera{
-	dir = 6
-	},
+/obj/machinery/camera/directional/north,
 /obj/machinery/light_switch{
 	pixel_y = 22;
 	pixel_x = -9

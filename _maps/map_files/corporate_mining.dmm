@@ -1801,9 +1801,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 10
 	},
-/obj/structure/sign/warning/enginesafety{
-	pixel_y = 32
-	},
+/obj/structure/sign/poster/official/moth/hardhats,
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/item/stock_parts/manipulator,
 /obj/item/stock_parts/matter_bin,
