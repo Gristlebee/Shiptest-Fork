@@ -45,7 +45,7 @@
 	pixel_y = -5
 	},
 /obj/item/storage/pouch/engi,
-/obj/item/clothing/gloves/color/yellow{
+/obj/item/clothing/gloves/insulated{
 	pixel_y = -8
 	},
 /obj/item/clothing/glasses/welding{
@@ -440,6 +440,7 @@
 /obj/item/radio/intercom/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/plasma,
+/obj/machinery/camera/directional/east,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "eL" = (
@@ -485,6 +486,12 @@
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /obj/machinery/door/airlock/external{
 	dir = 4
+	},
+/obj/docking_port/mobile{
+	can_move_docking_ports = 1;
+	dir = 4;
+	port_direction = 2;
+	preferred_direction = 4
 	},
 /turf/open/floor/engine/hull/reinforced/interior,
 /area/ship/external/dark)
@@ -543,9 +550,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/directional/south,
-/obj/machinery/camera/autoname{
-	dir = 10
-	},
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/plasteel/tech,
 /area/ship/security)
 "fJ" = (
@@ -741,6 +746,7 @@
 	pixel_x = 20;
 	pixel_y = 12
 	},
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "gO" = (
@@ -1186,7 +1192,6 @@
 	pixel_x = 11;
 	pixel_y = 22
 	},
-/obj/machinery/camera/autoname,
 /obj/structure/chair/handrail,
 /turf/open/floor/plasteel/tech,
 /area/ship/maintenance/starboard)
@@ -1301,22 +1306,6 @@
 	pixel_y = 4;
 	pixel_x = 2
 	},
-/obj/item/storage/firstaid/regular{
-	pixel_x = -9;
-	pixel_y = 15
-	},
-/obj/item/storage/firstaid/toxin{
-	pixel_y = 15;
-	pixel_x = 9
-	},
-/obj/item/storage/firstaid/fire{
-	pixel_x = -9;
-	pixel_y = 9
-	},
-/obj/item/storage/firstaid/advanced{
-	pixel_x = 9;
-	pixel_y = 9
-	},
 /obj/item/storage/box/bodybags{
 	pixel_x = -9;
 	pixel_y = 4
@@ -1348,6 +1337,14 @@
 /obj/item/reagent_containers/blood/synthetic,
 /obj/item/sensor_device,
 /obj/item/pinpointer/crew,
+/obj/item/storage/firstaid/medical{
+	pixel_x = -5;
+	pixel_y = 12
+	},
+/obj/item/storage/firstaid/brute{
+	pixel_x = 4;
+	pixel_y = 12
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "jI" = (
@@ -1494,17 +1491,10 @@
 	pixel_y = -24;
 	pixel_x = -8
 	},
-/obj/structure/noticeboard{
-	dir = 1;
-	pixel_y = -25;
-	pixel_x = 15
-	},
+/obj/structure/noticeboard/directional/south,
 /obj/effect/decal/cleanable/food/egg_smudge,
 /obj/item/trash/dote,
 /obj/item/trash/can,
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
 /obj/item/cigbutt,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
@@ -1828,6 +1818,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/radio/intercom/directional/north,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "pi" = (
@@ -2423,7 +2414,7 @@
 	pixel_y = -8;
 	pixel_x = -5
 	},
-/obj/item/clothing/gloves/color/latex/nitrile/inteq{
+/obj/item/clothing/gloves/nitrile/inteq{
 	pixel_x = 5;
 	pixel_y = -10
 	},
@@ -2452,9 +2443,7 @@
 	pixel_x = -20;
 	pixel_y = -11
 	},
-/obj/machinery/camera/autoname{
-	dir = 6
-	},
+/obj/machinery/camera/autoname/directional/north,
 /obj/effect/turf_decal/steeldecal/steel_decals_central7,
 /obj/item/clothing/suit/hooded/wintercoat/security/inteq{
 	pixel_x = -8;
@@ -2518,9 +2507,12 @@
 "vg" = (
 /obj/docking_port/stationary{
 	dir = 8;
-	dwidth = 15;
-	height = 15;
-	width = 30
+	dwidth = 30;
+	height = 60;
+	width = 60;
+	disable_on_owner_ship_dock = 1;
+	name = "Vaquero Stern Dock";
+	dheight = 1
 	},
 /turf/template_noop,
 /area/template_noop)
@@ -2997,9 +2989,7 @@
 /obj/structure/closet/emcloset/anchored,
 /obj/item/radio/intercom/directional/west,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/camera/autoname{
-	dir = 6
-	},
+/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/external/dark)
 "yd" = (
@@ -3044,10 +3034,8 @@
 	pixel_y = -10
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
-/obj/structure/sign/poster/contraband/inteq_nt{
+/obj/machinery/camera/autoname/directional/west,
+/obj/structure/sign/poster/contraband/inteq_warra{
 	pixel_y = 32;
 	layer = 2.809
 	},
@@ -3060,9 +3048,7 @@
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 4
 	},
-/obj/machinery/camera/autoname{
-	dir = 9
-	},
+/obj/machinery/camera/autoname/directional/east,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hallway/aft)
@@ -3818,10 +3804,6 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "Fm" = (
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 34
-	},
-/obj/item/radio/intercom/directional/north,
 /obj/structure/table,
 /obj/effect/turf_decal/corner/opaque/brown{
 	dir = 4
@@ -3838,6 +3820,7 @@
 	pixel_x = -2
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/security/telescreen/entertainment/wall/directional/north,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "Fu" = (
@@ -3958,9 +3941,7 @@
 	pixel_y = -4
 	},
 /obj/machinery/airalarm/directional/north,
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/crew/cryo)
 "GI" = (
@@ -4699,9 +4680,7 @@
 	pixel_x = -24;
 	pixel_y = -8
 	},
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plasteel/stairs,
 /area/ship/cargo)
 "NR" = (
@@ -4786,9 +4765,7 @@
 /area/ship/external/dark)
 "ON" = (
 /obj/structure/table/reinforced,
-/obj/structure/noticeboard{
-	pixel_y = 28
-	},
+/obj/structure/noticeboard/directional/north,
 /obj/effect/turf_decal/trimline/opaque/yellow/line{
 	dir = 1
 	},
@@ -5431,10 +5408,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/noticeboard{
-	dir = 1;
-	pixel_y = -25
-	},
+/obj/structure/noticeboard/directional/south,
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/cryo)
 "Ul" = (
@@ -5468,14 +5442,6 @@
 	},
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hallway/starboard)
-"UL" = (
-/obj/docking_port/mobile{
-	dir = 8;
-	launch_status = 0;
-	preferred_direction = 4
-	},
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/security/armory)
 "UO" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 4
@@ -5505,7 +5471,7 @@
 	},
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/camera/autoname,
+/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hallway/starboard)
 "Vk" = (
@@ -5523,9 +5489,7 @@
 	pixel_x = 10;
 	pixel_y = -20
 	},
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/plating,
 /area/ship/maintenance/port)
 "VC" = (
@@ -5637,6 +5601,7 @@
 	pixel_y = -6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/camera/directional/south,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
 "WA" = (
@@ -5644,10 +5609,8 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/opaque/yellow/warning,
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
 /obj/machinery/light/directional/west,
+/obj/machinery/camera/directional/south,
 /turf/open/floor/engine/hull/reinforced,
 /area/ship/external/dark)
 "WB" = (
@@ -6109,9 +6072,7 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/crew/cryo)
 "Zh" = (
-/obj/structure/noticeboard{
-	pixel_y = 28
-	},
+/obj/structure/noticeboard/directional/north,
 /obj/item/paper/guides/bodycam{
 	pixel_y = 25
 	},
@@ -6128,19 +6089,14 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/bodycamera{
 	pixel_y = 6;
-	pixel_x = -9
+	pixel_x = -5
 	},
 /obj/item/bodycamera{
 	pixel_y = 6;
-	pixel_x = 1
+	pixel_x = 5
 	},
 /obj/item/bodycamera{
-	pixel_y = 2;
-	pixel_x = -4
-	},
-/obj/item/multitool{
-	pixel_x = 10;
-	pixel_y = 5
+	pixel_y = 2
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/security)
@@ -6205,9 +6161,6 @@
 	icon_state = "1-8"
 	},
 /obj/item/radio/intercom/directional/south,
-/obj/machinery/camera/autoname{
-	dir = 10
-	},
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
 "ZB" = (
@@ -6274,14 +6227,14 @@ ww
 ww
 ww
 ww
-Hp
+ww
 ww
 ww
 ww
 vg
 ww
 ww
-Bl
+ww
 ww
 ww
 ww
@@ -6298,14 +6251,14 @@ Hn
 Yo
 Hn
 ww
-ox
+Hp
 ww
 iz
 Ai
 fl
 ad
 ww
-SW
+Bl
 ww
 Qy
 Ds
@@ -6329,7 +6282,7 @@ xZ
 CA
 iz
 ww
-ox
+SW
 ww
 Qy
 Yn
@@ -7001,7 +6954,7 @@ ww
 ww
 ww
 ww
-UL
+zY
 zY
 zY
 qX

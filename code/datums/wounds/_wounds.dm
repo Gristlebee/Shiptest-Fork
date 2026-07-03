@@ -42,8 +42,6 @@
 	/// Either WOUND_SEVERITY_TRIVIAL, WOUND_SEVERITY_MODERATE, WOUND_SEVERITY_SEVERE, WOUND_SEVERITY_CRITICAL, WOUND_SEVERITY_LOSS. FALSE prevents it from rolling.
 	var/severity = FALSE
 
-	/// What body zones can we NOT affect
-	var/list/excluded_zones = list()
 	/// Who owns the body part that we're wounding
 	var/mob/living/carbon/victim = null
 	/// The bodypart we're parented to. Not guaranteed to be non-null, especially after/during removal or if we haven't been applied
@@ -525,11 +523,11 @@
 	var/desc
 
 	if((wound_flags & ACCEPTS_SPLINT) && limb.current_splint)
-		desc = "[victim.p_their()] [limb.name] is [get_sling_condition()] fastened with a [limb.current_splint.name]"
+		desc = "[victim.p_their(TRUE)] [limb.name] is [get_sling_condition()] fastened with a [limb.current_splint.name]"
 	else if ((wound_flags & ACCEPTS_GAUZE) && limb.current_gauze)
-		desc = "[victim.p_their()] [limb.name] is [get_gauze_condition()] fastened in a sling of [limb.current_gauze.name]"
+		desc = "[victim.p_their(TRUE)] [limb.name] is [get_gauze_condition()] fastened in a sling of [limb.current_gauze.name]"
 	else
-		desc = "[victim.p_their()] [limb.name] [examine_desc]"
+		desc = "[victim.p_their(TRUE)] [limb.name] [examine_desc]"
 
 	desc = modify_desc_before_span(desc, user)
 

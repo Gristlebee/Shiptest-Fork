@@ -359,9 +359,7 @@
 	dir = 1
 	},
 /obj/machinery/light/small/directional/south,
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/plasteel/tech,
 /area/ship/storage/port)
 "cT" = (
@@ -469,16 +467,20 @@
 /obj/machinery/light/small/directional/north{
 	pixel_x = -12
 	},
+/obj/machinery/camera/directional/west,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "dQ" = (
-/obj/docking_port/mobile{
-	dir = 8;
-	launch_status = 0;
-	preferred_direction = 4
+/obj/docking_port/stationary{
+	dwidth = 30;
+	height = 60;
+	width = 60;
+	disable_on_owner_ship_dock = 1;
+	dheight = 1;
+	name = "Colossus Port Beam Dock"
 	},
-/turf/open/floor/engine/hull/reinforced,
-/area/ship/external/dark)
+/turf/template_noop,
+/area/template_noop)
 "dT" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
@@ -526,24 +528,13 @@
 	},
 /obj/effect/turf_decal/corner/opaque/yellow,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = -32;
-	pixel_x = 15
-	},
-/obj/item/radio/intercom/directional/south{
-	pixel_x = 15
-	},
 /obj/structure/table/wood,
+/obj/machinery/computer/security/telescreen/entertainment/wall/directional/south{
+	pixel_x = 16;
+	pixel_y = -22
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew)
-"ef" = (
-/obj/docking_port/stationary{
-	dwidth = 15;
-	height = 15;
-	width = 30
-	},
-/turf/template_noop,
-/area/template_noop)
 "en" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/corner/opaque/yellow{
@@ -753,6 +744,7 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/camera/autoname/directional/east,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/external/dark)
 "fQ" = (
@@ -765,6 +757,10 @@
 /obj/item/reagent_containers/food/drinks/mug{
 	pixel_x = -8;
 	pixel_y = 8
+	},
+/obj/item/radio/intercom/directional/south{
+	pixel_x = 6;
+	pixel_y = -31
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew)
@@ -1236,9 +1232,7 @@
 	dir = 8
 	},
 /obj/structure/chair/handrail,
-/obj/structure/noticeboard{
-	pixel_y = 28
-	},
+/obj/structure/noticeboard/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
 	},
@@ -1272,6 +1266,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/machinery/camera/directional/west,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "jY" = (
@@ -1511,9 +1506,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/camera/autoname{
-	dir = 10
-	},
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
 "kR" = (
@@ -1808,7 +1801,7 @@
 	pixel_y = -5
 	},
 /obj/item/storage/pouch/engi,
-/obj/item/clothing/gloves/color/yellow{
+/obj/item/clothing/gloves/insulated{
 	pixel_y = -8
 	},
 /obj/item/clothing/glasses/welding{
@@ -1919,9 +1912,7 @@
 	pixel_x = 20;
 	pixel_y = 12
 	},
-/obj/machinery/camera/autoname{
-	dir = 9
-	},
+/obj/machinery/camera/autoname/directional/east,
 /turf/open/floor/plating,
 /area/ship/hangar)
 "mL" = (
@@ -2676,9 +2667,7 @@
 /area/ship/security)
 "ry" = (
 /obj/structure/chair,
-/obj/structure/noticeboard{
-	pixel_y = 28
-	},
+/obj/structure/noticeboard/directional/north,
 /obj/effect/turf_decal/corner/opaque/yellow{
 	dir = 1
 	},
@@ -2826,9 +2815,7 @@
 /area/ship/engineering/engines/starboard)
 "sC" = (
 /obj/machinery/light/directional/north,
-/obj/machinery/camera/autoname{
-	dir = 6
-	},
+/obj/machinery/camera/autoname/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/chair/plastic{
@@ -2869,10 +2856,7 @@
 /obj/effect/turf_decal/corner/opaque/brown{
 	dir = 4
 	},
-/obj/structure/noticeboard{
-	dir = 8;
-	pixel_x = 25
-	},
+/obj/structure/noticeboard/directional/east,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "sU" = (
@@ -2983,7 +2967,7 @@
 	pixel_y = -8;
 	pixel_x = -5
 	},
-/obj/item/clothing/gloves/color/latex/nitrile/inteq{
+/obj/item/clothing/gloves/nitrile/inteq{
 	pixel_x = 5;
 	pixel_y = -10
 	},
@@ -3261,9 +3245,6 @@
 	dir = 9
 	},
 /obj/machinery/light/directional/south,
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
@@ -3427,9 +3408,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
 	},
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/cryo)
 "vB" = (
@@ -3764,10 +3743,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
-/obj/structure/noticeboard{
-	dir = 1;
-	pixel_y = -25
-	},
+/obj/structure/noticeboard/directional/south,
 /obj/item/paper/guides/jobs/engi/combustion_thruster{
 	pixel_y = -8;
 	pixel_x = 8
@@ -4031,19 +4007,6 @@
 	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
-"zi" = (
-/obj/effect/turf_decal/siding/thinplating{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/opaque/yellow/line{
-	dir = 8
-	},
-/obj/machinery/light/directional/west,
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
-/turf/open/floor/plasteel/patterned/grid,
-/area/ship/hallway/central)
 "zl" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4163,9 +4126,7 @@
 	pixel_x = -7
 	},
 /obj/item/ammo_casing/spent/pistol_brass,
-/obj/machinery/camera/autoname{
-	dir = 6
-	},
+/obj/machinery/camera/autoname/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/industrial/traffic/corner,
 /turf/open/floor/plasteel/patterned/grid/dark,
@@ -4208,7 +4169,7 @@
 /area/ship/bridge)
 "zX" = (
 /obj/machinery/light/small/directional/north,
-/obj/machinery/camera/autoname,
+/obj/machinery/camera/autoname/directional/north,
 /obj/effect/turf_decal/trimline/opaque/yellow/line{
 	dir = 1
 	},
@@ -4347,9 +4308,7 @@
 /area/ship/external/dark)
 "AQ" = (
 /obj/machinery/light/directional/south,
-/obj/machinery/camera/autoname{
-	dir = 10
-	},
+/obj/machinery/camera/autoname/directional/south,
 /obj/structure/crate_shelf,
 /obj/structure/closet/crate/secure/gear{
 	name = "training equipment crate"
@@ -4501,9 +4460,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/components/binary/valve/layer4,
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/engine/hull/reinforced,
 /area/ship/external/dark)
 "BJ" = (
@@ -4785,11 +4742,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/light_switch{
-	dir = 4;
-	pixel_x = -20;
-	pixel_y = -10
-	},
+/obj/machinery/camera/directional/west,
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hallway/central)
 "Dp" = (
@@ -4858,9 +4811,7 @@
 	pixel_x = -20;
 	pixel_y = 12
 	},
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
+/obj/machinery/camera/autoname/directional/west,
 /obj/effect/turf_decal/steeldecal/steel_decals_central7,
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hallway/central)
@@ -5055,9 +5006,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
 	},
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
+/obj/machinery/camera/autoname/directional/south,
 /obj/machinery/firealarm/directional/south{
 	pixel_x = -2
 	},
@@ -5138,7 +5087,6 @@
 /obj/effect/turf_decal/trimline/opaque/yellow/line{
 	dir = 1
 	},
-/obj/machinery/camera/autoname,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -5150,7 +5098,7 @@
 /area/ship/hangar)
 "Gf" = (
 /obj/machinery/pipedispenser,
-/obj/structure/sign/poster/contraband/inteq_nt{
+/obj/structure/sign/poster/contraband/inteq_warra{
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/tech/grid,
@@ -5293,6 +5241,16 @@
 "Gx" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/crew/cryo)
+"GA" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/yellow/line{
+	dir = 8
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ship/hallway/central)
 "GG" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
@@ -5514,9 +5472,6 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/external/dark)
 "HB" = (
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 34
-	},
 /obj/effect/turf_decal/corner/opaque/yellow{
 	dir = 1
 	},
@@ -5527,6 +5482,10 @@
 	dir = 4
 	},
 /obj/item/radio/intercom/directional/north,
+/obj/machinery/computer/security/telescreen/entertainment/wall/directional/north{
+	pixel_x = 0;
+	pixel_y = 38
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "HJ" = (
@@ -5559,10 +5518,7 @@
 	pixel_y = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/noticeboard{
-	dir = 1;
-	pixel_y = -25
-	},
+/obj/structure/noticeboard/directional/south,
 /obj/item/spacecash/bundle/c1000{
 	pixel_x = 10;
 	pixel_y = 8
@@ -5682,9 +5638,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "IC" = (
-/obj/machinery/camera/autoname{
-	dir = 10
-	},
+/obj/machinery/camera/autoname/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/plasma,
 /obj/structure/cable/yellow{
@@ -6010,6 +5964,12 @@
 "Kl" = (
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /obj/machinery/door/airlock/external,
+/obj/docking_port/mobile{
+	dir = 2;
+	launch_status = 0;
+	port_direction = 8;
+	preferred_direction = 4
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/external/dark)
 "Ko" = (
@@ -6154,9 +6114,6 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/camera/autoname{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/external/dark)
@@ -6221,11 +6178,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/table,
-/obj/structure/noticeboard{
-	dir = 8;
-	pixel_x = 25;
-	pixel_y = -15
-	},
+/obj/structure/noticeboard/directional/east,
 /obj/item/paper/fluff{
 	default_raw_text = "Artificer's Note: If the powergrid seems drawn suspiciously thin, check the SMES input settings. One is dedicated to the Thunder shuttle, which should be kept on a low input.";
 	name = "paper note";
@@ -6292,6 +6245,7 @@
 	pixel_y = -10
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/camera/directional/south,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
 "Mo" = (
@@ -6437,6 +6391,10 @@
 	pixel_y = -5
 	},
 /obj/item/radio/headset/inteq/alt,
+/obj/item/clothing/suit/toggle/flight/inteq{
+	pixel_x = -10;
+	pixel_y = -8
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/dorm/dormtwo)
 "MQ" = (
@@ -7170,7 +7128,6 @@
 /obj/item/tank/internals/oxygen/yellow,
 /obj/item/clothing/suit/space/hardsuit/security/inteq,
 /obj/item/clothing/mask/gas/inteq,
-/obj/machinery/camera/autoname,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/machinery/light_switch{
@@ -7181,6 +7138,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/machinery/camera/directional/west,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/storage/equip)
 "RS" = (
@@ -7204,6 +7162,10 @@
 /obj/item/kirbyplants{
 	icon_state = "plant-24";
 	pixel_y = 18
+	},
+/obj/machinery/light_switch{
+	pixel_x = -12;
+	pixel_y = 21
 	},
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hallway/central)
@@ -8082,9 +8044,7 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/west,
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hallway/central)
 "VO" = (
@@ -8111,9 +8071,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
-/obj/machinery/camera/autoname{
-	dir = 6
-	},
+/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/ship/engineering/engines/port)
 "VS" = (
@@ -8685,23 +8643,19 @@
 	},
 /obj/item/bodycamera{
 	pixel_y = 6;
-	pixel_x = -9
+	pixel_x = -6
 	},
 /obj/item/bodycamera{
 	pixel_y = 2;
-	pixel_x = -9
+	pixel_x = -6
 	},
 /obj/item/bodycamera{
 	pixel_y = 6;
-	pixel_x = 1
+	pixel_x = 7
 	},
 /obj/item/bodycamera{
 	pixel_y = 2;
-	pixel_x = 1
-	},
-/obj/item/multitool{
-	pixel_x = 10;
-	pixel_y = 5
+	pixel_x = 7
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
@@ -8721,9 +8675,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/power/apc/auto_name/directional/west,
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -8806,37 +8757,6 @@
 (1,1,1) = {"
 re
 re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-"}
-(2,1,1) = {"
-re
-re
 vm
 hU
 hU
@@ -8863,9 +8783,8 @@ NR
 NR
 sy
 re
-re
 "}
-(3,1,1) = {"
+(2,1,1) = {"
 re
 re
 vm
@@ -8894,9 +8813,8 @@ cV
 cV
 sy
 re
-re
 "}
-(4,1,1) = {"
+(3,1,1) = {"
 re
 re
 vm
@@ -8925,9 +8843,8 @@ Jc
 QW
 sy
 re
-re
 "}
-(5,1,1) = {"
+(4,1,1) = {"
 re
 vm
 vm
@@ -8956,9 +8873,8 @@ YQ
 lf
 sy
 sy
-re
 "}
-(6,1,1) = {"
+(5,1,1) = {"
 re
 vm
 pD
@@ -8987,9 +8903,8 @@ AL
 bH
 hT
 sy
-re
 "}
-(7,1,1) = {"
+(6,1,1) = {"
 re
 vm
 Oa
@@ -9018,9 +8933,8 @@ Om
 gf
 zQ
 sy
-re
 "}
-(8,1,1) = {"
+(7,1,1) = {"
 re
 vm
 VP
@@ -9049,9 +8963,8 @@ zr
 nB
 IC
 sy
-re
 "}
-(9,1,1) = {"
+(8,1,1) = {"
 re
 vm
 ZK
@@ -9080,9 +8993,8 @@ ys
 Fp
 lC
 sy
-re
 "}
-(10,1,1) = {"
+(9,1,1) = {"
 re
 vm
 ey
@@ -9111,9 +9023,8 @@ PH
 Gk
 vc
 sy
-re
 "}
-(11,1,1) = {"
+(10,1,1) = {"
 re
 vm
 QU
@@ -9142,9 +9053,8 @@ cA
 qo
 qK
 sy
-re
 "}
-(12,1,1) = {"
+(11,1,1) = {"
 re
 vm
 mI
@@ -9173,9 +9083,8 @@ yP
 Bb
 nQ
 sy
-re
 "}
-(13,1,1) = {"
+(12,1,1) = {"
 re
 vm
 vm
@@ -9204,9 +9113,8 @@ sy
 VW
 sy
 sy
-re
 "}
-(14,1,1) = {"
+(13,1,1) = {"
 re
 re
 XD
@@ -9235,9 +9143,8 @@ yF
 Lo
 nE
 re
-re
 "}
-(15,1,1) = {"
+(14,1,1) = {"
 re
 re
 XD
@@ -9266,9 +9173,8 @@ JH
 Kd
 nE
 re
-re
 "}
-(16,1,1) = {"
+(15,1,1) = {"
 re
 re
 XD
@@ -9297,9 +9203,8 @@ nb
 bl
 nE
 re
-re
 "}
-(17,1,1) = {"
+(16,1,1) = {"
 re
 re
 XD
@@ -9328,9 +9233,8 @@ LT
 Ti
 nE
 re
-re
 "}
-(18,1,1) = {"
+(17,1,1) = {"
 re
 re
 XD
@@ -9359,9 +9263,8 @@ nE
 nE
 nE
 re
-re
 "}
-(19,1,1) = {"
+(18,1,1) = {"
 re
 re
 re
@@ -9390,9 +9293,8 @@ re
 re
 re
 re
-re
 "}
-(20,1,1) = {"
+(19,1,1) = {"
 re
 re
 re
@@ -9421,9 +9323,8 @@ Vu
 Vu
 re
 re
-re
 "}
-(21,1,1) = {"
+(20,1,1) = {"
 re
 al
 al
@@ -9452,9 +9353,8 @@ KB
 Vu
 Vu
 Vu
-re
 "}
-(22,1,1) = {"
+(21,1,1) = {"
 re
 RS
 TR
@@ -9483,9 +9383,8 @@ dx
 IB
 jT
 wL
-re
 "}
-(23,1,1) = {"
+(22,1,1) = {"
 re
 RS
 WV
@@ -9514,9 +9413,8 @@ FD
 Hy
 lv
 wL
-re
 "}
-(24,1,1) = {"
+(23,1,1) = {"
 re
 vK
 hZ
@@ -9545,9 +9443,8 @@ Ch
 Ch
 yi
 cJ
-re
 "}
-(25,1,1) = {"
+(24,1,1) = {"
 re
 RS
 oX
@@ -9576,9 +9473,8 @@ Ch
 DC
 aK
 wL
-re
 "}
-(26,1,1) = {"
+(25,1,1) = {"
 re
 RS
 CS
@@ -9588,7 +9484,7 @@ rS
 iT
 Dm
 aH
-VJ
+GA
 Ko
 OL
 Sx
@@ -9598,7 +9494,7 @@ GU
 Sx
 jD
 Ko
-zi
+VJ
 ML
 AT
 mU
@@ -9607,9 +9503,8 @@ Ch
 wB
 MQ
 wL
-re
 "}
-(27,1,1) = {"
+(26,1,1) = {"
 re
 al
 al
@@ -9638,10 +9533,9 @@ XT
 pI
 uZ
 cJ
-re
 "}
-(28,1,1) = {"
-ef
+(27,1,1) = {"
+dQ
 Kl
 xt
 dT
@@ -9669,9 +9563,8 @@ As
 dr
 kG
 wL
-re
 "}
-(29,1,1) = {"
+(28,1,1) = {"
 re
 HA
 kR
@@ -9700,9 +9593,8 @@ sE
 pE
 JX
 wL
-re
 "}
-(30,1,1) = {"
+(29,1,1) = {"
 re
 KF
 wJ
@@ -9731,9 +9623,8 @@ Vu
 Vu
 Vu
 rC
-re
 "}
-(31,1,1) = {"
+(30,1,1) = {"
 re
 re
 wJ
@@ -9762,9 +9653,8 @@ ye
 Zn
 nZ
 re
-re
 "}
-(32,1,1) = {"
+(31,1,1) = {"
 re
 re
 zn
@@ -9793,9 +9683,8 @@ HQ
 qB
 nZ
 re
-re
 "}
-(33,1,1) = {"
+(32,1,1) = {"
 re
 re
 wJ
@@ -9824,9 +9713,8 @@ IJ
 yw
 nZ
 re
-re
 "}
-(34,1,1) = {"
+(33,1,1) = {"
 re
 re
 vs
@@ -9855,9 +9743,8 @@ ES
 RF
 nZ
 re
-re
 "}
-(35,1,1) = {"
+(34,1,1) = {"
 re
 re
 Ha
@@ -9886,9 +9773,8 @@ BJ
 Gu
 CB
 re
-re
 "}
-(36,1,1) = {"
+(35,1,1) = {"
 re
 re
 DR
@@ -9917,9 +9803,8 @@ vI
 nZ
 CB
 re
-re
 "}
-(37,1,1) = {"
+(36,1,1) = {"
 re
 re
 DW
@@ -9948,9 +9833,8 @@ zH
 Mk
 Sz
 re
-re
 "}
-(38,1,1) = {"
+(37,1,1) = {"
 re
 re
 TB
@@ -9979,9 +9863,8 @@ TV
 vF
 Sz
 re
-re
 "}
-(39,1,1) = {"
+(38,1,1) = {"
 re
 re
 vs
@@ -10010,9 +9893,8 @@ GN
 GN
 GN
 re
-re
 "}
-(40,1,1) = {"
+(39,1,1) = {"
 re
 re
 re
@@ -10041,9 +9923,8 @@ re
 re
 re
 re
-re
 "}
-(41,1,1) = {"
+(40,1,1) = {"
 re
 re
 re
@@ -10058,9 +9939,38 @@ re
 re
 rK
 Cb
-dQ
+va
 VZ
 yB
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+"}
+(41,1,1) = {"
+re
+re
+re
+lI
+re
+Fg
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
 re
 re
 re
@@ -10078,72 +9988,9 @@ re
 re
 re
 re
-lI
-re
-Fg
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-"}
-(43,1,1) = {"
-re
-re
-re
 re
 re
 lI
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-re
-"}
-(44,1,1) = {"
-re
-re
-re
-re
-re
-re
-re
 re
 re
 re

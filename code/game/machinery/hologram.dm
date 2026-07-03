@@ -30,6 +30,7 @@ Possible to do for anyone motivated enough:
 /obj/machinery/holopad
 	name = "holopad"
 	desc = "It's a floor-mounted device for projecting holographic images."
+	icon = 'icons/obj/machines/holopad.dmi'
 	icon_state = "holopad0"
 	base_icon_state = "holopad"
 	layer = LOW_OBJ_LAYER
@@ -182,7 +183,7 @@ Possible to do for anyone motivated enough:
 	if(in_range(user, src) || isobserver(user))
 		. += span_notice("The status display reads: Current projection range: <b>[holo_range]</b> units.")
 		if(caller_history)
-			. += span_notice("The caller history displays the last recieved call to be from: [caller_history].")
+			. += span_notice("The caller history indicates the last call received was from: [caller_history].")
 
 /obj/machinery/holopad/attackby(obj/item/P, mob/user, params)
 	if(default_deconstruction_screwdriver(user, "holopad_open", "holopad0", P))
