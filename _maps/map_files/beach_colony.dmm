@@ -11,40 +11,32 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "bt" = (
 /obj/structure/flora/ausbushes/leafybush,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "bO" = (
 /turf/closed/wall/mineral/sandstone,
 /area/ruin/unpowered)
-"cr" = (
-/obj/item/reagent_containers/food/snacks/kebab/rat/double,
-/turf/open/floor/plating/grass/beach/lit,
-/area/overmap_encounter/planetoid/beachplanet/explored)
 "cC" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "cS" = (
 /obj/structure/flora/ausbushes/fernybush,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "dE" = (
 /obj/item/seeds/cocoapod,
-/turf/open/floor/plating/dirt/jungle{
-	light_range = 2
-	},
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "dH" = (
 /obj/structure/fence{
 	icon_state = "corner"
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "fd" = (
 /obj/item/cultivator/rake,
-/turf/open/floor/plating/dirt/jungle{
-	light_range = 2
-	},
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "fj" = (
 /obj/item/storage/cans/sixbeer,
@@ -55,10 +47,6 @@
 "fC" = (
 /obj/structure/flora/tree/palm,
 /turf/open/floor/plating/asteroid/sand/lit,
-/area/overmap_encounter/planetoid/beachplanet/explored)
-"gn" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/open/floor/plating/grass/beach/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "gv" = (
 /obj/structure/fluff/beach_umbrella/cap,
@@ -73,18 +61,17 @@
 	dir = 5;
 	icon_state = "corner"
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "iJ" = (
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/item/melee/roastingstick,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "kd" = (
 /obj/effect/mob_spawn/human/corpse/pirate,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "kV" = (
 /obj/effect/decal/cleanable/crayon{
@@ -100,7 +87,7 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "lD" = (
 /obj/structure/fence,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "mt" = (
 /turf/open/floor/wood,
@@ -124,17 +111,14 @@
 /obj/structure/fence{
 	icon_state = "door_closed"
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "nB" = (
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "on" = (
 /obj/structure/table/wood,
-/obj/item/clothing/glasses/sunglasses/garb{
-	pixel_y = -5
-	},
 /obj/item/clothing/glasses/sunglasses/big{
 	pixel_y = 9
 	},
@@ -144,7 +128,7 @@
 /obj/structure/chair/plastic{
 	dir = 4
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "pv" = (
 /turf/open/floor/plating/asteroid/sand/lit{
@@ -158,11 +142,11 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "pU" = (
 /obj/structure/fluff/fokoff_sign,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "pY" = (
 /obj/structure/bonfire/prelit,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "qq" = (
 /obj/effect/overlay/coconut,
@@ -170,7 +154,7 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "qG" = (
 /obj/item/clothing/suit/space/hardsuit/carp/old,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "qP" = (
 /obj/structure/window/reinforced{
@@ -211,9 +195,6 @@
 	desc = "Beer advertised to be the best in space.";
 	name = "Masterbrand Beer"
 	},
-/obj/item/reagent_containers/food/drinks/beer/light,
-/obj/item/reagent_containers/food/drinks/beer/light,
-/obj/item/reagent_containers/food/drinks/beer/light,
 /turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "uw" = (
@@ -247,7 +228,7 @@
 /area/ruin/unpowered)
 "xK" = (
 /obj/structure/chair/plastic,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "xT" = (
 /obj/item/stack/sheet/sandblock,
@@ -299,7 +280,7 @@
 /obj/structure/fence{
 	dir = 4
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "EC" = (
 /obj/item/toy/beach_ball/holoball/dodgeball,
@@ -315,20 +296,18 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "FW" = (
 /mob/living/simple_animal/hostile/carp,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Gh" = (
 /obj/structure/fence{
 	dir = 9;
 	icon_state = "corner"
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Hg" = (
 /obj/machinery/hydroponics/soil,
-/turf/open/floor/plating/dirt/jungle{
-	light_range = 2
-	},
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "IV" = (
 /obj/item/stack/ore/glass/beach,
@@ -336,23 +315,16 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Ja" = (
 /obj/structure/flora/tree/jungle/small,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Jb" = (
 /obj/item/seeds/cocoapod/vanillapod,
-/turf/open/floor/plating/dirt/jungle{
-	light_range = 2
-	},
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "JX" = (
 /obj/machinery/door/airlock/sandstone,
 /turf/open/floor/wood,
 /area/ruin/unpowered)
-"KA" = (
-/turf/open/floor/plating/dirt/jungle{
-	light_range = 2
-	},
-/area/overmap_encounter/planetoid/beachplanet/explored)
 "KM" = (
 /turf/template_noop,
 /area/template_noop)
@@ -369,9 +341,7 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "ML" = (
 /obj/item/reagent_containers/glass/bucket/wooden,
-/turf/open/floor/plating/dirt/jungle{
-	light_range = 2
-	},
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Nl" = (
 /obj/item/toy/seashell,
@@ -396,17 +366,9 @@
 /obj/structure/closet/cabinet,
 /obj/item/storage/backpack/duffelbag,
 /obj/item/clothing/under/shorts/purple,
-/obj/item/clothing/shoes/cookflops{
-	desc = "A very fashionable pair of flip flops.";
-	name = "flip-flops"
-	},
 /obj/item/clothing/neck/beads,
 /obj/item/clothing/under/color/red,
 /obj/item/clothing/under/color/white,
-/turf/open/floor/wood,
-/area/ruin/unpowered)
-"Oa" = (
-/obj/item/melee/skateboard/pro,
 /turf/open/floor/wood,
 /area/ruin/unpowered)
 "Om" = (
@@ -414,41 +376,34 @@
 	dir = 10;
 	icon_state = "corner"
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Pd" = (
 /obj/item/grown/log/tree,
 /obj/item/grown/log/tree,
 /obj/item/grown/log/tree,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Px" = (
 /obj/structure/chair/plastic{
 	dir = 1
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Qf" = (
 /turf/open/floor/concrete/slab_1{
 	light_range = 2
 	},
 /area/overmap_encounter/planetoid/beachplanet/explored)
-"RK" = (
-/obj/item/toy/beach_ball/holoball/dodgeball,
-/obj/item/melee/skateboard/hoverboard,
-/turf/open/floor/plating/asteroid/sand/lit,
-/area/overmap_encounter/planetoid/beachplanet/explored)
 "RM" = (
 /obj/structure/sink/puddle,
-/turf/open/floor/plating/dirt/jungle{
-	light_range = 2
-	},
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "RV" = (
 /obj/structure/chair/plastic{
 	dir = 8
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "SS" = (
 /turf/open/floor/carpet/red{
@@ -457,7 +412,7 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Te" = (
 /obj/structure/railing,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Tr" = (
 /obj/item/reagent_containers/food/drinks/colocup{
@@ -480,7 +435,7 @@
 /obj/structure/fence{
 	dir = 4
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "TZ" = (
 /turf/open/floor/carpet/purple{
@@ -490,21 +445,9 @@
 "US" = (
 /turf/open/water/beach,
 /area/overmap_encounter/planetoid/beachplanet/explored)
-"Vn" = (
-/turf/open/floor/plating/grass/beach{
-	light_range = 2
-	},
-/area/overmap_encounter/planetoid/beachplanet/explored)
 "Vx" = (
 /obj/structure/table/rolling,
-/obj/item/reagent_containers/food/snacks/kebab/fiesta,
-/obj/item/reagent_containers/food/snacks/kebab/fiesta{
-	pixel_y = 7
-	},
-/obj/item/reagent_containers/food/snacks/kebab/fiesta{
-	pixel_y = 13
-	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "VG" = (
 /obj/item/reagent_containers/spray/cleaner,
@@ -516,31 +459,22 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Wq" = (
-/turf/open/floor/plating/grass/beach/lit,
-/area/overmap_encounter/planetoid/beachplanet/explored)
-"Ww" = (
-/obj/item/melee/roastingstick,
-/turf/open/floor/plating/grass/beach/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Xd" = (
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Xe" = (
 /obj/item/storage/cans/sixbeer,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Xh" = (
 /obj/item/reagent_containers/glass/bucket,
-/turf/open/floor/plating/asteroid/sand/lit,
-/area/overmap_encounter/planetoid/beachplanet/explored)
-"Xo" = (
-/obj/structure/statue/sandstone/assistant,
 /turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Xr" = (
@@ -577,7 +511,7 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "ZA" = (
 /obj/structure/flora/junglebush/large,
-/turf/open/floor/plating/grass/beach/lit,
+/turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "ZI" = (
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -590,19 +524,19 @@ KM
 KM
 KM
 KM
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-Vn
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
 KM
 KM
 KM
@@ -625,21 +559,21 @@ bO
 bO
 bO
 bO
-Wq
+ZI
 cC
-Wq
+ZI
 Hg
 Hg
 dE
 Jb
 Hg
 Hg
-Wq
-Wq
-gn
+ZI
+ZI
+Xr
 nB
-Wq
-Wq
+ZI
+ZI
 KM
 KM
 KM
@@ -653,28 +587,28 @@ KM
 bO
 NL
 mt
-Oa
+mt
 bO
 mI
 JX
-Wq
-Wq
+ZI
+ZI
 Hg
-KA
-KA
+ZI
+ZI
 ML
 RM
-KA
-KA
+ZI
+ZI
 Hg
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
 ZA
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
 Ja
 KM
 KM
@@ -689,25 +623,25 @@ bO
 bO
 bO
 bO
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
 Hg
 Hg
-KA
+ZI
 fd
 Hg
 Hg
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
 cS
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
 Wq
 KM
 "}
@@ -718,29 +652,29 @@ mt
 mt
 mt
 JX
-Wq
-Wq
-Wq
-Wq
-gn
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
+Xr
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
 bt
-Wq
-gn
-Wq
+ZI
+Xr
+ZI
 Xe
 pp
-Wq
-cr
-Wq
+ZI
+ZI
+ZI
 KM
 "}
 (6,1,1) = {"
@@ -750,29 +684,29 @@ rD
 on
 rD
 bO
-Wq
+ZI
 cC
-Wq
+ZI
 bt
-Wq
+ZI
 ZI
 Xr
 ZI
 ZI
 ZI
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
 Xd
-Wq
+ZI
 Px
-Wq
+ZI
 KM
 "}
 (7,1,1) = {"
@@ -782,9 +716,6 @@ bO
 wf
 bO
 bO
-Wq
-Wq
-Wq
 ZI
 ZI
 ZI
@@ -795,25 +726,28 @@ ZI
 ZI
 ZI
 ZI
-Wq
-Wq
-Wq
-gn
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
+Xr
 xK
 Te
 pY
 iJ
 Pd
-Wq
+ZI
 KM
 "}
 (8,1,1) = {"
 KM
 ZA
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
 ZI
 Zz
 ZI
@@ -828,22 +762,22 @@ ZI
 Xr
 ZI
 ZI
-Wq
-Wq
-Wq
-Wq
-Ww
+ZI
+ZI
+ZI
+ZI
+ZI
 VX
-Wq
+ZI
 Px
-Wq
+ZI
 KM
 "}
 (9,1,1) = {"
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
 ZI
 ZI
 ZI
@@ -862,25 +796,34 @@ ZI
 ZI
 Zz
 ZI
-Vn
-Vn
+ZI
+ZI
 RV
-Wq
+ZI
 Vx
-Wq
-Wq
+ZI
+ZI
 KM
 "}
 (10,1,1) = {"
-Wq
+ZI
 cS
-Wq
 ZI
 ZI
 ZI
 ZI
 ZI
-RK
+ZI
+EC
+ZI
+ZI
+ZI
+Xr
+ZI
+ZI
+ZI
+ZI
+Xr
 ZI
 ZI
 ZI
@@ -889,24 +832,15 @@ ZI
 ZI
 ZI
 ZI
-Xr
-ZI
-ZI
 ZI
 Xr
-Vn
-Vn
-Wq
-Wq
-Wq
-gn
-Wq
+ZI
 KM
 "}
 (11,1,1) = {"
 Ja
-Wq
-Wq
+ZI
+ZI
 ZI
 ZI
 ZI
@@ -926,8 +860,8 @@ ZI
 ZI
 ZI
 ZI
-Wq
-Wq
+ZI
+ZI
 cC
 Gh
 lD
@@ -936,9 +870,9 @@ Om
 Wq
 "}
 (12,1,1) = {"
-Wq
-Wq
-gn
+ZI
+ZI
+Xr
 Zz
 ZI
 ZI
@@ -958,18 +892,18 @@ Zz
 ZI
 ZI
 ZI
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
 TW
 FW
 cS
 TW
-Wq
+ZI
 "}
 (13,1,1) = {"
-Wq
-Wq
+ZI
+ZI
 ZI
 ZI
 ZI
@@ -990,18 +924,18 @@ ZI
 pv
 IV
 ZI
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
 TW
-Wq
+ZI
 FW
 TW
 pU
 "}
 (14,1,1) = {"
 ZA
-Wq
+ZI
 ZI
 ZI
 ZI
@@ -1021,19 +955,19 @@ ZI
 ZI
 Xh
 nl
-pv
 ZI
-Wq
-Wq
+ZI
+ZI
+ZI
 TW
 qG
-Wq
+ZI
 ns
-Wq
+ZI
 "}
 (15,1,1) = {"
 cS
-Wq
+ZI
 Zz
 ZI
 ZI
@@ -1056,16 +990,16 @@ pv
 IV
 ZI
 nB
-Wq
+ZI
 TW
-Wq
+ZI
 cC
 TW
-Wq
+ZI
 "}
 (16,1,1) = {"
-Wq
-Wq
+ZI
+ZI
 ZI
 ZI
 ZI
@@ -1083,12 +1017,12 @@ US
 US
 US
 ZI
-Xo
+ZI
 xT
 ZI
 ZI
 Xr
-Wq
+ZI
 TW
 FW
 kd
@@ -1096,8 +1030,8 @@ EB
 ZA
 "}
 (17,1,1) = {"
-Wq
-Wq
+ZI
+ZI
 Zz
 ZI
 ZI
@@ -1120,15 +1054,15 @@ ZI
 lr
 ZI
 ZI
-Wq
+ZI
 hQ
 lD
 lD
 dH
-Wq
+ZI
 "}
 (18,1,1) = {"
-Wq
+ZI
 ZI
 ZI
 ZI
@@ -1152,12 +1086,12 @@ EC
 ZI
 ZI
 ZI
-gn
-Wq
-Wq
-Wq
-Wq
-Wq
+Xr
+ZI
+ZI
+ZI
+ZI
+ZI
 "}
 (19,1,1) = {"
 Xr
@@ -1184,12 +1118,12 @@ ZI
 ZI
 EC
 ZI
-Wq
+ZI
 bt
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
 "}
 (20,1,1) = {"
 ZI
@@ -1216,12 +1150,12 @@ ZI
 ZI
 ZI
 ZI
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
+ZI
+ZI
 "}
 (21,1,1) = {"
 ZI
@@ -1248,12 +1182,12 @@ hh
 hh
 hh
 ZI
-Wq
-Wq
+ZI
+ZI
 Ja
-Wq
+ZI
 cS
-Wq
+ZI
 "}
 (22,1,1) = {"
 KM
@@ -1407,7 +1341,7 @@ fC
 qq
 ZI
 ZI
-Wq
+ZI
 Qf
 Qf
 Qf
@@ -1439,11 +1373,11 @@ ZI
 ZI
 ZI
 ZI
-Wq
+ZI
 cC
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
 KM
 KM
 "}
@@ -1470,11 +1404,11 @@ ZI
 ZI
 ZI
 ZI
-Wq
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
+ZI
 ZA
 KM
 KM
@@ -1502,11 +1436,11 @@ ZI
 ZI
 ZI
 Xr
-Wq
-Wq
-Wq
-Wq
-Wq
+ZI
+ZI
+ZI
+ZI
+ZI
 KM
 KM
 KM
@@ -1532,10 +1466,10 @@ ZI
 ZI
 ZI
 ZI
-Wq
-Wq
-Wq
-gn
+ZI
+ZI
+ZI
+Xr
 KM
 KM
 KM
