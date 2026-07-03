@@ -1446,7 +1446,8 @@
 /obj/docking_port/stationary{
 	height = 7;
 	width = 19;
-	dwidth = 9
+	dwidth = 9;
+	adjust_dock_for_landing = 1
 	},
 /turf/open/floor/concrete{
 	light_range = 2
