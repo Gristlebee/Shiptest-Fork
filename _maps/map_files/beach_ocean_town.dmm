@@ -12,20 +12,20 @@
 	pixel_y = 28
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ar" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/light/small/directional/north,
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "as" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/plasteel/grimy,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "aA" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/railing/wood,
@@ -42,13 +42,13 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "aP" = (
 /obj/structure/table,
 /obj/machinery/paystand,
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "aR" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -60,13 +60,13 @@
 "bb" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "bf" = (
 /obj/structure/chair/wood{
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "bj" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -86,7 +86,7 @@
 /obj/structure/table,
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "bD" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -109,7 +109,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "cs" = (
 /obj/structure/railing/wood{
 	dir = 8
@@ -128,7 +128,7 @@
 	},
 /obj/structure/chair/comfy/orange/directional/west,
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "cy" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -141,26 +141,26 @@
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "cA" = (
 /obj/effect/spawner/structure/window,
 /obj/structure/curtain/cloth,
 /turf/open/floor/plating,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "cE" = (
 /obj/structure/toilet{
 	pixel_y = 13
 	},
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "cN" = (
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "cR" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "cW" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/effect/turf_decal/siding/wood/corner{
@@ -176,7 +176,7 @@
 "df" = (
 /obj/structure/table,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "dl" = (
 /obj/structure/railing/corner/wood{
 	dir = 1
@@ -194,14 +194,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "dF" = (
 /obj/structure/chair/sofa/brown/directional/east,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "dT" = (
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "dU" = (
 /obj/structure/fence,
 /turf/open/floor/concrete/slab_1{
@@ -212,11 +212,11 @@
 /obj/structure/table/wood,
 /obj/item/storage/fancy/candle_box,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ed" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "eh" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -233,7 +233,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ek" = (
 /turf/open/floor/plating/asteroid/dirt/grass/dark,
 /area/overmap_encounter/planetoid/beachplanet/explored)
@@ -242,7 +242,7 @@
 /obj/item/paper_bin/bundlenatural,
 /obj/item/pen/fourcolor,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "em" = (
 /obj/structure/table,
 /obj/machinery/paystand,
@@ -250,7 +250,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "eB" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 9
@@ -272,7 +272,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "eJ" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -285,7 +285,7 @@
 	},
 /obj/structure/curtain,
 /turf/open/floor/plasteel/mono,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "eM" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -293,11 +293,11 @@
 "eN" = (
 /obj/structure/chair/sofa/brown/corner/directional/north,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "fh" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "fp" = (
 /obj/structure/railing/wood,
 /turf/open/water/beach,
@@ -345,18 +345,18 @@
 "fJ" = (
 /obj/structure/chair/sofa/brown/corner/directional/east,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "fL" = (
 /obj/structure/table,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "fV" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "fZ" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/cabbage,
@@ -379,15 +379,15 @@
 	},
 /obj/item/pizzabox/meat,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "gi" = (
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "gp" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "gu" = (
 /obj/effect/turf_decal/sand/plating{
 	light_range = 2
@@ -423,7 +423,7 @@
 "gX" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "gZ" = (
 /obj/machinery/door/window{
 	dir = 4
@@ -432,7 +432,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "hb" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -442,7 +442,7 @@
 "hc" = (
 /obj/machinery/autolathe,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "hl" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -460,11 +460,11 @@
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "hG" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "hL" = (
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/brflowers,
@@ -510,7 +510,7 @@
 	name = "Hotel"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ij" = (
 /obj/item/chisel,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -520,7 +520,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "in" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -534,29 +534,29 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "iu" = (
 /obj/structure/bed,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "iv" = (
 /obj/structure/chair/sofa/brown/left/directional/south,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "iy" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/food_or_drink/donut/slimejelly,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "iz" = (
 /obj/machinery/jukebox,
 /turf/open/floor/light,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "iC" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/plating/asteroid/dirt/grass,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "iO" = (
 /obj/structure/railing/corner/wood{
 	dir = 8
@@ -572,7 +572,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "jv" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/plating/asteroid/dirt/grass,
@@ -580,7 +580,7 @@
 "jG" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "jL" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/peas,
@@ -595,7 +595,7 @@
 /obj/effect/spawner/random/food_or_drink/donut/jelly,
 /obj/effect/spawner/random/food_or_drink/donut/jelly,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "jY" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/tower,
@@ -617,7 +617,7 @@
 "km" = (
 /obj/structure/closet/athletic_mixed,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "kn" = (
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/plating/asteroid/dirt/grass,
@@ -627,7 +627,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "kw" = (
 /obj/structure/sink{
 	dir = 8;
@@ -639,14 +639,14 @@
 	pixel_y = -3
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "kD" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/blue,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "kE" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -669,7 +669,7 @@
 	set_obj_flags = "EMAGGED"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "kI" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -693,7 +693,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "kW" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "General Store";
@@ -703,7 +703,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "lb" = (
 /obj/machinery/door/airlock/wood{
 	name = "Beach Bar"
@@ -711,15 +711,15 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "lc" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "lj" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "lk" = (
 /obj/structure/flora/tree/jungle{
 	icon_state = "tree3"
@@ -737,7 +737,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "lT" = (
 /obj/structure/fluff/beach_umbrella/cap,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -781,7 +781,7 @@
 "mJ" = (
 /obj/structure/chair/sofa/brown/right/directional/north,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "mR" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood{
@@ -802,7 +802,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ni" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -813,11 +813,11 @@
 	name = "Johann's Bar"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "nM" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "nZ" = (
 /obj/structure/railing{
 	dir = 8
@@ -827,20 +827,20 @@
 "oc" = (
 /obj/effect/turf_decal/siding/thinplating/light,
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "oj" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "om" = (
 /obj/machinery/door/airlock{
 	name = "Guest Room"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "oo" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/wood{
@@ -849,13 +849,13 @@
 /obj/item/paper_bin/bundlenatural,
 /obj/item/pen,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "or" = (
 /obj/effect/turf_decal/corner/opaque/bar{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ox" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/asteroid/dirt/grass/dark,
@@ -864,7 +864,7 @@
 /obj/structure/table,
 /obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "pe" = (
 /obj/item/stack/sheet/mineral/sandstone,
 /obj/item/stack/sheet/mineral/sandstone,
@@ -873,7 +873,7 @@
 "pm" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "pn" = (
 /turf/open/water/beach,
 /area/overmap_encounter/planetoid/beachplanet/explored)
@@ -894,7 +894,7 @@
 "ps" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "pt" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -906,7 +906,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "pu" = (
 /obj/structure/chair/plastic{
 	dir = 4
@@ -920,7 +920,7 @@
 "pB" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/asteroid/dirt/grass,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "pE" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/cotton,
@@ -931,7 +931,7 @@
 /obj/effect/spawner/random/food_or_drink/donut/slimejelly,
 /obj/effect/spawner/random/food_or_drink/donut,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "qb" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -940,7 +940,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "qd" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -959,16 +959,16 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "rc" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "rf" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/rum,
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "rg" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
@@ -984,7 +984,7 @@
 /obj/machinery/light/small/directional/west,
 /obj/structure/dresser,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ri" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/carrot,
@@ -1013,18 +1013,18 @@
 "rH" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "rN" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/effect/turf_decal/siding/thinplating/light,
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "rQ" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "sa" = (
 /turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
@@ -1033,12 +1033,12 @@
 /obj/machinery/microwave,
 /obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "se" = (
 /obj/structure/table,
 /obj/machinery/microwave,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "sh" = (
 /obj/item/toy/beach_ball,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -1046,7 +1046,7 @@
 "sj" = (
 /obj/structure/chair/sofa/brown/right/directional/east,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "sp" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -1054,24 +1054,24 @@
 /obj/machinery/light/small/directional/west,
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "sq" = (
 /obj/structure/curtain,
 /obj/machinery/shower{
 	dir = 1
 	},
 /turf/open/floor/plasteel/mono,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "sr" = (
 /obj/structure/chair/comfy/orange/directional/west,
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "sy" = (
 /obj/structure/chair/wood{
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "sA" = (
 /obj/structure/table/wood/fancy/black,
 /obj/machinery/light/dim/directional/south,
@@ -1080,7 +1080,7 @@
 	pixel_x = 8
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "sH" = (
 /obj/structure/railing/wood,
 /turf/open/floor/plating/asteroid/dirt,
@@ -1102,11 +1102,11 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "te" = (
 /obj/structure/chair/sofa/brown/left/directional/south,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ti" = (
 /obj/structure/flora/junglebush,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -1126,21 +1126,21 @@
 /obj/machinery/light/small/directional/south,
 /obj/structure/bedsheetbin,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "tI" = (
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "tJ" = (
 /obj/structure/toilet{
 	dir = 4;
 	pixel_x = -2
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "tQ" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "tU" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/eggplant,
@@ -1156,7 +1156,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ue" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -1171,7 +1171,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ur" = (
 /obj/structure/railing/wood{
 	dir = 8
@@ -1183,7 +1183,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "uy" = (
 /obj/structure/rack,
 /obj/machinery/light/directional/north,
@@ -1192,7 +1192,7 @@
 /obj/item/shovel,
 /obj/item/shovel,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "uC" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/grassybush,
@@ -1210,11 +1210,11 @@
 /obj/effect/spawner/random/food_or_drink/donut,
 /obj/effect/spawner/random/food_or_drink/donut,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "uV" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "uW" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
@@ -1241,7 +1241,7 @@
 "vy" = (
 /obj/machinery/pdapainter,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "vE" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/plating/asteroid/dirt/grass,
@@ -1254,7 +1254,7 @@
 "vI" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "vL" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -1265,11 +1265,11 @@
 /obj/effect/spawner/random/food_or_drink/donut/jelly,
 /obj/effect/spawner/random/food_or_drink/donut/jelly,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "we" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "wf" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -1286,7 +1286,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "wF" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/brflowers,
@@ -1326,11 +1326,11 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "xj" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "xo" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -1344,7 +1344,7 @@
 /obj/item/book/manual/ripley_build_and_repair,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "xx" = (
 /obj/structure/flora/tree/palm{
 	icon_state = "palm2"
@@ -1354,7 +1354,7 @@
 "xy" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "xz" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/aloe,
@@ -1371,7 +1371,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "xO" = (
 /obj/structure/fence/door{
 	dir = 4
@@ -1390,7 +1390,7 @@
 /obj/structure/rack,
 /obj/item/storage/box/drinkingglasses,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "yl" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -1409,7 +1409,7 @@
 	pixel_x = -9
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "yz" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 4
@@ -1438,7 +1438,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "yE" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 10
@@ -1468,11 +1468,11 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "zk" = (
 /obj/structure/chair/sofa/brown/directional/south,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "zl" = (
 /obj/structure/sign/poster/retro/build{
 	pixel_y = -32;
@@ -1480,13 +1480,13 @@
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "zv" = (
 /obj/structure/chair/wood{
 	dir = 8
 	},
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "zD" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/cherry,
@@ -1515,7 +1515,7 @@
 "zS" = (
 /obj/effect/spawner/random/vending/snack,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "zU" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/banana,
@@ -1526,7 +1526,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "zZ" = (
 /obj/structure/table/wood/fancy/black,
 /obj/machinery/light/dim/directional/north,
@@ -1535,18 +1535,18 @@
 	pixel_x = 3
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ac" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/bananalamp,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Al" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "An" = (
 /obj/structure/flora/tree/jungle/small{
 	icon_state = "tree2"
@@ -1562,11 +1562,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ax" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "AA" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/plump,
@@ -1580,11 +1580,11 @@
 	pixel_x = 13
 	},
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "AL" = (
 /obj/machinery/door/window,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "AM" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -1607,32 +1607,32 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Bd" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Be" = (
 /obj/structure/table,
 /obj/item/pizzabox/meat,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Bl" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Bq" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "BC" = (
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "BP" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -1641,13 +1641,13 @@
 "BV" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "BX" = (
 /obj/machinery/vending/boozeomat{
 	set_obj_flags = "EMAGGED"
 	},
 /turf/closed/wall/mineral/wood/nonmetal,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "BY" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -1677,7 +1677,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ck" = (
 /obj/structure/railing/corner/wood{
 	dir = 8
@@ -1703,13 +1703,13 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/grimy,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "CC" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "CF" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -1722,11 +1722,11 @@
 	},
 /obj/machinery/light/directional/west,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "CJ" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "CS" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/railing/corner/wood,
@@ -1739,7 +1739,7 @@
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Dj" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -1754,7 +1754,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Dk" = (
 /obj/structure/railing{
 	dir = 4
@@ -1766,7 +1766,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "DD" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/bamboo,
@@ -1777,7 +1777,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "DP" = (
 /obj/structure/flora/ausbushes/genericbush,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -1792,13 +1792,13 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ed" = (
 /obj/machinery/shower{
 	pixel_y = 15
 	},
 /turf/open/floor/plasteel/mono/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Em" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/structure/railing/corner/wood,
@@ -1822,7 +1822,7 @@
 	},
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ex" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/shaker,
@@ -1831,7 +1831,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ez" = (
 /obj/structure/chair/stool/bar{
 	dir = 8
@@ -1848,7 +1848,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "EJ" = (
 /turf/open/floor/plasteel/stairs{
 	dir = 1;
@@ -1857,7 +1857,7 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "EN" = (
 /turf/open/floor/light,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "EQ" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -1879,7 +1879,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "FC" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/tree/jungle{
@@ -1890,12 +1890,12 @@
 "FF" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/asteroid/dirt/grass,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "FI" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "FL" = (
 /obj/structure/railing{
 	dir = 1
@@ -1916,7 +1916,7 @@
 	pixel_x = 10
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "FO" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -1929,7 +1929,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "FW" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -1969,7 +1969,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ge" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 8
@@ -1984,14 +1984,14 @@
 "Gh" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Gk" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/fullupgrade{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Gn" = (
 /turf/open/water/beach/deep,
 /area/overmap_encounter/planetoid/beachplanet/explored)
@@ -2033,7 +2033,7 @@
 /obj/item/storage/fancy/donut_box,
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "GM" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -2077,7 +2077,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Hu" = (
 /obj/structure/window{
 	dir = 4
@@ -2088,7 +2088,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "HJ" = (
 /obj/structure/chair/plastic{
 	dir = 1
@@ -2100,7 +2100,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "HQ" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/structure/railing/corner/wood,
@@ -2149,7 +2149,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Im" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Beachside Inn"
@@ -2159,7 +2159,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "In" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/reagent_containers/food/drinks/drinkingglass{
@@ -2167,7 +2167,7 @@
 	pixel_x = -1
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Io" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -2183,29 +2183,29 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "IA" = (
 /obj/machinery/light/small/directional/south,
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "IC" = (
 /obj/structure/filingcabinet,
 /obj/machinery/light/small/directional/west,
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "IR" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/beer{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "IU" = (
 /obj/structure/chair/sofa/brown/left/directional/east,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "IX" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 5
@@ -2218,7 +2218,7 @@
 /obj/structure/table,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Je" = (
 /obj/effect/decal/cleanable/dirt/dust{
 	layer = 2.01
@@ -2246,7 +2246,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Jw" = (
 /obj/effect/turf_decal/industrial/stand_clear,
 /turf/open/floor/concrete{
@@ -2279,19 +2279,19 @@
 /obj/structure/table/wood,
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "JW" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "JY" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Kc" = (
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
@@ -2301,7 +2301,7 @@
 	pixel_x = -8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Kd" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -2318,7 +2318,7 @@
 /obj/effect/spawner/random/food_or_drink/donut/slimejelly,
 /obj/effect/spawner/random/food_or_drink/donut/jelly,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Kk" = (
 /obj/structure/railing/wood{
 	dir = 6
@@ -2363,15 +2363,15 @@
 "KB" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "KD" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "KE" = (
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "KN" = (
 /obj/structure/chair/stool/bar{
 	dir = 1
@@ -2381,7 +2381,7 @@
 "KO" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "KR" = (
 /obj/structure/rack,
 /obj/structure/sign/poster/official/pda_ad{
@@ -2392,7 +2392,7 @@
 /obj/item/pda,
 /obj/item/pda,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "KU" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/potato,
@@ -2403,7 +2403,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Lo" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -2412,7 +2412,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Lr" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/orange,
@@ -2424,7 +2424,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "LF" = (
 /obj/effect/decal/cleanable/dirt/dust{
 	layer = 2.01
@@ -2438,7 +2438,7 @@
 	pixel_y = -32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "LX" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -2450,7 +2450,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Mi" = (
 /turf/open/floor/plating/asteroid/dirt/grass,
 /area/overmap_encounter/planetoid/beachplanet/explored)
@@ -2460,7 +2460,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Mm" = (
 /obj/structure/sink{
 	pixel_y = 17
@@ -2510,7 +2510,7 @@
 	},
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "MP" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -2533,7 +2533,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "MV" = (
 /obj/item/cultivator/rake,
 /turf/open/floor/wood{
@@ -2546,7 +2546,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ne" = (
 /obj/machinery/light/floor,
 /turf/open/floor/concrete{
@@ -2558,20 +2558,20 @@
 /obj/item/book/manual/wiki/medicine,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ns" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Nv" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Nw" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/sugarcane,
@@ -2584,7 +2584,7 @@
 	},
 /obj/machinery/light/dim/directional/east,
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "NB" = (
 /obj/structure/railing/corner/wood,
 /turf/open/floor/plating/asteroid/dirt,
@@ -2594,7 +2594,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "NS" = (
 /obj/item/shovel/spade,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -2619,7 +2619,7 @@
 /obj/effect/spawner/random/food_or_drink/donut/slimejelly,
 /obj/effect/spawner/random/food_or_drink/donut/jelly,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Oc" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/food_or_drink/donut,
@@ -2628,7 +2628,7 @@
 /obj/effect/spawner/random/food_or_drink/donut,
 /obj/effect/spawner/random/food_or_drink/donut/slimejelly,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Oe" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -2645,11 +2645,11 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Oh" = (
 /obj/structure/railing,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "OH" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -2659,7 +2659,7 @@
 	},
 /obj/machinery/light/directional/south,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "OI" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/plating/asteroid/dirt/grass,
@@ -2678,7 +2678,7 @@
 /obj/structure/bed,
 /obj/effect/spawner/random/bedsheet,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "OT" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -2688,19 +2688,19 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "OU" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "OW" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Pe" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -2710,15 +2710,15 @@
 	},
 /obj/effect/turf_decal/siding/blue/corner,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Pf" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ph" = (
 /obj/effect/spawner/structure/window,
 /obj/structure/curtain/cloth/fancy,
 /turf/open/floor/plating,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Pm" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -2726,22 +2726,22 @@
 	},
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Pp" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Pv" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "PA" = (
 /obj/structure/table/wood,
 /obj/structure/curtain/cloth,
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "PC" = (
 /obj/structure/flora/rock/pile,
 /turf/open/floor/plating/asteroid/dirt,
@@ -2749,11 +2749,11 @@
 "PE" = (
 /obj/structure/chair/sofa/brown/right/directional/south,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "PL" = (
 /obj/effect/spawner/random/vending/cola,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "PN" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/water/beach,
@@ -2772,7 +2772,7 @@
 "Qo" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Qy" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -2791,7 +2791,7 @@
 	},
 /obj/structure/dresser,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "QK" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/plating/asteroid/dirt/grass,
@@ -2812,7 +2812,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ru" = (
 /turf/open/floor/concrete/pavement{
 	light_range = 2
@@ -2823,13 +2823,13 @@
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "RK" = (
 /obj/structure/chair/stool/bar{
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "RQ" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/chili,
@@ -2837,14 +2837,14 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Sc" = (
 /turf/open/floor/plasteel/grimy,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Sg" = (
 /obj/structure/rack,
 /obj/item/shovel/spade,
 /obj/item/shovel/spade,
 /obj/item/shovel/spade,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Sh" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/genericbush,
@@ -2853,7 +2853,7 @@
 "Sm" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Sp" = (
 /obj/effect/turf_decal/sand/plating{
 	light_range = 2
@@ -2866,12 +2866,12 @@
 "Sv" = (
 /obj/structure/chair/comfy/orange/directional/east,
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Sy" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/plating/asteroid/dirt/grass,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "SC" = (
 /obj/structure/fence/door,
 /turf/open/floor/concrete/slab_1{
@@ -2884,7 +2884,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "SO" = (
 /obj/structure/railing/wood{
 	dir = 6
@@ -2894,7 +2894,7 @@
 "SY" = (
 /obj/structure/chair/comfy/orange/directional/north,
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Tj" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -2904,7 +2904,7 @@
 	},
 /obj/effect/turf_decal/siding/blue,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Tm" = (
 /obj/structure/flora/ausbushes/stalkybush{
 	name = "reeds"
@@ -2914,7 +2914,7 @@
 "Tp" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ts" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -2928,7 +2928,7 @@
 "Uc" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ud" = (
 /turf/closed/wall/mineral/sandstone,
 /area/overmap_encounter/planetoid/beachplanet/explored)
@@ -2936,7 +2936,7 @@
 /obj/effect/spawner/structure/window,
 /obj/structure/curtain/cloth/grey,
 /turf/open/floor/plating,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Up" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -2946,7 +2946,7 @@
 /turf/open/floor/wood{
 	light_range = 2
 	},
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Uq" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/palebush,
@@ -2960,18 +2960,18 @@
 "Uu" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "UA" = (
 /obj/structure/chair/wood,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "UH" = (
 /obj/structure/chair/office{
 	dir = 1
 	},
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "UN" = (
 /obj/structure/table,
 /obj/item/binoculars,
@@ -2979,14 +2979,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "UP" = (
 /obj/machinery/door/airlock{
 	name = "Employees Only";
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "UU" = (
 /obj/effect/turf_decal/road{
 	dir = 1
@@ -2999,7 +2999,7 @@
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "VI" = (
 /obj/structure/railing/wood{
 	dir = 8
@@ -3023,12 +3023,12 @@
 "VP" = (
 /obj/structure/rack,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "VS" = (
 /obj/structure/table,
 /obj/machinery/processor,
 /turf/open/floor/plasteel/white,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "VT" = (
 /obj/effect/turf_decal/sand/plating{
 	light_range = 2
@@ -3046,22 +3046,22 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "VV" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "VZ" = (
 /obj/structure/chair/sofa/brown/directional/east,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Wh" = (
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plating/asteroid/sand/lit,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "Wl" = (
 /turf/open/floor/plating/asteroid/dirt/grass,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Ws" = (
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/wood{
@@ -3076,7 +3076,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Wv" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -3087,7 +3087,7 @@
 	name = "Employees Only"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "WC" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -3096,14 +3096,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "WW" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/blue/corner,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Xc" = (
 /obj/structure/railing/wood{
 	dir = 10
@@ -3120,7 +3120,7 @@
 "Xv" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/plating/asteroid/dirt/grass,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "XC" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/cocoapod,
@@ -3133,7 +3133,7 @@
 	pixel_x = -6
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "XJ" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/asteroid/dirt/grass,
@@ -3147,13 +3147,13 @@
 	},
 /obj/machinery/light/directional/east,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "XU" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "XZ" = (
 /obj/structure/flora/ausbushes/stalkybush{
 	name = "reeds"
@@ -3177,7 +3177,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Yw" = (
 /obj/effect/turf_decal/corner/opaque/white/diagonal{
 	dir = 8
@@ -3190,7 +3190,7 @@
 	},
 /obj/effect/turf_decal/siding/blue/corner,
 /turf/open/floor/plasteel,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Yy" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/concrete{
@@ -3199,7 +3199,7 @@
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "YC" = (
 /turf/closed/wall/mineral/wood/nonmetal,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "YE" = (
 /obj/structure/fluff/beach_umbrella/engine,
 /turf/open/floor/plating/asteroid/sand/lit,
@@ -3224,17 +3224,17 @@
 /obj/structure/table/wood,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet/green,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Zf" = (
 /obj/machinery/door/airlock{
 	name = "Bathroom"
 	},
 /turf/open/floor/plating,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Zr" = (
 /obj/structure/chair/comfy/orange/directional/south,
 /turf/open/floor/carpet/black,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "Zy" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/leafybush,
@@ -3251,14 +3251,14 @@
 /obj/item/stack/sheet/metal/twenty,
 /obj/item/stack/sheet/glass/twenty,
 /turf/open/floor/plasteel/patterned/grid,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ZM" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood,
-/area/ruin/beach/complex)
+/area/ruin/beach/corpo_resort/staff_dorms)
 "ZP" = (
 /obj/effect/turf_decal/industrial/stand_clear{
 	dir = 8
