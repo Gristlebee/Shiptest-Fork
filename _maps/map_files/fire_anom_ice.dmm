@@ -10,10 +10,10 @@
 /area/template_noop)
 "S" = (
 /obj/effect/anomaly/pyro/planetary,
-/turf/open/water/beach/deep,
+/turf/open/water/icemoon/deep,
 /area/template_noop)
 "Z" = (
-/turf/open/water/beach/deep,
+/turf/open/water/icemoon/deep,
 /area/template_noop)
 
 (1,1,1) = {"
@@ -74,7 +74,7 @@ b
 (6,1,1) = {"
 a
 a
-a
+Z
 Z
 Z
 b

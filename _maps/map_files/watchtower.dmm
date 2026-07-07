@@ -2,94 +2,119 @@
 "a" = (
 /obj/structure/railing,
 /turf/open/floor/wood/icemoon,
-/area/space)
+/area/template_noop)
 "b" = (
 /obj/structure/platform/wood_two/corner{
 	dir = 8
 	},
+/obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "d" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
 "f" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "g" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /obj/item/flashlight/flare/torch,
 /turf/open/floor/wood/icemoon,
-/area/space)
+/area/template_noop)
 "h" = (
-/obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
 "i" = (
 /obj/structure/flora/ash/garden/frigid,
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "j" = (
 /obj/structure/flora/ash/garden/frigid,
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
 "k" = (
 /obj/structure/railing{
 	dir = 9
 	},
 /turf/open/floor/wood/icemoon,
-/area/space)
+/area/template_noop)
 "n" = (
 /obj/structure/platform/wood_two/corner{
 	dir = 1
 	},
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "p" = (
-/obj/item/hatchet,
+/obj/item/hatchet{
+	pixel_x = -9;
+	pixel_y = 12
+	},
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
 "q" = (
 /turf/open/floor/plasteel/stairs/wood/icemoon{
 	dir = 1
 	},
-/area/space)
+/area/template_noop)
 "r" = (
 /obj/structure/platform/wood_two/corner,
+/obj/structure/flora/grass/both,
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
+"s" = (
+/obj/structure/platform/wood_two{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/plating/asteroid/icerock/lit,
+/area/template_noop)
 "t" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "u" = (
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
+"v" = (
+/obj/structure/platform/wood_two{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/plating/asteroid/icerock/lit,
+/area/template_noop)
 "w" = (
 /obj/structure/platform/wood_two/corner{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "y" = (
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "z" = (
 /obj/structure/platform/wood_two{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
+"A" = (
+/obj/structure/platform/wood_two{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/plating/asteroid/icerock/lit,
+/area/template_noop)
 "B" = (
 /obj/structure/platform/wood_two{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "F" = (
 /obj/item/grown/log/tree{
 	pixel_y = 0
@@ -102,95 +127,100 @@
 	pixel_y = 7
 	},
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
 "G" = (
 /obj/structure/bonfire/prelit,
 /obj/structure/stone_tile/slab/burnt,
 /turf/open/floor/wood/ebony/icemoon,
-/area/space)
+/area/template_noop)
+"H" = (
+/obj/structure/flora/tree/pine,
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
 "I" = (
 /obj/structure/railing{
 	dir = 6
 	},
 /obj/item/binoculars,
 /turf/open/floor/wood/icemoon,
-/area/space)
+/area/template_noop)
 "K" = (
+/obj/structure/flora/grass/brown,
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
 "M" = (
 /obj/structure/platform/wood_two,
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "N" = (
 /obj/structure/railing{
 	dir = 10
 	},
 /turf/open/floor/wood/icemoon,
-/area/space)
+/area/template_noop)
 "O" = (
 /turf/open/floor/wood/icemoon,
-/area/space)
+/area/template_noop)
 "P" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
 "S" = (
 /obj/structure/flora/stump,
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
 "U" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/wood/icemoon,
-/area/space)
+/area/template_noop)
 "V" = (
 /obj/structure/platform/wood_two{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/icerock/lit,
-/area/space)
+/area/template_noop)
 "W" = (
 /obj/structure/railing{
 	dir = 5
 	},
 /turf/open/floor/wood/icemoon,
-/area/space)
+/area/template_noop)
 
 (1,1,1) = {"
 u
 u
 d
 S
-K
-K
+h
+h
 u
 u
 "}
 (2,1,1) = {"
-K
-K
-K
+u
+h
+h
 F
 p
 d
 j
-K
+h
 "}
 (3,1,1) = {"
-K
+h
 P
 r
 B
-B
-B
+s
+A
 b
-K
+h
 "}
 (4,1,1) = {"
 h
-K
+H
 M
 k
 g
@@ -199,7 +229,7 @@ z
 t
 "}
 (5,1,1) = {"
-K
+P
 K
 q
 O
@@ -210,7 +240,7 @@ y
 "}
 (6,1,1) = {"
 u
-K
+h
 M
 W
 U
@@ -220,11 +250,11 @@ u
 "}
 (7,1,1) = {"
 u
-K
+h
 n
 V
-V
-V
+v
+v
 w
 u
 "}
@@ -239,9 +269,9 @@ u
 u
 "}
 (9,1,1) = {"
+u
 y
-y
-y
+u
 u
 u
 u
