@@ -264,3 +264,16 @@
 /turf/open/water/oasis/Destroy()
 	. = ..()
 	QDEL_NULL(part_hold)
+
+/turf/open/water/icemoon
+	color = "#41a3ff"
+	light_range = 2
+	light_power = 0.80
+	light_color = LIGHT_COLOR_BLUE
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
+/turf/open/water/icemoon/deep
+	color = "#4566ad"
+	light_color = LIGHT_COLOR_DARK_BLUE
+	immerse_overlay = "immerse_deep"
+	is_swimming_tile = TRUE

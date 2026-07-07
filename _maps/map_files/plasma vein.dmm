@@ -1,0 +1,183 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/lava/plasma/ice_moon,
+/area/space)
+"B" = (
+/turf/open/space/basic,
+/area/space)
+"D" = (
+/turf/open/floor/plating/asteroid/icerock/cracked,
+/area/space)
+"N" = (
+/obj/structure/vein/ice/classfour,
+/turf/open/floor/plating/asteroid/icerock/cracked,
+/area/space)
+
+(1,1,1) = {"
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+"}
+(2,1,1) = {"
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+"}
+(3,1,1) = {"
+B
+B
+B
+B
+a
+a
+a
+a
+B
+B
+B
+B
+"}
+(4,1,1) = {"
+B
+B
+B
+a
+a
+a
+a
+a
+a
+B
+B
+B
+"}
+(5,1,1) = {"
+B
+B
+a
+a
+a
+a
+a
+a
+a
+a
+B
+B
+"}
+(6,1,1) = {"
+B
+B
+a
+a
+a
+N
+D
+a
+a
+a
+B
+B
+"}
+(7,1,1) = {"
+B
+B
+a
+a
+a
+D
+D
+a
+a
+a
+B
+B
+"}
+(8,1,1) = {"
+B
+B
+a
+a
+a
+a
+a
+a
+a
+a
+B
+B
+"}
+(9,1,1) = {"
+B
+B
+B
+a
+a
+a
+a
+a
+a
+a
+B
+B
+"}
+(10,1,1) = {"
+B
+B
+B
+B
+a
+a
+a
+a
+B
+B
+B
+B
+"}
+(11,1,1) = {"
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+"}
+(12,1,1) = {"
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+"}

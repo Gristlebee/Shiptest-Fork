@@ -1,0 +1,288 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"b" = (
+/obj/item/stock_parts/cell/empty{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/turf/open/floor/plating/icemoon{
+	icon_state = "platingdmg3"
+	},
+/area/space)
+"d" = (
+/turf/closed/mineral/random/snow,
+/area/space)
+"e" = (
+/obj/item/stock_parts/cell/empty{
+	pixel_x = -13;
+	pixel_y = -7
+	},
+/obj/item/stock_parts/cell/empty{
+	pixel_x = 14;
+	pixel_y = -3
+	},
+/obj/machinery/space_heater,
+/turf/open/floor/plating/icemoon,
+/area/space)
+"g" = (
+/obj/structure/curtain/cloth,
+/turf/open/floor/plating/icemoon,
+/area/space)
+"k" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/item/storage/toolbox/emergency{
+	pixel_y = 7;
+	pixel_x = 6
+	},
+/obj/item/flashlight/lantern,
+/turf/open/floor/plating/icemoon,
+/area/space)
+"l" = (
+/obj/structure/frame/machine,
+/obj/item/stack/cable_coil/cut/red,
+/obj/structure/barricade/wooden/crude/snow,
+/turf/open/floor/plating/icemoon,
+/area/space)
+"o" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 8
+	},
+/obj/structure/poddoor_assembly{
+	dir = 8
+	},
+/turf/open/floor/plating/icemoon,
+/area/space)
+"u" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/barricade/wooden/crude/snow,
+/turf/open/floor/plating/icemoon,
+/area/space)
+"x" = (
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/space)
+"y" = (
+/mob/living/simple_animal/hostile/asteroid/wolf/alpha,
+/turf/open/floor/plating/icemoon,
+/area/space)
+"z" = (
+/obj/effect/mob_spawn/human/corpse/damaged/whitesands,
+/obj/effect/gibspawner/human/bodypartless,
+/turf/open/floor/plating/icemoon,
+/area/space)
+"D" = (
+/turf/open/floor/plating/asteroid/icerock,
+/area/space)
+"O" = (
+/turf/closed/wall/mineral/wood,
+/area/space)
+"P" = (
+/turf/open/floor/plating/icemoon,
+/area/space)
+"Q" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/salvageable/machine,
+/obj/machinery/door/poddoor/preopen{
+	dir = 4
+	},
+/turf/open/floor/plating/icemoon,
+/area/space)
+"W" = (
+/obj/item/melee/sword/mass,
+/turf/open/floor/plating/icemoon{
+	icon_state = "platingdmg1"
+	},
+/area/space)
+"Z" = (
+/obj/structure/bed{
+	icon_state = "dirty_mattress"
+	},
+/turf/open/floor/plating/icemoon{
+	icon_state = "platingdmg3"
+	},
+/area/space)
+
+(1,1,1) = {"
+x
+d
+d
+d
+d
+d
+d
+d
+x
+x
+"}
+(2,1,1) = {"
+x
+d
+d
+d
+d
+d
+d
+d
+x
+x
+"}
+(3,1,1) = {"
+x
+x
+d
+a
+O
+O
+a
+d
+d
+x
+"}
+(4,1,1) = {"
+x
+x
+D
+a
+Z
+P
+a
+D
+x
+x
+"}
+(5,1,1) = {"
+x
+x
+D
+a
+e
+b
+g
+D
+x
+x
+"}
+(6,1,1) = {"
+x
+x
+D
+O
+z
+y
+a
+D
+x
+x
+"}
+(7,1,1) = {"
+x
+x
+D
+a
+W
+k
+a
+D
+x
+x
+"}
+(8,1,1) = {"
+x
+x
+D
+a
+Q
+o
+a
+D
+x
+x
+"}
+(9,1,1) = {"
+x
+x
+x
+a
+u
+l
+a
+D
+x
+x
+"}
+(10,1,1) = {"
+x
+x
+x
+D
+D
+D
+D
+D
+x
+x
+"}
+(11,1,1) = {"
+x
+x
+x
+x
+D
+D
+x
+x
+x
+x
+"}
+(12,1,1) = {"
+x
+x
+x
+x
+D
+x
+x
+x
+x
+x
+"}
+(13,1,1) = {"
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+"}
+(14,1,1) = {"
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+"}

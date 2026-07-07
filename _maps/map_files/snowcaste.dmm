@@ -1,14 +1,23 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/wall/mineral/snow,
-/area/space)
-"b" = (
-/obj/structure/flora/grass/brown,
+/area/template_noop)
+"d" = (
+/obj/item/stack/sheet/mineral/snow{
+	pixel_x = -4
+	},
+/obj/item/stack/sheet/mineral/snow{
+	pixel_x = 8
+	},
+/obj/item/stack/sheet/mineral/snow{
+	pixel_x = 2;
+	pixel_y = 5
+	},
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"i" = (
+/area/template_noop)
+"g" = (
 /obj/item/toy/snowball{
-	pixel_y = 18
+	pixel_y = 17
 	},
 /obj/item/toy/snowball{
 	pixel_y = 10;
@@ -30,230 +39,211 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plating/asteroid/icerock,
-/area/space)
-"j" = (
-/obj/item/stack/sheet/mineral/snow{
-	pixel_x = 8
-	},
-/obj/item/stack/sheet/mineral/snow{
-	pixel_x = -4
-	},
-/obj/item/stack/sheet/mineral/snow{
-	pixel_x = 2;
-	pixel_y = 5
-	},
-/turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"k" = (
-/turf/open/floor/plating/asteroid/icerock,
-/area/space)
-"l" = (
+/area/template_noop)
+"h" = (
 /turf/template_noop,
-/area/space)
-"m" = (
-/obj/item/stack/sheet/mineral/snow{
-	pixel_x = -4
-	},
-/obj/item/stack/sheet/mineral/snow{
-	pixel_x = 8
-	},
-/obj/item/stack/sheet/mineral/snow{
-	pixel_x = 2;
-	pixel_y = 5
-	},
+/area/template_noop)
+"i" = (
+/obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"n" = (
-/obj/item/binoculars,
-/turf/open/floor/plating/asteroid/icerock,
-/area/space)
-"A" = (
-/obj/item/stack/sheet/mineral/snow,
+/area/template_noop)
+"j" = (
+/obj/structure/flora/ash/chilly,
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"F" = (
-/obj/item/stack/sheet/mineral/snow{
-	pixel_x = 12;
-	pixel_y = 10
-	},
-/turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"K" = (
-/obj/structure/flora/rock/icy,
-/turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"L" = (
-/turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"O" = (
-/obj/item/shovel,
-/turf/open/floor/plating/asteroid/icerock,
-/area/space)
-"P" = (
-/obj/item/stack/sheet/mineral/snow{
-	pixel_x = -11;
-	pixel_y = -4
-	},
-/turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"Q" = (
-/obj/item/stack/sheet/mineral/snow{
-	pixel_y = 2;
-	pixel_x = -9
-	},
-/obj/item/stack/sheet/mineral/snow{
-	pixel_y = 2;
-	pixel_x = 13
-	},
-/obj/item/stack/sheet/mineral/snow{
-	pixel_y = 2;
-	pixel_x = 2
-	},
-/obj/item/stack/sheet/mineral/snow{
-	pixel_y = 7;
-	pixel_x = 7
-	},
-/obj/item/stack/sheet/mineral/snow{
-	pixel_y = 7;
-	pixel_x = -5
-	},
-/obj/item/stack/sheet/mineral/snow{
-	pixel_y = 12
-	},
-/turf/open/floor/plating/asteroid/icerock,
-/area/space)
-"R" = (
-/obj/item/stack/sheet/mineral/snow{
-	pixel_y = 3;
-	pixel_x = 7
-	},
-/turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"S" = (
-/obj/structure/flora/grass/both,
-/turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"U" = (
-/obj/structure/flora/grass/green,
-/turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
-"W" = (
+/area/template_noop)
+"q" = (
+/turf/open/floor/plating/asteroid/icerock/smooth,
+/area/template_noop)
+"r" = (
 /obj/structure/statue/snow/snowman{
-	name = "Commander Frosty"
+	name = "Commander Frosty";
+	desc = "Several lumps of snow put together to form a snowman. He's been abandoned by his unit"
 	},
 /obj/item/clothing/head/clip/slouch{
 	pixel_y = 14
 	},
 /turf/open/floor/plating/asteroid/snow/lit,
-/area/space)
+/area/template_noop)
+"s" = (
+/turf/open/floor/plating/asteroid/icerock,
+/area/template_noop)
+"t" = (
+/obj/item/stack/sheet/mineral/snow{
+	pixel_x = 12;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
+"w" = (
+/obj/item/stack/sheet/mineral/snow,
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
+"A" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/plating/asteroid/icerock,
+/area/template_noop)
+"B" = (
+/obj/structure/flora/grass/brown,
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
+"F" = (
+/obj/item/stack/sheet/mineral/snow{
+	pixel_y = 3;
+	pixel_x = 7
+	},
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
+"G" = (
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
+"H" = (
+/obj/structure/flora/grass/both,
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
+"I" = (
+/obj/structure/flora/rock/icy,
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
+"L" = (
+/obj/item/shovel,
+/turf/open/floor/plating/asteroid/icerock,
+/area/template_noop)
+"M" = (
+/obj/item/stack/sheet/mineral/snow{
+	pixel_x = 8
+	},
+/obj/item/stack/sheet/mineral/snow{
+	pixel_x = -4
+	},
+/obj/item/stack/sheet/mineral/snow{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
+"W" = (
+/obj/structure/flora/rock/pile/icy,
+/turf/open/floor/plating/asteroid/icerock,
+/area/template_noop)
+"Y" = (
+/obj/structure/flora/grass/green,
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
+"Z" = (
+/obj/item/stack/sheet/mineral/snow{
+	pixel_x = -11;
+	pixel_y = -4
+	},
+/turf/open/floor/plating/asteroid/snow/lit,
+/area/template_noop)
 
 (1,1,1) = {"
-l
-l
-L
-L
-L
-L
-L
-L
-L
+h
+h
+G
+G
+h
+G
+G
+G
+h
 "}
 (2,1,1) = {"
-l
-L
+h
+G
 a
-m
+d
 a
-m
+d
 a
-U
-L
+Y
+G
 "}
 (3,1,1) = {"
-L
+G
 a
 a
-L
-L
-L
+G
+G
+G
 a
 a
-L
+G
 "}
 (4,1,1) = {"
-S
-m
-L
-b
-O
-k
+H
+d
+G
+B
 W
-j
-L
+q
+r
+M
+G
 "}
 (5,1,1) = {"
-L
+G
 a
-L
-k
+G
+s
 a
-i
-L
+g
+G
 a
-L
+G
 "}
 (6,1,1) = {"
-L
-j
-L
-k
-Q
-n
-P
-R
-F
-"}
-(7,1,1) = {"
-L
-a
+G
+M
+G
 A
 L
-L
-L
+s
+Z
+F
+t
+"}
+(7,1,1) = {"
+G
+a
+w
+G
+G
+G
 a
 a
-L
+G
 "}
 (8,1,1) = {"
-L
-L
-a
+G
 j
 a
-m
+M
 a
-K
-l
+d
+a
+I
+h
 "}
 (9,1,1) = {"
-l
-l
-L
-L
-L
-L
-L
-L
-l
+h
+h
+G
+G
+G
+i
+G
+G
+h
 "}
 (10,1,1) = {"
-l
-L
-S
-L
-l
-l
-l
-L
-L
+h
+G
+H
+G
+h
+h
+h
+G
+h
 "}
