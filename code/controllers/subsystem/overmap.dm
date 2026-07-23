@@ -32,6 +32,9 @@ SUBSYSTEM_DEF(overmap)
 	///Whether or not a ship is currently being spawned. Used to prevent multiple ships from being spawned at once.
 	var/ship_spawning //TODO: Make a proper queue for this
 
+	///Temp switch for testing overmaps
+	var/two_overmap = TRUE
+
 /datum/controller/subsystem/overmap/get_metrics()
 	. = ..()
 	var/list/cust = list()
@@ -101,18 +104,26 @@ SUBSYSTEM_DEF(overmap)
 
 
 	//future project: make overmap "styles" a selection
+	if(two_overmap)
+		tracked_star_systems = spawn_new_star_system(outpost_sectors[1])
+		safe_sectors += tracked_star_systems[1]
+		tracked_star_systems[2] = spawn_new_star_system(wilderness_sectors[1])
+		wild_sectors += tracked_star_systems[2]
+		tracked_star_systems[3] = spawn_new_star_system(outpost_sectors[2])
+		safe_sectors += tracked_star_systems[3]
+		link_systems_to_center()
+	else
+		//4 systems. Outpost-Wilderness-Outpost-Wilderness
+		tracked_star_systems[1] = spawn_new_star_system(outpost_sectors[1])
+		safe_sectors += tracked_star_systems[1]
+		tracked_star_systems[2] = spawn_new_star_system(wilderness_sectors[1])
+		wild_sectors += tracked_star_systems[2]
+		tracked_star_systems[3] = spawn_new_star_system(outpost_sectors[2])
+		safe_sectors += tracked_star_systems[3]
+		tracked_star_systems[4] = spawn_new_star_system(wilderness_sectors[2])
+		wild_sectors += tracked_star_systems[4]
 
-	//4 systems. Outpost-Wilderness-Outpost-Wilderness
-	tracked_star_systems[1] = spawn_new_star_system(outpost_sectors[1])
-	safe_sectors += tracked_star_systems[1]
-	tracked_star_systems[2] = spawn_new_star_system(wilderness_sectors[1])
-	wild_sectors += tracked_star_systems[2]
-	tracked_star_systems[3] = spawn_new_star_system(outpost_sectors[2])
-	safe_sectors += tracked_star_systems[3]
-	tracked_star_systems[4] = spawn_new_star_system(wilderness_sectors[2])
-	wild_sectors += tracked_star_systems[4]
-
-	looplink_4_systems()
+		looplink_4_systems()
 
 #else
 
