@@ -266,10 +266,6 @@
 /turf/open/floor/plasteel,
 /area/ship/cargo)
 "aV" = (
-/obj/machinery/telecomms/server/presets/nanotrasen{
-	network = "nt_commnet";
-	layer = 3.1
-	},
 /obj/machinery/airalarm/directional/west,
 /obj/structure/railing{
 	dir = 1
@@ -707,9 +703,6 @@
 	pixel_x = -7;
 	pixel_y = 4
 	},
-/obj/structure/sign/poster/official/nanotrasen_logo{
-	pixel_y = 32
-	},
 /turf/open/floor/plating/catwalk_floor,
 /area/ship/science/robotics)
 "cO" = (
@@ -1029,17 +1022,9 @@
 /turf/open/floor/circuit/green,
 /area/ship/engineering/communications)
 "ek" = (
-/obj/item/gun/energy/e_gun/smg{
-	pixel_y = 9
-	},
-/obj/item/gun/energy/e_gun/smg{
-	pixel_y = 2
-	},
-/obj/item/gun/ballistic/shotgun/automatic/m11{
-	pixel_y = -3
-	},
 /obj/structure/rack,
 /obj/machinery/airalarm/directional/east,
+/obj/item/gun/ballistic/shotgun/automatic/negotiator/buckshot,
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
 "eq" = (
@@ -1472,7 +1457,6 @@
 	pixel_y = -11;
 	pixel_x = 9
 	},
-/obj/item/gun/energy/plasmacutter,
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering)
 "gd" = (
@@ -1526,7 +1510,6 @@
 	pixel_y = 5
 	},
 /obj/item/storage/case/surgery,
-/obj/item/clothing/gloves/color/latex,
 /obj/structure/railing{
 	dir = 2;
 	layer = 4.1
@@ -1545,10 +1528,6 @@
 	pixel_y = -1
 	},
 /obj/machinery/firealarm/directional/south,
-/obj/item/stamp/nanotrasen{
-	pixel_y = 11;
-	pixel_x = -6
-	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "gz" = (
@@ -2026,8 +2005,6 @@
 /obj/item/clothing/shoes/cowboy/black,
 /obj/item/clothing/under/rank/security/head_of_security/alt/skirt,
 /obj/item/clothing/under/rank/security/head_of_security/alt,
-/obj/item/clothing/under/rank/security/head_of_security/nt,
-/obj/item/clothing/under/rank/security/head_of_security/nt/skirt,
 /obj/item/clothing/head/HoS,
 /obj/item/clothing/head/beret/sec/hos,
 /obj/item/clothing/suit/armor/vest/leather,
@@ -2040,7 +2017,6 @@
 /obj/item/clothing/glasses/hud/security/sunglasses,
 /obj/item/clothing/glasses/hud/security/sunglasses/eyepatch,
 /obj/item/clothing/gloves/krav_maga/sec,
-/obj/item/gun/energy/e_gun/hos,
 /obj/structure/closet/secure_closet{
 	icon_state = "hos";
 	req_access = list(58)
@@ -2284,36 +2260,10 @@
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hangar)
 "iY" = (
-/obj/item/reagent_containers/food/snacks/canned/beans{
-	pixel_x = -5;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/snacks/canned/beans{
-	pixel_x = 2;
-	pixel_y = 3
-	},
 /obj/effect/turf_decal/arrows{
 	dir = 8
 	},
 /obj/structure/closet/crate/large,
-/obj/item/storage/box/donkpockets{
-	pixel_x = 2;
-	pixel_y = 3
-	},
-/obj/item/storage/box/donkpockets{
-	pixel_x = -5;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/snacks/canned/beans{
-	pixel_x = 5
-	},
-/obj/item/reagent_containers/food/snacks/canned/beans{
-	pixel_x = 1;
-	pixel_y = -3
-	},
-/obj/item/reagent_containers/food/snacks/canned/beans{
-	pixel_x = 5
-	},
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
@@ -3056,10 +3006,6 @@
 	pixel_x = -5;
 	pixel_y = 3
 	},
-/obj/item/stamp/nanotrasen{
-	pixel_y = 9;
-	pixel_x = 8
-	},
 /obj/item/stamp{
 	pixel_x = 8;
 	pixel_y = 4
@@ -3370,15 +3316,7 @@
 "mt" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/rack,
-/obj/item/gun/ballistic/automatic/smg/skm_carbine/saber{
-	pixel_y = 3
-	},
-/obj/item/gun/ballistic/automatic/smg/skm_carbine/saber{
-	pixel_y = -2
-	},
-/obj/item/gun/ballistic/automatic/smg/skm_carbine/saber{
-	pixel_y = -7
-	},
+/obj/item/gun/ballistic/automatic/smg/expedition,
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
 "my" = (
@@ -3783,12 +3721,6 @@
 /turf/open/floor/plasteel/patterned,
 /area/ship/crew/toilet)
 "nT" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 5
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 10
-	},
 /obj/structure/flora/ausbushes/reedbush{
 	pixel_x = -6;
 	pixel_y = 18
@@ -3904,7 +3836,6 @@
 	dir = 8;
 	layer = 3.1
 	},
-/obj/item/clothing/suit/space/hardsuit/ert/lp/engi,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
 "oq" = (
@@ -4100,7 +4031,6 @@
 	dir = 8;
 	layer = 3.1
 	},
-/obj/item/clothing/suit/space/hardsuit/ert/lp/med,
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
@@ -4148,11 +4078,6 @@
 /obj/effect/decal/cleanable/vomit/old,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/wall/directional/west,
-/obj/item/reagent_containers/syringe/contraband/fentanyl{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/syringe/contraband/methamphetamine,
 /obj/item/reagent_containers/syringe/charcoal{
 	pixel_x = -3
 	},
@@ -4873,8 +4798,6 @@
 /obj/item/reagent_containers/glass/bowl{
 	pixel_x = 2
 	},
-/obj/item/trash/plate,
-/obj/item/trash/plate,
 /obj/structure/closet/crate/freezer{
 	name = "kitchen supplies"
 	},
@@ -4949,7 +4872,6 @@
 /turf/open/floor/plasteel,
 /area/ship/cargo)
 "sz" = (
-/obj/machinery/vending/security/marine/nanotrasen,
 /obj/machinery/light/directional/east,
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
@@ -5401,9 +5323,6 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/toy/figure/clown{
-	pixel_x = -9
-	},
 /obj/item/toy/figure/detective{
 	pixel_y = 7;
 	pixel_x = 9
@@ -5960,9 +5879,6 @@
 /obj/item/pen/red{
 	pixel_x = -7;
 	pixel_y = 3
-	},
-/obj/structure/sign/poster/retro/nanotrasen_logo_70s{
-	pixel_y = -32
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
@@ -6554,7 +6470,6 @@
 /obj/item/storage/backpack/captain,
 /obj/item/clothing/under/rank/centcom/officer,
 /obj/item/storage/belt/sabre,
-/obj/item/gun/energy/e_gun/adv_stopping,
 /obj/item/door_remote/captain,
 /obj/machinery/light_switch{
 	dir = 1;
@@ -6884,7 +6799,6 @@
 /area/ship/hallway/aft)
 "zv" = (
 /obj/structure/rack,
-/obj/item/gun/energy/e_gun/dragnet,
 /obj/item/grenade/barrier{
 	pixel_x = -3;
 	pixel_y = 3
@@ -6977,17 +6891,6 @@
 	pixel_y = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/encryptionkey/nanotrasen{
-	pixel_x = 8
-	},
-/obj/item/encryptionkey/nanotrasen{
-	pixel_x = 8;
-	pixel_y = 3
-	},
-/obj/item/encryptionkey/nanotrasen{
-	pixel_x = 8;
-	pixel_y = 6
-	},
 /obj/machinery/light_switch{
 	pixel_y = 23
 	},
@@ -7008,12 +6911,6 @@
 /area/ship/maintenance/central)
 "zL" = (
 /obj/structure/closet/secure_closet/freezer/meat/open,
-/obj/item/reagent_containers/food/snacks/meat/slab/monkey,
-/obj/item/reagent_containers/food/snacks/meat/slab/monkey,
-/obj/item/reagent_containers/food/snacks/meat/slab/monkey,
-/obj/item/reagent_containers/food/snacks/meat/slab/monkey,
-/obj/item/reagent_containers/food/snacks/meat/slab/monkey,
-/obj/item/reagent_containers/food/snacks/meat/slab/monkey,
 /obj/effect/turf_decal/box/corners{
 	dir = 8
 	},
@@ -7289,7 +7186,6 @@
 /area/ship/bridge)
 "AF" = (
 /obj/structure/table/wood/reinforced,
-/obj/item/documents/nanotrasen,
 /turf/open/floor/carpet/nanoweave,
 /area/ship/crew/law_office)
 "AG" = (
@@ -7576,10 +7472,6 @@
 	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/bridge)
-"BW" = (
-/obj/structure/sign/nanotrasen,
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/science/robotics)
 "Cd" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on,
 /turf/open/floor/engine/o2,
@@ -7816,7 +7708,6 @@
 "Dh" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
-/obj/item/reagent_containers/food/snacks/pie/cream,
 /turf/open/floor/plating,
 /area/ship/crew/canteen)
 "Dk" = (
@@ -8881,10 +8772,6 @@
 	pixel_x = 6;
 	pixel_y = 4
 	},
-/obj/item/stamp/nanotrasen/vigilitas/security{
-	pixel_y = 9;
-	pixel_x = -6
-	},
 /obj/item/stamp/denied{
 	pixel_x = -6;
 	pixel_y = 4
@@ -9059,38 +8946,6 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/corner/opaque/white/diagonal,
-/obj/item/reagent_containers/food/snacks/grown/corn{
-	pixel_x = -2;
-	pixel_y = 11
-	},
-/obj/item/reagent_containers/food/snacks/grown/corn{
-	pixel_x = -2;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/snacks/grown/tomato{
-	pixel_x = -9;
-	pixel_y = 2
-	},
-/obj/item/reagent_containers/food/snacks/grown/tomato{
-	pixel_x = -6;
-	pixel_y = -2
-	},
-/obj/item/reagent_containers/food/snacks/grown/soybeans{
-	pixel_x = 4;
-	pixel_y = 1
-	},
-/obj/item/reagent_containers/food/snacks/grown/soybeans{
-	pixel_x = 4;
-	pixel_y = -1
-	},
-/obj/item/reagent_containers/food/snacks/grown/onion{
-	pixel_x = -8;
-	pixel_y = -6
-	},
-/obj/item/reagent_containers/food/snacks/grown/onion{
-	pixel_x = -4;
-	pixel_y = -8
-	},
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen/kitchen)
 "HH" = (
@@ -9138,14 +8993,6 @@
 	pixel_x = -6;
 	pixel_y = 4
 	},
-/obj/item/stamp/nanotrasen/officer{
-	pixel_x = -6;
-	pixel_y = 10
-	},
-/obj/item/stamp/nanotrasen/captain{
-	pixel_x = -7;
-	pixel_y = 4
-	},
 /obj/item/folder/blue{
 	pixel_x = 6;
 	pixel_y = 6
@@ -9167,10 +9014,6 @@
 	pixel_x = -5
 	},
 /obj/machinery/airalarm/directional/west,
-/obj/item/stamp/nanotrasen/central{
-	pixel_x = 6;
-	pixel_y = 10
-	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "HP" = (
@@ -9184,10 +9027,6 @@
 /obj/effect/turf_decal/corner/opaque/white/diagonal,
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen/kitchen)
-"HR" = (
-/obj/item/clothing/gloves/color/captain/nt,
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/crew/law_office)
 "HT" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -9300,7 +9139,6 @@
 /area/ship/engineering/electrical)
 "Ip" = (
 /obj/structure/table,
-/obj/item/reagent_containers/food/snacks/mint,
 /obj/item/reagent_containers/condiment/enzyme{
 	pixel_x = -2;
 	pixel_y = 6
@@ -9513,7 +9351,6 @@
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
 	},
-/obj/machinery/fax/nanotrasen,
 /obj/machinery/light/directional/south,
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
@@ -10106,17 +9943,6 @@
 /area/ship/science/robotics)
 "LX" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/automatic/pistol/commander{
-	pixel_y = -3;
-	pixel_x = -2
-	},
-/obj/item/gun/ballistic/automatic/pistol/commander{
-	pixel_x = -2
-	},
-/obj/item/gun/ballistic/automatic/pistol/commander{
-	pixel_y = 3;
-	pixel_x = -2
-	},
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
@@ -10397,7 +10223,6 @@
 	pixel_x = 7;
 	pixel_y = -27
 	},
-/obj/item/documents/nanotrasen,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/bridge)
 "ML" = (
@@ -10499,7 +10324,6 @@
 /obj/item/clothing/suit/longcoat/roboblack,
 /obj/item/clothing/suit/longcoat/robowhite,
 /obj/item/clothing/head/beret/sci,
-/obj/item/clothing/gloves/color/latex,
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/effect/turf_decal/arrows{
 	dir = 1;
@@ -10519,7 +10343,6 @@
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
 	},
-/obj/machinery/fax/nanotrasen,
 /obj/item/radio/intercom/wideband/directional/west{
 	pixel_y = 8
 	},
@@ -10609,7 +10432,6 @@
 "Ny" = (
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/suit/hazardvest,
-/obj/item/clothing/under/rank/engineering/engineer/nt,
 /obj/item/clothing/glasses/meson/engine,
 /obj/item/clothing/head/welding,
 /obj/item/clothing/head/hardhat/weldhat,
@@ -10625,7 +10447,6 @@
 	pixel_y = -10;
 	pixel_x = 5
 	},
-/obj/item/gun/energy/plasmacutter,
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering)
 "NC" = (
@@ -10790,7 +10611,6 @@
 /obj/machinery/shower{
 	pixel_y = 13
 	},
-/obj/item/soap/nanotrasen,
 /turf/open/floor/plating/catwalk_floor,
 /area/ship/crew/dorm/dormtwo)
 "Ob" = (
@@ -11032,11 +10852,6 @@
 	},
 /obj/effect/decal/cleanable/greenglow{
 	color = "#808080"
-	},
-/obj/item/trash/cheesie{
-	color = "#808080";
-	pixel_x = 21;
-	pixel_y = 1
 	},
 /obj/structure/railing{
 	dir = 2;
@@ -11522,16 +11337,8 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/electrical)
-"Rv" = (
-/obj/structure/bookcase/random/fiction,
-/obj/structure/sign/poster/retro/nanotrasen_logo_80s{
-	pixel_y = -32
-	},
-/turf/open/floor/wood,
-/area/ship/crew/dorm)
 "Rx" = (
 /obj/structure/bed,
-/obj/item/bedsheet/nanotrasen,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
@@ -11545,8 +11352,6 @@
 	dir = 9
 	},
 /obj/structure/closet/crate,
-/obj/effect/spawner/random/food_or_drink/donkpockets,
-/obj/effect/spawner/random/food_or_drink/donkpockets,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
@@ -12100,7 +11905,6 @@
 /obj/machinery/light/directional/west{
 	light_color = "#e8eaff"
 	},
-/obj/item/gun_voucher/nanotrasen,
 /obj/item/detective_scanner{
 	pixel_y = -10
 	},
@@ -12109,14 +11913,6 @@
 "TG" = (
 /obj/structure/table,
 /obj/item/storage/bag/tray,
-/obj/item/storage/box/donkpockets{
-	pixel_x = 8;
-	pixel_y = 8
-	},
-/obj/item/storage/box/donkpockets{
-	pixel_x = 6;
-	pixel_y = 6
-	},
 /obj/item/reagent_containers/condiment/peppermill{
 	desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table.";
 	pixel_x = -8;
@@ -12403,10 +12199,6 @@
 /obj/item/pen{
 	pixel_x = -6
 	},
-/obj/item/stamp/nanotrasen/ns{
-	pixel_x = 6;
-	pixel_y = 9
-	},
 /obj/item/stamp{
 	pixel_x = 6;
 	pixel_y = 4
@@ -12554,7 +12346,6 @@
 /obj/item/clothing/accessory/armband/medblue,
 /obj/item/clothing/suit/apron/surgical,
 /obj/item/clothing/mask/surgical,
-/obj/item/clothing/gloves/color/latex/nitrile/evil,
 /obj/item/clothing/head/soft/paramedic,
 /obj/item/clothing/suit/hooded/wintercoat/medical,
 /obj/item/clothing/under/rank/medical/doctor/blue,
@@ -12664,14 +12455,10 @@
 /obj/item/clothing/suit/armor/vest/marine/medium,
 /obj/item/clothing/suit/armor/vest/bulletproof,
 /obj/item/clothing/suit/armor/vest/bulletproof,
-/obj/item/clothing/head/helmet/plate,
-/obj/item/clothing/head/helmet/plate,
 /obj/item/clothing/suit/armor/vest/security/officer,
 /obj/item/clothing/suit/armor/vest/security/officer,
 /obj/item/clothing/head/helmet/riot,
 /obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
 /obj/machinery/light_switch{
 	dir = 1;
 	pixel_x = 7;
@@ -12973,8 +12760,6 @@
 	pixel_x = -4;
 	pixel_y = 6
 	},
-/obj/item/reagent_containers/food/snacks/dough,
-/obj/item/reagent_containers/food/snacks/dough,
 /obj/item/kitchen/rollingpin,
 /obj/item/melee/knife/butcher{
 	pixel_x = 13
@@ -13010,43 +12795,13 @@
 /obj/item/storage/box/lethalshot{
 	pixel_y = 5
 	},
-/obj/item/ammo_box/magazine/smgm9mm,
-/obj/item/ammo_box/magazine/smgm9mm{
-	pixel_y = 1;
-	pixel_x = 2
-	},
-/obj/item/ammo_box/magazine/smgm9mm{
-	pixel_x = 4;
-	pixel_y = 2
-	},
-/obj/item/ammo_box/magazine/smgm9mm{
-	pixel_x = 5;
-	pixel_y = 4
-	},
-/obj/item/ammo_box/magazine/smgm9mm{
-	pixel_x = 5;
-	pixel_y = 4
-	},
-/obj/item/ammo_box/magazine/smgm9mm{
-	pixel_x = 5;
-	pixel_y = 4
-	},
 /obj/item/storage/box/ammo/c9mm,
 /obj/item/storage/box/ammo/c9mm,
 /obj/item/storage/box/ammo/c9mm,
 /obj/item/storage/box/ammo/c9mm_ap,
-/obj/item/stock_parts/cell/gun{
-	pixel_x = -3;
-	pixel_y = -5
-	},
-/obj/item/stock_parts/cell/gun{
-	pixel_x = 1;
-	pixel_y = -5
-	},
-/obj/item/stock_parts/cell/gun{
-	pixel_x = 5;
-	pixel_y = -5
-	},
+/obj/item/stock_parts/cell/gun/sharplite/plus,
+/obj/item/stock_parts/cell/gun/sharplite/plus,
+/obj/item/stock_parts/cell/gun/sharplite/plus,
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
 "Xb" = (
@@ -13468,9 +13223,6 @@
 	},
 /obj/item/clothing/head/soft/purple{
 	pixel_x = 5
-	},
-/obj/item/clothing/gloves/color/latex{
-	pixel_y = -5
 	},
 /turf/open/floor/plasteel,
 /area/ship/maintenance/central)
@@ -14189,7 +13941,7 @@ ln
 hx
 Dz
 Fy
-BW
+nQ
 "}
 (10,1,1) = {"
 ju
@@ -14345,7 +14097,7 @@ Lz
 KN
 Sf
 Bo
-BW
+nQ
 "}
 (14,1,1) = {"
 ju
@@ -14830,7 +14582,7 @@ lj
 KQ
 Yh
 bE
-Rv
+Tl
 zX
 kv
 Ea
@@ -15802,7 +15554,7 @@ oz
 Oa
 QG
 QG
-HR
+QG
 QG
 QG
 Ge
