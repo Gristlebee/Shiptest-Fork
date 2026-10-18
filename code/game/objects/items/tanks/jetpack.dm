@@ -126,6 +126,7 @@
 		return
 
 	assume_air_moles(air_contents, num)
+	ion_trail.generate_effect()
 
 	return TRUE
 
