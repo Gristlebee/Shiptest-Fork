@@ -39,6 +39,8 @@
 	var/obj/item/clothing/glasses/glasses = null ///only used by humans.
 	var/obj/item/clothing/ears = null ///only used by humans.
 
+	var/obj/item/tank/jetpack/active_jetpack = null
+
 	var/datum/dna/dna = null /// Carbon
 	var/datum/mind/last_mind = null ///last mind to control this mob, for blood-based cloning
 

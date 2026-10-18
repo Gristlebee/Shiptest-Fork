@@ -1,3 +1,6 @@
+#define COMSIG_NEW_ACTIVE_JETPACK "new_jetpack"
+#define COMSIG_GET_ACTIVE_JETPACK "get_jetpack"
+
 /obj/item/tank/jetpack
 	name = "jetpack (empty)"
 	desc = "A tank of compressed gas for use as propulsion in zero-gravity areas. Use with caution."
@@ -11,6 +14,7 @@
 	var/gas_type = GAS_O2
 	var/on = FALSE
 	var/stabilizers = FALSE
+	var/nested = FALSE // Whether this jetpack works inside something else. E.g. Internal jetpack upgrades
 	var/full_speed = TRUE // Whether damage slowdown will affect the jetpack
 	var/datum/effect_system/trail_follow/ion/ion_trail
 
@@ -62,8 +66,21 @@
 	ion_trail.start()
 	RegisterSignal(user, COMSIG_MOVABLE_MOVED, PROC_REF(move_react))
 	RegisterSignal(user, COMSIG_MOVABLE_PRE_MOVE, PROC_REF(pre_move_react))
+	RegisterSignal(user, COMSIG_NEW_ACTIVE_JETPACK,PROC_REF(forced_off))
+	//RegisterSignal(user, COMSIG_GET_ACTIVE_JETPACK, PROC_REF(is_active))
+	SEND_SIGNAL(user, COMSIG_NEW_ACTIVE_JETPACK, src)
+	if(iscarbon(user))
+		var/mob/living/carbon/owner = user
+		owner.active_jetpack = src
 	if(full_speed)
 		user.add_movespeed_mod_immunities(type, /datum/movespeed_modifier/damage_slowdown_flying)
+
+/obj/item/tank/jetpack/proc/forced_off(mob/living/user, obj/item/tank/jetpack/newpack)
+	if(newpack != src)
+		turn_off(user)
+		for(var/X in actions)
+			var/datum/action/A = X
+			A.UpdateButtonIcon()
 
 /obj/item/tank/jetpack/proc/turn_off(mob/living/user)
 	on = FALSE
@@ -72,6 +89,11 @@
 	ion_trail.stop()
 	UnregisterSignal(user, COMSIG_MOVABLE_MOVED)
 	UnregisterSignal(user, COMSIG_MOVABLE_PRE_MOVE)
+	UnregisterSignal(user, COMSIG_NEW_ACTIVE_JETPACK)
+//	UnregisterSignal(user, COMSIG_GET_ACTIVE_JETPACK)
+	if(iscarbon(user))
+		var/mob/living/carbon/owner = user
+		owner.active_jetpack = null
 	user.remove_movespeed_mod_immunities(type, /datum/movespeed_modifier/damage_slowdown_flying)
 
 /obj/item/tank/jetpack/proc/move_react(mob/living/user)
@@ -86,6 +108,11 @@
 	if(user.pulledby)//You don't must use jet if someone pull you
 		return
 	if(user.throwing)//You don't must use jet if you thrown
+		return
+	if(!(src in user.get_all_contents())) // The jetpack isnt on the user, dont jet.
+		if(iscarbon(user))
+			var/mob/living/carbon/owner = user
+			owner.active_jetpack = null
 		return
 	if(length(user.client.keys_held & user.client.movement_keys))//You use jet when press keys. yes.
 		allow_thrust(0.01, user)
@@ -102,6 +129,8 @@
 
 	return TRUE
 
+/obj/item/tank/jetpack/proc/valid_nesting(mob/user)
+	return FALSE
 
 /obj/item/tank/jetpack/improvised
 	name = "improvised jetpack"
@@ -185,6 +214,7 @@
 	var/datum/gas_mixture/temp_air_contents
 	var/obj/item/tank/internals/tank = null
 	var/mob/living/carbon/human/cur_user
+	nested = TRUE
 
 /obj/item/tank/jetpack/suit/Initialize()
 	. = ..()
@@ -248,6 +278,12 @@
 		return
 	..()
 
+/obj/item/tank/jetpack/suit/valid_nesting(mob/user)
+	var/mob/living/carbon/human/flyboy = user
+	if(flyboy.wear_suit == loc)
+		return TRUE
+	else
+		return FALSE
 
 //Return a jetpack that the mob can use
 //Back worn jetpacks, hardsuit internal packs, and so on.
@@ -257,13 +293,13 @@
 	return
 
 /mob/living/carbon/get_jetpack()
-	var/obj/item/tank/jetpack/J = back
-	if(istype(J))
-		return J
+	return active_jetpack
+	// if(istype(J))
+	// 	return J
 
-/mob/living/carbon/human/get_jetpack()
-	var/obj/item/tank/jetpack/J = ..()
-	if(!istype(J) && istype(wear_suit, /obj/item/clothing/suit/space/hardsuit))
-		var/obj/item/clothing/suit/space/hardsuit/C = wear_suit
-		J = C.jetpack
-	return J
+// /mob/living/carbon/human/get_jetpack()
+// 	var/obj/item/tank/jetpack/J = ..()
+// 	if(!istype(J) && istype(wear_suit, /obj/item/clothing/suit/space/hardsuit))
+// 		var/obj/item/clothing/suit/space/hardsuit/C = wear_suit
+// 		J = C.jetpack
+// 	return J

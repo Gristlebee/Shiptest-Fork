@@ -16,7 +16,10 @@
 
 	var/obj/item/tank/jetpack/J = get_jetpack()
 	if(istype(J) && (movement_dir || J.stabilizers) && J.on)
-		return TRUE
+		if(J.in_contents_of(src))
+			return TRUE
+		else if(J.nested && J.valid_nesting(src))
+			return TRUE
 
 	if(..())
 		return TRUE
