@@ -67,11 +67,10 @@
 	RegisterSignal(user, COMSIG_MOVABLE_MOVED, PROC_REF(move_react))
 	RegisterSignal(user, COMSIG_MOVABLE_PRE_MOVE, PROC_REF(pre_move_react))
 	RegisterSignal(user, COMSIG_NEW_ACTIVE_JETPACK,PROC_REF(forced_off))
-	//RegisterSignal(user, COMSIG_GET_ACTIVE_JETPACK, PROC_REF(is_active))
 	SEND_SIGNAL(user, COMSIG_NEW_ACTIVE_JETPACK, src)
 	if(iscarbon(user))
-		var/mob/living/carbon/owner = user
-		owner.active_jetpack = src
+		var/mob/living/carbon/flyboy = user
+		flyboy.active_jetpack = src
 	if(full_speed)
 		user.add_movespeed_mod_immunities(type, /datum/movespeed_modifier/damage_slowdown_flying)
 
@@ -90,10 +89,9 @@
 	UnregisterSignal(user, COMSIG_MOVABLE_MOVED)
 	UnregisterSignal(user, COMSIG_MOVABLE_PRE_MOVE)
 	UnregisterSignal(user, COMSIG_NEW_ACTIVE_JETPACK)
-//	UnregisterSignal(user, COMSIG_GET_ACTIVE_JETPACK)
 	if(iscarbon(user))
-		var/mob/living/carbon/owner = user
-		owner.active_jetpack = null
+		var/mob/living/carbon/flyboy = user
+		flyboy.active_jetpack = null
 	user.remove_movespeed_mod_immunities(type, /datum/movespeed_modifier/damage_slowdown_flying)
 
 /obj/item/tank/jetpack/proc/move_react(mob/living/user)
@@ -111,11 +109,13 @@
 		return
 	if(!(src in user.get_all_contents())) // The jetpack isnt on the user, dont jet.
 		if(iscarbon(user))
-			var/mob/living/carbon/owner = user
-			owner.active_jetpack = null
+			var/mob/living/carbon/flyboy = user
+			flyboy.active_jetpack = null
+			flyboy.get_active_held_item()
 		return
 	if(length(user.client.keys_held & user.client.movement_keys))//You use jet when press keys. yes.
 		allow_thrust(0.01, user)
+
 
 /obj/item/tank/jetpack/proc/pre_move_react(mob/living/user)
 	ion_trail.oldposition = get_turf(src)
@@ -173,6 +173,7 @@
 	volume = 40
 	throw_range = 7
 	w_class = WEIGHT_CLASS_NORMAL
+	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_BELT
 
 /obj/item/tank/jetpack/oxygen/captain
 	name = "captain's jetpack"
@@ -188,8 +189,6 @@
 	desc = "A tank of compressed oxygen for use as propulsion in zero-gravity areas by security forces."
 	icon_state = "jetpack-sec"
 	item_state = "jetpack-sec"
-
-
 
 /obj/item/tank/jetpack/carbondioxide
 	name = "jetpack (carbon dioxide)"
@@ -295,12 +294,3 @@
 
 /mob/living/carbon/get_jetpack()
 	return active_jetpack
-	// if(istype(J))
-	// 	return J
-
-// /mob/living/carbon/human/get_jetpack()
-// 	var/obj/item/tank/jetpack/J = ..()
-// 	if(!istype(J) && istype(wear_suit, /obj/item/clothing/suit/space/hardsuit))
-// 		var/obj/item/clothing/suit/space/hardsuit/C = wear_suit
-// 		J = C.jetpack
-// 	return J
