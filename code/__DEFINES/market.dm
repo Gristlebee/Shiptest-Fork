@@ -10,4 +10,5 @@
 #define SHIPPING_METHOD_LAUNCH "Launch"
 // Drops the item somewhere on the map
 #define SHIPPING_METHOD_DEAD_DROP "Dead drop"
-
+/// The percentage on gains that's removed when selling an item through the blackmarket with the LTSRBT
+#define MARKET_WITHHOLDING_TAX 0.15
