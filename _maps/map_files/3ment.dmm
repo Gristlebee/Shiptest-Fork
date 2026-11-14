@@ -144,10 +144,10 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "of" = (
 /obj/machinery/light/small/directional/north,
-/turf/open/floor/plating/ice/iceberg,
+/turf/open/floor/plating/asteroid/icerock/cracked,
 /area/overmap_encounter/planetoid/cave/explored)
 "qa" = (
-/turf/open/floor/plating/ice/iceberg,
+/turf/open/floor/plating/asteroid/icerock/cracked,
 /area/overmap_encounter/planetoid/cave/explored)
 "ro" = (
 /obj/structure/railing,
@@ -312,7 +312,7 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "BL" = (
 /obj/machinery/light/small/directional/west,
-/turf/open/floor/plating/ice/iceberg,
+/turf/open/floor/plating/asteroid/icerock/cracked,
 /area/overmap_encounter/planetoid/cave/explored)
 "BT" = (
 /obj/structure/railing,
@@ -548,7 +548,7 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "NZ" = (
 /obj/machinery/camera/autoname/directional/west,
-/turf/open/floor/plating/ice/iceberg,
+/turf/open/floor/plating/asteroid/icerock/cracked,
 /area/overmap_encounter/planetoid/cave/explored)
 "Oy" = (
 /obj/structure/railing{
@@ -692,7 +692,7 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "Yf" = (
 /obj/structure/barricade/wooden/snowed,
-/turf/open/floor/plating/ice/iceberg,
+/turf/open/floor/plating/asteroid/icerock/cracked,
 /area/overmap_encounter/planetoid/cave/explored)
 "Zr" = (
 /obj/structure/railing{
