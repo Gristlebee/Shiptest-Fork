@@ -64,7 +64,7 @@
 				var/amount = purchasing[pack_ref]
 				for(var/i = 0; i < amount; i++)
 					unprocessed_packs += pack
-			generate_punchcard(unprocessed_packs,total_cost,usr)
+			generate_punchcard(unprocessed_packs, total_cost, usr)
 
 /obj/item/catalog_handheld/proc/generate_punchcard(purchasing, total_cost, mob/user)
 	var/obj/item/order_punchcard/new_card = new(src, purchasing, total_cost)
@@ -113,20 +113,25 @@
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "punchcard_cargo"
 	var/list/purchases
-	var/total_cost = null
+	var/estimated_cost
+	var/undiscounted_total_cost = 0
 	resistance_flags = FLAMMABLE
 
 /obj/item/order_punchcard/Initialize(mapload, purchasing, totaled_cost)
 	. = ..()
+
 	if(purchasing)
 		purchases = purchasing
+		for(var/datum/supply_pack/order in purchases)
+			undiscounted_total_cost += order.cost
+
 	if(totaled_cost)
-		total_cost = totaled_cost
+		estimated_cost = totaled_cost
 
 /obj/item/order_punchcard/examine(mob/user)
 	. = ..()
 	. += span_notice("You could <b>examine<b> it more closely to see the list of orders.")
-	. += span_warning("You could probably tear it apart in your hands if you were feeling paticularly <b>harmful</b>.")
+	. += span_warning("You could probably tear it apart in your hands if you were feeling particularly HARMFUL.")
 
 /obj/item/order_punchcard/attack_self(mob/user, modifiers)
 	. = ..()
@@ -140,7 +145,7 @@
 		playsound(src.loc, 'sound/items/poster_ripped.ogg', 100, TRUE)
 		Destroy()
 	else
-		to_chat(user,span_warning("You need to be more <b>harmful</b> to tear the [name] apart."))
+		to_chat(user,span_warning("You need to be more HARMFUL to tear the [name] apart."))
 
 /obj/item/order_punchcard/attackby(obj/item/I, mob/living/user, params)
 	. = ..()
@@ -152,17 +157,15 @@
 
 /obj/item/order_punchcard/examine_more(mob/user)
 	. = ..()
-	var/list_of_orders = "The order includes:"
+	var/list_of_orders = "<span class='info'>The order includes:</span>\n"
 	var/list/unique_orders = uniqueList(purchases)
 
 	for(var/orders in unique_orders)
 		var/datum/supply_pack/pack = orders
 		var/purchase_count = count_by_type(purchases, pack)
-		list_of_orders += " [pack.name] x [purchase_count]"
-	if(total_cost)
-		list_of_orders += "; For an estimated total of [total_cost] cr."
-	. += span_notice(list_of_orders)
-
-
-
-
+		list_of_orders += "<span class='info ml-1'>x[purchase_count] ([pack.cost * purchase_count] cr @ [pack.cost] cr/ea) [pack.name]</span>\n"
+	if(undiscounted_total_cost && undiscounted_total_cost != estimated_cost)
+		list_of_orders += "<span class='info'>The undiscounted total is [undiscounted_total_cost] cr.</span>\n"
+	if(estimated_cost)
+		list_of_orders += "<span class='info'>The estimated total is [estimated_cost] cr.</span>"
+	. += list_of_orders
